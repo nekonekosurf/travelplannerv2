@@ -14,7 +14,7 @@ export default function FoodSection({ food }) {
               src={food.mustTry.image.url}
               alt={food.mustTry.image.alt || food.mustTry.dish}
               loading="lazy"
-              className="w-full h-40 object-cover"
+              className="w-full h-48 object-cover"
             />
           )}
           <div className="p-4">
@@ -48,7 +48,7 @@ export default function FoodSection({ food }) {
                   src={r.image.url}
                   alt={r.image.alt || r.name}
                   loading="lazy"
-                  className="w-20 h-20 rounded-lg object-cover flex-shrink-0"
+                  className="w-24 h-24 rounded-lg object-cover flex-shrink-0"
                 />
               )}
               <div className="flex-1 min-w-0">
@@ -85,16 +85,14 @@ export default function FoodSection({ food }) {
         </div>
       )}
 
-      {food.safetyTips?.length > 0 && (
-        <div className="mt-4 bg-yellow-50 rounded-xl p-3">
-          <h4 className="text-xs font-bold text-yellow-700 mb-2">食の安全メモ</h4>
-          <ul className="space-y-1">
-            {food.safetyTips.map((tip, i) => (
-              <li key={i} className="text-xs text-gray-700">&#9679; {tip}</li>
-            ))}
-          </ul>
-        </div>
-      )}
+      <div className="mt-4 text-center">
+        <a
+          href="#/food"
+          className="text-xs text-ocean-600 font-medium hover:underline"
+        >
+          食の安全メモ・料理ガイドを見る →
+        </a>
+      </div>
     </section>
   )
 }

@@ -7,7 +7,7 @@ export default function SpotCard({ item, onClose }) {
           src={img.url}
           alt={img.alt}
           loading="lazy"
-          className="w-full h-48 object-cover"
+          className="w-full h-56 object-cover"
         />
       ))}
 
@@ -114,7 +114,7 @@ export default function SpotCard({ item, onClose }) {
 
         <button
           onClick={onClose}
-          className="w-full text-center text-sm text-gray-400 py-2"
+          className="w-full text-center text-sm text-gray-600 py-3 min-h-[44px] hover:text-gray-800 focus:outline-none focus:ring-2 focus:ring-sunset-500 rounded-lg"
         >
           閉じる
         </button>

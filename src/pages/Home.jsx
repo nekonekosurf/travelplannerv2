@@ -4,6 +4,7 @@ import tripData from '../../data/trip.json'
 import HeroImage from '../components/HeroImage'
 import DayCard from '../components/DayCard'
 import RouteMap from '../components/RouteMap'
+import SafetyAlerts from '../components/SafetyAlerts'
 
 const typeIcons = {
   transit: '🚂',
@@ -51,6 +52,25 @@ export default function Home() {
           </p>
         )}
 
+        {meta.budgetSummary && (
+          <div className="mb-6">
+            <h2 className="text-sm font-bold text-sunset-600 uppercase tracking-wide mb-3">
+              1日あたりの予算目安
+            </h2>
+            <div className="grid grid-cols-3 gap-2">
+              {Object.entries(meta.budgetSummary.daily).map(([key, val]) => (
+                <div key={key} className="bg-white border border-sand-200 rounded-xl p-3 text-center shadow-sm">
+                  <p className="text-lg font-black text-sunset-600">
+                    {val.jpy.toLocaleString()}<span className="text-xs font-normal text-gray-500">円</span>
+                  </p>
+                  <p className="text-[10px] text-gray-500 mt-1 leading-tight">{val.label}</p>
+                </div>
+              ))}
+            </div>
+            <p className="text-[10px] text-gray-500 mt-1">※{meta.budgetSummary.excludes}</p>
+          </div>
+        )}
+
         {routeOverview.highlights?.length > 0 && (
           <div className="mb-6">
             <h2 className="text-sm font-bold text-sunset-600 uppercase tracking-wide mb-3">
@@ -72,10 +92,19 @@ export default function Home() {
         {overallMapSpots.length > 0 && (
           <div className="mb-6">
             <h2 className="text-lg font-bold text-gray-800 mb-3">全体ルートマップ</h2>
-            <RouteMap spots={overallMapSpots} height="280px" />
-            <p className="text-xs text-gray-400 mt-2 text-center">
+            <RouteMap spots={overallMapSpots} height="380px" />
+            <p className="text-xs text-gray-500 mt-2 text-center">
               ジャカルタからケタパン港まで、ジャワ島を西から東へ横断
             </p>
+          </div>
+        )}
+
+        {routeOverview.safetyAlerts?.length > 0 && (
+          <div className="mb-6">
+            <h2 className="text-sm font-bold text-red-600 uppercase tracking-wide mb-3">
+              安全に関する重要な警告
+            </h2>
+            <SafetyAlerts alerts={routeOverview.safetyAlerts} />
           </div>
         )}
 
@@ -104,7 +133,7 @@ export default function Home() {
                         詳細 →
                       </Link>
                     ) : (
-                      <span className="text-xs text-gray-300 flex-shrink-0">準備中</span>
+                      <span className="text-xs text-gray-500 flex-shrink-0">準備中</span>
                     )}
                   </div>
                 )
@@ -122,7 +151,7 @@ export default function Home() {
             ))}
           </div>
         ) : (
-          <p className="text-sm text-gray-400 text-center py-8">
+          <p className="text-sm text-gray-500 text-center py-8">
             準備中...
           </p>
         )}

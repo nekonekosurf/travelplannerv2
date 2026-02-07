@@ -1,4 +1,5 @@
-import { MapContainer, TileLayer, Marker, Popup, Polyline } from 'react-leaflet'
+import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from 'react-leaflet'
+import { useEffect } from 'react'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 
@@ -18,7 +19,34 @@ const numberIcon = (num) =>
     iconAnchor: [14, 14],
   })
 
-export default function RouteMap({ spots, height = '250px' }) {
+const poiIcon = (type) => {
+  const colors = { restaurant: '#059669', hotel: '#7c3aed' }
+  const labels = { restaurant: '🍽', hotel: '🏨' }
+  return L.divIcon({
+    className: '',
+    html: `<div style="background:${colors[type] || '#6b7280'};width:24px;height:24px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:11px;border:2px solid white;box-shadow:0 2px 4px rgba(0,0,0,.3)">${labels[type] || '📍'}</div>`,
+    iconSize: [24, 24],
+    iconAnchor: [12, 12],
+  })
+}
+
+function FitBounds({ spots, pois }) {
+  const map = useMap()
+  useEffect(() => {
+    const allPoints = [
+      ...spots.map((s) => [s.lat, s.lng]),
+      ...(pois || []).filter((p) => p.lat && p.lng).map((p) => [p.lat, p.lng]),
+    ]
+    if (allPoints.length > 1) {
+      map.fitBounds(allPoints, { padding: [30, 30] })
+    } else if (allPoints.length === 1) {
+      map.setView(allPoints[0], 13)
+    }
+  }, [map, spots, pois])
+  return null
+}
+
+export default function RouteMap({ spots, pois, height = '350px' }) {
   if (!spots || spots.length === 0) return null
 
   const validSpots = spots.filter((s) => s.lat && s.lng)
@@ -30,6 +58,7 @@ export default function RouteMap({ spots, height = '250px' }) {
   ]
 
   const positions = validSpots.map((s) => [s.lat, s.lng])
+  const validPois = (pois || []).filter((p) => p.lat && p.lng)
 
   return (
     <div className="rounded-2xl overflow-hidden shadow-md border border-sand-200" style={{ height }}>
@@ -37,17 +66,46 @@ export default function RouteMap({ spots, height = '250px' }) {
         center={center}
         zoom={validSpots.length === 1 ? 13 : 10}
         style={{ height: '100%', width: '100%' }}
-        scrollWheelZoom={false}
-        zoomControl={false}
+        scrollWheelZoom={true}
+        zoomControl={true}
       >
         <TileLayer
           attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
         />
+        <FitBounds spots={validSpots} pois={validPois} />
         {validSpots.map((spot, i) => (
-          <Marker key={i} position={[spot.lat, spot.lng]} icon={numberIcon(i + 1)}>
+          <Marker key={`spot-${i}`} position={[spot.lat, spot.lng]} icon={numberIcon(i + 1)}>
             <Popup>
               <strong className="text-sm">{spot.name}</strong>
+              {spot.googleMapsUrl && (
+                <a
+                  href={spot.googleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-xs text-blue-600 mt-1"
+                >
+                  Google Mapsで開く
+                </a>
+              )}
+            </Popup>
+          </Marker>
+        ))}
+        {validPois.map((poi, i) => (
+          <Marker key={`poi-${i}`} position={[poi.lat, poi.lng]} icon={poiIcon(poi.type)}>
+            <Popup>
+              <strong className="text-xs">{poi.name}</strong>
+              {poi.detail && <span className="block text-xs text-gray-500">{poi.detail}</span>}
+              {poi.googleMapsUrl && (
+                <a
+                  href={poi.googleMapsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="block text-xs text-blue-600 mt-1"
+                >
+                  Google Mapsで開く
+                </a>
+              )}
             </Popup>
           </Marker>
         ))}

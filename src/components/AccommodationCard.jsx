@@ -15,7 +15,7 @@ export default function AccommodationCard({ accommodation }) {
                 src={hotel.image.url}
                 alt={hotel.image.alt || hotel.name}
                 loading="lazy"
-                className="w-full h-36 object-cover"
+                className="w-full h-44 object-cover"
               />
             )}
             <div className="p-4">
