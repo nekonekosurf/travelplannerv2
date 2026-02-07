@@ -25,18 +25,18 @@
       "カワイジェン（深夜の硫黄ブルーファイア・トレッキング）"
     ],
     "route": [
-      { "day": 1, "area": "ジャカルタ → バンドン", "type": "transit" },
-      { "day": 2, "area": "バンドン高原", "type": "nature" },
-      { "day": 3, "area": "バンドン → パンガンダラン", "type": "transit" },
-      { "day": 4, "area": "パンガンダラン", "type": "beach" },
-      { "day": 5, "area": "パンガンダラン → ジョグジャカルタ", "type": "transit" },
-      { "day": 6, "area": "ボロブドゥール＆ジョグジャ周辺", "type": "culture" },
-      { "day": 7, "area": "ジョグジャ → マラン/バトゥ", "type": "transit" },
-      { "day": 8, "area": "マラン周辺の滝 → ブロモ山", "type": "nature" },
-      { "day": 9, "area": "ブロモ山日の出 → バニュワンギ", "type": "nature" },
-      { "day": 10, "area": "イジェン火山 → ケタパン港", "type": "nature" }
+      { "day": 1, "area": "ジャカルタ → バンドン", "type": "transit", "lat": -6.9032, "lng": 107.6186 },
+      { "day": 2, "area": "バンドン高原", "type": "nature", "lat": -7.1662, "lng": 107.4021 },
+      { "day": 3, "area": "バンドン → パンガンダラン", "type": "transit", "lat": -7.6882, "lng": 108.6561 },
+      { "day": 4, "area": "パンガンダラン", "type": "beach", "lat": -7.6882, "lng": 108.6561 },
+      { "day": 5, "area": "パンガンダラン → ジョグジャカルタ", "type": "transit", "lat": -7.7956, "lng": 110.3695 },
+      { "day": 6, "area": "ボロブドゥール＆ジョグジャ周辺", "type": "culture", "lat": -7.6079, "lng": 110.2038 },
+      { "day": 7, "area": "ジョグジャ → マラン/バトゥ", "type": "transit", "lat": -7.9774, "lng": 112.6341 },
+      { "day": 8, "area": "マラン周辺の滝 → ブロモ山", "type": "nature", "lat": -7.9425, "lng": 112.9530 },
+      { "day": 9, "area": "ブロモ山日の出 → バニュワンギ", "type": "nature", "lat": -8.2192, "lng": 114.3691 },
+      { "day": 10, "area": "イジェン火山 → ケタパン港", "type": "nature", "lat": -8.0584, "lng": 114.2421 }
     ],
-    "mapImageUrl": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?w=1200"
+    "mapImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg/1280px-Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg"
   },
   "days": [
     {
@@ -45,9 +45,9 @@
       "title": "ジャカルタは通過点、目指すは高原の街バンドン",
       "area": "ジャカルタ → バンドン",
       "heroImage": {
-        "url": "https://images.unsplash.com/photo-1555899434-94d1368aa7af?w=800",
-        "alt": "ジャカルタ・ガンビル駅",
-        "credit": "Unsplash"
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Argo_Jati_Tambahan_Sembrani_Arrived_Gambir.jpg/960px-Argo_Jati_Tambahan_Sembrani_Arrived_Gambir.jpg",
+        "alt": "ガンビル駅に到着する列車",
+        "credit": "Wikimedia Commons"
       },
       "summary": "空港に着いたらジャカルタの喧騒は最小限に。スカルノハッタ空港からガンビル駅へ直行し、パラヒャンガン号でバンドンへ。車窓には田園風景が広がり、3時間で高原都市バンドンに到着する。",
       "areaInfo": {
@@ -69,9 +69,9 @@
           "description": "入国審査でVOA（到着ビザ）を取得し、到着ロビーへ。まずSIMカードを買い、現地通貨を確保。空港の雰囲気に慣れたらガンビル駅を目指す。",
           "images": [
             {
-              "url": "https://images.unsplash.com/photo-1596422846543-75c6fc197f07?w=800",
-              "alt": "スカルノハッタ空港",
-              "credit": "Unsplash"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Soekarno-Hatta_International_Airport_Terminal_3_front.JPG/960px-Soekarno-Hatta_International_Airport_Terminal_3_front.JPG",
+              "alt": "スカルノハッタ国際空港ターミナル3",
+              "credit": "Wikimedia Commons"
             }
           ],
           "location": {
@@ -152,9 +152,9 @@
           "description": "ガンビル駅からパラヒャンガン号に乗車。ジャカルタの高層ビルがいつの間にか水田と山に変わっていく車窓を楽しみながら、約3時間でバンドンに到着。エグゼクティブクラスなら広い座席でゆったり。",
           "images": [
             {
-              "url": "https://images.unsplash.com/photo-1474487548417-781cb71495f3?w=800",
-              "alt": "インドネシアの鉄道車窓",
-              "credit": "Unsplash"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Argo_Jati_Tambahan_Sembrani_Gambir.jpg/960px-Argo_Jati_Tambahan_Sembrani_Gambir.jpg",
+              "alt": "ガンビル駅のインドネシア鉄道",
+              "credit": "Wikimedia Commons"
             }
           ],
           "location": {
@@ -196,9 +196,9 @@
           "description": "バンドン駅に到着したらGrabで宿へ直行。長旅の疲れを癒やしつつ、明日の高原めぐりに備える。駅周辺には屋台が並んでいるので、小腹が空いたらバソ（肉団子スープ）を一杯。",
           "images": [
             {
-              "url": "https://images.unsplash.com/photo-1565967511849-76a60a516170?w=800",
-              "alt": "バンドンの夜の街並み",
-              "credit": "Unsplash"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Bandung_Pasupati_Skyline.jpg",
+              "alt": "バンドンのパスパティ橋とスカイライン",
+              "credit": "Wikimedia Commons"
             }
           ],
           "location": {
@@ -232,8 +232,8 @@
           "dish": "バソ・マラン（Bakso Malang）",
           "description": "バンドン駅に着いたらまず食べたい一品。もちもちの肉団子がたっぷり入ったスープ。揚げワンタンやビーフンも入っていてボリューム満点。バンドンはバソの激戦区で、屋台でもレベルが高い。",
           "image": {
-            "url": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800",
-            "alt": "バソ（インドネシアの肉団子スープ）"
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Baso_Malang_Karapitan.JPG/960px-Baso_Malang_Karapitan.JPG",
+            "alt": "バソ・マラン（インドネシアの肉団子スープ）"
           }
         },
         "restaurants": [
@@ -244,7 +244,7 @@
             "priceRange": { "idr": "20,000-35,000", "jpy": "188-329" },
             "popular": ["Bakso Urat（筋入り肉団子）", "Bakso Telur（卵入り）"],
             "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.9175,107.6191" },
-            "image": { "url": "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=800", "alt": "バソ" }
+            "image": { "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Bakso.jpg", "alt": "バソ" }
           },
           {
             "name": "Warung Nasi Ampera",
@@ -253,7 +253,7 @@
             "priceRange": { "idr": "25,000-50,000", "jpy": "235-470" },
             "popular": ["ナシ・ティンベル（バナナの葉包みご飯）", "アヤム・ゴレン（揚げ鶏）"],
             "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.9145,107.6094" },
-            "image": { "url": "https://images.unsplash.com/photo-1562436260-8423490e5e68?w=800", "alt": "スンダ料理" }
+            "image": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg/960px-Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg", "alt": "スンダ料理" }
           }
         ],
         "drinks": ["テ・ボトル（甘い紅茶のボトル飲料）", "コピ・スス（ミルクコーヒー）", "エス・チェンドル"],
@@ -287,18 +287,37 @@
       "shopping": null,
       "transport": {
         "to": "バンドン高原（カワプティ方面）",
-        "method": "Grabで直接、またはDay Tourをチャーター",
-        "duration": "バンドン市内 → カワプティ: 約1.5時間",
-        "cost": { "idr": 350000, "jpy": 3290 },
-        "bookingInfo": "Grabの1日チャーター（GrabCar Rental）が便利。Rp350,000-500,000/日",
+        "method": "公共交通（アンコット/ミニバス）+ Grab",
+        "duration": "バンドン市内 → カワプティ: 約2-2.5時間",
+        "cost": { "idr": 50000, "jpy": 470 },
+        "options": [
+          {
+            "method": "公共交通（アンコット＋ミニバス）",
+            "price": "Rp30,000-50,000（約280-470円）",
+            "details": "ルワンパンジャン・ターミナル → チウィデイ行きミニバス（Rp15,000-20,000、2時間）→ チウィデイからカワプティ行きオジェック/アンコット（Rp10,000-15,000）",
+            "pros": "最安。ローカル体験ができる",
+            "cons": "本数が少なく、スポット間の移動が不便。待ち時間が多い"
+          },
+          {
+            "method": "Grab（都度配車）",
+            "price": "片道Rp150,000-200,000（約1,400-1,880円）",
+            "details": "バンドン市内 → カワプティまでGrabCar。帰りもGrabを呼ぶ（山間部は配車に時間がかかることあり）",
+            "pros": "ドア・トゥ・ドアで楽。荷物があっても安心",
+            "cons": "山間部はGrabの台数が少なく、帰りの配車に10-20分待つことも"
+          }
+        ],
+        "bookingInfo": "Grabアプリで都度配車。スポット間もその都度Grabを呼ぶ形が現実的",
         "steps": [
-          "前夜のうちにGrabで翌日のチャーターを予約",
-          "またはホテルのフロントにDay Tourの手配を依頼",
-          "カワプティ → 茶畑 → 温泉のルートが効率的"
+          "【公共交通の場合】バンドン → ルワンパンジャン・ターミナルへGrab（Rp15,000）",
+          "チウィデイ方面行きミニバスに乗車（Rp15,000-20,000、約2時間）",
+          "チウィデイからカワプティへオジェック（バイクタクシー）またはアンコット",
+          "【Grabの場合】宿からGrabCar → カワプティ直行（Rp150,000-200,000）",
+          "各スポット間もGrabで移動（Rp30,000-60,000/回）"
         ],
         "tips": [
-          "バンドン高原のスポットは公共交通が弱い。Grabチャーターが最も効率的",
-          "ドライバーに「Kawah Putih → Rancabali → Ciwidey」のルートを伝える"
+          "高原エリアは公共交通が弱いので、Grabでの都度移動が現実的",
+          "Grabが捕まりにくい場合はドライバーに「待機」を交渉（Rp50,000-100,000追加）",
+          "バイクタクシー（GrabBike/Gojek）なら安い（Rp50,000-80,000で片道）が山道注意"
         ]
       }
     },
@@ -308,15 +327,15 @@
       "title": "バンドン高原 — 火口湖、茶畑、温泉の楽園",
       "area": "バンドン高原（チウィデイ〜ランチャバリ）",
       "heroImage": {
-        "url": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?w=800",
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kawah_Putih_from_the_bottom%2C_Bandung_Regency%2C_2014-08-21.jpg/960px-Kawah_Putih_from_the_bottom%2C_Bandung_Regency%2C_2014-08-21.jpg",
         "alt": "カワプティ火口湖",
-        "credit": "Unsplash"
+        "credit": "Wikimedia Commons"
       },
       "summary": "標高2,400mの火口湖カワプティは、硫黄で乳白色に染まった異世界のような場所。その後は見渡す限りの茶畑を散歩し、天然温泉でリラックス。バンドンの高原は、インドネシアの別の顔を見せてくれる。",
       "areaInfo": {
         "walkable": false,
         "walkableNote": "各スポット間は車移動（20-40分）。スポット内は徒歩で散策可能",
-        "transportNeeded": "Grabチャーターまたはツアー必須。公共交通はほぼなし",
+        "transportNeeded": "Grab都度配車が現実的。公共交通は本数少ない",
         "atm": "チウィデイの街中心部にBRI/BCA ATMあり。カワプティ周辺にはATMなし",
         "wifi": "スポット周辺はTelkomselの4Gがつながる。WiFiは期待しない",
         "sim": "前日に空港で購入済みのSIMでOK",
@@ -328,8 +347,8 @@
           "time": "07:00",
           "period": "morning",
           "type": "activity",
-          "title": "ホテルで朝食 → Grabチャーターで出発",
-          "description": "バンドンの朝は涼しい。高原めぐりに備えてしっかり朝食をとる。今日はGrabの1日チャーター（Rp350,000〜500,000/約3,290〜4,700円）で高原を回る。ドライバーに「Kawah Putih → Rancabali → Ciwalini → Situ Patenggang」と伝えよう。長袖と歩きやすい靴を忘れずに。",
+          "title": "ホテルで朝食 → Grabで高原へ出発",
+          "description": "バンドンの朝は涼しい。高原めぐりに備えてしっかり朝食をとる。今日はGrabで都度配車しながら高原を回る。スポット間はGrabCar（1回Rp30,000-60,000）で移動。バンドン市内からカワプティまではGrabCar直行でRp150,000-200,000。長袖と歩きやすい靴を忘れずに。",
           "images": [],
           "location": {
             "name": "バンドン市内（宿泊先）",
@@ -353,14 +372,14 @@
           "description": "バンドン郊外、標高約2,430mにあるカワプティ火口湖。「白い火口」の名の通り、硫黄の影響で湖水が乳白色〜ターコイズに輝く。天候や硫黄の状態によって色が変わり、霧の中に浮かぶ姿はまるで別世界。周囲の枯れた木々も幻想的。",
           "images": [
             {
-              "url": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?w=800",
-              "alt": "カワプティ火口湖のターコイズ色の水面",
-              "credit": "Unsplash"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Kawah_Putih_Lake_from_the_viewing_platform%2C_Bandung_Regency%2C_2014-08-21.jpg/960px-Kawah_Putih_Lake_from_the_viewing_platform%2C_Bandung_Regency%2C_2014-08-21.jpg",
+              "alt": "展望台から見たカワプティ火口湖",
+              "credit": "Wikimedia Commons"
             },
             {
-              "url": "https://images.unsplash.com/photo-1580058572462-98e2c0e0e2f0?w=800",
-              "alt": "カワプティ周辺の霧と枯れ木",
-              "credit": "Unsplash"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Indonesia_BandungProvince_Ciwidey_Kawah_Putih.JPG/960px-Indonesia_BandungProvince_Ciwidey_Kawah_Putih.JPG",
+              "alt": "カワプティ火口湖の幻想的な風景",
+              "credit": "Wikimedia Commons"
             }
           ],
           "location": {
@@ -371,11 +390,16 @@
           },
           "access": {
             "from": "バンドン市内",
-            "method": "Grabチャーター",
-            "duration": "約1.5時間（50km）",
-            "cost": { "idr": 0, "jpy": 0 },
+            "method": "GrabCar または ミニバス",
+            "duration": "約1.5-2.5時間（50km）",
+            "cost": { "idr": 150000, "jpy": 1410 },
+            "options": [
+              { "method": "GrabCar", "price": "Rp150,000-200,000（約1,400-1,880円）", "duration": "約1.5時間" },
+              { "method": "ミニバス（チウィデイ経由）+ オジェック", "price": "Rp30,000-50,000（約280-470円）", "duration": "約2.5時間" }
+            ],
             "steps": [
-              "チャーターした車で南へ。チウィデイ方面へ走る",
+              "【GrabCar】宿からGrabアプリでカワプティを目的地に設定して配車",
+              "【ミニバス】ルワンパンジャン・ターミナルからチウィデイ行きミニバス → オジェックでカワプティへ",
               "カワプティの入口ゲートで入場料を支払い",
               "ゲートから火口湖まではシャトルバス（Rp30,000往復）または徒歩20分"
             ]
@@ -403,9 +427,9 @@
           "description": "カワプティから車で15分、見渡す限りの緑の茶畑が丘陵地帯に広がる。インドネシアが世界有数の紅茶産地だと実感する場所。茶畑の中を歩くと、茶摘みをしているおばちゃんたちとすれ違う。",
           "images": [
             {
-              "url": "https://images.unsplash.com/photo-1482938289607-e9573fc25ebb?w=800",
-              "alt": "バンドン高原の広大な茶畑",
-              "credit": "Unsplash"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Rancabali_Tea_Plantation.jpg/960px-Rancabali_Tea_Plantation.jpg",
+              "alt": "ランチャバリ茶畑",
+              "credit": "Wikimedia Commons"
             }
           ],
           "location": {
@@ -416,11 +440,16 @@
           },
           "access": {
             "from": "カワプティ",
-            "method": "チャーター車",
+            "method": "GrabCar または オジェック",
             "duration": "15分",
-            "cost": { "idr": 0, "jpy": 0 },
+            "cost": { "idr": 30000, "jpy": 282 },
+            "options": [
+              { "method": "GrabCar", "price": "Rp30,000-40,000（約280-376円）", "duration": "15分" },
+              { "method": "オジェック（バイクタクシー）", "price": "Rp15,000-20,000（約140-188円）", "duration": "15分" }
+            ],
             "steps": [
-              "カワプティから北上してランチャバリ方面へ",
+              "カワプティ出口付近でGrabを配車（山間部なので5-10分待つことも）",
+              "またはカワプティのゲート付近にいるオジェックドライバーと交渉",
               "茶畑沿いの道路から直接散策できる"
             ]
           },
@@ -444,7 +473,7 @@
           "description": "チウィデイエリアのワルンで、バンドン名物のスンダ料理ランチ。サンバルの辛さと揚げ物のサクサク感がたまらない。",
           "images": [
             {
-              "url": "https://images.unsplash.com/photo-1562436260-8423490e5e68?w=800",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg/960px-Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg",
               "alt": "スンダ料理のランチ",
               "credit": "Unsplash"
             }
@@ -485,12 +514,16 @@
           },
           "access": {
             "from": "ランチャバリ茶畑",
-            "method": "チャーター車",
+            "method": "GrabCar または オジェック",
             "duration": "20分",
-            "cost": { "idr": 0, "jpy": 0 },
+            "cost": { "idr": 30000, "jpy": 282 },
+            "options": [
+              { "method": "GrabCar", "price": "Rp30,000-40,000（約280-376円）", "duration": "20分" },
+              { "method": "オジェック（バイクタクシー）", "price": "Rp15,000-25,000（約140-235円）", "duration": "20分" }
+            ],
             "steps": [
-              "茶畑エリアから北西方面へ",
-              "「Ciwalini」の看板に従う"
+              "Grabアプリで「Ciwalini Hot Spring」を検索して配車",
+              "またはオジェックで「Ciwalini」と伝える"
             ]
           },
           "details": {
@@ -514,9 +547,9 @@
           "description": "茶畑に囲まれた静かな湖。ボートに乗って湖上を漂ったり、湖畔を散歩したり。週末はローカルの家族連れで賑わうが、平日は静かでのんびりできる。湖の中央にある小島「プラウ・アヤン」にはスンダ王国のロマンチックな伝説がある。",
           "images": [
             {
-              "url": "https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800",
-              "alt": "シトゥ・パテンガン湖",
-              "credit": "Unsplash"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Patenggang_Lake_panorama%2C_Bandung_Regency%2C_2014-08-21.jpg/960px-Patenggang_Lake_panorama%2C_Bandung_Regency%2C_2014-08-21.jpg",
+              "alt": "シトゥ・パテンガン湖のパノラマ",
+              "credit": "Wikimedia Commons"
             }
           ],
           "location": {
@@ -527,11 +560,16 @@
           },
           "access": {
             "from": "チマンク温泉",
-            "method": "チャーター車",
+            "method": "GrabCar または オジェック",
             "duration": "20分",
-            "cost": { "idr": 0, "jpy": 0 },
+            "cost": { "idr": 30000, "jpy": 282 },
+            "options": [
+              { "method": "GrabCar", "price": "Rp30,000-40,000（約280-376円）", "duration": "20分" },
+              { "method": "オジェック（バイクタクシー）", "price": "Rp15,000-25,000（約140-235円）", "duration": "20分" }
+            ],
             "steps": [
-              "温泉から西方面へ。カワプティの近く"
+              "Grabアプリで「Situ Patenggang」を検索して配車",
+              "温泉から西方面。カワプティの近く"
             ]
           },
           "details": {
@@ -561,18 +599,24 @@
           },
           "access": {
             "from": "シトゥ・パテンガン",
-            "method": "チャーター車",
-            "duration": "約1.5時間",
-            "cost": { "idr": 0, "jpy": 0 },
+            "method": "GrabCar",
+            "duration": "約1.5-2時間",
+            "cost": { "idr": 150000, "jpy": 1410 },
+            "options": [
+              { "method": "GrabCar", "price": "Rp150,000-200,000（約1,410-1,880円）", "duration": "1.5時間" },
+              { "method": "ミニバス（チウィデイ経由）", "price": "Rp20,000-30,000（約188-282円）", "duration": "2-2.5時間" }
+            ],
             "steps": [
-              "チウィデイ経由でバンドン市内へ",
-              "夕方は道が混む可能性あり"
+              "Grabアプリでバンドン市内の宿を目的地に設定",
+              "山間部のためGrabの到着に10-15分かかることも",
+              "【ミニバス】シトゥ・パテンガン出口付近 → チウィデイ方面のアンコット → チウィデイからバンドン行きミニバス"
             ]
           },
           "details": {
-            "duration": "1.5時間",
+            "duration": "1.5-2時間",
             "tips": [
-              "Grabチャーターの場合、ドライバーに18時頃までに市内到着と伝えておくと安心"
+              "夕方は道が混む可能性あり。16:30-17:00には出発したい",
+              "Grabが見つからない場合は、近くの売店や係員にオジェックを手配してもらう"
             ]
           }
         },
@@ -584,9 +628,9 @@
           "description": "バンドンの若者が集まるダゴ通り周辺で夕食。おしゃれなカフェからストリートフード屋台まで選び放題。",
           "images": [
             {
-              "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800",
-              "alt": "インドネシアのローカルフード",
-              "credit": "Unsplash"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Nasi_Goreng_Breakfast_Set_in_Solo.JPG/960px-Nasi_Goreng_Breakfast_Set_in_Solo.JPG",
+              "alt": "ナシゴレンのセット",
+              "credit": "Wikimedia Commons"
             }
           ],
           "location": {
@@ -611,7 +655,7 @@
           "dish": "バタゴール（Batagor）",
           "description": "バンドンに来たら絶対に食べるべき一品。魚のすり身を揚げたもので、ピーナッツソースをたっぷりかけて食べる。サクサクの食感とコクのあるソースが絶妙。屋台で1皿Rp15,000-25,000。バンドン以外ではなかなか食べられない本場の味。",
           "image": {
-            "url": "https://images.unsplash.com/photo-1529563021893-cc83c992d75d?w=800",
+            "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Batagor_Savoy_Homann_Bandung.jpg/960px-Batagor_Savoy_Homann_Bandung.jpg",
             "alt": "バタゴール"
           }
         },
@@ -623,7 +667,7 @@
             "priceRange": { "idr": "15,000-30,000", "jpy": "141-282" },
             "popular": ["バタゴール（定番）", "シオマイ（蒸し版）"],
             "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.9002,107.6183" },
-            "image": { "url": "https://images.unsplash.com/photo-1529563021893-cc83c992d75d?w=800", "alt": "バタゴール" }
+            "image": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Batagor_Savoy_Homann_Bandung.jpg/960px-Batagor_Savoy_Homann_Bandung.jpg", "alt": "バタゴール" }
           },
           {
             "name": "Kampung Daun",
@@ -632,7 +676,7 @@
             "priceRange": { "idr": "50,000-120,000", "jpy": "470-1,128" },
             "popular": ["グリルチキン", "ナシ・ティンベル", "ペペス・イカン（魚のバナナ葉包み蒸し）"],
             "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.8404,107.6075" },
-            "image": { "url": "https://images.unsplash.com/photo-1562436260-8423490e5e68?w=800", "alt": "スンダ料理" }
+            "image": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg/960px-Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg", "alt": "スンダ料理" }
           },
           {
             "name": "Warung Nasi Bu Eha",
@@ -641,7 +685,7 @@
             "priceRange": { "idr": "15,000-25,000", "jpy": "141-235" },
             "popular": ["ナシ・パダン風ご飯", "アヤム・ゴレン"],
             "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.9105,107.6123" },
-            "image": { "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800", "alt": "ワルンの食事" }
+            "image": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Nasi_Goreng_Travelling_Vendor_in_Jakarta.JPG/960px-Nasi_Goreng_Travelling_Vendor_in_Jakarta.JPG", "alt": "ワルンの食事" }
           }
         ],
         "drinks": ["バンドレック（Bandrek/生姜とスパイスの温かいドリンク）", "エス・チェンドル（緑色のゼリー入りかき氷）", "コピ・スス"],
@@ -677,20 +721,41 @@
       },
       "transport": {
         "to": "パンガンダラン（南海岸のビーチタウン）",
-        "method": "チャーター車またはバス（バンドン → バンジャール → パンガンダラン）",
+        "method": "バス（バンドン → バンジャール → パンガンダラン）",
         "duration": "6-7時間（途中休憩込み）",
         "cost": { "idr": 150000, "jpy": 1410 },
-        "bookingInfo": "バスはBudiman社がチカヘウム・ターミナルから運行。tiket.comで予約可",
+        "options": [
+          {
+            "method": "長距離バス（Budiman社）",
+            "price": "Rp125,000-150,000（約1,175-1,410円）",
+            "details": "チカヘウム・ターミナルからBudiman社のバスで直行。tiket.comで予約可",
+            "duration": "6-7時間"
+          },
+          {
+            "method": "電車 + ミニバス",
+            "price": "Rp80,000-120,000（約752-1,128円）",
+            "details": "バンドン駅 → バンジャール駅（電車3時間、Rp50,000-80,000）→ バンジャールからパンガンダラン行きミニバス（Rp30,000-40,000、2時間）",
+            "duration": "5-6時間"
+          },
+          {
+            "method": "Grab長距離",
+            "price": "Rp600,000-800,000（約5,640-7,520円）",
+            "details": "バンドンからパンガンダランまでGrabCar直行。高額だが快適でドアtoドア",
+            "duration": "5-6時間"
+          }
+        ],
+        "bookingInfo": "バスはBudiman社がチカヘウム・ターミナルから運行。tiket.comで予約可。電車はtiket.com/Travelokaで予約",
         "steps": [
-          "早朝にバンドンを出発（チカヘウム・ターミナルへ）",
+          "【バスの場合】早朝にGrabでチカヘウム・ターミナルへ（Rp20,000-30,000）",
           "Budiman社のバスに乗車（Rp125,000-150,000）",
-          "タシクマラヤ、バンジャールを経由",
-          "パンガンダランに到着（所要6-7時間）"
+          "タシクマラヤ、バンジャールを経由してパンガンダランに到着",
+          "【電車の場合】バンドン駅からバンジャール行き電車 → バンジャールからミニバス乗り換え"
         ],
         "tips": [
           "バスの本数は限られるので朝一番（6-7時発）がおすすめ",
           "車酔いしやすい人は酔い止め必須（山道が多い）",
-          "代替ルート：電車でバンジャールまで → シャトルバスでパンガンダラン"
+          "電車+ミニバスは乗り換えが面倒だが、電車区間は快適",
+          "ターミナルへの移動にはGrab（Rp20,000-30,000）が便利"
         ]
       }
     }

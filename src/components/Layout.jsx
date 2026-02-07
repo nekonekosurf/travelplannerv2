@@ -21,6 +21,17 @@ export default function Layout({ children }) {
             ホーム
           </Link>
           <Link
+            to="/food"
+            className={`flex flex-col items-center px-4 py-1 text-xs ${
+              location.pathname === '/food' ? 'text-sunset-600' : 'text-gray-500'
+            }`}
+          >
+            <svg className="w-6 h-6 mb-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M9 2v6a3 3 0 003 3v0a3 3 0 003-3V2M12 11v11M18 2v3.5A3.5 3.5 0 0114.5 9H14" />
+            </svg>
+            食ガイド
+          </Link>
+          <Link
             to="/info"
             className={`flex flex-col items-center px-4 py-1 text-xs ${
               location.pathname === '/info' ? 'text-sunset-600' : 'text-gray-500'

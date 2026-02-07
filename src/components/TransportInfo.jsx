@@ -36,6 +36,32 @@ export default function TransportInfo({ transport }) {
           )}
         </div>
 
+        {transport.options?.length > 0 && (
+          <div className="space-y-2">
+            <h5 className="text-xs font-bold text-ocean-700">交通手段の選択肢</h5>
+            {transport.options.map((opt, i) => (
+              <div key={i} className="bg-white rounded-lg p-3 space-y-1">
+                <div className="flex items-center justify-between">
+                  <span className="text-sm font-bold text-gray-800">{opt.method}</span>
+                  <span className="text-xs font-medium text-sunset-600">{opt.price}</span>
+                </div>
+                {opt.duration && (
+                  <p className="text-xs text-gray-500">所要: {opt.duration}</p>
+                )}
+                {opt.details && (
+                  <p className="text-xs text-gray-600">{opt.details}</p>
+                )}
+                {opt.pros && (
+                  <p className="text-xs text-green-600">+ {opt.pros}</p>
+                )}
+                {opt.cons && (
+                  <p className="text-xs text-red-500">- {opt.cons}</p>
+                )}
+              </div>
+            ))}
+          </div>
+        )}
+
         {transport.bookingInfo && (
           <p className="text-xs text-gray-600 bg-white rounded-lg p-2">
             <span className="font-bold text-ocean-700">予約: </span>{transport.bookingInfo}

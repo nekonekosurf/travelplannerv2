@@ -1,7 +1,9 @@
 import { Link } from 'react-router-dom'
+import { useMemo } from 'react'
 import tripData from '../../data/trip.json'
 import HeroImage from '../components/HeroImage'
 import DayCard from '../components/DayCard'
+import RouteMap from '../components/RouteMap'
 
 const typeIcons = {
   transit: '🚂',
@@ -13,10 +15,21 @@ const typeIcons = {
 export default function Home() {
   const { meta, routeOverview, days } = tripData
 
+  const overallMapSpots = useMemo(() => {
+    if (!routeOverview.route) return []
+    return routeOverview.route
+      .filter((r) => r.lat && r.lng)
+      .map((r) => ({
+        name: `Day ${r.day}: ${r.area}`,
+        lat: r.lat,
+        lng: r.lng,
+      }))
+  }, [])
+
   return (
     <div>
       <HeroImage
-        url={routeOverview.mapImageUrl || 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800'}
+        url={routeOverview.mapImageUrl || 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg/960px-Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg'}
         alt="インドネシアの風景"
         overlay
       >
@@ -53,6 +66,16 @@ export default function Home() {
                 </div>
               ))}
             </div>
+          </div>
+        )}
+
+        {overallMapSpots.length > 0 && (
+          <div className="mb-6">
+            <h2 className="text-lg font-bold text-gray-800 mb-3">全体ルートマップ</h2>
+            <RouteMap spots={overallMapSpots} height="280px" />
+            <p className="text-xs text-gray-400 mt-2 text-center">
+              ジャカルタからケタパン港まで、ジャワ島を西から東へ横断
+            </p>
           </div>
         )}
 
@@ -105,8 +128,15 @@ export default function Home() {
         )}
 
         <Link
+          to="/food"
+          className="mt-6 block bg-sunset-600 text-white text-center rounded-xl py-3 text-sm font-medium hover:bg-sunset-700 transition-colors"
+        >
+          インドネシアの食ガイドを見る
+        </Link>
+
+        <Link
           to="/info"
-          className="mt-6 block bg-ocean-600 text-white text-center rounded-xl py-3 text-sm font-medium hover:bg-ocean-700 transition-colors"
+          className="mt-3 block bg-ocean-600 text-white text-center rounded-xl py-3 text-sm font-medium hover:bg-ocean-700 transition-colors"
         >
           実用情報を見る（ビザ・通貨・持ち物など）
         </Link>

@@ -1,11 +1,12 @@
 import { useParams, Link, useLocation } from 'react-router-dom'
-import { useEffect } from 'react'
+import { useEffect, useMemo } from 'react'
 import tripData from '../../data/trip.json'
 import HeroImage from '../components/HeroImage'
 import Timeline from '../components/Timeline'
 import FoodSection from '../components/FoodSection'
 import AccommodationCard from '../components/AccommodationCard'
 import TransportInfo from '../components/TransportInfo'
+import RouteMap from '../components/RouteMap'
 
 export default function DayDetail() {
   const { id } = useParams()
@@ -16,6 +17,17 @@ export default function DayDetail() {
   useEffect(() => {
     window.scrollTo(0, 0)
   }, [pathname])
+
+  const mapSpots = useMemo(() => {
+    if (!day?.timeline) return []
+    return day.timeline
+      .filter((item) => item.location?.lat && item.location?.lng)
+      .map((item) => ({
+        name: item.title,
+        lat: item.location.lat,
+        lng: item.location.lng,
+      }))
+  }, [day])
 
   if (!day) {
     return (
@@ -34,7 +46,7 @@ export default function DayDetail() {
   return (
     <div>
       <HeroImage
-        url={day.heroImage?.url || 'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800'}
+        url={day.heroImage?.url || 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kawah_Putih_from_the_bottom%2C_Bandung_Regency%2C_2014-08-21.jpg/960px-Kawah_Putih_from_the_bottom%2C_Bandung_Regency%2C_2014-08-21.jpg'}
         alt={day.heroImage?.alt || day.title}
         overlay
       >
@@ -47,6 +59,24 @@ export default function DayDetail() {
 
       <div className="px-4 py-6">
         <p className="text-sm text-gray-700 leading-relaxed">{day.summary}</p>
+
+        {mapSpots.length > 0 && (
+          <div className="mt-4">
+            <h3 className="text-sm font-bold text-gray-600 mb-2">今日のルートマップ</h3>
+            <RouteMap spots={mapSpots} height="220px" />
+            <div className="mt-2 flex flex-wrap gap-1">
+              {mapSpots.map((s, i) => (
+                <span key={i} className="text-xs text-gray-500">
+                  <span className="inline-flex items-center justify-center w-4 h-4 bg-sunset-600 text-white rounded-full text-[10px] font-bold mr-0.5">
+                    {i + 1}
+                  </span>
+                  {s.name}
+                  {i < mapSpots.length - 1 && <span className="mx-1 text-gray-300">→</span>}
+                </span>
+              ))}
+            </div>
+          </div>
+        )}
 
         {day.areaInfo && (
           <div className="mt-4 grid grid-cols-2 gap-2">

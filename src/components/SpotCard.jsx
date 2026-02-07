@@ -25,6 +25,19 @@ export default function SpotCard({ item, onClose }) {
                 {item.access.cost.idr?.toLocaleString()} Rp（約{item.access.cost.jpy?.toLocaleString()}円）
               </p>
             )}
+            {item.access.options?.length > 0 && (
+              <div className="mt-2 space-y-1">
+                {item.access.options.map((opt, i) => (
+                  <div key={i} className="bg-white rounded-lg p-2 text-xs">
+                    <div className="flex items-center justify-between">
+                      <span className="font-bold text-gray-700">{opt.method}</span>
+                      <span className="text-sunset-600 font-medium">{opt.price}</span>
+                    </div>
+                    {opt.duration && <span className="text-gray-500">所要: {opt.duration}</span>}
+                  </div>
+                ))}
+              </div>
+            )}
             {item.access.steps && (
               <ol className="mt-2 space-y-1">
                 {item.access.steps.map((step, i) => (

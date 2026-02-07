@@ -1,8 +1,8 @@
 import { Link } from 'react-router-dom'
 
 const fallbackImages = [
-  'https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800',
-  'https://images.unsplash.com/photo-1518548419970-58e3b4079ab2?w=800',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kawah_Putih_from_the_bottom%2C_Bandung_Regency%2C_2014-08-21.jpg/960px-Kawah_Putih_from_the_bottom%2C_Bandung_Regency%2C_2014-08-21.jpg',
+  'https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Patenggang_Lake_panorama%2C_Bandung_Regency%2C_2014-08-21.jpg/960px-Patenggang_Lake_panorama%2C_Bandung_Regency%2C_2014-08-21.jpg',
 ]
 
 export default function DayCard({ day }) {
