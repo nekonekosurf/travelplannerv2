@@ -7,12 +7,13 @@ export default function Layout({ children }) {
     <div className="min-h-screen flex flex-col">
       <main className="flex-1">{children}</main>
 
-      <nav className="sticky bottom-0 bg-white border-t border-sand-200 shadow-lg">
-        <div className="flex justify-around py-2">
+      <nav aria-label="メインナビゲーション" className="sticky bottom-0 bg-white border-t border-sand-200 shadow-lg">
+        <div className="flex justify-around py-1">
           <Link
             to="/"
-            className={`flex flex-col items-center px-4 py-1 text-xs ${
-              location.pathname === '/' ? 'text-sunset-600' : 'text-gray-500'
+            aria-current={location.pathname === '/' ? 'page' : undefined}
+            className={`flex flex-col items-center px-6 py-3 text-xs min-h-[48px] justify-center ${
+              location.pathname === '/' ? 'text-sunset-600' : 'text-gray-600'
             }`}
           >
             <svg className="w-6 h-6 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -22,8 +23,9 @@ export default function Layout({ children }) {
           </Link>
           <Link
             to="/food"
-            className={`flex flex-col items-center px-4 py-1 text-xs ${
-              location.pathname === '/food' ? 'text-sunset-600' : 'text-gray-500'
+            aria-current={location.pathname === '/food' ? 'page' : undefined}
+            className={`flex flex-col items-center px-6 py-3 text-xs min-h-[48px] justify-center ${
+              location.pathname === '/food' ? 'text-sunset-600' : 'text-gray-600'
             }`}
           >
             <svg className="w-6 h-6 mb-0.5" fill="none" stroke="currentColor" strokeWidth={2} viewBox="0 0 24 24">
@@ -33,8 +35,9 @@ export default function Layout({ children }) {
           </Link>
           <Link
             to="/info"
-            className={`flex flex-col items-center px-4 py-1 text-xs ${
-              location.pathname === '/info' ? 'text-sunset-600' : 'text-gray-500'
+            aria-current={location.pathname === '/info' ? 'page' : undefined}
+            className={`flex flex-col items-center px-6 py-3 text-xs min-h-[48px] justify-center ${
+              location.pathname === '/info' ? 'text-sunset-600' : 'text-gray-600'
             }`}
           >
             <svg className="w-6 h-6 mb-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
