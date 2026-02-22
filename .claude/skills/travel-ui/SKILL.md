@@ -105,6 +105,38 @@ src/
 - コンポーネントの遅延読み込み（`React.lazy`）は初版では不要
 - JSONデータはビルド時にバンドル
 
+## 都市ガイドページテンプレート (`/city/:name`)
+
+データ構造 (`cities[name]`):
+```json
+{
+  "name": "都市名（エリア名）",
+  "subtitle": "短い説明",
+  "description": "詳細説明",
+  "center": { "lat": -6.9150, "lng": 107.6090 },
+  "areaTips": ["ヒント1", "ヒント2"],
+  "landmarks": [{ "name": "名前", "lat": 0, "lng": 0 }],
+  "pois": [{
+    "name": "POI名", "lat": 0, "lng": 0,
+    "type": "restaurant|convenience|atm|cafe|mall|transit|pharmacy",
+    "description": "説明",
+    "googleMapsUrl": "https://maps.google.com/?q=lat,lng"
+  }],
+  "relatedDays": [1, 2],
+  "backLink": "/day/1",
+  "backLinkLabel": "Day 1に戻る"
+}
+```
+
+POI types と表示:
+- `restaurant`: 緑アイコン + 食事カテゴリ
+- `convenience`: 青アイコン + コンビニカテゴリ
+- `atm`: シアンアイコン + ATMカテゴリ
+- `cafe`: 黄アイコン + カフェカテゴリ
+- `mall`: ピンクアイコン + ショッピングカテゴリ
+- `transit`: 灰アイコン + 交通カテゴリ
+- `pharmacy`: 赤アイコン + 薬局カテゴリ
+
 ## 品質チェック
 ビルド前に以下を確認:
 - [ ] スマホ表示で崩れていないか
@@ -112,3 +144,5 @@ src/
 - [ ] Google Mapsリンクが機能するか
 - [ ] ページ遷移がスムーズか
 - [ ] AI感のある表現がないか
+- [ ] 全10日のDayページが表示されるか
+- [ ] 全都市のCityGuideページが表示されるか
