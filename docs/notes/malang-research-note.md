@@ -3,6 +3,9 @@
 > 調査日: 2026-02-22〜23 | 対象: 東ジャワ州マラン市 & バトゥ市
 > 座標: -7.9797, 112.6304 | 標高: 約470m | 人口: 約90万人（学生30万人含む）
 
+![マラン市街](https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Malang%2C_Malang_City%2C_East_Java%2C_Indonesia_-_panoramio.jpg/1280px-Malang%2C_Malang_City%2C_East_Java%2C_Indonesia_-_panoramio.jpg)
+*マラン市街俯瞰 — Photo: Supra Syitno / CC BY-SA 3.0 via Wikimedia Commons*
+
 ---
 
 ## 1. マランとは何か
@@ -37,6 +40,10 @@
 ## 3. 寺院 — 王朝の遺産を歩く
 
 ### チャンディ・シンゴサリ（Candi Singosari）
+
+![ドヴァラパーラ像](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Candi_Singosari%2C_Dvarapala_1323.jpg/1024px-Candi_Singosari%2C_Dvarapala_1323.jpg)
+*高さ3.7mのドヴァラパーラ（門番）像 — Photo: Michael Gunther / CC BY-SA 4.0 via Wikimedia Commons*
+
 - **何**: 最後の王クルタナガラの葬祭殿（13世紀）。**未完成**のまま放棄された
 - **見どころ**: 高さ3.7mの巨大なドヴァラパーラ（門番）像2体（ジャワ最大級の一枚岩彫像）。未完成のカーラ頭。無料の併設博物館
 - **場所**: 市中心部から北へ10km、車20-30分 | GPS: -7.88778, 112.66389
@@ -44,6 +51,10 @@
 - **所要時間**: 45-90分 | **コツ**: ドヴァラパーラ像は本堂から200m西にある（見逃す人多い）
 
 ### チャンディ・キダル（Candi Kidal）
+
+![チャンディ・キダル](https://upload.wikimedia.org/wikipedia/commons/5/56/Candi_Kidal_A.JPG)
+*チャンディ・キダル全景 — Photo: ESCapade / CC BY-SA 3.0 via Wikimedia Commons*
+
 - **何**: アヌサパティ王（ケン・アロクを殺した義理の息子）の葬祭殿（1248年）
 - **見どころ**: 3面のガルーデヤ浮き彫り（母を奴隷から解放するガルーダの物語）→ インドネシア国章ガルーダ・パンチャシラのデザイン源泉と言われる。反時計回りに南→東→北の順で読む
 - **場所**: 市中心部から東へ20km（トゥンパン方面）、車40-50分 | GPS: -8.0286, 112.7700
@@ -51,18 +62,30 @@
 - **コツ**: チャンディ・ジャゴ（2km先）と合わせて訪問
 
 ### チャンディ・ジャゴ（Candi Jago）
+
+![チャンディ・ジャゴ](https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/201_Candi_Jago_%2825557430527%29.jpg/1024px-201_Candi_Jago_%2825557430527%29.jpg)
+*チャンディ・ジャゴ全景 — Photo: Anandajoti Bhikkhu / CC BY 2.0 via Wikimedia Commons*
+
 - **何**: ウィスヌワルダナ王の葬祭殿（1268-1280年）。シヴァ神とアヴァロキテーシュヴァラの両方として神格化
 - **見どころ**: 東ジャワ美術の精華、ワヤン（影絵）様式の浮き彫り。タントリ・カマンダカ（動物寓話）の彫刻はインドネシア最古の文学的物語美術
 - ⚠️ **注意**: 2025年5月〜2027年、大規模修復中。足場が架かっている可能性あり
 - **入場料**: 無料（寄付制）| GPS: -8.00611, 112.76361
 
 ### チャンディ・バドゥッ（Candi Badut）— 東ジャワ最古
+
+![チャンディ・バドゥッ](https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Candi_Badut.JPG/1024px-Candi_Badut.JPG)
+*東ジャワ最古の建造物、チャンディ・バドゥッ — Photo: 111org / CC BY-SA 4.0 via Wikimedia Commons*
+
 - **何**: 760年建立。東ジャワに現存する**最古の建造物**。建立日がマラン市の公式「誕生日」
 - **見どころ**: カンジュルハン王国ガジャーヤナ王が建てた小さなシヴァ寺院。後の東ジャワ様式ではなく、中部ジャワ様式に近い特異な建築
 - **場所**: 市中心部から西へ6km、車12-15分 | GPS: -7.9578, 112.5985
 - **入場料**: 無料 | 08:00-15:00 | **注意**: 路地裏にあり見つけにくい。Google Maps必須
 
 ### スンブラワン仏塔（Candi Sumberawan）
+
+![スンブラワン仏塔](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/050_View_from_South%2C_Candi_Sumberawan_%2840372729382%29.jpg/1024px-050_View_from_South%2C_Candi_Sumberawan_%2840372729382%29.jpg)
+*森の中のスンブラワン仏塔 — Photo: Anandajoti Bhikkhu / CC BY 2.0 via Wikimedia Commons*
+
 - **何**: 東ジャワ唯一の仏教ストゥーパ。標高650m、アルジュノ山麓の森の中
 - **見どころ**: 聖なる泉（sumber=泉、awan=聖なる）と松・竹の森を500m歩いた先にボロブドゥールのミニチュアのような鐘型ストゥーパ
 - **入場料**: Rp 5,000 | GPS: -7.850, 112.660 | 観光客がほとんどいない「真の隠れ名所」
@@ -72,6 +95,10 @@
 ## 4. 自然 — 滝・高原・火山
 
 ### コバン・ロンド滝（Coban Rondo）
+
+![コバン・ロンド滝](https://upload.wikimedia.org/wikipedia/commons/a/a4/Coban_Rondo_Waterfall.jpg)
+*コバン・ロンド滝 — Photo: Annisa Alwita / CC BY-SA 2.0 via Wikimedia Commons*
+
 - 落差84m、標高1,135m。**舗装された100mの道**で滝壺まで行ける（バリアフリー対応）
 - 植物迷路（2週間ごとにルート変更）、ATV、アーチェリー、キャンプ場あり
 - **入場料**: 平日 Rp 35,000 / 休日 Rp 40,000 | 07:00-17:00
@@ -85,6 +112,10 @@
 - ブロモ方面への道沿い（グブックラカ地区）| GPS: -7.9800, 112.8300
 
 ### トゥンパックスウ滝（Tumpak Sewu）— 「インドネシアのナイアガラ」
+
+![トゥンパックスウ滝](https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Tumpak_sewu_waterfall.jpg/1280px-Tumpak_sewu_waterfall.jpg)
+*「千の滝」トゥンパックスウ — Photo: Muhyiddin / CC BY-SA 4.0 via Wikimedia Commons*
+
 - 落差120m、半円形の岩壁から無数の滝が流れ落ちる圧巻の景観
 - 展望台からの眺望 + 谷底への下降（竹のハシゴ、川渡り、泥道）
 - **外国人入場料**: 展望台 Rp 20,000 + 滝壺 Rp 50,000 = **計 Rp 70,000**（約658円）※一部のツアー業者はRp 100,000を請求する場合あり
@@ -92,6 +123,10 @@
 - ⚠️ **現地ガイド強く推奨**（Rp 100,000-200,000）。防水バッグ必須、ずぶ濡れになる
 
 ### ブロモ山（Gunung Bromo）
+
+![ブロモ山の日の出](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Sunrise_in_Penanjakan_Bromo.jpg/1280px-Sunrise_in_Penanjakan_Bromo.jpg)
+*ペナンジャカン展望台からのブロモ山日の出 — Photo: Denyezra / CC BY-SA 4.0 via Wikimedia Commons*
+
 - 活火山（2,329m）。ペナンジャカン展望台（2,770m）からの日の出は世界屈指
 - 砂の海（Lautan Pasir）を横断し、253段の階段で噴火口の縁へ
 - **外国人入場料**: **Rp 255,000**（平日・休日統一、2024年10月のPP No.36/2024により改定）
@@ -100,6 +135,10 @@
 - 防寒必須（夜明け前は0-5℃）、防塵マスク推奨
 
 ### バトゥ高原（Kota Batu）— りんごの街
+
+![ミュージアム・アンクット](https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Jeep%2C_Museum_Angkut%2C_Batu%2C_Indonesia%2C_2017-10-01.jpg/1280px-Jeep%2C_Museum_Angkut%2C_Batu%2C_Indonesia%2C_2017-10-01.jpg)
+*バトゥのミュージアム・アンクット（交通博物館） — Photo: Crisco 1492 / CC BY-SA 4.0 via Wikimedia Commons*
+
 - 標高800-1,100m、マランから北西20km（30-45分）
 - **りんご狩り**: Rp 20,000-85,000/人（園内で食べ放題）
 - **ミュージアム・アンクット（交通博物館）**: 東南アジア初、450台以上の車両。平日 Rp 100,000 / 休日 Rp 120,000
@@ -116,17 +155,29 @@
 ## 5. オランダ植民地遺産
 
 ### イジェン大通り（Jalan Besar Ijen）
+
+![イジェン大通り](https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Ijen_Boulevard_in_Malang_3.jpg/1024px-Ijen_Boulevard_in_Malang_3.jpg)
+*並木が美しいイジェン大通り — Photo: Christophe95 / CC BY-SA 4.0 via Wikimedia Commons*
+
 - オランダ時代の「億万長者通り」。白亜の植民地邸宅が並ぶ大通り
 - Huize Victoria、Huize Inna、Villa Henriette等のオランダ語名が残る
 - **毎週日曜 05:00-09:30、車両通行止め**でウォーキング/サイクリングゾーンに
 - 西端にイジェン大聖堂（1934年竣工、ネオゴシック様式）
 
 ### カユタンガン・ヘリテージ（Kayutangan Heritage）
+
+![カユタンガン・ヘリテージ](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/08_270925_Kampoeng_Heritage_Kayutangan.jpg/1024px-08_270925_Kampoeng_Heritage_Kayutangan.jpg)
+*カユタンガン・ヘリテージの橋 — Photo: Tetehsbbc / CC BY 4.0 via Wikimedia Commons*
+
 - オランダ時代の商業中心地。アールデコ様式の住宅約60軒が保存
 - ステンドグラスや木彫りの扉が当時のまま残る
 - **入場**: Rp 5,000 | 07:00-18:30 | 駅から徒歩約1km
 
 ### トコ・オエン（Toko Oen）★必訪★
+
+![トコ・オエン](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Toko_Oen_Kayutangan%2C_Kota_Malang.jpg/1280px-Toko_Oen_Kayutangan%2C_Kota_Malang.jpg)
+*夜のトコ・オエン外観 — Photo: Annidafattiya / CC BY 4.0 via Wikimedia Commons*
+
 - **1930年開業**（マラン店）。元は1922年にジョグジャカルタで中国系オランダ人リム・ギエン・ニオ（Liem Gien Nio）が開業
 - インドネシア国内に4店舗あったが、現在は**マランとスマランの2店のみ**
 - 1930年代のアールデコ内装がほぼそのまま。オランダ植民地時代にタイムスリップしたような空間
@@ -141,6 +192,12 @@
 ---
 
 ## 6. 食 — バクソの首都、東ジャワの味
+
+![バクソ・マラン](https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Baso_Malang_Karapitan.JPG/1280px-Baso_Malang_Karapitan.JPG)
+*バクソ・マラン（肉団子スープ） — Photo: Gunawan Kartapranata / CC BY-SA 3.0 via Wikimedia Commons*
+
+![ラウォン](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Rawon%2C_Kedai_Juragan%2C_BG_Junction%2C_2025_%2801%29.jpg/1280px-Rawon%2C_Kedai_Juragan%2C_BG_Junction%2C_2025_%2801%29.jpg)
+*ラウォン（黒いスープ）with ライス — Photo: Bahnfrend / CC BY-SA 4.0 via Wikimedia Commons*
 
 ### マランの名物料理
 
@@ -187,17 +244,32 @@
 ## 7. 街歩き — 市内スポット
 
 ### アルンアルン・トゥグ & トゥグ・マラン記念塔
+
+![トゥグ・マラン](https://upload.wikimedia.org/wikipedia/commons/9/96/Tugu_Malang.jpg)
+*トゥグ・マラン記念塔と市庁舎 — Photo: Annisa Alwita / CC BY-SA 2.0 via Wikimedia Commons*
+
 - 独立後インドネシアで最初に建てられた記念碑（1946年建設→1947年オランダ軍破壊→1953年スカルノ大統領により再建）
 - 尖った竹（runcing）= 植民者に対する竹槍。17の基礎、8段、4と5の角 = **17-8-45**（独立記念日）
 - 無料、24時間 | GPS: -7.9770, 112.6340
 
 ### カンプン・ワルナ・ワルニ・ジョディパン（虹の村）
+
+![虹の村](https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Malang_-_Kampung_Warna-Warni_Jodipan_-_Dec_2024.jpg/1280px-Malang_-_Kampung_Warna-Warni_Jodipan_-_Dec_2024.jpg)
+*カンプン・ワルナ・ワルニ（虹の村）— Photo: Dominic Nelson / CC BY-SA 4.0 via Wikimedia Commons*
+
+![青い村](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Malang_-_Kampung_Biru_Arema_-_Dec_2024.jpg/1280px-Malang_-_Kampung_Biru_Arema_-_Dec_2024.jpg)
+*隣接するカンプン・ブルー・アレマ（青い村） — Photo: Dominic Nelson / CC BY-SA 4.0 via Wikimedia Commons*
+
 - 2016年、ムハマディヤ大学マランの学生8人が貧困集落を虹色に変えたプロジェクト
 - PT Indana PaintのCSR支援 Rp 2億（約188万円）で90軒を塗装
 - チケット収入の80%が住民のインフラ維持、20%がゴミ処理に
 - **入場**: Rp 3,000-10,000 | 隣接の**カンプン・トゥリディ**（3D壁画）も徒歩圏内
 
 ### マスジッド・アグン・ジャミ（大モスク）
+
+![大モスク](https://upload.wikimedia.org/wikipedia/commons/8/8e/Masjid_Agung_Jami%27_Malang.jpg)
+*マスジッド・アグン・ジャミ — Photo: Royhanah / CC0 via Wikimedia Commons*
+
 - 1890-1903年建設。ジャワ式tajug屋根＋アラビア式ドーム＋アーチの融合
 - チーク材の4本のsoko guru柱 | **服装**: 長袖長ズボン、女性はヒジャブ（入口で貸出あり）
 
@@ -357,6 +429,15 @@ samsul.comが指摘: 地球の歩き方は**2017年版まで「マランに空�
 - **ロコタビ（locotabi.jp/malang）**: マラン在住日本人による個人ガイド・通訳・予約代行
 - **西遊旅行**: 添乗員同行「聖なるブロモ山と神秘の青き炎イジェン山」ツアー
 - **ジャワ島旅行情報サイト**: ブロモ&イジェン2泊3日ツアー。マラン発1人 Rp 4,930,000（約46,000円）、4人以上なら Rp 1,730,000（約16,000円）
+
+### 📸 日本人ブロガーの写真が見られるリンク
+- **虹の村 & 市内散策**: [4travel ぽちゃりんさん旅行記](https://4travel.jp/travelogue/11886868)
+- **寺院巡り（シンゴサリ・キダル・ジャゴ）**: [4travel arfaさん旅行記](https://4travel.jp/travelogue/10774986)
+- **寺院巡り（車チャーター）**: [4travel マスヲさん旅行記](https://4travel.jp/travelogue/10800602)
+- **バトゥ・りんご農園**: [4travel enplaindさん旅行記](https://4travel.jp/travelogue/10171117)
+- **ホテル・トゥグ・マラン宿泊記**: [ameblo True ifさん](https://ameblo.jp/m1sac0m1sac0/entry-12844127413.html)
+- **焼きバクソ（Bakso Bakar Pak Man）**: [tabinci.jp](https://tabinci.jp/travel-directory/bakso-bakar-pak-man/)
+- **マランの日常（在住者視点）**: [livelog81](https://livelog81.hatenablog.jp/entry/malang-info)
 
 ### 日本語独自の知見
 - ラマダン中の訪問は食事場所探しに苦労する（4travel マスヲさん）
