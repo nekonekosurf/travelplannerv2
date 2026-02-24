@@ -10,6 +10,10 @@ import BanyuwangiGuide from './pages/BanyuwangiGuide'
 import MalangGuide from './pages/MalangGuide'
 import BaliGuide from './pages/BaliGuide'
 import KetapangGuide from './pages/KetapangGuide'
+import JakartaGuide from './pages/JakartaGuide'
+import BandungGuide from './pages/BandungGuide'
+import PangandaranGuide from './pages/PangandaranGuide'
+import YogyakartaGuide from './pages/YogyakartaGuide'
 
 export default function App() {
   return (
@@ -24,6 +28,10 @@ export default function App() {
           <Route path="/malang" element={<MalangGuide />} />
           <Route path="/bali" element={<BaliGuide />} />
           <Route path="/ketapang" element={<KetapangGuide />} />
+          <Route path="/jakarta" element={<JakartaGuide />} />
+          <Route path="/bandung" element={<BandungGuide />} />
+          <Route path="/pangandaran" element={<PangandaranGuide />} />
+          <Route path="/yogyakarta" element={<YogyakartaGuide />} />
           <Route path="/info" element={<Info />} />
           <Route path="/food" element={<Food />} />
         </Routes>

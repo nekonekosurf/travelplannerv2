@@ -2992,6 +2992,7 @@
   ],
   "cities": {
     "jakarta": {
+      "customGuideUrl": "/jakarta",
       "name": "ジャカルタ（ガンビル駅周辺）",
       "subtitle": "空港から列車でバンドンへ向かう中継地点",
       "description": "ジャカルタはインドネシアの首都で人口1,000万人超の大都市。この旅ではバンドンへの中継地点として通過するが、ガンビル駅周辺にはコンビニ・ATM・薬局・飲食店が揃っており、列車の待ち時間を快適に過ごせる。駅から徒歩圏内にモナス（独立記念塔）もあり、時間があれば立ち寄りたい。",
@@ -3055,7 +3056,8 @@
       ],
       "relatedDays": [1, 2],
       "backLink": "/day/1",
-      "backLinkLabel": "Day 1に戻る"
+      "backLinkLabel": "Day 1に戻る",
+      "customGuideUrl": "/bandung"
     },
     "pangandaran": {
       "name": "パンガンダラン（ビーチエリア）",
@@ -3083,7 +3085,8 @@
       ],
       "relatedDays": [3, 4],
       "backLink": "/day/3",
-      "backLinkLabel": "Day 3に戻る"
+      "backLinkLabel": "Day 3に戻る",
+      "customGuideUrl": "/pangandaran"
     },
     "yogyakarta": {
       "name": "ジョグジャカルタ（マリオボロ〜プラウィロタマン）",
@@ -3113,7 +3116,8 @@
       ],
       "relatedDays": [5, 6],
       "backLink": "/day/5",
-      "backLinkLabel": "Day 5に戻る"
+      "backLinkLabel": "Day 5に戻る",
+      "customGuideUrl": "/yogyakarta"
     },
     "malang": {
       "customGuideUrl": "/malang",
