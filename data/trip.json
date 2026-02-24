@@ -2036,45 +2036,53 @@
       "summary": "ジョグジャカルタから電車で東ジャワのマランへ。到着後、インドネシアで最も壮大な滝のひとつ、トゥンパックスウ滝へ。馬蹄形の断崖から何百もの水流が落ちる姿はまるでナイアガラ。明日のブロモ山日の出に備えて、夕方にはチェモロ・ラワン村へ移動する。",
       "areaInfo": {
         "walkable": false,
-        "walkableNote": "マラン市内はGrab、郊外の滝やブロモへは車/ジープが必要",
-        "transportNeeded": "Grab（市内）、ツアー/チャーター車（トゥンパックスウ、ブロモ）",
-        "atm": "マラン市内にATM多数。ブロモ周辺のチェモロ・ラワン村にはATMなし",
-        "wifi": "マラン市内は4G安定。ブロモ周辺は不安定",
-        "sim": "既存SIMでOK。Telkomselがブロモ周辺でも比較的安定",
-        "safety": "トゥンパックスウ滝の谷底への下りは急勾配で滑りやすい。十分な注意が必要",
-        "convenience": "マラン市内にIndomaret多数。チェモロ・ラワンには小さな売店のみ"
+        "walkableNote": "マラン市内はGrab/Gojek移動が基本（Rp10,000-20,000）。イジェン通り・カユタンガンは徒歩散策OK。郊外の滝やブロモへはチャーター車/ツアーが必要",
+        "transportNeeded": "Grab/Gojek（市内）、アンコット（ミニバス・Rp3,500-5,000）、チャーター車（トゥンパックスウ・ブロモ）。バトゥへはTrans Jatimバス（Rp5,000）またはアンコット乗り継ぎ",
+        "atm": "マラン市内にBCA/Mandiri/BNI ATM多数。MATOS（マラン・タウンスクエア）にATMセンターあり。国際カード（Visa/Mastercard）対応。ブロモ周辺のチェモロ・ラワン村にはATMなし — マランで必ず現金を引き出しておくこと",
+        "wifi": "マラン市内は4G/LTE安定。カフェ・ホテルでWiFiあり。ブロモ周辺は不安定。Google Mapsオフラインマップ推奨",
+        "sim": "既存SIMでOK。追加購入はMATOS内のTelkomselショップ。Telkomselがブロモ周辺でも比較的安定（山頂付近は圏外になることも）",
+        "safety": "マラン市内は全体的に安全。Grab/Gojek利用でぼったくり回避。トゥンパックスウ滝の谷底への下りは急勾配で滑りやすい。雨季は特に注意。緊急: 警察110 / 救急車118",
+        "convenience": "マラン駅周辺にIndomaret（ATM BCA併設）。MATOS周辺にAlfamart/Indomaret多数。チェモロ・ラワンには小さな売店のみ — 水・軽食はマランで買い込むこと"
       },
-      "cityPois": [],
+      "cityPois": [
+        { "name": "Rawon Nguling", "lat": -7.9780, "lng": 112.6350, "type": "restaurant", "description": "ラウォン（黒い牛肉スープ）の名店。Rp15,000-30,000" },
+        { "name": "Toko Oen", "lat": -7.9803, "lng": 112.6328, "type": "restaurant", "description": "1930年創業のレトロカフェ。Jl. Basuki Rachmat 5" },
+        { "name": "ATM Center MATOS", "lat": -7.9758, "lng": 112.6283, "type": "atm", "description": "BCA/BNI/Mandiri/BRI。国際カード対応" },
+        { "name": "Indomaret Malang Station", "lat": -7.9770, "lng": 112.6345, "type": "convenience", "description": "駅周辺。24時間。ATM BCA併設" },
+        { "name": "Shelter Hostel Malang", "lat": -7.9770, "lng": 112.6310, "type": "landmark", "description": "ブロモツアー手配可。ドミRp80,000〜" }
+      ],
       "timeline": [
         {
           "time": "06:00",
           "period": "morning",
           "type": "transport",
           "title": "ジョグジャ → マランへ電車移動",
-          "description": "トゥグ駅から電車に乗車。ジャワ島の田園風景と火山の裾野を眺めながら、東ジャワのマランへ向かう。約6-7時間の長旅だが、車窓の景色が退屈させない。",
+          "description": "トゥグ駅からマリオボロ・エクスプレス（10:50発→17:30着）でマランへ。ジャワ島の田園風景と火山の裾野を眺めながら約6時間40分。車窓の景色が退屈させない。深夜便ならマラバール（01:35発→09:01着）やガジャヤナ（02:00発→09:20着）も選べる。",
           "images": [],
           "location": {
-            "name": "マラン駅（Stasiun Malang Kota Baru）",
+            "name": "マラン・コタバル駅（Stasiun Malang Kota Baru）",
             "googleMapsUrl": "https://maps.google.com/?q=-7.9774,112.6341",
             "lat": -7.9774,
             "lng": 112.6341
           },
           "access": {
             "from": "ジョグジャカルタ・トゥグ駅",
-            "method": "KAI長距離列車",
-            "duration": "6-7時間",
+            "method": "KAI長距離列車（マリオボロ・エクスプレス推奨）",
+            "duration": "約6時間40分（マリオボロ・エクスプレス 10:50発→17:30着）",
             "cost": { "idr": 380000, "jpy": 3572 },
             "steps": [
-              "トゥグ駅からマラン行き電車に乗車",
-              "エグゼクティブクラス推奨（Rp380,000）",
-              "マラン・コタバル駅で下車"
+              "マリオボロ・エクスプレス: トゥグ駅10:50発 → マラン17:30着（日中便・車窓を楽しめる）",
+              "エグゼクティブクラス推奨（Rp380,000）。エコノミーはRp260,000",
+              "マラン・コタバル駅で下車。駅は市中心部（アルンアルン・トゥグ徒歩5分）"
             ]
           },
           "details": {
             "tips": [
-              "前日にAccess by KAIで予約しておくこと",
-              "車内で朝食・昼食の販売あり",
-              "充電用USBポートはエグゼクティブクラスにあり"
+              "前日にAccess by KAIまたはTravelokaで予約しておくこと（外国人はTravelokaが確実）",
+              "深夜便の選択肢: マラバール01:35発（エコノミーRp260,000/エグゼクティブRp380,000）、ガジャヤナ02:00発（エグゼクティブRp380,000のみ）",
+              "車内で朝食・昼食の販売あり。コーヒー・軽食も購入可",
+              "充電用USBポートはエグゼクティブクラスにあり",
+              "Indomaret/Alfamartのレジでも列車チケット購入可能"
             ]
           }
         },
@@ -3108,26 +3116,246 @@
       "backLinkLabel": "Day 5に戻る"
     },
     "malang": {
+      "customGuideUrl": "/malang",
       "name": "マラン/バトゥ（東ジャワ高原都市）",
-      "subtitle": "滝と火山に囲まれた東ジャワの拠点",
-      "description": "マランは東ジャワの高原都市で、オランダ植民地時代の面影が残る街並みが特徴。周辺にはトゥンパックスウ滝やコバン・ロンド滝など壮大な滝が点在し、隣のバトゥ市にはテーマパークも多い。ブロモ山やイジェンへのアクセス拠点としても重要。",
+      "subtitle": "滝と火山に囲まれた東ジャワの拠点 — 標高470m・年間平均気温23.6℃",
+      "description": "マランは東ジャワの高原都市（標高約470m）で、オランダ植民地時代の面影が残るイジェン通りやカユタンガン・ヘリテージが徒歩で楽しめる。周辺にはトゥンパックスウ滝やコバン・ロンド滝など壮大な滝が点在し、隣のバトゥ市にはテーマパークも多い。ブロモ山やイジェンへのアクセス拠点としても重要。東ジャワの食都でもあり、ラウォン（黒い牛肉スープ）やバクソ・マランは必食。",
       "center": { "lat": -7.9774, "lng": 112.6341 },
       "areaTips": [
-        "マラン市内はGrabで移動。コンパクトで過ごしやすい",
-        "トゥンパックスウ滝へは車で約2時間。公共交通なし。チャーター車かツアーで",
-        "ブロモ山へのジープツアーはマランからも手配可能",
-        "標高が高く（約470m）涼しい。ジャカルタより5℃程度低い",
-        "ATMは市内に多数。ブロモ周辺にはないので事前に引き出すこと"
+        "【気候】標高470mで涼しい。日中28-30℃、夜間17-20℃。長袖を1枚持とう。ジャカルタより5℃程度低い",
+        "【乾季】6-10月がベスト。8月が最も乾燥（降水26mm）。ブロモの雲海も乾季が確率高い",
+        "【雨季】12-4月。2月が最も雨が多い（月23日間降雨）。午後のスコールが多いが1-2時間で止む",
+        "【市内移動】Grab/Gojekが基本。市内移動Rp10,000-20,000程度。バイクタクシー（GrabBike）ならRp5,000-10,000",
+        "【アンコット】市内を走るミニバス。1回Rp3,500-5,000。ALルート（青）がマラン駅→ランドゥンサリ・ターミナルで便利",
+        "【徒歩エリア】イジェン通り（Jl. Ijen）は植民地時代の邸宅が並ぶ並木道。日曜朝はジョギングコースに。カユタンガン・ヘリテージは22棟の歴史的建築が残る散策エリア",
+        "【バトゥへ】アンコットAL（青）でランドゥンサリ・ターミナル → 紫アンコットでバトゥへ。各Rp5,000。Trans Jatimバス（Rp5,000）も運行中。Grabならバイク Rp40,000-50,000 / 車 Rp150,000-200,000",
+        "【バイクレンタル】1日Rp70,000-75,000。パスポート＋身分証3点が必要。国際免許は法的には必須だが実際はパスポートのみで借りられることも多い",
+        "【ブロモツアー】マランからの深夜出発ブロモ日の出ツアー: Rp550,000/人（シェアツアー）。Shelter Hostel、Omah Suropatiなどの宿で手配可能。3:30AM出発→11:30AM帰着",
+        "【ATM】市内にBCA/Mandiri/BNI/BRI多数。マラン・タウンスクエア（MATOS）周辺に集中。Visa/Mastercard対応。1回の引き出し上限Rp2,500,000（BCA）",
+        "【両替】Ratri Money Changer（マラン・タウンスクエア1F、Jl. Veteran）が信頼できる。日本円・米ドル・ユーロなど対応。PT. TTP. Valasindo（Jl. Kahuripan, Klojen）も利用可",
+        "【QRIS】コンビニ・チェーン店・カフェではQRIS（QRコード決済）が普及。屋台や小規模ワルンは現金のみが多い。Rp500,000-1,000,000の現金は常に持ち歩くこと",
+        "【コンビニ】Indomaret/Alfamartが市内に多数。駅周辺・MATOS周辺・イジェン通り沿いに集中。ATM併設店も多い",
+        "【SIMカード】既存SIMでOK。追加購入ならマラン・タウンスクエア内のTelkomselショップ。Telkomselがブロモ周辺でも比較的安定",
+        "【WiFi】カフェ・ホテルでWiFi普及。Telkomsel 4G/LTEは市内全域で安定。ブロモ周辺は不安定。Google Mapsのオフラインマップを事前ダウンロードしておくこと",
+        "【安全】マラン市内は全体的に安全。スリ・置き引きの基本的な注意は必要。Grab/Gojekを使えばタクシーぼったくりは回避できる。夜間の暗い路地は避けること",
+        "【緊急連絡先】警察: 110 / 救急車: 118・119 / 消防: 113 / 統合緊急番号: 112",
+        "【1日予算目安】バックパッカー: Rp300,000-450,000（屋台+ドミ+アンコット）/ 快適旅: Rp700,000-1,300,000（レストラン+ホテル+Grab）"
       ],
       "landmarks": [
-        { "name": "マラン駅", "lat": -7.9774, "lng": 112.6341 },
+        { "name": "マラン・コタバル駅", "lat": -7.9774, "lng": 112.6341 },
+        { "name": "アルンアルン・トゥグ（中央広場）", "lat": -7.9775, "lng": 112.6310 },
+        { "name": "イジェン通り（Jl. Ijen Boulevard）", "lat": -7.9690, "lng": 112.6320 },
+        { "name": "カユタンガン・ヘリテージ", "lat": -7.9810, "lng": 112.6330 },
+        { "name": "マラン・タウンスクエア（MATOS）", "lat": -7.9760, "lng": 112.6282 },
         { "name": "トゥンパックスウ滝", "lat": -8.2301, "lng": 112.9178 },
-        { "name": "ブロモ山", "lat": -7.9430, "lng": 112.9532 }
+        { "name": "ブロモ山", "lat": -7.9430, "lng": 112.9532 },
+        { "name": "バトゥ市（Alun-Alun Batu）", "lat": -7.8700, "lng": 112.5280 }
       ],
       "pois": [
-        { "name": "Rawon Nguling", "lat": -7.9780, "lng": 112.6350, "type": "restaurant", "description": "ラウォン（黒い牛肉スープ）の名店。Rp15,000-30,000", "googleMapsUrl": "https://maps.google.com/?q=-7.9780,112.6350" },
-        { "name": "Indomaret Malang Station", "lat": -7.9770, "lng": 112.6345, "type": "convenience", "description": "駅周辺のコンビニ。24時間", "googleMapsUrl": "https://maps.google.com/?q=-7.9770,112.6345" },
-        { "name": "ATM BCA Malang", "lat": -7.9775, "lng": 112.6340, "type": "atm", "description": "マラン駅周辺。BCA/Mandiri", "googleMapsUrl": "https://maps.google.com/?q=-7.9775,112.6340" }
+        { "name": "Rawon Nguling", "lat": -7.9780, "lng": 112.6350, "type": "restaurant", "description": "ラウォン（黒い牛肉スープ）の名店。東ジャワ必食の一杯。Rp15,000-30,000", "googleMapsUrl": "https://maps.google.com/?q=-7.9780,112.6350" },
+        { "name": "Bakso President Malang", "lat": -7.9790, "lng": 112.6320, "type": "restaurant", "description": "マラン名物バクソ（肉団子スープ）の人気店。Rp15,000-25,000", "googleMapsUrl": "https://maps.google.com/?q=-7.9790,112.6320" },
+        { "name": "Warung Leko", "lat": -7.9815, "lng": 112.6345, "type": "restaurant", "description": "アヤム・ゴレン（フライドチキン）とサンバルが絶品のワルン。Rp12,000-25,000", "googleMapsUrl": "https://maps.google.com/?q=-7.9815,112.6345" },
+        { "name": "Toko Oen", "lat": -7.9803, "lng": 112.6328, "type": "restaurant", "description": "1930年創業のレトロカフェ。アイスクリームとオランダ菓子。植民地時代の内装が残る名店。Jl. Basuki Rachmat 5", "googleMapsUrl": "https://maps.google.com/?q=-7.9803,112.6328" },
+        { "name": "Indomaret Malang Station", "lat": -7.9770, "lng": 112.6345, "type": "convenience", "description": "駅周辺のコンビニ。24時間。ATM BCA併設", "googleMapsUrl": "https://maps.google.com/?q=-7.9770,112.6345" },
+        { "name": "Alfamart Jl. Veteran", "lat": -7.9755, "lng": 112.6280, "type": "convenience", "description": "MATOS近くのコンビニ。24時間。ATM Mandiri併設", "googleMapsUrl": "https://maps.google.com/?q=-7.9755,112.6280" },
+        { "name": "ATM BCA Malang 駅周辺", "lat": -7.9775, "lng": 112.6340, "type": "atm", "description": "マラン駅周辺。BCA/Mandiri。Visa/Mastercard対応。24時間", "googleMapsUrl": "https://maps.google.com/?q=-7.9775,112.6340" },
+        { "name": "ATM Center MATOS", "lat": -7.9758, "lng": 112.6283, "type": "atm", "description": "マラン・タウンスクエア1F。BCA/BNI/Mandiri/BRI。国際カード対応", "googleMapsUrl": "https://maps.google.com/?q=-7.9758,112.6283" },
+        { "name": "Ratri Money Changer（MATOS内）", "lat": -7.9760, "lng": 112.6282, "type": "atm", "description": "信頼できる両替所。日本円・米ドル・ユーロ対応。MATOS 1F", "googleMapsUrl": "https://maps.google.com/?q=-7.9760,112.6282" },
+        { "name": "Kopi Cak Wang", "lat": -7.9785, "lng": 112.6338, "type": "cafe", "description": "マラン発のローカルコーヒー店。WiFiあり。Rp10,000-25,000", "googleMapsUrl": "https://maps.google.com/?q=-7.9785,112.6338" },
+        { "name": "Shelter Hostel Malang", "lat": -7.9770, "lng": 112.6310, "type": "landmark", "description": "アルンアルン・トゥグから徒歩4分のホステル。ブロモツアー手配可。ドミRp80,000〜", "googleMapsUrl": "https://maps.google.com/?q=-7.9770,112.6310" },
+        { "name": "マラン・タウンスクエア（MATOS）", "lat": -7.9760, "lng": 112.6282, "type": "mall", "description": "ショッピングモール。飲食・ATM・Telkomselショップ・両替所が揃う", "googleMapsUrl": "https://maps.google.com/?q=-7.9760,112.6282" }
+      ],
+      "gettingThere": {
+        "fromYogyakarta": {
+          "title": "ジョグジャカルタからマランへ",
+          "trains": [
+            {
+              "name": "マリオボロ・エクスプレス（Malioboro Ekspres）",
+              "departure": "ジョグジャカルタ・トゥグ駅 10:50発",
+              "arrival": "マラン・コタバル駅 17:30着",
+              "duration": "約6時間40分",
+              "classAndPrice": "エコノミー Rp260,000 / エグゼクティブ Rp380,000",
+              "note": "日中の便。車窓の景色を楽しめる。USB充電はエグゼクティブクラスのみ"
+            },
+            {
+              "name": "ガジャヤナ（Gajayana）",
+              "departure": "ジョグジャカルタ・トゥグ駅 02:00発",
+              "arrival": "マラン・コタバル駅 09:20着",
+              "duration": "約7時間20分",
+              "classAndPrice": "エグゼクティブ Rp380,000",
+              "note": "深夜便。車内で眠って朝マラン着。エグゼクティブクラスのみ"
+            },
+            {
+              "name": "マラバール（Malabar）",
+              "departure": "ジョグジャカルタ・トゥグ駅 01:35発",
+              "arrival": "マラン・コタバル駅 09:01着",
+              "duration": "約7時間26分",
+              "classAndPrice": "エコノミー Rp260,000 / エグゼクティブ Rp380,000",
+              "note": "深夜便。エコノミーあり。節約派はこちら"
+            },
+            {
+              "name": "ビマ（Bima）",
+              "departure": "ジョグジャカルタ・トゥグ駅 01:05発",
+              "arrival": "マラン・コタバル駅 08:10着",
+              "duration": "約7時間5分",
+              "classAndPrice": "エグゼクティブ Rp380,000",
+              "note": "深夜便。ジャカルタ始発のロングラン列車"
+            }
+          ],
+          "booking": "Access by KAIアプリで予約（パスポート番号で登録）。外国人はアプリ登録失敗の報告あり → その場合はTravelokaまたはtiket.comで予約。Indomaret/Alfamartのレジでも購入可能",
+          "recommendation": "マリオボロ・エクスプレス（10:50発）がおすすめ。日中便で車窓を楽しめる。エグゼクティブ（Rp380,000）推奨。前日までに予約を"
+        },
+        "fromSurabaya": {
+          "title": "スラバヤからマランへ",
+          "trains": [
+            {
+              "name": "アルジュノ・エクスプレス（Arjuno Ekspres）",
+              "departure": "スラバヤ・グベン駅（SGU）発",
+              "duration": "約1時間50分",
+              "classAndPrice": "Rp35,000-60,000",
+              "note": "スラバヤ〜マラン間の主力列車"
+            },
+            {
+              "name": "プナタラン（Penataran）コミューターライン",
+              "departure": "スラバヤ・グベン駅（SGU）発、最終20:35",
+              "duration": "約2時間",
+              "classAndPrice": "Rp10,000-12,000",
+              "note": "最安の普通列車。本数多い。Tumapelコミューターラインも同区間Rp10,000"
+            }
+          ],
+          "bus": "シティトランス・シャトル（Rp67,000〜、1時間20分）、カリサリ・パタスバス（Rp31,000〜、1時間）。マラン側はアルジョサリ・ターミナル着。市内からアンコットで接続",
+          "driving": "スラバヤ中心部から約90km。車で1.5-2時間（高速道路利用）"
+        },
+        "fromJakarta": {
+          "title": "ジャカルタからマランへ",
+          "flight": {
+            "airlines": "Citilink、Batik Air、Lion Air",
+            "route": "ハリム・ペルダナクスマ空港（HLP）→ アブドゥルラフマン・サレ空港（MLG）",
+            "frequency": "1日3便程度",
+            "duration": "約1時間30分",
+            "price": "片道Rp800,000-1,500,000（$50-100）。Citilinkが最安。3月が最も安い月",
+            "booking": "Traveloka、tiket.com、各航空会社の公式サイトで予約"
+          },
+          "train": {
+            "route": "ガンビル駅（GMR）→ マラン・コタバル駅（ML）",
+            "duration": "約12-13時間",
+            "price": "エコノミー Rp260,000〜 / エグゼクティブ Rp380,000〜",
+            "frequency": "1日2便",
+            "note": "長時間だが安い。夜行便を使えば宿泊費を節約できる"
+          }
+        }
+      },
+      "station": {
+        "name": "マラン・コタバル駅（Stasiun Malang Kota Baru）",
+        "code": "ML",
+        "description": "2021年5月に新装開業。ジグザグ屋根が特徴的な近代的駅舎。アルンアルン・トゥグ（中央広場）から徒歩5分の好立地。最大2,500人収容。スカイブリッジ・エスカレーター・トラベレーター完備でバリアフリー対応",
+        "facilities": ["待合室（冷房完備）", "チケットカウンター", "自動券売機", "ATM（BCA/Mandiri/BNI）", "売店・軽食店", "トイレ", "礼拝室", "ウォーターサーバー"],
+        "ticketPurchase": [
+          "Access by KAIアプリ（パスポート番号で登録。OTP送信失敗の場合あり）",
+          "Traveloka / tiket.com（外国人はこちらが確実。クレジットカードOK）",
+          "駅窓口（パスポート提示。出発日の90日前から購入可能）",
+          "Indomaret / Alfamart のレジ（駅コード「ML」と日付を伝える）"
+        ],
+        "eBoarding": "Access by KAIアプリのe-boardingパス機能で紙チケット不要。アプリ画面を改札で見せるだけ"
+      },
+      "airport": {
+        "name": "アブドゥルラフマン・サレ空港（Abdul Rachman Saleh Airport / MLG）",
+        "distanceFromCity": "マラン市内中心部から約12km北東（車で約30分）",
+        "transport": [
+          {
+            "method": "空港タクシー（Citra Taxi）",
+            "price": "マラン市内まで定額Rp70,000（約660円）",
+            "details": "到着ロビーのタクシーカウンターで行き先を伝えて支払い。安全・確実",
+            "recommended": true
+          },
+          {
+            "method": "Grab / Gojek",
+            "price": "Rp50,000-80,000（時間帯・需要で変動）",
+            "details": "到着ロビーから約200m歩いたピックアップポイントで乗車。SIMカードまたはWiFi必要",
+            "recommended": false
+          },
+          {
+            "method": "DAMRIバス",
+            "price": "Rp30,000",
+            "details": "空港→マラン市内。本数が少ないため事前確認が必要",
+            "recommended": false
+          }
+        ]
+      },
+      "accommodation": {
+        "bestAreas": [
+          {
+            "area": "アルンアルン・トゥグ周辺（北部中心地）",
+            "reason": "マラン駅から徒歩圏内。レストラン・モール・旅行会社・ファストフード店が集まる。夜は屋台も出て活気がある。ブロモツアーの手配も便利"
+          },
+          {
+            "area": "イジェン通り周辺",
+            "reason": "植民地時代の邸宅が並ぶ閑静なエリア。高級ホテルが集中。散歩に最適"
+          },
+          {
+            "area": "クロジェン（Klojen）地区",
+            "reason": "市の中心部。ATM・両替所・コンビニが揃う。どこに行くにもアクセスが良い"
+          }
+        ],
+        "budget": [
+          {
+            "name": "Shelter Hostel Malang",
+            "price": "ドミトリー Rp80,000〜 / 個室 Rp250,000〜",
+            "note": "アルンアルン・トゥグから徒歩4分。ブロモ・ミッドナイトツアー手配可（Rp550,000/人）。バー併設。旅行者コミュニティが活発"
+          },
+          {
+            "name": "Zzz Hostel Malang",
+            "price": "ドミトリー Rp75,000〜",
+            "note": "マラン駅からGrabで8分。AC完備。共用キッチン・屋上テラス。フリーWiFi。清潔で評価が高い"
+          },
+          {
+            "name": "MADOR Malang Dorm Hostel",
+            "price": "ドミトリー Rp60,000〜",
+            "note": "マラン最安クラスのホステル。基本的だが清潔"
+          }
+        ],
+        "midRange": [
+          {
+            "name": "Kertanegara Premium Guest House",
+            "price": "Rp340,000-400,000/泊",
+            "note": "駅近。広くて清潔な部屋。スタッフが親切。バックパッカー〜中級者向けのベストバランス"
+          },
+          {
+            "name": "Swiss-Belinn Malang",
+            "price": "Rp500,000-700,000/泊",
+            "note": "屋外プール・ジム・スパ。市中心部の好立地。コンパクトだが快適な部屋"
+          },
+          {
+            "name": "The Atria Hotel Malang",
+            "price": "Rp600,000-900,000/泊",
+            "note": "屋上プール（パノラマビュー）。朝食付き。チェックイン時に無料マッサージ。ミニバー無料"
+          },
+          {
+            "name": "Grand Cakra Hotel Malang",
+            "price": "Rp450,000-650,000/泊",
+            "note": "Plaza Araya Malang Mall隣接。スパ・フィットネスセンター・屋外プール"
+          }
+        ],
+        "luxury": [
+          {
+            "name": "Hotel Tugu Malang",
+            "price": "Rp1,500,000-3,000,000/泊",
+            "note": "マラン唯一の5つ星。「生きた博物館」と呼ばれるインドネシア美術品のコレクション。植民地時代の建築を完全復元。Jl. Tugu 3"
+          },
+          {
+            "name": "Ijen Suites Resort & Convention",
+            "price": "Rp500,000-1,200,000/泊",
+            "note": "クロジェン中心部。屋外プール・ガーデン・スパ・サウナ・フィットネスセンター。レストラン併設。フリーWiFi"
+          }
+        ],
+        "bookingTips": "Booking.comまたはAgodaで予約。ハイシーズン（7-8月、年末年始）は早めに。ホステルはWalk-inでも空きがあることが多いが、週末は予約推奨"
+      },
+      "apps": [
+        { "name": "Grab", "use": "配車（車・バイク）、フードデリバリー。マラン市内はほぼ全域カバー" },
+        { "name": "Gojek", "use": "配車（車・バイク）、フードデリバリー。GrabBikeの代替としても" },
+        { "name": "Access by KAI", "use": "列車の時刻表確認・チケット予約・e-boardingパス。外国人はOTP認証が不安定な場合あり" },
+        { "name": "Traveloka", "use": "列車・飛行機・ホテル予約。外国人に最も使いやすい総合予約アプリ" },
+        { "name": "Google Maps", "use": "ナビゲーション。マラン市内+ブロモ周辺のオフラインマップを事前ダウンロードしておくこと" }
       ],
       "relatedDays": [7, 8],
       "backLink": "/day/7",
@@ -3137,6 +3365,7 @@
       "name": "バニュワンギ（イジェン火山の拠点）",
       "subtitle": "ジャワ島最東端の街。イジェン火山とバリへの玄関口",
       "description": "バニュワンギはジャワ島最東端に位置する街で、イジェン火山のブルーファイアトレッキングの拠点。バリ島行きフェリーが出るケタパン港もここにある。セゴ・テンポン（激辛ご飯）やルジャック・ソト（サラダとスープの合体料理）など独自の食文化も魅力的。",
+      "customGuideUrl": "/banyuwangi",
       "center": { "lat": -8.2192, "lng": 114.3691 },
       "areaTips": [
         "イジェン火山ツアーは宿で手配可能。深夜0:00-1:00AM出発",

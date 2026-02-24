@@ -1,4 +1,4 @@
-import { useParams, Link, useLocation } from 'react-router-dom'
+import { useParams, Link, useLocation, Navigate } from 'react-router-dom'
 import { useEffect, useMemo } from 'react'
 import tripData from '../../data/trip.json'
 import RouteMap from '../components/RouteMap'
@@ -34,6 +34,10 @@ export default function CityGuide() {
   }, [pathname])
 
   const cityData = tripData.cities?.[name]
+
+  if (cityData?.customGuideUrl) {
+    return <Navigate to={cityData.customGuideUrl} replace />
+  }
 
   if (!cityData) {
     return (
@@ -163,6 +167,279 @@ export default function CityGuide() {
           </div>
         ))}
       </div>
+
+      {/* Getting There */}
+      {cityData.gettingThere && (
+        <div className="px-4 pb-6 space-y-4">
+          <h2 className="text-lg font-bold text-gray-800">マランへのアクセス</h2>
+
+          {/* From Yogyakarta */}
+          {cityData.gettingThere.fromYogyakarta && (
+            <div className="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
+              <div className="bg-ocean-600 px-4 py-3">
+                <h3 className="text-sm font-bold text-white">{cityData.gettingThere.fromYogyakarta.title}</h3>
+              </div>
+              <div className="p-4 space-y-3">
+                {cityData.gettingThere.fromYogyakarta.recommendation && (
+                  <div className="bg-green-50 rounded-xl p-3 border border-green-200">
+                    <p className="text-xs font-bold text-green-700 mb-1">おすすめ</p>
+                    <p className="text-xs text-gray-700 leading-relaxed">{cityData.gettingThere.fromYogyakarta.recommendation}</p>
+                  </div>
+                )}
+                {cityData.gettingThere.fromYogyakarta.trains?.map((train, i) => (
+                  <div key={i} className="bg-sand-50 rounded-xl p-3">
+                    <p className="text-sm font-bold text-gray-800">{train.name}</p>
+                    <div className="mt-1 space-y-0.5">
+                      <p className="text-xs text-gray-600">{train.departure} → {train.arrival}</p>
+                      <p className="text-xs text-gray-600">所要時間: {train.duration}</p>
+                      <p className="text-xs font-medium text-ocean-700">{train.classAndPrice}</p>
+                      {train.note && <p className="text-xs text-gray-500 mt-1">{train.note}</p>}
+                    </div>
+                  </div>
+                ))}
+                {cityData.gettingThere.fromYogyakarta.booking && (
+                  <div className="bg-yellow-50 rounded-xl p-3">
+                    <p className="text-xs font-bold text-yellow-700 mb-1">チケット購入方法</p>
+                    <p className="text-xs text-gray-700 leading-relaxed">{cityData.gettingThere.fromYogyakarta.booking}</p>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* From Surabaya */}
+          {cityData.gettingThere.fromSurabaya && (
+            <div className="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
+              <div className="bg-ocean-600 px-4 py-3">
+                <h3 className="text-sm font-bold text-white">{cityData.gettingThere.fromSurabaya.title}</h3>
+              </div>
+              <div className="p-4 space-y-3">
+                {cityData.gettingThere.fromSurabaya.trains?.map((train, i) => (
+                  <div key={i} className="bg-sand-50 rounded-xl p-3">
+                    <p className="text-sm font-bold text-gray-800">{train.name}</p>
+                    <div className="mt-1 space-y-0.5">
+                      <p className="text-xs text-gray-600">{train.departure}</p>
+                      <p className="text-xs text-gray-600">所要時間: {train.duration}</p>
+                      <p className="text-xs font-medium text-ocean-700">{train.classAndPrice}</p>
+                      {train.note && <p className="text-xs text-gray-500 mt-1">{train.note}</p>}
+                    </div>
+                  </div>
+                ))}
+                {cityData.gettingThere.fromSurabaya.bus && (
+                  <div className="bg-sand-50 rounded-xl p-3">
+                    <p className="text-xs font-bold text-gray-700 mb-1">バス/シャトル</p>
+                    <p className="text-xs text-gray-600 leading-relaxed">{cityData.gettingThere.fromSurabaya.bus}</p>
+                  </div>
+                )}
+                {cityData.gettingThere.fromSurabaya.driving && (
+                  <p className="text-xs text-gray-500">{cityData.gettingThere.fromSurabaya.driving}</p>
+                )}
+              </div>
+            </div>
+          )}
+
+          {/* From Jakarta */}
+          {cityData.gettingThere.fromJakarta && (
+            <div className="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
+              <div className="bg-ocean-600 px-4 py-3">
+                <h3 className="text-sm font-bold text-white">{cityData.gettingThere.fromJakarta.title}</h3>
+              </div>
+              <div className="p-4 space-y-3">
+                {cityData.gettingThere.fromJakarta.flight && (
+                  <div className="bg-green-50 rounded-xl p-3 border border-green-200">
+                    <p className="text-xs font-bold text-green-700 mb-1">飛行機（推奨）</p>
+                    <div className="space-y-0.5">
+                      <p className="text-xs text-gray-700">航空会社: {cityData.gettingThere.fromJakarta.flight.airlines}</p>
+                      <p className="text-xs text-gray-700">ルート: {cityData.gettingThere.fromJakarta.flight.route}</p>
+                      <p className="text-xs text-gray-700">便数: {cityData.gettingThere.fromJakarta.flight.frequency}</p>
+                      <p className="text-xs text-gray-700">所要時間: {cityData.gettingThere.fromJakarta.flight.duration}</p>
+                      <p className="text-xs font-medium text-ocean-700">{cityData.gettingThere.fromJakarta.flight.price}</p>
+                      <p className="text-xs text-gray-500 mt-1">予約: {cityData.gettingThere.fromJakarta.flight.booking}</p>
+                    </div>
+                  </div>
+                )}
+                {cityData.gettingThere.fromJakarta.train && (
+                  <div className="bg-sand-50 rounded-xl p-3">
+                    <p className="text-xs font-bold text-gray-700 mb-1">列車</p>
+                    <div className="space-y-0.5">
+                      <p className="text-xs text-gray-600">ルート: {cityData.gettingThere.fromJakarta.train.route}</p>
+                      <p className="text-xs text-gray-600">所要時間: {cityData.gettingThere.fromJakarta.train.duration}</p>
+                      <p className="text-xs font-medium text-ocean-700">{cityData.gettingThere.fromJakarta.train.price}</p>
+                      <p className="text-xs text-gray-600">便数: {cityData.gettingThere.fromJakarta.train.frequency}</p>
+                      {cityData.gettingThere.fromJakarta.train.note && (
+                        <p className="text-xs text-gray-500 mt-1">{cityData.gettingThere.fromJakarta.train.note}</p>
+                      )}
+                    </div>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Station Info */}
+      {cityData.station && (
+        <div className="px-4 pb-6">
+          <div className="bg-white rounded-2xl border border-sand-200 shadow-sm p-4">
+            <h2 className="text-lg font-bold text-gray-800 mb-2">{cityData.station.name}</h2>
+            <p className="text-xs text-gray-600 leading-relaxed">{cityData.station.description}</p>
+            {cityData.station.facilities?.length > 0 && (
+              <div className="mt-3">
+                <p className="text-xs font-bold text-gray-700 mb-1">駅施設</p>
+                <div className="flex flex-wrap gap-1">
+                  {cityData.station.facilities.map((f, i) => (
+                    <span key={i} className="text-[10px] bg-sand-100 text-gray-600 px-2 py-1 rounded-full">{f}</span>
+                  ))}
+                </div>
+              </div>
+            )}
+            {cityData.station.ticketPurchase?.length > 0 && (
+              <div className="mt-3">
+                <p className="text-xs font-bold text-gray-700 mb-1">チケット購入方法</p>
+                {cityData.station.ticketPurchase.map((t, i) => (
+                  <p key={i} className="text-xs text-gray-600 mt-0.5 leading-relaxed">
+                    <span className="text-ocean-500 mr-1">&#9679;</span>{t}
+                  </p>
+                ))}
+              </div>
+            )}
+            {cityData.station.eBoarding && (
+              <div className="mt-3 bg-ocean-50 rounded-lg p-2">
+                <p className="text-xs text-ocean-700 leading-relaxed">{cityData.station.eBoarding}</p>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
+
+      {/* Airport Info */}
+      {cityData.airport && (
+        <div className="px-4 pb-6">
+          <div className="bg-white rounded-2xl border border-sand-200 shadow-sm overflow-hidden">
+            <div className="bg-sunset-600 px-4 py-3">
+              <h2 className="text-sm font-bold text-white">{cityData.airport.name}</h2>
+            </div>
+            <div className="p-4">
+              <p className="text-xs text-gray-600 mb-3">{cityData.airport.distanceFromCity}</p>
+              <p className="text-xs font-bold text-gray-700 mb-2">空港→市内の交通手段</p>
+              <div className="space-y-2">
+                {cityData.airport.transport?.map((t, i) => (
+                  <div key={i} className={`rounded-xl p-3 ${t.recommended ? 'bg-green-50 border border-green-200' : 'bg-sand-50'}`}>
+                    <div className="flex items-center gap-2">
+                      {t.recommended && <span className="text-[10px] bg-green-600 text-white px-1.5 py-0.5 rounded-full">推奨</span>}
+                      <p className="text-sm font-bold text-gray-800">{t.method}</p>
+                    </div>
+                    <p className="text-xs font-medium text-ocean-700 mt-1">{t.price}</p>
+                    <p className="text-xs text-gray-600 mt-0.5 leading-relaxed">{t.details}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Accommodation */}
+      {cityData.accommodation && (
+        <div className="px-4 pb-6 space-y-4">
+          <h2 className="text-lg font-bold text-gray-800">宿泊ガイド</h2>
+
+          {/* Best Areas */}
+          {cityData.accommodation.bestAreas?.length > 0 && (
+            <div className="bg-sand-50 rounded-2xl p-4 border border-sand-200">
+              <h3 className="text-sm font-bold text-gray-700 mb-2">おすすめエリア</h3>
+              {cityData.accommodation.bestAreas.map((a, i) => (
+                <div key={i} className={`${i > 0 ? 'mt-2 pt-2 border-t border-sand-200' : ''}`}>
+                  <p className="text-xs font-bold text-gray-800">{a.area}</p>
+                  <p className="text-xs text-gray-600 mt-0.5">{a.reason}</p>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Budget */}
+          {cityData.accommodation.budget?.length > 0 && (
+            <div>
+              <h3 className="text-sm font-bold text-gray-600 mb-2">バックパッカー向け</h3>
+              <div className="space-y-2">
+                {cityData.accommodation.budget.map((h, i) => (
+                  <div key={i} className="bg-white rounded-xl p-3 border border-sand-200 shadow-sm">
+                    <div className="flex justify-between items-start">
+                      <p className="text-sm font-bold text-gray-800">{h.name}</p>
+                      <span className="text-[10px] bg-emerald-100 text-emerald-700 px-2 py-0.5 rounded-full flex-shrink-0 ml-2">{h.price}</span>
+                    </div>
+                    <p className="text-xs text-gray-600 mt-1">{h.note}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Mid-range */}
+          {cityData.accommodation.midRange?.length > 0 && (
+            <div>
+              <h3 className="text-sm font-bold text-gray-600 mb-2">中級ホテル</h3>
+              <div className="space-y-2">
+                {cityData.accommodation.midRange.map((h, i) => (
+                  <div key={i} className="bg-white rounded-xl p-3 border border-sand-200 shadow-sm">
+                    <div className="flex justify-between items-start">
+                      <p className="text-sm font-bold text-gray-800">{h.name}</p>
+                      <span className="text-[10px] bg-ocean-100 text-ocean-700 px-2 py-0.5 rounded-full flex-shrink-0 ml-2">{h.price}</span>
+                    </div>
+                    <p className="text-xs text-gray-600 mt-1">{h.note}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* Luxury */}
+          {cityData.accommodation.luxury?.length > 0 && (
+            <div>
+              <h3 className="text-sm font-bold text-gray-600 mb-2">高級ホテル</h3>
+              <div className="space-y-2">
+                {cityData.accommodation.luxury.map((h, i) => (
+                  <div key={i} className="bg-white rounded-xl p-3 border border-sunset-200 shadow-sm">
+                    <div className="flex justify-between items-start">
+                      <p className="text-sm font-bold text-gray-800">{h.name}</p>
+                      <span className="text-[10px] bg-sunset-100 text-sunset-700 px-2 py-0.5 rounded-full flex-shrink-0 ml-2">{h.price}</span>
+                    </div>
+                    <p className="text-xs text-gray-600 mt-1">{h.note}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {cityData.accommodation.bookingTips && (
+            <div className="bg-yellow-50 rounded-xl p-3">
+              <p className="text-xs font-bold text-yellow-700 mb-1">予約のコツ</p>
+              <p className="text-xs text-gray-700 leading-relaxed">{cityData.accommodation.bookingTips}</p>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Useful Apps */}
+      {cityData.apps?.length > 0 && (
+        <div className="px-4 pb-6">
+          <h2 className="text-lg font-bold text-gray-800 mb-2">便利なアプリ</h2>
+          <div className="space-y-2">
+            {cityData.apps.map((app, i) => (
+              <div key={i} className="bg-white rounded-xl p-3 border border-sand-200 shadow-sm flex gap-3 items-start">
+                <span className="w-8 h-8 bg-ocean-100 rounded-lg flex items-center justify-center flex-shrink-0">
+                  <span className="text-xs font-bold text-ocean-700">{app.name.charAt(0)}</span>
+                </span>
+                <div>
+                  <p className="text-sm font-bold text-gray-800">{app.name}</p>
+                  <p className="text-xs text-gray-600 mt-0.5">{app.use}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+      )}
 
       {/* Related days */}
       {cityData.relatedDays?.length > 0 && (
