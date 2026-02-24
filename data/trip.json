@@ -3388,6 +3388,35 @@
       "relatedDays": [8, 9, 10],
       "backLink": "/day/9",
       "backLinkLabel": "Day 9に戻る"
+    },
+    "bali": {
+      "customGuideUrl": "/bali",
+      "name": "バリ島（神々の島）",
+      "subtitle": "ギリマヌク港到着。ヒンドゥー文化・棚田・ビーチ・寺院の島",
+      "description": "インドネシア唯一のヒンドゥー教の島。ケタパン港からフェリーで30分、ギリマヌク港に到着。火山と棚田とビーチと寺院が凝縮した島。バリ・ヒンドゥーの独自文化、壮大な寺院群、世界有数のサーフスポット、そして色とりどりの供物が溢れる日常の風景が待っている。",
+      "center": { "lat": -8.5069, "lng": 115.2624 },
+      "areaTips": [
+        "ギリマヌク港到着後、南部（クタ・ウブド）まで3〜3.5時間",
+        "バリ観光税 Rp 150,000 が全外国人に必須（事前オンライン支払い推奨）",
+        "Grab/GoJekは南バリで便利。北部・東部ではほぼ使えない",
+        "バイクレンタルには国際運転免許証（IDP）が必須。警察の検問頻繁",
+        "乾季（5-10月）がベストシーズン。7-8月は最も混雑"
+      ],
+      "landmarks": [
+        { "name": "ギリマヌク港", "lat": -8.1628, "lng": 114.4413 },
+        { "name": "ウルワツ寺院", "lat": -8.8291, "lng": 115.0849 },
+        { "name": "タナロット寺院", "lat": -8.6212, "lng": 115.0868 },
+        { "name": "テガラランの棚田", "lat": -8.4312, "lng": 115.2788 },
+        { "name": "モンキーフォレスト", "lat": -8.5189, "lng": 115.2589 }
+      ],
+      "pois": [
+        { "name": "ングラライ空港 (DPS)", "lat": -8.7482, "lng": 115.1672, "type": "transit", "description": "バリ唯一の国際空港", "googleMapsUrl": "https://maps.google.com/?q=-8.7482,115.1672" },
+        { "name": "BIMC Hospital Nusa Dua", "lat": -8.7983, "lng": 115.2280, "type": "pharmacy", "description": "24時間救急 +62-361-3000911", "googleMapsUrl": "https://maps.google.com/?q=-8.7983,115.2280" },
+        { "name": "ATM BCA Kuta", "lat": -8.7200, "lng": 115.1700, "type": "atm", "description": "BCA/BNI/Mandiri 24時間", "googleMapsUrl": "https://maps.google.com/?q=-8.7200,115.1700" }
+      ],
+      "relatedDays": [10],
+      "backLink": "/day/10",
+      "backLinkLabel": "Day 10に戻る"
     }
   },
   "practicalInfo": {
