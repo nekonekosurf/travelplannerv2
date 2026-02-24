@@ -9,6 +9,7 @@ import CityGuide from './pages/CityGuide'
 import BanyuwangiGuide from './pages/BanyuwangiGuide'
 import MalangGuide from './pages/MalangGuide'
 import BaliGuide from './pages/BaliGuide'
+import KetapangGuide from './pages/KetapangGuide'
 
 export default function App() {
   return (
@@ -22,6 +23,7 @@ export default function App() {
           <Route path="/banyuwangi" element={<BanyuwangiGuide />} />
           <Route path="/malang" element={<MalangGuide />} />
           <Route path="/bali" element={<BaliGuide />} />
+          <Route path="/ketapang" element={<KetapangGuide />} />
           <Route path="/info" element={<Info />} />
           <Route path="/food" element={<Food />} />
         </Routes>

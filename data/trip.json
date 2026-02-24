@@ -3389,6 +3389,31 @@
       "backLink": "/day/9",
       "backLinkLabel": "Day 9に戻る"
     },
+    "ketapang": {
+      "customGuideUrl": "/ketapang",
+      "name": "ケタパン港エリア",
+      "subtitle": "バリ島行きフェリーの出発港。バンスリンでシュノーケリングも",
+      "description": "バニュワンギ県北部に位置するジャワ島→バリ島フェリーの出発港。多くの旅行者が通過点として素通りするが、港から車10分のバンスリン・アンダーウォーターは珊瑚再生プロジェクトの穴場シュノーケリングスポット。1泊して海を楽しんでからバリ島に渡るのがおすすめ。",
+      "center": { "lat": -8.1593, "lng": 114.4168 },
+      "areaTips": [
+        "フェリーは24時間運航。15-30分間隔で出航",
+        "バンスリン・アンダーウォーターは港から車10分。シュノーケリングの穴場",
+        "港周辺にATM・コンビニあり。両替はバニュワンギ市内で済ませること",
+        "バリ島に渡ると時差+1時間（UTC+7→UTC+8）"
+      ],
+      "landmarks": [
+        { "name": "ケタパン港", "lat": -8.1593, "lng": 114.4168 },
+        { "name": "バンスリン・アンダーウォーター", "lat": -8.0980, "lng": 114.3800 },
+        { "name": "ワトゥドドルビーチ", "lat": -8.1790, "lng": 114.3700 }
+      ],
+      "pois": [
+        { "name": "Indomaret Ketapang", "lat": -8.1605, "lng": 114.4135, "type": "convenience", "description": "24時間コンビニ" },
+        { "name": "ATM BRI", "lat": -8.1608, "lng": 114.4145, "type": "atm", "description": "24時間ATM" }
+      ],
+      "relatedDays": [10],
+      "backLink": "/day/10",
+      "backLinkLabel": "Day 10に戻る"
+    },
     "bali": {
       "customGuideUrl": "/bali",
       "name": "バリ島（神々の島）",
