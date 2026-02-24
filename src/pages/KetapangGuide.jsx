@@ -297,15 +297,15 @@ export default function KetapangGuide() {
           <div className="mt-2 grid grid-cols-3 gap-2 text-center">
             <div className="bg-white rounded-lg p-1.5">
               <p className="text-[10px] text-gray-500">入場</p>
-              <p className="text-[10px] font-bold">Rp 15,000</p>
+              <p className="text-[10px] font-bold">Rp 5,000</p>
             </div>
             <div className="bg-white rounded-lg p-1.5">
               <p className="text-[10px] text-gray-500">シュノーケル</p>
-              <p className="text-[10px] font-bold">Rp 50,000〜</p>
+              <p className="text-[10px] font-bold">Rp 30,000</p>
             </div>
             <div className="bg-white rounded-lg p-1.5">
-              <p className="text-[10px] text-gray-500">サメ体験</p>
-              <p className="text-[10px] font-bold">Rp 100,000〜</p>
+              <p className="text-[10px] text-gray-500">ダイビング</p>
+              <p className="text-[10px] font-bold">Rp 150,000〜</p>
             </div>
           </div>
           <button
