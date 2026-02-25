@@ -87,7 +87,7 @@ export default function KetapangGuide() {
   return (
     <div className="pb-14">
       <HeroImage
-        url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ferry_Gilimanuk.jpg/1024px-Ferry_Gilimanuk.jpg"
+        url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bali-Strait_Indonesia_KMP-Niaga-Ferry-II-01.jpg/1024px-Bali-Strait_Indonesia_KMP-Niaga-Ferry-II-01.jpg"
         alt="ケタパン港フェリー"
         overlay
       >

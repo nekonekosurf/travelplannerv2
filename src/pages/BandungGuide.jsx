@@ -104,7 +104,7 @@ export default function BandungGuide() {
   return (
     <div className="pb-14">
       <HeroImage
-        url="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Kawah_Putih%2C_Ciwidey_Bandung.jpg/1024px-Kawah_Putih%2C_Ciwidey_Bandung.jpg"
+        url="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Kawah_Putih_Ciwidey.jpg/1024px-Kawah_Putih_Ciwidey.jpg"
         alt="カワプティ火口湖 バンドン"
         overlay
       >

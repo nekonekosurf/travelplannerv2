@@ -97,7 +97,7 @@ export default function MalangGuide() {
   return (
     <div className="pb-14">
       <HeroImage
-        url="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Malang_City_Skyline.jpg/1024px-Malang_City_Skyline.jpg"
+        url="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Ijen_Boulevard_in_Malang_1.jpg/1024px-Ijen_Boulevard_in_Malang_1.jpg"
         alt="マラン市街俯瞰"
         overlay
       >

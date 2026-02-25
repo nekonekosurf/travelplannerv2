@@ -100,7 +100,7 @@ export default function BaliGuide() {
   return (
     <div className="pb-14">
       <HeroImage
-        url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Bali_Indonesia_Pura_Ulun_Danu_Bratan-01.jpg/1024px-Bali_Indonesia_Pura_Ulun_Danu_Bratan-01.jpg"
+        url="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Ulun_Danu_Beratan_Temple.jpg/1024px-Ulun_Danu_Beratan_Temple.jpg"
         alt="バリ島 ウルン・ダヌ・ブラタン寺院"
         overlay
       >

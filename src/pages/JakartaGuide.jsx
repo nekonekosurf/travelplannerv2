@@ -88,7 +88,7 @@ export default function JakartaGuide() {
   return (
     <div className="pb-14">
       <HeroImage
-        url="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Monumen_Nasional%2C_Jakarta.jpg/1024px-Monumen_Nasional%2C_Jakarta.jpg"
+        url="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/National_Monument_Jakarta.jpg/1024px-National_Monument_Jakarta.jpg"
         alt="モナス（独立記念塔）"
         overlay
       >

@@ -99,7 +99,7 @@ export default function PangandaranGuide() {
   return (
     <div className="pb-14">
       <HeroImage
-        url="https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Green_Canyon_Pangandaran.jpg/1024px-Green_Canyon_Pangandaran.jpg"
+        url="https://upload.wikimedia.org/wikipedia/commons/8/83/Green_Canyon_Pangandaran.jpg"
         alt="グリーンキャニオン・パンガンダラン"
         overlay
       >
