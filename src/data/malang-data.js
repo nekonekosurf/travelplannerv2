@@ -69,7 +69,7 @@ export const temples = [
     distance: '北10km（車20-30分）',
     gps: '-7.88778, 112.66389',
     address: 'Jl. Kertanegara, Candirenggo, Singosari',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Candi_Singosari.jpg/640px-Candi_Singosari.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Candi_Singosari.jpg/640px-Candi_Singosari.jpg',
     highlights: [
       '未完成の葬祭殿 — シヴァ神と仏教の融合様式',
       '3.7mの守護神ドヴァラパラ像（本殿から西200mに2体）',
@@ -88,7 +88,7 @@ export const temples = [
     distance: '東20km（車40-50分）',
     gps: '-8.0286, 112.7700',
     address: 'Rejokidal Village, Tumpang District',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Candi_Kidal.jpg/640px-Candi_Kidal.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/56/Candi_Kidal_A.JPG',
     highlights: [
       'ガルーダヤ浮彫3面 — インドネシア国章ガルーダの原型',
       '南面: 蛇を持ち上げるガルーダ / 東面: 不死の霊薬を運ぶ / 北面: 母を解放',
@@ -107,7 +107,7 @@ export const temples = [
     distance: '東20km（車40-50分）',
     gps: '-8.00611, 112.76361',
     address: 'Jl. Wisnuwardhana, Ronggowuni, Tumpang',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Candi_Jago_2.jpg/640px-Candi_Jago_2.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/050_Locana%2CCandi_Jago%2C_Malang%2C_East_Java%2C_12-13th_c_%2822863029843%29.jpg/640px-050_Locana%2CCandi_Jago%2C_Malang%2C_East_Java%2C_12-13th_c_%2822863029843%29.jpg',
     highlights: [
       'ワヤン（影絵芝居）風の独特な浮彫',
       '5つの物語: クンジャラカルナ、アルジュナヴィヴァーハ、クリシュナヤナ等',
@@ -126,7 +126,7 @@ export const temples = [
     distance: '西6km（車15分）',
     gps: '-7.9578, 112.5985',
     address: 'Jl. Candi 5D, Karangwidoro, Dau',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Candi_Badut.jpg/640px-Candi_Badut.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Candi_Badut.JPG/640px-Candi_Badut.JPG',
     highlights: [
       '東ジャワ最古 — マランの「誕生日」はこの寺院に基づく',
       '1921年にオランダ人モーリーン・ブレッヒャーが発見',
@@ -193,7 +193,7 @@ export const waterfalls = [
     distance: '西32km（車1時間）',
     gps: '-7.8820, 112.4550',
     address: 'Jl. Coban Rondo No.30, Pandesari, Pujon',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Air_Terjun_Coban_Rondo.jpg/640px-Air_Terjun_Coban_Rondo.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Air_Terjun_Coban_Rondo.jpg/640px-Air_Terjun_Coban_Rondo.jpg',
     highlights: [
       '標高1,135m — 涼しい高原の滝',
       '車椅子対応の100m遊歩道',
@@ -213,7 +213,7 @@ export const waterfalls = [
     distance: '南70km（車2.5-3時間）',
     gps: '-8.2300, 112.9200',
     address: 'Lumajang/Malang県境',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Tumpak_Sewu_Waterfall.jpg/640px-Tumpak_Sewu_Waterfall.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Tumpak_sewu_waterfall.jpg/640px-Tumpak_sewu_waterfall.jpg',
     highlights: [
       '半円形に流れ落ちる圧巻の景観',
       '展望台 + 滝壺への下降（約45分）',
@@ -253,7 +253,7 @@ export const bromoInfo = {
   temperature: '夜明け 0-5℃',
   steps: '火口縁まで253段',
   horseRide: 'Rp 100,000-150,000',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Mt._Bromo_sunrise.jpg/640px-Mt._Bromo_sunrise.jpg',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Mount_Bromo_at_sunrise%2C_showing_its_volcanoes_and_Mount_Semeru_%28background%29.jpg/640px-Mount_Bromo_at_sunrise%2C_showing_its_volcanoes_and_Mount_Semeru_%28background%29.jpg',
   tours: [
     {
       type: '共有ジープツアー（マラン発）',
@@ -325,7 +325,7 @@ export const tokoOenInfo = {
   hours: '08:00-21:30',
   gps: '-7.9778, 112.6325',
   phone: '(0341) 364 052',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Toko_Oen.jpg/640px-Toko_Oen.jpg',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Toko_Oen%2C_Malang%2C_Jawa_Timur._Karya_Seni_oleh_Ananta_Kusuma_Wibawa.jpg/640px-Toko_Oen%2C_Malang%2C_Jawa_Timur._Karya_Seni_oleh_Ananta_Kusuma_Wibawa.jpg',
   highlights: [
     'アールデコの内装が完全に残る',
     '現存するのはマランとスマラン店のみ',
@@ -380,7 +380,7 @@ export const jodipanInfo = {
   story: 'ムハマディヤ大学の学生8人が90棟のスラム家屋をペイント。PT Indana Paint社がCSRでRp 2億を提供。チケット収入の80%は住民に還元',
   adjacent: '隣接: カンプン・ビル（青い村）、カンプン・トリディ（3Dアート壁画）',
   gps: '-7.9830, 112.6370',
-  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Kampung_Warna-Warni_Jodipan_2.jpg/640px-Kampung_Warna-Warni_Jodipan_2.jpg',
+  image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Malang_-_Kampung_Warna-Warni_Jodipan_-_Dec_2024.jpg/640px-Malang_-_Kampung_Warna-Warni_Jodipan_-_Dec_2024.jpg',
 }
 
 // ===== FOOD =====
@@ -392,7 +392,7 @@ export const localDishes = [
     highlight: true,
     desc: 'マラン名物の肉団子スープ。バクソ・ハルス（滑らか）、バクソ・ウラッ（筋入り）、バクソ・テルール（うずら卵入り）、シオマイ、パンシット・ゴレン等を組み合わせるプラスマナン（ビュッフェ）式が特徴',
     price: 'Rp 10,000〜34,000',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Bakso_Malang.jpg/640px-Bakso_Malang.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Baso_Malang_Karapitan.JPG/640px-Baso_Malang_Karapitan.JPG',
     restaurants: [
       { name: 'Bakso President（1970年代〜）', address: 'Jl. Sunandar Priyo Sudarmo', hours: '08:00-21:30', note: '線路沿いの名店。Campur Spesial Rp 34,000' },
       { name: 'Bakso Kota Cak Man（1980年〜）', address: 'Jl. Letjend S. Parman No. 56A', hours: '10:30-20:00', note: 'プラスマナン方式の元祖' },
@@ -405,7 +405,7 @@ export const localDishes = [
     highlight: false,
     desc: 'クルワック（パンギウム）の実を使った真っ黒なスープ。ナッツのような深みにレモングラスとガランガルが香る。もやし・サンバル・塩卵を添えて',
     price: 'Rp 14,000〜40,000',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Rawon_Daging.jpg/640px-Rawon_Daging.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Restoran_Rawon_Rosobo_Mojoagung-2.jpg/640px-Restoran_Rawon_Rosobo_Mojoagung-2.jpg',
     restaurants: [
       { name: 'Rawon Nguling（1982年〜）', address: 'Jl. Zainul Arifin No. 62', hours: '07:00-16:00', note: 'ラウォン・デンクル Rp 35,000。TasteAtlas掲載' },
       { name: 'Rawon Brintik（1942年〜）', address: 'Jl. KH Ahmad Dahlan No. 39', hours: '05:00-16:00', note: '最古。3種の肉から選択' },

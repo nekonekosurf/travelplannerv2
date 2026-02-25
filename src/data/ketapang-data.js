@@ -86,7 +86,7 @@ export const nearbyAttractions = [
     distance: '港から約7km（車10分）',
     hours: '07:00〜16:00',
     fee: 'Rp 5,000（入場）',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Banyuwangi-Bangsring-underwater.jpg/640px-Banyuwangi-Bangsring-underwater.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Bangsring_Banyuwangi.jpg/640px-Bangsring_Banyuwangi.jpg',
     highlights: [
       '地元漁師主導のサンゴ礁再生プロジェクト。ダイナマイト漁で壊滅した海を漁師自ら復活させた感動の成功例',
       'シュノーケリング Rp 30,000（器材込）。カラフルなサンゴと熱帯魚が間近に',
@@ -157,7 +157,7 @@ export const nearbyAttractions = [
     distance: '港から車30-45分',
     hours: '07:00〜16:00',
     fee: '外国人 Rp 150,000〜240,000',
-    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Savana_Bekol_Taman_Nasional_Baluran.jpg/1024px-Savana_Bekol_Taman_Nasional_Baluran.jpg',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Savana_Bekol_Taman_Nasional_Baluran.jpg/1024px-Savana_Bekol_Taman_Nasional_Baluran.jpg',
     highlights: [
       '25,000ヘクタールのサバンナ。ジャワスイギュウ、ティモールシカ、野生のクジャクが生息',
       'サバナ・ベコル展望塔（Menara Bekol）から360度のパノラマビュー。朝7-10時が動物遭遇率最高',
