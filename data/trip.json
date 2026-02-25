@@ -6,18 +6,40 @@
     "startCity": "ジャカルタ",
     "endCity": "ケタパン港（バリ島行きフェリー）",
     "totalDays": 10,
-    "currency": { "code": "IDR", "symbol": "Rp", "rateToJPY": 0.0094 },
+    "currency": {
+      "code": "IDR",
+      "symbol": "Rp",
+      "rateToJPY": 0.0094
+    },
     "travelerProfile": {
       "origin": "東京",
       "firstVisit": true,
-      "preferences": ["自然", "海", "ビーチ", "ローカル食", "人が少ない場所"]
+      "preferences": [
+        "自然",
+        "海",
+        "ビーチ",
+        "ローカル食",
+        "人が少ない場所"
+      ]
     },
     "lastUpdated": "2026-02-22",
     "budgetSummary": {
       "daily": {
-        "backpacker": { "idr": 450000, "jpy": 4230, "label": "超節約（屋台+ドミトリー+公共交通）" },
-        "budget": { "idr": 700000, "jpy": 6580, "label": "節約旅（ワルン+個室+Grab併用）" },
-        "comfortable": { "idr": 1300000, "jpy": 12220, "label": "快適旅（レストラン+ホテル+Grab）" }
+        "backpacker": {
+          "idr": 450000,
+          "jpy": 4230,
+          "label": "超節約（屋台+ドミトリー+公共交通）"
+        },
+        "budget": {
+          "idr": 700000,
+          "jpy": 6580,
+          "label": "節約旅（ワルン+個室+Grab併用）"
+        },
+        "comfortable": {
+          "idr": 1300000,
+          "jpy": 12220,
+          "label": "快適旅（レストラン+ホテル+Grab）"
+        }
       },
       "excludes": "国際航空券、海外旅行保険、VOA Rp500,000、都市間移動費は含まず。Day 1は空港移動+列車で別途Rp300,000〜必要"
     }
@@ -33,16 +55,76 @@
       "カワイジェン（深夜の硫黄ブルーファイア・トレッキング）"
     ],
     "route": [
-      { "day": 1, "area": "ジャカルタ → バンドン", "type": "transit", "lat": -6.9032, "lng": 107.6186 },
-      { "day": 2, "area": "バンドン高原", "type": "nature", "lat": -7.1662, "lng": 107.4021 },
-      { "day": 3, "area": "バンドン → パンガンダラン", "type": "transit", "lat": -7.6882, "lng": 108.6561 },
-      { "day": 4, "area": "パンガンダラン", "type": "beach", "lat": -7.6882, "lng": 108.6561 },
-      { "day": 5, "area": "パンガンダラン → ジョグジャカルタ", "type": "transit", "lat": -7.7956, "lng": 110.3695 },
-      { "day": 6, "area": "ボロブドゥール＆ジョグジャ周辺", "type": "culture", "lat": -7.6079, "lng": 110.2038 },
-      { "day": 7, "area": "ジョグジャ → マラン/バトゥ", "type": "transit", "lat": -7.9774, "lng": 112.6341 },
-      { "day": 8, "area": "マラン周辺の滝 → ブロモ山", "type": "nature", "lat": -7.9425, "lng": 112.9530 },
-      { "day": 9, "area": "ブロモ山日の出 → バニュワンギ", "type": "nature", "lat": -8.2192, "lng": 114.3691 },
-      { "day": 10, "area": "イジェン火山 → ケタパン港", "type": "nature", "lat": -8.0584, "lng": 114.2421 }
+      {
+        "day": 1,
+        "area": "ジャカルタ → バンドン",
+        "type": "transit",
+        "lat": -6.9032,
+        "lng": 107.6186
+      },
+      {
+        "day": 2,
+        "area": "バンドン高原",
+        "type": "nature",
+        "lat": -7.1662,
+        "lng": 107.4021
+      },
+      {
+        "day": 3,
+        "area": "バンドン → パンガンダラン",
+        "type": "transit",
+        "lat": -7.6882,
+        "lng": 108.6561
+      },
+      {
+        "day": 4,
+        "area": "パンガンダラン",
+        "type": "beach",
+        "lat": -7.6882,
+        "lng": 108.6561
+      },
+      {
+        "day": 5,
+        "area": "パンガンダラン → ジョグジャカルタ",
+        "type": "transit",
+        "lat": -7.7956,
+        "lng": 110.3695
+      },
+      {
+        "day": 6,
+        "area": "ボロブドゥール＆ジョグジャ周辺",
+        "type": "culture",
+        "lat": -7.6079,
+        "lng": 110.2038
+      },
+      {
+        "day": 7,
+        "area": "ジョグジャ → マラン/バトゥ",
+        "type": "transit",
+        "lat": -7.9774,
+        "lng": 112.6341
+      },
+      {
+        "day": 8,
+        "area": "マラン周辺の滝 → ブロモ山",
+        "type": "nature",
+        "lat": -7.9425,
+        "lng": 112.953
+      },
+      {
+        "day": 9,
+        "area": "ブロモ山日の出 → バニュワンギ",
+        "type": "nature",
+        "lat": -8.2192,
+        "lng": 114.3691
+      },
+      {
+        "day": 10,
+        "area": "イジェン火山 → ケタパン港",
+        "type": "nature",
+        "lat": -8.0584,
+        "lng": 114.2421
+      }
     ],
     "safetyAlerts": [
       {
@@ -91,13 +173,55 @@
         "convenience": "空港内にAlfamart、バンドン駅周辺にIndomaretあり"
       },
       "cityPois": [
-        { "name": "Indomaret Kebon Kawung", "lat": -6.9123, "lng": 107.6003, "type": "convenience", "description": "コンビニ（24h）。駅北口から徒歩3分" },
-        { "name": "ATM BCA 駅構内", "lat": -6.9127, "lng": 107.6019, "type": "atm", "description": "駅構内ATMセンター（BCA/Mandiri/BNI）" },
-        { "name": "Warung Nasi Ampera", "lat": -6.9124, "lng": 107.6012, "type": "restaurant", "description": "スンダ料理。24h営業。駅から徒歩2分" },
-        { "name": "Bakso Boedjangan Braga", "lat": -6.9171, "lng": 107.6088, "type": "restaurant", "description": "人気バクソチェーン。Braga City Walk内" },
-        { "name": "Braga Permai", "lat": -6.9174, "lng": 107.6095, "type": "restaurant", "description": "1918年創業の歴史的レストラン。Jl. Braga 58" },
-        { "name": "Kopi Toko Djawa", "lat": -6.9175, "lng": 107.6092, "type": "cafe", "description": "バンドン発の人気コーヒー店。Jl. Braga 81" },
-        { "name": "Braga City Walk", "lat": -6.9171, "lng": 107.6092, "type": "mall", "description": "モール・飲食街。Jl. Braga 99-101" }
+        {
+          "name": "Indomaret Kebon Kawung",
+          "lat": -6.9123,
+          "lng": 107.6003,
+          "type": "convenience",
+          "description": "コンビニ（24h）。駅北口から徒歩3分"
+        },
+        {
+          "name": "ATM BCA 駅構内",
+          "lat": -6.9127,
+          "lng": 107.6019,
+          "type": "atm",
+          "description": "駅構内ATMセンター（BCA/Mandiri/BNI）"
+        },
+        {
+          "name": "Warung Nasi Ampera",
+          "lat": -6.9124,
+          "lng": 107.6012,
+          "type": "restaurant",
+          "description": "スンダ料理。24h営業。駅から徒歩2分"
+        },
+        {
+          "name": "Bakso Boedjangan Braga",
+          "lat": -6.9171,
+          "lng": 107.6088,
+          "type": "restaurant",
+          "description": "人気バクソチェーン。Braga City Walk内"
+        },
+        {
+          "name": "Braga Permai",
+          "lat": -6.9174,
+          "lng": 107.6095,
+          "type": "restaurant",
+          "description": "1918年創業の歴史的レストラン。Jl. Braga 58"
+        },
+        {
+          "name": "Kopi Toko Djawa",
+          "lat": -6.9175,
+          "lng": 107.6092,
+          "type": "cafe",
+          "description": "バンドン発の人気コーヒー店。Jl. Braga 81"
+        },
+        {
+          "name": "Braga City Walk",
+          "lat": -6.9171,
+          "lng": 107.6092,
+          "type": "mall",
+          "description": "モール・飲食街。Jl. Braga 99-101"
+        }
       ],
       "timeline": [
         {
@@ -123,7 +247,10 @@
             "from": "成田/羽田空港",
             "method": "直行便（ガルーダ・インドネシア航空 or AirAsia）",
             "duration": "7-8時間",
-            "cost": { "idr": 0, "jpy": 0 },
+            "cost": {
+              "idr": 0,
+              "jpy": 0
+            },
             "steps": [
               "飛行機を降りたらVOA（Visa on Arrival）レーンへ",
               "VOA料金 Rp500,000 をカードまたは現金で支払い",
@@ -138,7 +265,15 @@
             "hours": "24時間",
             "bestTime": "午後着が理想（夕方の電車に間に合う）",
             "duration": "入国手続き1-1.5時間",
+            "mustBring": [
+              "パスポート（残存有効期間6ヶ月以上）",
+              "VOA費用Rp500,000（カード払い可）",
+              "証明写真（念のため）",
+              "ボールペン（入国カード用）",
+              "海外旅行保険の英文証書"
+            ],
             "tips": [
+              "【重要】VOAは到着ビザ。入国審査前にVOAカウンターで購入すること。列を間違えやすいので注意",
               "VOAは現金・カード両方可。カード払いが楽",
               "SIMカードは到着ロビーで買える（パスポート提示必要）",
               "ATMは手数料が少ないBCA銀行がおすすめ",
@@ -163,7 +298,10 @@
             "from": "スカルノハッタ空港",
             "method": "ARL空港鉄道 + Grab",
             "duration": "1-1.5時間",
-            "cost": { "idr": 70000, "jpy": 658 },
+            "cost": {
+              "idr": 70000,
+              "jpy": 658
+            },
             "steps": [
               "到着ロビーからKAI Bandara（空港鉄道）乗り場へ（案内標識あり）",
               "Executive切符を購入（Rp70,000）BNI City駅まで。Premium車両ならRp30,000（1日5本のみ）",
@@ -176,7 +314,13 @@
             "hours": "ARL: 5:20-23:00（20分間隔）",
             "bestTime": "夕方ラッシュ前（16時前）が理想",
             "duration": "1-1.5時間",
+            "mustBring": [
+              "Grabアプリ（事前にダウンロード＆登録済み）",
+              "モバイルバッテリー",
+              "SIMカード（到着ロビーで購入済み）"
+            ],
             "tips": [
+              "【警告】ジャカルタの渋滞は世界最悪レベル。夕方16:00以降のGrab直行は2-3時間かかることも。ARL空港鉄道が確実",
               "ジャカルタの渋滞はすさまじい。空港からGrab直行は2時間以上かかることも",
               "ARL + Grabの組み合わせが確実で時間が読める",
               "Grabアプリは日本でダウンロード・登録しておくこと"
@@ -206,7 +350,10 @@
             "from": "ガンビル駅",
             "method": "パラヒャンガン号（KA Parahyangan）",
             "duration": "約3時間",
-            "cost": { "idr": 195000, "jpy": 1833 },
+            "cost": {
+              "idr": 195000,
+              "jpy": 1833
+            },
             "steps": [
               "事前にAccess by KAI（公式アプリ）またはTravelokaで予約（海外カード対応）",
               "2025年2月より列車名が「アルゴ・パラヒャンガン」から「パラヒャンガン」に変更。ガンビル駅発は変わらず",
@@ -220,6 +367,12 @@
             "hours": "1日5本運行（最終便は19:00頃発）",
             "bestTime": "17:00-18:00発に乗れるとベスト",
             "duration": "約3時間",
+            "dressCode": "カジュアルでOK。車内は冷房が強いので長袖を1枚手元に",
+            "mustBring": [
+              "上着（車内の冷房対策）",
+              "水とおやつ（車内販売もあるが割高）",
+              "モバイルバッテリー（USB充電ポートはあるが念のため）"
+            ],
             "tips": [
               "チケットはtiket.comで事前購入がベスト（日本のクレカ対応）",
               "パノラマクラス（Rp450,000）は天井がガラスで景色が最高だが予算と相談",
@@ -236,7 +389,7 @@
           "description": "バンドン駅に到着したらGrabで宿へ直行。長旅の疲れを癒やしつつ、明日の高原めぐりに備える。駅周辺には屋台が並んでいるので、小腹が空いたらバソ（肉団子スープ）を一杯。",
           "images": [
             {
-              "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Bandung_Pasupati_Skyline.jpg",
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Bandung_Pasupati_Skyline.jpg/960px-Bandung_Pasupati_Skyline.jpg",
               "alt": "バンドンのパスパティ橋とスカイライン",
               "credit": "Wikimedia Commons"
             }
@@ -251,7 +404,10 @@
             "from": "バンドン駅",
             "method": "Grab",
             "duration": "10-20分",
-            "cost": { "idr": 20000, "jpy": 188 },
+            "cost": {
+              "idr": 20000,
+              "jpy": 188
+            },
             "steps": [
               "バンドン駅を出たらGrabアプリでGrabCarを呼ぶ",
               "宿の住所を入力（事前にブックマークしておくと楽）"
@@ -259,6 +415,7 @@
           },
           "details": {
             "duration": "チェックイン",
+            "dressCode": "バンドンは標高768mで涼しい。ジャカルタとの気温差（5-8℃）に注意。長袖推奨",
             "tips": [
               "バンドンは標高768mで涼しい。ジャカルタとの気温差に注意",
               "駅前のバソ屋台は夜遅くまで開いている"
@@ -267,7 +424,12 @@
         }
       ],
       "food": {
-        "localSpecialties": ["バソ（Bakso/肉団子スープ）", "ナシゴレン", "ミーゴレン", "マルタバック"],
+        "localSpecialties": [
+          "バソ（Bakso/肉団子スープ）",
+          "ナシゴレン",
+          "ミーゴレン",
+          "マルタバック"
+        ],
         "mustTry": {
           "dish": "バソ・マラン（Bakso Malang）",
           "description": "バンドン駅に着いたらまず食べたい一品。もちもちの肉団子がたっぷり入ったスープ。揚げワンタンやビーフンも入っていてボリューム満点。バンドンはバソの激戦区で、屋台でもレベルが高い。",
@@ -281,22 +443,48 @@
             "name": "Bakso Boedjangan",
             "type": "バソ専門チェーン",
             "budget": "cheap",
-            "priceRange": { "idr": "20,000-35,000", "jpy": "188-329" },
-            "popular": ["Bakso Urat（筋入り肉団子）", "Bakso Telur（卵入り）"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.9175,107.6191" },
-            "image": { "url": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Bakso.jpg", "alt": "バソ" }
+            "priceRange": {
+              "idr": "20,000-35,000",
+              "jpy": "188-329"
+            },
+            "popular": [
+              "Bakso Urat（筋入り肉団子）",
+              "Bakso Telur（卵入り）"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-6.9175,107.6191"
+            },
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Bakso.jpg/640px-Bakso.jpg",
+              "alt": "バソ"
+            }
           },
           {
             "name": "Warung Nasi Ampera",
             "type": "スンダ料理ワルン",
             "budget": "cheap",
-            "priceRange": { "idr": "25,000-50,000", "jpy": "235-470" },
-            "popular": ["ナシ・ティンベル（バナナの葉包みご飯）", "アヤム・ゴレン（揚げ鶏）"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.9145,107.6094" },
-            "image": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg/960px-Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg", "alt": "スンダ料理" }
+            "priceRange": {
+              "idr": "25,000-50,000",
+              "jpy": "235-470"
+            },
+            "popular": [
+              "ナシ・ティンベル（バナナの葉包みご飯）",
+              "アヤム・ゴレン（揚げ鶏）"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-6.9145,107.6094"
+            },
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg/960px-Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg",
+              "alt": "スンダ料理"
+            }
           }
         ],
-        "drinks": ["テ・ボトル（甘い紅茶のボトル飲料）", "コピ・スス（ミルクコーヒー）", "エス・チェンドル"],
+        "drinks": [
+          "テ・ボトル（甘い紅茶のボトル飲料）",
+          "コピ・スス（ミルクコーヒー）",
+          "エス・チェンドル"
+        ],
         "safetyTips": [
           "屋台の食事は多くの場合安全だが旅行者下痢のリスクあり。火が通ったもの・注文後に調理されるものを選ぶ。食前の手洗い/アルコールジェル消毒を徹底",
           "氷入り飲料はコンビニの袋入り氷を使っている店なら安心",
@@ -309,18 +497,34 @@
           {
             "name": "Stevie G Hotel",
             "budget": "mid",
-            "pricePerNight": { "idr": 350000, "jpy": 3290 },
+            "pricePerNight": {
+              "idr": 350000,
+              "jpy": 3290
+            },
             "bookingTip": "Booking.comで予約。駅からGrabで10分",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.8946,107.6120" },
-            "image": { "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800", "alt": "バンドンのホテル" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-6.8946,107.6120"
+            },
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg/640px-Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg",
+              "alt": "バンドン市内の風景"
+            }
           },
           {
             "name": "Pinisi Backpacker",
             "budget": "cheap",
-            "pricePerNight": { "idr": 120000, "jpy": 1128 },
+            "pricePerNight": {
+              "idr": 120000,
+              "jpy": 1128
+            },
             "bookingTip": "Hostelworldで予約。ドミトリーならRp80,000から",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.9001,107.6165" },
-            "image": { "url": "https://images.unsplash.com/photo-1555854877-bab0e564b8d5?w=800", "alt": "バックパッカー宿" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-6.9001,107.6165"
+            },
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Bandung_from_Husein_Sastranegara_Airport.jpg/640px-Bandung_from_Husein_Sastranegara_Airport.jpg",
+              "alt": "バンドン市街"
+            }
           }
         ]
       },
@@ -329,7 +533,10 @@
         "to": "バンドン高原（カワプティ方面）",
         "method": "公共交通（アンコット/ミニバス）+ Grab",
         "duration": "バンドン市内 → カワプティ: 約2-2.5時間",
-        "cost": { "idr": 50000, "jpy": 470 },
+        "cost": {
+          "idr": 50000,
+          "jpy": 470
+        },
         "options": [
           {
             "method": "公共交通（アンコット＋ミニバス）",
@@ -383,13 +590,55 @@
         "convenience": "チウィデイの街にIndomaretあり。カワプティ周辺は売店のみ"
       },
       "cityPois": [
-        { "name": "Batagor Kingsley", "lat": -6.9190, "lng": 107.6154, "type": "restaurant", "description": "1979年創業の伝説的バタゴール。Jl. Veteran 25" },
-        { "name": "Kampung Daun", "lat": -6.8404, "lng": 107.6075, "type": "restaurant", "description": "山の中のスンダ料理レストラン。雰囲気抜群" },
-        { "name": "Warung Nasi Bu Eha", "lat": -6.9105, "lng": 107.6123, "type": "restaurant", "description": "ローカルワルン。安くて旨い。駅から徒歩5分" },
-        { "name": "Indomaret Dago 303", "lat": -6.8775, "lng": 107.6170, "type": "convenience", "description": "コンビニ（24h）。ATM BCA/Mandiri併設。Jl. Dago" },
-        { "name": "Starbucks Dipati Ukur", "lat": -6.8960, "lng": 107.6168, "type": "cafe", "description": "2階建て。Dago通りから徒歩5分。Jl. Dipati Ukur 42" },
-        { "name": "Kopi Toko Djawa", "lat": -6.9175, "lng": 107.6092, "type": "cafe", "description": "バンドン発の人気コーヒー店。Jl. Braga 81" },
-        { "name": "Braga Permai", "lat": -6.9174, "lng": 107.6095, "type": "restaurant", "description": "1918年創業。蘭印コロニアル建築。Jl. Braga 58" }
+        {
+          "name": "Batagor Kingsley",
+          "lat": -6.919,
+          "lng": 107.6154,
+          "type": "restaurant",
+          "description": "1979年創業の伝説的バタゴール。Jl. Veteran 25"
+        },
+        {
+          "name": "Kampung Daun",
+          "lat": -6.8404,
+          "lng": 107.6075,
+          "type": "restaurant",
+          "description": "山の中のスンダ料理レストラン。雰囲気抜群"
+        },
+        {
+          "name": "Warung Nasi Bu Eha",
+          "lat": -6.9105,
+          "lng": 107.6123,
+          "type": "restaurant",
+          "description": "ローカルワルン。安くて旨い。駅から徒歩5分"
+        },
+        {
+          "name": "Indomaret Dago 303",
+          "lat": -6.8775,
+          "lng": 107.617,
+          "type": "convenience",
+          "description": "コンビニ（24h）。ATM BCA/Mandiri併設。Jl. Dago"
+        },
+        {
+          "name": "Starbucks Dipati Ukur",
+          "lat": -6.896,
+          "lng": 107.6168,
+          "type": "cafe",
+          "description": "2階建て。Dago通りから徒歩5分。Jl. Dipati Ukur 42"
+        },
+        {
+          "name": "Kopi Toko Djawa",
+          "lat": -6.9175,
+          "lng": 107.6092,
+          "type": "cafe",
+          "description": "バンドン発の人気コーヒー店。Jl. Braga 81"
+        },
+        {
+          "name": "Braga Permai",
+          "lat": -6.9174,
+          "lng": 107.6095,
+          "type": "restaurant",
+          "description": "1918年創業。蘭印コロニアル建築。Jl. Braga 58"
+        }
       ],
       "timeline": [
         {
@@ -406,6 +655,15 @@
             "lng": 107.6186
           },
           "details": {
+            "mustBring": [
+              "N95マスク（カワプティ用・必須）",
+              "薄手のダウン/フリース",
+              "スニーカー",
+              "水2本以上（山の上の売店は割高）",
+              "目薬（硫黄ガス対策）",
+              "日焼け止め"
+            ],
+            "dressCode": "長袖・長ズボン・歩きやすいスニーカー。高原は朝肌寒い",
             "tips": [
               "カワプティは標高2,400mで朝は肌寒い。薄手のダウンまたはフリースを持参",
               "動きやすいスニーカー必須（火口湖周辺の道は滑る）",
@@ -441,10 +699,21 @@
             "from": "バンドン市内",
             "method": "GrabCar または ミニバス",
             "duration": "約1.5-2.5時間（50km）",
-            "cost": { "idr": 150000, "jpy": 1410 },
+            "cost": {
+              "idr": 150000,
+              "jpy": 1410
+            },
             "options": [
-              { "method": "GrabCar", "price": "Rp150,000-200,000（約1,400-1,880円）", "duration": "約1.5時間" },
-              { "method": "ミニバス（チウィデイ経由）+ オジェック", "price": "Rp30,000-50,000（約280-470円）", "duration": "約2.5時間" }
+              {
+                "method": "GrabCar",
+                "price": "Rp150,000-200,000（約1,400-1,880円）",
+                "duration": "約1.5時間"
+              },
+              {
+                "method": "ミニバス（チウィデイ経由）+ オジェック",
+                "price": "Rp30,000-50,000（約280-470円）",
+                "duration": "約2.5時間"
+              }
             ],
             "steps": [
               "【GrabCar】宿からGrabアプリでカワプティを目的地に設定して配車",
@@ -454,12 +723,20 @@
             ]
           },
           "details": {
-            "fee": { "idr": 90000, "jpy": 846 },
+            "fee": {
+              "idr": 90000,
+              "jpy": 846
+            },
             "hours": "7:00-17:00（最終入場16:00）",
             "bestTime": "朝8-10時が最も霧が少なくきれい。午後は曇ることが多い",
             "duration": "1-1.5時間",
             "dressCode": "長袖・長ズボン推奨（硫黄ガスから肌を守る）。滑りにくいスニーカー必須",
-            "mustBring": ["N95マスクまたは活性炭入りマスク（必須）", "目薬（硫黄ガスで目が刺激される）", "水500ml以上", "薄手のダウンまたはフリース（標高2,430m）"],
+            "mustBring": [
+              "N95マスクまたは活性炭入りマスク（必須）",
+              "目薬（硫黄ガスで目が刺激される）",
+              "水500ml以上",
+              "薄手のダウンまたはフリース（標高2,430m）"
+            ],
             "tips": [
               "【重要】活火山の火口湖のため硫化水素ガスが発生。N95マスクまたは活性炭入りマスクを必ず着用（通常のマスクでは不十分）",
               "【入場禁止】喘息・呼吸器疾患・心臓疾患のある方、妊娠中の方は入場を控えること",
@@ -495,10 +772,21 @@
             "from": "カワプティ",
             "method": "GrabCar または オジェック",
             "duration": "15分",
-            "cost": { "idr": 30000, "jpy": 282 },
+            "cost": {
+              "idr": 30000,
+              "jpy": 282
+            },
             "options": [
-              { "method": "GrabCar", "price": "Rp30,000-40,000（約280-376円）", "duration": "15分" },
-              { "method": "オジェック（バイクタクシー）", "price": "Rp15,000-20,000（約140-188円）", "duration": "15分" }
+              {
+                "method": "GrabCar",
+                "price": "Rp30,000-40,000（約280-376円）",
+                "duration": "15分"
+              },
+              {
+                "method": "オジェック（バイクタクシー）",
+                "price": "Rp15,000-20,000（約140-188円）",
+                "duration": "15分"
+              }
             ],
             "steps": [
               "カワプティ出口付近でGrabを配車（山間部なので5-10分待つことも）",
@@ -538,7 +826,10 @@
             "lng": 107.4419
           },
           "details": {
-            "fee": { "idr": 35000, "jpy": 329 },
+            "fee": {
+              "idr": 35000,
+              "jpy": 329
+            },
             "duration": "45分-1時間",
             "tips": [
               "ナシ・ティンベル（バナナの葉で包んだご飯セット）が定番",
@@ -554,25 +845,36 @@
           "description": "火山地帯ならではの天然温泉。硫黄を含んだ温かいお湯に浸かって、午前中の疲れを癒やす。ローカルな雰囲気の温泉施設で、観光客はほとんどいない。日本人なら温泉好きのはず——インドネシア版の露天風呂を楽しもう。",
           "images": [
             {
-              "url": "https://images.unsplash.com/photo-1545389336-cf090694435e?w=800",
-              "alt": "天然温泉",
-              "credit": "Unsplash"
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ciater_Hot_Spring.jpg/640px-Ciater_Hot_Spring.jpg",
+              "alt": "インドネシアの天然温泉",
+              "credit": "Wikimedia Commons"
             }
           ],
           "location": {
             "name": "Pemandian Air Panas Ciwalini",
             "googleMapsUrl": "https://maps.google.com/?q=-7.1363,107.4050",
             "lat": -7.1363,
-            "lng": 107.4050
+            "lng": 107.405
           },
           "access": {
             "from": "ランチャバリ茶畑",
             "method": "GrabCar または オジェック",
             "duration": "20分",
-            "cost": { "idr": 30000, "jpy": 282 },
+            "cost": {
+              "idr": 30000,
+              "jpy": 282
+            },
             "options": [
-              { "method": "GrabCar", "price": "Rp30,000-40,000（約280-376円）", "duration": "20分" },
-              { "method": "オジェック（バイクタクシー）", "price": "Rp15,000-25,000（約140-235円）", "duration": "20分" }
+              {
+                "method": "GrabCar",
+                "price": "Rp30,000-40,000（約280-376円）",
+                "duration": "20分"
+              },
+              {
+                "method": "オジェック（バイクタクシー）",
+                "price": "Rp15,000-25,000（約140-235円）",
+                "duration": "20分"
+              }
             ],
             "steps": [
               "Grabアプリで「Ciwalini Hot Spring」を検索して配車",
@@ -580,10 +882,20 @@
             ]
           },
           "details": {
-            "fee": { "idr": 20000, "jpy": 188 },
+            "fee": {
+              "idr": 20000,
+              "jpy": 188
+            },
             "hours": "8:00-17:00",
             "bestTime": "午後がゆっくりできる",
             "duration": "1-1.5時間",
+            "dressCode": "水着着用推奨。更衣室あり",
+            "mustBring": [
+              "水着",
+              "タオル",
+              "着替え",
+              "ロッカー用の小銭"
+            ],
             "tips": [
               "水着を持参（更衣室あり）",
               "プール形式の共同浴場。個室風呂もあり（追加料金）",
@@ -615,10 +927,21 @@
             "from": "チマンク温泉",
             "method": "GrabCar または オジェック",
             "duration": "20分",
-            "cost": { "idr": 30000, "jpy": 282 },
+            "cost": {
+              "idr": 30000,
+              "jpy": 282
+            },
             "options": [
-              { "method": "GrabCar", "price": "Rp30,000-40,000（約280-376円）", "duration": "20分" },
-              { "method": "オジェック（バイクタクシー）", "price": "Rp15,000-25,000（約140-235円）", "duration": "20分" }
+              {
+                "method": "GrabCar",
+                "price": "Rp30,000-40,000（約280-376円）",
+                "duration": "20分"
+              },
+              {
+                "method": "オジェック（バイクタクシー）",
+                "price": "Rp15,000-25,000（約140-235円）",
+                "duration": "20分"
+              }
             ],
             "steps": [
               "Grabアプリで「Situ Patenggang」を検索して配車",
@@ -626,7 +949,10 @@
             ]
           },
           "details": {
-            "fee": { "idr": 28000, "jpy": 263 },
+            "fee": {
+              "idr": 28000,
+              "jpy": 263
+            },
             "hours": "8:00-17:00",
             "bestTime": "午後の光が湖面に反射してきれい",
             "duration": "1-1.5時間",
@@ -657,10 +983,21 @@
             "from": "シトゥ・パテンガン",
             "method": "GrabCar",
             "duration": "約1.5-2時間",
-            "cost": { "idr": 150000, "jpy": 1410 },
+            "cost": {
+              "idr": 150000,
+              "jpy": 1410
+            },
             "options": [
-              { "method": "GrabCar", "price": "Rp150,000-200,000（約1,410-1,880円）", "duration": "1.5時間" },
-              { "method": "ミニバス（チウィデイ経由）", "price": "Rp20,000-30,000（約188-282円）", "duration": "2-2.5時間" }
+              {
+                "method": "GrabCar",
+                "price": "Rp150,000-200,000（約1,410-1,880円）",
+                "duration": "1.5時間"
+              },
+              {
+                "method": "ミニバス（チウィデイ経由）",
+                "price": "Rp20,000-30,000（約188-282円）",
+                "duration": "2-2.5時間"
+              }
             ],
             "steps": [
               "Grabアプリでバンドン市内の宿を目的地に設定",
@@ -696,7 +1033,10 @@
             "lng": 107.6137
           },
           "details": {
-            "fee": { "idr": 50000, "jpy": 470 },
+            "fee": {
+              "idr": 50000,
+              "jpy": 470
+            },
             "duration": "1-1.5時間",
             "tips": [
               "ダゴ通りは夜になると屋台が並ぶ",
@@ -706,7 +1046,14 @@
         }
       ],
       "food": {
-        "localSpecialties": ["ナシ・ティンベル", "バタゴール", "スレンデン", "ペペス・イカン", "コレカ", "バンドレック"],
+        "localSpecialties": [
+          "ナシ・ティンベル",
+          "バタゴール",
+          "スレンデン",
+          "ペペス・イカン",
+          "コレカ",
+          "バンドレック"
+        ],
         "mustTry": {
           "dish": "バタゴール（Batagor）",
           "description": "バンドンに来たら絶対に食べるべき一品。魚のすり身を揚げたもので、ピーナッツソースをたっぷりかけて食べる。サクサクの食感とコクのあるソースが絶妙。屋台で1皿Rp15,000-25,000。バンドン以外ではなかなか食べられない本場の味。",
@@ -720,31 +1067,69 @@
             "name": "Batagor Kingsley",
             "type": "バタゴール専門店",
             "budget": "cheap",
-            "priceRange": { "idr": "15,000-30,000", "jpy": "141-282" },
-            "popular": ["バタゴール（定番）", "シオマイ（蒸し版）"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.9002,107.6183" },
-            "image": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Batagor_Savoy_Homann_Bandung.jpg/960px-Batagor_Savoy_Homann_Bandung.jpg", "alt": "バタゴール" }
+            "priceRange": {
+              "idr": "15,000-30,000",
+              "jpy": "141-282"
+            },
+            "popular": [
+              "バタゴール（定番）",
+              "シオマイ（蒸し版）"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-6.9002,107.6183"
+            },
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Batagor_Savoy_Homann_Bandung.jpg/960px-Batagor_Savoy_Homann_Bandung.jpg",
+              "alt": "バタゴール"
+            }
           },
           {
             "name": "Kampung Daun",
             "type": "スンダ料理レストラン（雰囲気抜群）",
             "budget": "mid",
-            "priceRange": { "idr": "50,000-120,000", "jpy": "470-1,128" },
-            "popular": ["グリルチキン", "ナシ・ティンベル", "ペペス・イカン（魚のバナナ葉包み蒸し）"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.8404,107.6075" },
-            "image": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg/960px-Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg", "alt": "スンダ料理" }
+            "priceRange": {
+              "idr": "50,000-120,000",
+              "jpy": "470-1,128"
+            },
+            "popular": [
+              "グリルチキン",
+              "ナシ・ティンベル",
+              "ペペス・イカン（魚のバナナ葉包み蒸し）"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-6.8404,107.6075"
+            },
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg/960px-Nasi_Goreng_Kambing_Kebon_Sirih_Jakarta_1.jpg",
+              "alt": "スンダ料理"
+            }
           },
           {
             "name": "Warung Nasi Bu Eha",
             "type": "ローカルワルン",
             "budget": "cheap",
-            "priceRange": { "idr": "15,000-25,000", "jpy": "141-235" },
-            "popular": ["ナシ・パダン風ご飯", "アヤム・ゴレン"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.9105,107.6123" },
-            "image": { "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Nasi_Goreng_Travelling_Vendor_in_Jakarta.JPG/960px-Nasi_Goreng_Travelling_Vendor_in_Jakarta.JPG", "alt": "ワルンの食事" }
+            "priceRange": {
+              "idr": "15,000-25,000",
+              "jpy": "141-235"
+            },
+            "popular": [
+              "ナシ・パダン風ご飯",
+              "アヤム・ゴレン"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-6.9105,107.6123"
+            },
+            "image": {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Nasi_Goreng_Travelling_Vendor_in_Jakarta.JPG/960px-Nasi_Goreng_Travelling_Vendor_in_Jakarta.JPG",
+              "alt": "ワルンの食事"
+            }
           }
         ],
-        "drinks": ["バンドレック（Bandrek/生姜とスパイスの温かいドリンク）", "エス・チェンドル（緑色のゼリー入りかき氷）", "コピ・スス"],
+        "drinks": [
+          "バンドレック（Bandrek/生姜とスパイスの温かいドリンク）",
+          "エス・チェンドル（緑色のゼリー入りかき氷）",
+          "コピ・スス"
+        ],
         "safetyTips": [
           "バンドンの食事はほぼ安全。屋台も衛生的",
           "辛い物が多いので「tidak pedas（辛くしないで）」は覚えておこう",
@@ -757,28 +1142,43 @@
           {
             "name": "Pinisi Backpacker",
             "budget": "cheap",
-            "pricePerNight": { "idr": 120000, "jpy": 1128 },
+            "pricePerNight": {
+              "idr": 120000,
+              "jpy": 1128
+            },
             "bookingTip": "Day 1と同じ宿に連泊。ドミトリーならRp80,000から。Hostelworldで予約",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.9001,107.6165" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-6.9001,107.6165"
+            }
           },
           {
             "name": "Stevie G Hotel",
             "budget": "mid",
-            "pricePerNight": { "idr": 350000, "jpy": 3290 },
+            "pricePerNight": {
+              "idr": 350000,
+              "jpy": 3290
+            },
             "bookingTip": "2泊目は連泊割引がきくことも。Booking.comで確認",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-6.8946,107.6120" },
-            "image": { "url": "https://images.unsplash.com/photo-1566073771259-6a8506099945?w=800", "alt": "バンドンのホテル" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-6.8946,107.6120"
+            }
           }
         ]
       },
       "shopping": {
-        "famous": ["紅茶（ランチャバリ産）", "バティック", "コーヒー豆"],
+        "famous": [
+          "紅茶（ランチャバリ産）",
+          "バティック",
+          "コーヒー豆"
+        ],
         "priceGuide": "紅茶: Rp30,000-80,000（品質による）、コーヒー豆: Rp50,000-150,000/200g",
         "shops": [
           {
             "name": "ランチャバリ茶畑直売所",
             "description": "茶畑で直接購入できる。新鮮な紅茶がお土産に最適",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.1503,107.3938" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.1503,107.3938"
+            }
           }
         ]
       },
@@ -786,7 +1186,10 @@
         "to": "パンガンダラン（南海岸のビーチタウン）",
         "method": "バス（バンドン → バンジャール → パンガンダラン）",
         "duration": "6-7時間（途中休憩込み）",
-        "cost": { "idr": 100000, "jpy": 940 },
+        "cost": {
+          "idr": 100000,
+          "jpy": 940
+        },
         "options": [
           {
             "method": "長距離バス（Budiman社）",
@@ -844,10 +1247,34 @@
         "convenience": "Indomaret・Alfamartあり。カード決済は不安定なので現金を十分に持参"
       },
       "cityPois": [
-        { "name": "Indomaret Pangandaran", "lat": -7.6920, "lng": 108.6560, "type": "convenience", "description": "コンビニ（24h）。ビーチエリアから徒歩圏内" },
-        { "name": "ATM BCA Laut Biru", "lat": -7.6900, "lng": 108.6555, "type": "atm", "description": "ラウッビル・リゾートホテル横。BCA/BRI" },
-        { "name": "Green Garden Cafe", "lat": -7.6895, "lng": 108.6550, "type": "restaurant", "description": "洋食＋インドネシア料理。ビーチビュー" },
-        { "name": "Pasar Ikan Pangandaran", "lat": -7.6880, "lng": 108.6575, "type": "restaurant", "description": "魚市場。新鮮な魚介をその場で調理してもらえる" }
+        {
+          "name": "Indomaret Pangandaran",
+          "lat": -7.692,
+          "lng": 108.656,
+          "type": "convenience",
+          "description": "コンビニ（24h）。ビーチエリアから徒歩圏内"
+        },
+        {
+          "name": "ATM BCA Laut Biru",
+          "lat": -7.69,
+          "lng": 108.6555,
+          "type": "atm",
+          "description": "ラウッビル・リゾートホテル横。BCA/BRI"
+        },
+        {
+          "name": "Green Garden Cafe",
+          "lat": -7.6895,
+          "lng": 108.655,
+          "type": "restaurant",
+          "description": "洋食＋インドネシア料理。ビーチビュー"
+        },
+        {
+          "name": "Pasar Ikan Pangandaran",
+          "lat": -7.688,
+          "lng": 108.6575,
+          "type": "restaurant",
+          "description": "魚市場。新鮮な魚介をその場で調理してもらえる"
+        }
       ],
       "timeline": [
         {
@@ -867,13 +1294,25 @@
             "from": "バンドン市内（宿泊先）",
             "method": "Grab",
             "duration": "15-30分",
-            "cost": { "idr": 25000, "jpy": 235 },
+            "cost": {
+              "idr": 25000,
+              "jpy": 235
+            },
             "steps": [
               "GrabCarで「Terminal Cicaheum」を目的地に設定",
               "Budiman社バスのカウンターでパンガンダラン行きチケットを購入"
             ]
           },
           "details": {
+            "mustBring": [
+              "酔い止め薬（必須・山道が続く）",
+              "水1L以上",
+              "パンや軽食（途中休憩は限定的）",
+              "上着（バスのエアコン対策）",
+              "ティッシュ/ウェットティッシュ（トイレ用）",
+              "モバイルバッテリー"
+            ],
+            "dressCode": "動きやすい服装。バスの冷房対策に長袖を1枚",
             "tips": [
               "バスは6-7時発が最も本数が多い。事前にtiket.comで予約も可能",
               "車酔いしやすい人は酔い止め必須。山道が続く",
@@ -898,11 +1337,26 @@
             "from": "チカヘウム・ターミナル（バンドン）",
             "method": "Budiman社長距離バス",
             "duration": "6-7時間（途中休憩込み）",
-            "cost": { "idr": 95000, "jpy": 893 },
+            "cost": {
+              "idr": 95000,
+              "jpy": 893
+            },
             "options": [
-              { "method": "Budiman社バス（直行）", "price": "Rp75,000-115,000（約705-1,081円）", "duration": "6-7時間" },
-              { "method": "電車（バンジャール経由）＋DAMRI", "price": "Rp108,000-330,000（約1,015-3,102円）", "duration": "5-6時間" },
-              { "method": "トラベル（ミニバン）", "price": "Rp125,000-300,000（約1,175-2,820円）", "duration": "5-6時間" }
+              {
+                "method": "Budiman社バス（直行）",
+                "price": "Rp75,000-115,000（約705-1,081円）",
+                "duration": "6-7時間"
+              },
+              {
+                "method": "電車（バンジャール経由）＋DAMRI",
+                "price": "Rp108,000-330,000（約1,015-3,102円）",
+                "duration": "5-6時間"
+              },
+              {
+                "method": "トラベル（ミニバン）",
+                "price": "Rp125,000-300,000（約1,175-2,820円）",
+                "duration": "5-6時間"
+              }
             ],
             "steps": [
               "【バスの場合】チカヘウム・ターミナルのBudiman社カウンターでチケット購入",
@@ -914,10 +1368,12 @@
           },
           "details": {
             "tips": [
+              "【重要】トイレは休憩時のみ。乗車前に必ず済ませておくこと",
               "バスのエアコンが効きすぎることがある。上着を手元に",
               "トイレ休憩のタイミングは読めないので、乗車前に済ませておく",
               "2025年3月よりバンジャール駅からDAMRIシャトルが運行開始。電車との接続が改善された"
-            ]
+            ],
+            "dressCode": "バス車内は冷房が効きすぎることがある。長袖・靴下推奨"
           }
         },
         {
@@ -943,7 +1399,10 @@
             "from": "パンガンダラン・バスターミナル",
             "method": "ベチャック（三輪車）またはオジェック",
             "duration": "10分",
-            "cost": { "idr": 15000, "jpy": 141 }
+            "cost": {
+              "idr": 15000,
+              "jpy": 141
+            }
           },
           "details": {
             "tips": [
@@ -967,14 +1426,27 @@
             "lng": 108.4873
           },
           "details": {
-            "fee": "パンガンダラン入域料に含む",
+            "fee": {
+              "idr": 20000,
+              "jpy": 188
+            },
             "hours": "終日（ライフガード6:00-17:00）",
             "bestTime": "午後〜夕暮れ（サンセットが美しい）",
             "duration": "1-2時間",
+            "dressCode": "水着＋ラッシュガード推奨。日差しが強い",
+            "mustBring": [
+              "水着",
+              "日焼け止め（SPF50推奨）",
+              "帽子",
+              "サングラス",
+              "ビーチサンダル"
+            ],
             "tips": [
+              "【警告】離岸流（Rip Current）に注意。赤旗エリアでは絶対に泳がないこと。流されたら岸と平行に泳いで脱出する",
               "離岸流に注意。赤旗の立っているエリアでは絶対に泳がない",
               "サンセットは西ビーチから見られる。17:30頃が見頃",
-              "ビーチ沿いに馬車や自転車レンタルもある"
+              "ビーチ沿いに馬車や自転車レンタルもある",
+              "入域料Rp20,000（3日間有効）はパンガンダラン到着時に支払い済み"
             ]
           }
         },
@@ -988,12 +1460,19 @@
           "location": {
             "name": "Pasar Ikan Pangandaran（魚市場）",
             "googleMapsUrl": "https://maps.google.com/?q=-7.6880,108.6575",
-            "lat": -7.6880,
+            "lat": -7.688,
             "lng": 108.6575
           },
           "details": {
-            "fee": { "idr": 50000, "jpy": 470 },
+            "fee": {
+              "idr": 50000,
+              "jpy": 470
+            },
             "duration": "1-1.5時間",
+            "mustBring": [
+              "現金Rp100,000以上（カード不可）",
+              "ウェットティッシュ"
+            ],
             "tips": [
               "魚は重さで値段が決まる。大きな魚1匹でRp30,000-60,000程度",
               "調理代は別途Rp10,000-20,000",
@@ -1003,7 +1482,13 @@
         }
       ],
       "food": {
-        "localSpecialties": ["イカン・バカール（焼き魚）", "ナシ・リウェット", "ピンダン・グヌン（魚のスパイススープ）", "ジャンバル・ロティ（塩魚）", "サテ・マランギ"],
+        "localSpecialties": [
+          "イカン・バカール（焼き魚）",
+          "ナシ・リウェット",
+          "ピンダン・グヌン（魚のスパイススープ）",
+          "ジャンバル・ロティ（塩魚）",
+          "サテ・マランギ"
+        ],
         "mustTry": {
           "dish": "イカン・バカール（Ikan Bakar）",
           "description": "パンガンダランの代名詞。朝獲れの魚を炭火でじっくり焼き、サンバル・ケチャップ（甘辛醤油チリソース）をたっぷりかけて食べる。魚市場で好きな魚を選んでその場で焼いてもらうのが最高の体験。1匹Rp30,000-60,000。",
@@ -1017,28 +1502,58 @@
             "name": "Pasar Ikan Pangandaran",
             "type": "魚市場（選んで焼いてもらう）",
             "budget": "cheap",
-            "priceRange": { "idr": "30,000-80,000", "jpy": "282-752" },
-            "popular": ["イカン・バカール（焼き魚）", "ウダン・バカール（焼きエビ）", "チュミ・ゴレン（イカフライ）"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.6880,108.6575" }
+            "priceRange": {
+              "idr": "30,000-80,000",
+              "jpy": "282-752"
+            },
+            "popular": [
+              "イカン・バカール（焼き魚）",
+              "ウダン・バカール（焼きエビ）",
+              "チュミ・ゴレン（イカフライ）"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.6880,108.6575"
+            }
           },
           {
             "name": "Green Garden Cafe",
             "type": "カフェ・レストラン（ビーチビュー）",
             "budget": "mid",
-            "priceRange": { "idr": "15,000-40,000", "jpy": "141-376" },
-            "popular": ["ナシゴレン", "ミーゴレン", "パンケーキ"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.6895,108.6550" }
+            "priceRange": {
+              "idr": "15,000-40,000",
+              "jpy": "141-376"
+            },
+            "popular": [
+              "ナシゴレン",
+              "ミーゴレン",
+              "パンケーキ"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.6895,108.6550"
+            }
           },
           {
             "name": "Warung Nasi Pa Djaja",
             "type": "スンダ料理ワルン",
             "budget": "cheap",
-            "priceRange": { "idr": "10,000-20,000", "jpy": "94-188" },
-            "popular": ["ナシ・パダン風おかず", "アヤム・ゴレン"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.6890,108.6560" }
+            "priceRange": {
+              "idr": "10,000-20,000",
+              "jpy": "94-188"
+            },
+            "popular": [
+              "ナシ・パダン風おかず",
+              "アヤム・ゴレン"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.6890,108.6560"
+            }
           }
         ],
-        "drinks": ["エス・ケラパ・ムダ（若いココナッツの水）", "テ・ボトル", "ジュース屋台のフレッシュジュース"],
+        "drinks": [
+          "エス・ケラパ・ムダ（若いココナッツの水）",
+          "テ・ボトル",
+          "ジュース屋台のフレッシュジュース"
+        ],
         "safetyTips": [
           "魚介は新鮮なものを選べば安全。調理したてを食べること",
           "氷入り飲料はコンビニの袋入り氷を使っている店なら安心"
@@ -1050,16 +1565,26 @@
           {
             "name": "Laut Biru Resort Hotel",
             "budget": "mid",
-            "pricePerNight": { "idr": 450000, "jpy": 4230 },
+            "pricePerNight": {
+              "idr": 450000,
+              "jpy": 4230
+            },
             "bookingTip": "Booking.com/Agodaで予約。ATMが横にあって便利",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.6900,108.6555" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.6900,108.6555"
+            }
           },
           {
             "name": "Surya Pesona Beach Hotel",
             "budget": "cheap",
-            "pricePerNight": { "idr": 200000, "jpy": 1880 },
+            "pricePerNight": {
+              "idr": 200000,
+              "jpy": 1880
+            },
             "bookingTip": "ビーチフロント。Travelokaで予約。基本的だが立地が良い",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.6905,108.6548" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.6905,108.6548"
+            }
           }
         ]
       },
@@ -1068,7 +1593,10 @@
         "to": "パンガンダラン周辺のスポット（Day 4）",
         "method": "バイクレンタルまたはオジェック",
         "duration": "各スポットまで30分-1時間",
-        "cost": { "idr": 50000, "jpy": 470 },
+        "cost": {
+          "idr": 50000,
+          "jpy": 470
+        },
         "options": [
           {
             "method": "バイクレンタル（1日）",
@@ -1129,6 +1657,16 @@
             "lng": 108.6561
           },
           "details": {
+            "mustBring": [
+              "水着（着用推奨）",
+              "防水バッグ（スマホ・カメラ用）",
+              "日焼け止め",
+              "虫除けスプレー",
+              "水1L以上",
+              "タオル",
+              "着替え（ボートで濡れる可能性）"
+            ],
+            "dressCode": "水着の上に速乾性の服。サンダルでもOKだが滑りにくいもの",
             "tips": [
               "グリーンキャニオンは金曜定休。日程に注意",
               "水着を着用して出発すると楽（ボートで濡れる可能性あり）",
@@ -1159,7 +1697,10 @@
             "from": "パンガンダラン",
             "method": "バイクまたはオジェック",
             "duration": "約1時間（26km）",
-            "cost": { "idr": 100000, "jpy": 940 },
+            "cost": {
+              "idr": 100000,
+              "jpy": 940
+            },
             "steps": [
               "パンガンダランからチジュラン方面へ。アンコット（Rp10,000）＋オジェック、またはバイクで直行",
               "入口ゲートで入場料を支払い（Rp10,000）",
@@ -1167,17 +1708,27 @@
             ]
           },
           "details": {
-            "fee": { "idr": 10000, "jpy": 94 },
+            "fee": {
+              "idr": 10000,
+              "jpy": 94
+            },
             "hours": "8:00-17:00（金曜定休）",
             "bestTime": "午前中の光が渓谷に差し込んで最もきれい",
             "duration": "2-3時間（ボート＋散策）",
             "dressCode": "水着＋速乾性の服。濡れてもいい格好で",
-            "mustBring": ["水着（着用推奨）", "防水バッグ（カメラ・スマホ用）", "日焼け止め", "水500ml"],
+            "mustBring": [
+              "水着（着用推奨）",
+              "防水バッグ（カメラ・スマホ用）",
+              "日焼け止め",
+              "水500ml"
+            ],
             "tips": [
               "ボート代は1艘Rp175,000（最大6人）。他の旅行者とシェアすれば安くなる",
               "ボディラフティング（5kmコース）はRp300,000/人（4人以上）。4時間超のアクティビティ",
               "雨季（11-3月）は水が茶色く濁る。乾季（4-8月）がベストシーズン",
-              "崖からの飛び込みスポットもあるが、深さを必ず確認してから"
+              "崖からの飛び込みスポットもあるが、深さを必ず確認してから",
+              "【警告】雨季（11-3月）は増水で急流になることがある。現地でコンディションを確認してから入水すること",
+              "【重要】金曜日は定休日。日程に注意！"
             ]
           }
         },
@@ -1195,7 +1746,10 @@
             "lng": 108.6565
           },
           "details": {
-            "fee": { "idr": 30000, "jpy": 282 },
+            "fee": {
+              "idr": 30000,
+              "jpy": 282
+            },
             "duration": "45分",
             "tips": [
               "サテ・マランギはスンダ地方の牛肉サテ。甘辛いスパイスが食欲をそそる",
@@ -1220,7 +1774,10 @@
             "from": "パンガンダラン・ビーチエリア",
             "method": "徒歩またはベチャック",
             "duration": "10-15分",
-            "cost": { "idr": 10000, "jpy": 94 },
+            "cost": {
+              "idr": 10000,
+              "jpy": 94
+            },
             "steps": [
               "ビーチエリアから南へ。Jl. Kidang Pananjungの入口ゲートへ向かう",
               "外国人入場料を支払い",
@@ -1228,18 +1785,26 @@
             ]
           },
           "details": {
-            "fee": { "idr": 210000, "jpy": 1974 },
+            "fee": {
+              "idr": 210000,
+              "jpy": 1974
+            },
             "hours": "7:00-17:00",
             "bestTime": "朝か夕方（動物が活発な時間帯）。夕方にはオオコウモリの大群が飛び立つ",
             "duration": "2-3時間",
             "dressCode": "長ズボン・スニーカー推奨（トレイルは滑りやすい）",
-            "mustBring": ["虫除けスプレー", "水1L以上", "帽子"],
+            "mustBring": [
+              "虫除けスプレー",
+              "水1L以上",
+              "帽子"
+            ],
             "tips": [
               "外国人入場料: 平日Rp210,000、週末Rp310,000",
               "ガイド料: 平日Rp350,000、週末Rp400,000（1グループ4人まで、約3時間）",
               "サルが食べ物や持ち物をひったくる。バッグはしっかり閉じること",
               "洞窟探検（Gua Jepang等）はガイド同行がおすすめ",
-              "夕方16:30頃、巨大なオオコウモリの群れが飛び立つ光景は圧巻"
+              "夕方16:30頃、巨大なオオコウモリの群れが飛び立つ光景は圧巻",
+              "【警告】サルが攻撃的なことがある。食べ物を見せない。バッグのジッパーは閉じること。眼鏡やサングラスも奪われることがある"
             ]
           }
         },
@@ -1258,6 +1823,10 @@
           },
           "details": {
             "duration": "1時間",
+            "mustBring": [
+              "カメラ",
+              "虫除け（夕方は蚊が多い）"
+            ],
             "tips": [
               "サンセットは17:30頃",
               "エス・ケラパ・ムダはRp10,000-15,000。ビーチの屋台で買える"
@@ -1278,8 +1847,15 @@
             "lng": 108.6561
           },
           "details": {
-            "fee": { "idr": 60000, "jpy": 564 },
+            "fee": {
+              "idr": 60000,
+              "jpy": 564
+            },
             "duration": "1-1.5時間",
+            "mustBring": [
+              "現金Rp150,000以上（カード不可の店が多い）",
+              "ウェットティッシュ"
+            ],
             "tips": [
               "カニ料理はRp80,000-150,000と高めだが、ボリュームたっぷり",
               "明日は早朝出発。早めに休もう"
@@ -1288,7 +1864,13 @@
         }
       ],
       "food": {
-        "localSpecialties": ["イカン・バカール（焼き魚）", "ケプティン・サウス・パダン（カニのパダンソース）", "ピンダン・グヌン", "サテ・マランギ", "ドドル・ナナス（パイナップル菓子）"],
+        "localSpecialties": [
+          "イカン・バカール（焼き魚）",
+          "ケプティン・サウス・パダン（カニのパダンソース）",
+          "ピンダン・グヌン",
+          "サテ・マランギ",
+          "ドドル・ナナス（パイナップル菓子）"
+        ],
         "mustTry": {
           "dish": "グリルシーフード盛り合わせ",
           "description": "パンガンダランの醍醐味は、目の前の海から揚がった新鮮な魚介を炭火で焼いて食べること。魚、エビ、イカを一皿に盛って、サンバル3種（ケチャップ・マタ・トマト）で味変しながら食べ尽くす。2人前でRp100,000-150,000。"
@@ -1298,20 +1880,39 @@
             "name": "Pasar Ikan Pangandaran",
             "type": "魚市場",
             "budget": "cheap",
-            "priceRange": { "idr": "30,000-80,000", "jpy": "282-752" },
-            "popular": ["イカン・バカール", "ウダン・バカール"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.6880,108.6575" }
+            "priceRange": {
+              "idr": "30,000-80,000",
+              "jpy": "282-752"
+            },
+            "popular": [
+              "イカン・バカール",
+              "ウダン・バカール"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.6880,108.6575"
+            }
           },
           {
             "name": "Warung Sate Galunggung",
             "type": "サテ専門",
             "budget": "cheap",
-            "priceRange": { "idr": "15,000-35,000", "jpy": "141-329" },
-            "popular": ["サテ・マランギ（牛肉）", "サテ・アヤム（鶏）"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.6885,108.6565" }
+            "priceRange": {
+              "idr": "15,000-35,000",
+              "jpy": "141-329"
+            },
+            "popular": [
+              "サテ・マランギ（牛肉）",
+              "サテ・アヤム（鶏）"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.6885,108.6565"
+            }
           }
         ],
-        "drinks": ["エス・ケラパ・ムダ（若いココナッツ）", "バジグール（ジャワのホット飲料）"],
+        "drinks": [
+          "エス・ケラパ・ムダ（若いココナッツ）",
+          "バジグール（ジャワのホット飲料）"
+        ],
         "safetyTips": [
           "シーフードは鮮度が命。火が通ったものを食べる",
           "現金を多めに持参。カード決済は不安定"
@@ -1323,21 +1924,33 @@
           {
             "name": "Laut Biru Resort Hotel",
             "budget": "mid",
-            "pricePerNight": { "idr": 450000, "jpy": 4230 },
+            "pricePerNight": {
+              "idr": 450000,
+              "jpy": 4230
+            },
             "bookingTip": "連泊がおすすめ。ATMが横にあって便利",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.6900,108.6555" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.6900,108.6555"
+            }
           }
         ]
       },
       "shopping": {
-        "famous": ["ジャンバル・ロティ（塩魚/お土産定番）", "クルプック・ルムプッ・ラウッ（海藻せんべい）", "ドドル・ナナス（パイナップル菓子）"],
+        "famous": [
+          "ジャンバル・ロティ（塩魚/お土産定番）",
+          "クルプック・ルムプッ・ラウッ（海藻せんべい）",
+          "ドドル・ナナス（パイナップル菓子）"
+        ],
         "priceGuide": "ジャンバル・ロティ: Rp30,000-60,000、クルプック: Rp15,000-25,000"
       },
       "transport": {
         "to": "ジョグジャカルタ（ジョグジャ）",
         "method": "ミニバス/DAMRI → バンジャール駅 → 電車",
         "duration": "6.5-7.5時間",
-        "cost": { "idr": 170000, "jpy": 1598 },
+        "cost": {
+          "idr": 170000,
+          "jpy": 1598
+        },
         "options": [
           {
             "method": "DAMRI + 電車（おすすめ）",
@@ -1389,10 +2002,34 @@
         "convenience": "Indomaret・Alfamart多数。24時間営業"
       },
       "cityPois": [
-        { "name": "Gudeg Yu Djum", "lat": -7.7830, "lng": 110.3680, "type": "restaurant", "description": "伝説的グドゥグ店。宮廷料理人の味を受け継ぐ。複数店舗あり" },
-        { "name": "Angkringan Lek Man", "lat": -7.7935, "lng": 110.3660, "type": "restaurant", "description": "マリオボロ通りの屋台。コピ・ジョス（炭入りコーヒー）が名物" },
-        { "name": "Indomaret Malioboro", "lat": -7.7930, "lng": 110.3655, "type": "convenience", "description": "マリオボロ通り沿い。24時間" },
-        { "name": "ATM BCA Malioboro", "lat": -7.7925, "lng": 110.3658, "type": "atm", "description": "BCA/Mandiri/BNI。24時間" }
+        {
+          "name": "Gudeg Yu Djum",
+          "lat": -7.783,
+          "lng": 110.368,
+          "type": "restaurant",
+          "description": "伝説的グドゥグ店。宮廷料理人の味を受け継ぐ。複数店舗あり"
+        },
+        {
+          "name": "Angkringan Lek Man",
+          "lat": -7.7935,
+          "lng": 110.366,
+          "type": "restaurant",
+          "description": "マリオボロ通りの屋台。コピ・ジョス（炭入りコーヒー）が名物"
+        },
+        {
+          "name": "Indomaret Malioboro",
+          "lat": -7.793,
+          "lng": 110.3655,
+          "type": "convenience",
+          "description": "マリオボロ通り沿い。24時間"
+        },
+        {
+          "name": "ATM BCA Malioboro",
+          "lat": -7.7925,
+          "lng": 110.3658,
+          "type": "atm",
+          "description": "BCA/Mandiri/BNI。24時間"
+        }
       ],
       "timeline": [
         {
@@ -1412,7 +2049,10 @@
             "from": "パンガンダラン",
             "method": "DAMRIシャトル",
             "duration": "約2時間",
-            "cost": { "idr": 50000, "jpy": 470 },
+            "cost": {
+              "idr": 50000,
+              "jpy": 470
+            },
             "steps": [
               "パンガンダランTIC（観光案内所）からDAMRIシャトルに乗車",
               "DAMRIアプリで事前予約可能",
@@ -1420,9 +2060,16 @@
             ]
           },
           "details": {
+            "mustBring": [
+              "DAMRIアプリ（事前予約用）",
+              "水と軽食",
+              "モバイルバッテリー"
+            ],
+            "dressCode": "動きやすい服装。車内は冷房対策に長袖",
             "tips": [
               "DAMRIは電車のスケジュールに合わせて運行",
-              "バンジャール駅周辺にワルンあり。乗り換え待ちの間に朝食を"
+              "バンジャール駅周辺にワルンあり。乗り換え待ちの間に朝食を",
+              "【重要】DAMRIシャトルは電車のスケジュールに合わせて運行。遅延も想定して早めに出発"
             ]
           }
         },
@@ -1443,10 +2090,21 @@
             "from": "バンジャール駅",
             "method": "KAI長距離列車",
             "duration": "4-5時間",
-            "cost": { "idr": 260000, "jpy": 2444 },
+            "cost": {
+              "idr": 260000,
+              "jpy": 2444
+            },
             "options": [
-              { "method": "エコノミークラス", "price": "Rp58,000-90,000（約545-846円）", "duration": "4-5時間" },
-              { "method": "エグゼクティブクラス", "price": "Rp260,000-320,000（約2,444-3,008円）", "duration": "4-5時間" }
+              {
+                "method": "エコノミークラス",
+                "price": "Rp58,000-90,000（約545-846円）",
+                "duration": "4-5時間"
+              },
+              {
+                "method": "エグゼクティブクラス",
+                "price": "Rp260,000-320,000（約2,444-3,008円）",
+                "duration": "4-5時間"
+              }
             ],
             "steps": [
               "Access by KAI/Travelokaで事前予約がベスト",
@@ -1455,6 +2113,12 @@
             ]
           },
           "details": {
+            "mustBring": [
+              "チケット（QRコード・Access by KAI）",
+              "充電ケーブル（USBポートあり）",
+              "上着（冷房対策）"
+            ],
+            "dressCode": "カジュアル。車内は冷房が強いので長袖推奨",
             "tips": [
               "1日6本程度の列車がある。Access by KAIアプリで時刻確認",
               "エグゼクティブクラスはリクライニング・エアコン・充電USB完備",
@@ -1479,13 +2143,17 @@
             "from": "トゥグ駅",
             "method": "徒歩 or Grab",
             "duration": "5-15分",
-            "cost": { "idr": 15000, "jpy": 141 }
+            "cost": {
+              "idr": 15000,
+              "jpy": 141
+            }
           },
           "details": {
             "tips": [
               "プラウィロタマン地区はバックパッカー向け。カフェやバーが多い",
               "マリオボロ通り周辺は買い物に便利だが夜はやや騒がしい",
-              "明日のボロブドゥール日の出ツアーを宿で手配しておこう（出発は深夜3:30頃）"
+              "明日のボロブドゥール日の出ツアーを宿で手配しておこう（出発は深夜3:30頃）",
+              "【重要】明日のボロブドゥール日の出ツアーを今日中に宿で手配すること！チケットは1日100名限定。前日までの予約が必須"
             ]
           }
         },
@@ -1512,14 +2180,24 @@
             "from": "マリオボロ通り",
             "method": "徒歩",
             "duration": "15分",
-            "cost": { "idr": 0, "jpy": 0 }
+            "cost": {
+              "idr": 0,
+              "jpy": 0
+            }
           },
           "details": {
-            "fee": { "idr": 15000, "jpy": 141 },
+            "fee": {
+              "idr": 15000,
+              "jpy": 141
+            },
             "hours": "火-日 8:30-14:30（月曜・祝日定休）",
             "bestTime": "午前中（ガムラン演奏は10:00頃から）",
             "duration": "1-1.5時間",
             "dressCode": "カジュアルでOK。短パンも問題ないが、膝が隠れる方が望ましい",
+            "mustBring": [
+              "現金（入場料Rp15,000。カード不可）",
+              "カメラ"
+            ],
             "tips": [
               "入場料Rp15,000。カメラ持ち込みは追加料金の場合あり",
               "現金払いのみ",
@@ -1550,13 +2228,25 @@
             "from": "クラトン",
             "method": "徒歩",
             "duration": "15分",
-            "cost": { "idr": 0, "jpy": 0 }
+            "cost": {
+              "idr": 0,
+              "jpy": 0
+            }
           },
           "details": {
-            "fee": { "idr": 25000, "jpy": 235 },
+            "fee": {
+              "idr": 25000,
+              "jpy": 235
+            },
             "hours": "9:00-15:00",
-            "bestTime": "午前中の光が地下構造物に差し込んで幻想的",
+            "bestTime": "午前中の光がスムル・グムリンに差し込んで幻想的",
             "duration": "45分-1時間",
+            "dressCode": "カジュアルでOK。暑いので帽子・日傘推奨",
+            "mustBring": [
+              "現金（入場料Rp25,000。カード不可）",
+              "水",
+              "日焼け止め"
+            ],
             "tips": [
               "スムル・グムリンは円形の階段が交差する独特の構造。写真映え抜群",
               "タマンサリ周辺はバティック工房が多い。散策も楽しい"
@@ -1583,19 +2273,33 @@
             "lng": 110.3657
           },
           "details": {
-            "fee": { "idr": 25000, "jpy": 235 },
+            "fee": {
+              "idr": 25000,
+              "jpy": 235
+            },
             "duration": "1-2時間",
+            "mustBring": [
+              "現金Rp50,000-100,000（屋台は全て現金のみ）",
+              "ウェットティッシュ"
+            ],
             "tips": [
               "アンクリンガン（屋台）は夕方から深夜まで営業。指差し注文でOK",
               "コピ・ジョス（炭入りコーヒー）はRp5,000。見た目のインパクトがすごいが味は意外とマイルド",
               "ナシ・クチンは1包みRp3,000-5,000。小さいので3-4個食べてちょうどいい",
-              "バティック（ろうけつ染め）のお土産物も多い。値段交渉は必須"
+              "バティック（ろうけつ染め）のお土産物も多い。値段交渉は必須",
+              "【注意】バティック（ろうけつ染め）の購入は値段交渉が必須。最初の言い値の50-60%が妥当"
             ]
           }
         }
       ],
       "food": {
-        "localSpecialties": ["グドゥグ（Gudeg/若いジャックフルーツの甘煮）", "ナシ・クチン", "バッミ・ジャワ", "サテ・クレチェック", "コピ・ジョス"],
+        "localSpecialties": [
+          "グドゥグ（Gudeg/若いジャックフルーツの甘煮）",
+          "ナシ・クチン",
+          "バッミ・ジャワ",
+          "サテ・クレチェック",
+          "コピ・ジョス"
+        ],
         "mustTry": {
           "dish": "グドゥグ（Gudeg）",
           "description": "ジョグジャカルタの代名詞。若いジャックフルーツをココナッツミルクとスパイスで何時間も煮込んだ甘めの料理。鶏肉、ゆで卵、テンペと一緒にご飯にのせて食べる。Gudeg Yu Djumは宮廷料理人の味を受け継ぐ老舗。1食Rp20,000-35,000。",
@@ -1609,28 +2313,55 @@
             "name": "Gudeg Yu Djum",
             "type": "グドゥグ専門店（老舗）",
             "budget": "cheap",
-            "priceRange": { "idr": "20,000-35,000", "jpy": "188-329" },
-            "popular": ["グドゥグ・コンプリート（鶏肉+卵+テンペ付き）"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.7830,110.3680" }
+            "priceRange": {
+              "idr": "20,000-35,000",
+              "jpy": "188-329"
+            },
+            "popular": [
+              "グドゥグ・コンプリート（鶏肉+卵+テンペ付き）"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.7830,110.3680"
+            }
           },
           {
             "name": "Bale Raos",
             "type": "宮廷料理レストラン",
             "budget": "mid",
-            "priceRange": { "idr": "40,000-75,000", "jpy": "376-705" },
-            "popular": ["歴代スルタンの好物を再現した料理"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.8090,110.3640" }
+            "priceRange": {
+              "idr": "40,000-75,000",
+              "jpy": "376-705"
+            },
+            "popular": [
+              "歴代スルタンの好物を再現した料理"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.8090,110.3640"
+            }
           },
           {
             "name": "Angkringan Lek Man",
             "type": "マリオボロの屋台",
             "budget": "cheap",
-            "priceRange": { "idr": "3,000-10,000", "jpy": "28-94" },
-            "popular": ["コピ・ジョス", "ナシ・クチン", "サテ"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.7935,110.3660" }
+            "priceRange": {
+              "idr": "3,000-10,000",
+              "jpy": "28-94"
+            },
+            "popular": [
+              "コピ・ジョス",
+              "ナシ・クチン",
+              "サテ"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.7935,110.3660"
+            }
           }
         ],
-        "drinks": ["コピ・ジョス（炭入りコーヒー）", "ウェダン・ルンドゥッ（生姜飲料）", "エス・ダウェッ"],
+        "drinks": [
+          "コピ・ジョス（炭入りコーヒー）",
+          "ウェダン・ルンドゥッ（生姜飲料）",
+          "エス・ダウェッ"
+        ],
         "safetyTips": [
           "マリオボロの屋台は清潔で安全。火の通ったものを選ぶのが基本",
           "フルーツジュースの氷はコンビニ製なら問題なし"
@@ -1642,28 +2373,45 @@
           {
             "name": "Greenhost Boutique Hotel",
             "budget": "mid",
-            "pricePerNight": { "idr": 500000, "jpy": 4700 },
+            "pricePerNight": {
+              "idr": 500000,
+              "jpy": 4700
+            },
             "bookingTip": "プラウィロタマン地区。プール・スパ付き。Booking.comで予約",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.8050,110.3705" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.8050,110.3705"
+            }
           },
           {
             "name": "Front One Budget Malioboro",
             "budget": "cheap",
-            "pricePerNight": { "idr": 250000, "jpy": 2350 },
+            "pricePerNight": {
+              "idr": 250000,
+              "jpy": 2350
+            },
             "bookingTip": "マリオボロ通り至近。清潔で立地最高",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.7920,110.3650" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.7920,110.3650"
+            }
           }
         ]
       },
       "shopping": {
-        "famous": ["バティック（ろうけつ染め）", "シルバーアクセサリー（コタグデ地区）", "ワヤン人形"],
+        "famous": [
+          "バティック（ろうけつ染め）",
+          "シルバーアクセサリー（コタグデ地区）",
+          "ワヤン人形"
+        ],
         "priceGuide": "バティック布: Rp50,000-500,000（手描きは高額）。シルバーリング: Rp50,000-200,000"
       },
       "transport": {
         "to": "ボロブドゥール寺院（Day 6早朝）",
         "method": "ツアー車両（日の出ツアー）またはDAMRIバス",
         "duration": "約1-1.5時間（40km）",
-        "cost": { "idr": 200000, "jpy": 1880 },
+        "cost": {
+          "idr": 200000,
+          "jpy": 1880
+        },
         "options": [
           {
             "method": "日の出ツアー（おすすめ）",
@@ -1734,7 +2482,10 @@
             "from": "ジョグジャカルタ市内",
             "method": "日の出ツアー車両",
             "duration": "約1時間（40km）",
-            "cost": { "idr": 1000000, "jpy": 9400 },
+            "cost": {
+              "idr": 1000000,
+              "jpy": 9400
+            },
             "steps": [
               "ツアー車両が3:30AMにホテルピックアップ",
               "マノハラホテル（寺院敷地内）に4:30AM到着",
@@ -1742,10 +2493,18 @@
             ]
           },
           "details": {
+            "mustBring": [
+              "ヘッドライトまたは懐中電灯",
+              "薄手の上着",
+              "カメラ（予備バッテリー）",
+              "水500ml"
+            ],
+            "dressCode": "膝と肩を覆う服装（必須）。短パン・ミニスカート禁止。早朝は涼しいので上着必要",
             "tips": [
               "日の出チケットは1日100名限定。必ず事前予約（最低1週間前推奨）",
               "懐中電灯またはヘッドライト必携",
-              "早朝は涼しい。薄手の上着を持参"
+              "早朝は涼しい。薄手の上着を持参",
+              "【重要】日の出チケットは1日100名限定！最低1週間前の予約が必須。マノハラホテル経由またはGetYourGuide/Travelokaで予約"
             ]
           }
         },
@@ -1769,17 +2528,26 @@
             "lng": 110.2038
           },
           "details": {
-            "fee": { "idr": 1000000, "jpy": 9400 },
+            "fee": {
+              "idr": 1000000,
+              "jpy": 9400
+            },
             "hours": "日の出ツアー: 4:30〜（通常営業: 6:30-17:30）",
             "bestTime": "日の出（5:15-5:30頃）。乾季（4-10月）が雲海の確率高い",
             "duration": "2-3時間（日の出＋寺院散策）",
             "dressCode": "膝と肩を覆う服装。短パン・ミニスカート禁止（無料のサロンを貸してもらえる）",
-            "mustBring": ["ヘッドライトまたは懐中電灯", "薄手の上着（早朝は涼しい）", "カメラ（三脚は持ち込み禁止の場合あり）"],
+            "mustBring": [
+              "ヘッドライトまたは懐中電灯",
+              "薄手の上着（早朝は涼しい）",
+              "カメラ（三脚は持ち込み禁止の場合あり）"
+            ],
             "tips": [
               "日の出ツアーRp1,000,000/人（入場料込み）。通常の入場料は遺跡敷地Rp412,500、寺院構造物Rp455,000",
               "仏像の頭に触れたり登ったりしないこと",
               "雨季（11-3月）は曇りが多く日の出が見えないことも。それでも雰囲気は格別",
-              "日の出後は観光客が増えるので、静かに鑑賞したいなら早朝がベスト"
+              "日の出後は観光客が増えるので、静かに鑑賞したいなら早朝がベスト",
+              "【重要】2025年よりボロブドゥール遺跡の構造物（石段等）への登頂が制限される可能性あり。最新のルール変更をBOROBUDURPARK.COMで確認すること",
+              "【警告】石段は急で滑りやすい。暗い中の移動は特に注意"
             ]
           }
         },
@@ -1818,10 +2586,15 @@
             "from": "ボロブドゥール",
             "method": "ツアー車両 or Grab",
             "duration": "約1時間",
-            "cost": { "idr": 0, "jpy": 0 }
+            "cost": {
+              "idr": 0,
+              "jpy": 0
+            }
           },
           "details": {
-            "tips": ["ツアー車両なら市内まで送ってもらえる。Grabの場合はRp200,000-300,000"]
+            "tips": [
+              "ツアー車両なら市内まで送ってもらえる。Grabの場合はRp200,000-300,000"
+            ]
           }
         },
         {
@@ -1840,11 +2613,14 @@
           "location": {
             "name": "Gudeg Yu Djum",
             "googleMapsUrl": "https://maps.google.com/?q=-7.7830,110.3680",
-            "lat": -7.7830,
-            "lng": 110.3680
+            "lat": -7.783,
+            "lng": 110.368
           },
           "details": {
-            "fee": { "idr": 30000, "jpy": 282 },
+            "fee": {
+              "idr": 30000,
+              "jpy": 282
+            },
             "duration": "45分",
             "tips": [
               "グドゥグ・コンプリート（フルセット）を注文すれば間違いない",
@@ -1876,10 +2652,21 @@
             "from": "ジョグジャカルタ市内",
             "method": "TransJogjaバス 1A/1B or Grab",
             "duration": "45分-1時間",
-            "cost": { "idr": 4000, "jpy": 38 },
+            "cost": {
+              "idr": 4000,
+              "jpy": 38
+            },
             "options": [
-              { "method": "TransJogjaバス 1A/1B", "price": "Rp3,600（約34円）", "duration": "45分-1時間" },
-              { "method": "GrabCar", "price": "Rp60,000-80,000（約564-752円）", "duration": "30-40分" }
+              {
+                "method": "TransJogjaバス 1A/1B",
+                "price": "Rp3,600（約34円）",
+                "duration": "45分-1時間"
+              },
+              {
+                "method": "GrabCar",
+                "price": "Rp60,000-80,000（約564-752円）",
+                "duration": "30-40分"
+              }
             ],
             "steps": [
               "マリオボロ通りからTransJogja Route 1A/1Bに乗車",
@@ -1889,16 +2676,26 @@
             ]
           },
           "details": {
-            "fee": { "idr": 400000, "jpy": 3760 },
+            "fee": {
+              "idr": 400000,
+              "jpy": 3760
+            },
             "hours": "6:30-17:00",
             "bestTime": "午後の光が寺院を美しく照らす。16:00頃のゴールデンアワーがベスト",
             "duration": "1.5-2時間",
             "dressCode": "膝と肩を覆う服装推奨（ボロブドゥールと同じ）",
+            "mustBring": [
+              "水1L（敷地が広く暑い）",
+              "帽子・日傘",
+              "現金（ガイド料・売店用）"
+            ],
             "tips": [
               "外国人入場料: USD 25（約Rp400,000）。IDR払いも可",
               "地元ガイド: Rp150,000/グループ（英語対応）",
               "主塔（シヴァ神殿）のレリーフは必見。反時計回りに見るのが正式",
-              "敷地内は広い。水を持参すること"
+              "敷地内は広い。水を持参すること",
+              "【重要】外国人入場料USD 25（約Rp400,000）。インドネシア人料金と大きく異なる",
+              "【警告】石段は急で滑りやすい。濡れた石段には特に注意"
             ]
           }
         },
@@ -1919,10 +2716,15 @@
             "from": "プランバナン",
             "method": "TransJogjaバス or Grab",
             "duration": "45分-1時間",
-            "cost": { "idr": 4000, "jpy": 38 }
+            "cost": {
+              "idr": 4000,
+              "jpy": 38
+            }
           },
           "details": {
-            "tips": ["TransJogjaの最終バスは20:30頃。余裕をもって"]
+            "tips": [
+              "TransJogjaの最終バスは20:30頃。余裕をもって"
+            ]
           }
         },
         {
@@ -1935,11 +2737,14 @@
           "location": {
             "name": "Jalan Prawirotaman",
             "googleMapsUrl": "https://maps.google.com/?q=-7.8050,110.3705",
-            "lat": -7.8050,
+            "lat": -7.805,
             "lng": 110.3705
           },
           "details": {
-            "fee": { "idr": 50000, "jpy": 470 },
+            "fee": {
+              "idr": 50000,
+              "jpy": 470
+            },
             "duration": "1-1.5時間",
             "tips": [
               "プラウィロタマンはバックパッカー街。多国籍レストランが多い",
@@ -1949,7 +2754,13 @@
         }
       ],
       "food": {
-        "localSpecialties": ["グドゥグ", "ナシ・クチン", "アヤム・ゴレン・ジョグジャ", "テンペ・バチェム", "ソト・アヤム"],
+        "localSpecialties": [
+          "グドゥグ",
+          "ナシ・クチン",
+          "アヤム・ゴレン・ジョグジャ",
+          "テンペ・バチェム",
+          "ソト・アヤム"
+        ],
         "mustTry": {
           "dish": "ソト・アヤム（Soto Ayam）",
           "description": "ジャワ風チキンスープ。ターメリックで黄金色に染まったスープに、鶏肉、春雨、ゆで卵、セロリがたっぷり。ご飯にかけて食べるのがジョグジャ流。1杯Rp12,000-20,000。朝食にも昼食にもなる万能メニュー。"
@@ -1959,20 +2770,38 @@
             "name": "Gudeg Yu Djum",
             "type": "グドゥグ老舗",
             "budget": "cheap",
-            "priceRange": { "idr": "20,000-35,000", "jpy": "188-329" },
-            "popular": ["グドゥグ・コンプリート"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.7830,110.3680" }
+            "priceRange": {
+              "idr": "20,000-35,000",
+              "jpy": "188-329"
+            },
+            "popular": [
+              "グドゥグ・コンプリート"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.7830,110.3680"
+            }
           },
           {
             "name": "Waroeng SS (Spesial Sambal)",
             "type": "サンバル専門チェーン",
             "budget": "cheap",
-            "priceRange": { "idr": "15,000-30,000", "jpy": "141-282" },
-            "popular": ["アヤム・ゴレン＋各種サンバル"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.8010,110.3690" }
+            "priceRange": {
+              "idr": "15,000-30,000",
+              "jpy": "141-282"
+            },
+            "popular": [
+              "アヤム・ゴレン＋各種サンバル"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.8010,110.3690"
+            }
           }
         ],
-        "drinks": ["コピ・ジョス", "ジャムゥ（伝統ハーブドリンク）", "エス・ダウェッ・ムバ・ハリ（1965年創業の屋台）"],
+        "drinks": [
+          "コピ・ジョス",
+          "ジャムゥ（伝統ハーブドリンク）",
+          "エス・ダウェッ・ムバ・ハリ（1965年創業の屋台）"
+        ],
         "safetyTips": [
           "ジョグジャの食事は安全で美味。屋台もレベルが高い",
           "ベリンハルジョ市場のエス・ダウェッは1965年から続く老舗。安心して食べられる"
@@ -1984,9 +2813,14 @@
           {
             "name": "Greenhost Boutique Hotel",
             "budget": "mid",
-            "pricePerNight": { "idr": 500000, "jpy": 4700 },
+            "pricePerNight": {
+              "idr": 500000,
+              "jpy": 4700
+            },
             "bookingTip": "2泊目は連泊割引がきくことも",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.8050,110.3705" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.8050,110.3705"
+            }
           }
         ]
       },
@@ -1995,7 +2829,10 @@
         "to": "マラン（東ジャワ）",
         "method": "電車（トゥグ駅 → マラン駅）",
         "duration": "6-7時間",
-        "cost": { "idr": 260000, "jpy": 2444 },
+        "cost": {
+          "idr": 260000,
+          "jpy": 2444
+        },
         "options": [
           {
             "method": "電車エコノミー",
@@ -2045,11 +2882,41 @@
         "convenience": "マラン駅周辺にIndomaret（ATM BCA併設）。MATOS周辺にAlfamart/Indomaret多数。チェモロ・ラワンには小さな売店のみ — 水・軽食はマランで買い込むこと"
       },
       "cityPois": [
-        { "name": "Rawon Nguling", "lat": -7.9780, "lng": 112.6350, "type": "restaurant", "description": "ラウォン（黒い牛肉スープ）の名店。Rp15,000-30,000" },
-        { "name": "Toko Oen", "lat": -7.9803, "lng": 112.6328, "type": "restaurant", "description": "1930年創業のレトロカフェ。Jl. Basuki Rachmat 5" },
-        { "name": "ATM Center MATOS", "lat": -7.9758, "lng": 112.6283, "type": "atm", "description": "BCA/BNI/Mandiri/BRI。国際カード対応" },
-        { "name": "Indomaret Malang Station", "lat": -7.9770, "lng": 112.6345, "type": "convenience", "description": "駅周辺。24時間。ATM BCA併設" },
-        { "name": "Shelter Hostel Malang", "lat": -7.9770, "lng": 112.6310, "type": "landmark", "description": "ブロモツアー手配可。ドミRp80,000〜" }
+        {
+          "name": "Rawon Nguling",
+          "lat": -7.978,
+          "lng": 112.635,
+          "type": "restaurant",
+          "description": "ラウォン（黒い牛肉スープ）の名店。Rp15,000-30,000"
+        },
+        {
+          "name": "Toko Oen",
+          "lat": -7.9803,
+          "lng": 112.6328,
+          "type": "restaurant",
+          "description": "1930年創業のレトロカフェ。Jl. Basuki Rachmat 5"
+        },
+        {
+          "name": "ATM Center MATOS",
+          "lat": -7.9758,
+          "lng": 112.6283,
+          "type": "atm",
+          "description": "BCA/BNI/Mandiri/BRI。国際カード対応"
+        },
+        {
+          "name": "Indomaret Malang Station",
+          "lat": -7.977,
+          "lng": 112.6345,
+          "type": "convenience",
+          "description": "駅周辺。24時間。ATM BCA併設"
+        },
+        {
+          "name": "Shelter Hostel Malang",
+          "lat": -7.977,
+          "lng": 112.631,
+          "type": "landmark",
+          "description": "ブロモツアー手配可。ドミRp80,000〜"
+        }
       ],
       "timeline": [
         {
@@ -2069,7 +2936,10 @@
             "from": "ジョグジャカルタ・トゥグ駅",
             "method": "KAI長距離列車（マリオボロ・エクスプレス推奨）",
             "duration": "約6時間40分（マリオボロ・エクスプレス 10:50発→17:30着）",
-            "cost": { "idr": 380000, "jpy": 3572 },
+            "cost": {
+              "idr": 380000,
+              "jpy": 3572
+            },
             "steps": [
               "マリオボロ・エクスプレス: トゥグ駅10:50発 → マラン17:30着（日中便・車窓を楽しめる）",
               "エグゼクティブクラス推奨（Rp380,000）。エコノミーはRp260,000",
@@ -2082,8 +2952,18 @@
               "深夜便の選択肢: マラバール01:35発（エコノミーRp260,000/エグゼクティブRp380,000）、ガジャヤナ02:00発（エグゼクティブRp380,000のみ）",
               "車内で朝食・昼食の販売あり。コーヒー・軽食も購入可",
               "充電用USBポートはエグゼクティブクラスにあり",
-              "Indomaret/Alfamartのレジでも列車チケット購入可能"
-            ]
+              "Indomaret/Alfamartのレジでも列車チケット購入可能",
+              "【重要】外国人のチケット購入はTravelokaが確実（Access by KAIは外国人登録でエラーが出ることがある）",
+              "【重要】Indomaret/Alfamartのレジでも列車チケットの発券が可能（予約番号が必要）"
+            ],
+            "mustBring": [
+              "チケット（QRコード）",
+              "充電ケーブル",
+              "上着（冷房対策）",
+              "水と軽食（6時間以上の乗車）",
+              "本や音楽（長時間移動のお供）"
+            ],
+            "dressCode": "カジュアル。車内は冷房が強いので長袖を1枚手元に"
           }
         },
         {
@@ -2103,14 +2983,25 @@
             "from": "マラン駅",
             "method": "チャーター車 or Grab",
             "duration": "約2時間（70km）",
-            "cost": { "idr": 300000, "jpy": 2820 }
+            "cost": {
+              "idr": 300000,
+              "jpy": 2820
+            }
           },
           "details": {
             "tips": [
               "マラン駅からトゥンパックスウ滝への公共交通はない。チャーター車が現実的",
               "ドライバーに待機してもらい、その後チェモロ・ラワンまで送ってもらう交渉もできる",
-              "荷物は車に置いていける"
-            ]
+              "荷物は車に置いていける",
+              "【重要】チャーター車は宿やマラン駅前で手配可能。トゥンパックスウ＋チェモロ・ラワン送りで交渉するのがコスパ良い（Rp500,000-700,000）"
+            ],
+            "mustBring": [
+              "トレッキングシューズ（必須）",
+              "着替え（滝の水しぶきで濡れる）",
+              "防水バッグ",
+              "水1L以上"
+            ],
+            "dressCode": "動きやすい服装。濡れてもいい格好。サンダル不可"
           }
         },
         {
@@ -2136,21 +3027,34 @@
             "from": "マラン市内",
             "method": "チャーター車",
             "duration": "約2時間（70km）",
-            "cost": { "idr": 300000, "jpy": 2820 }
+            "cost": {
+              "idr": 300000,
+              "jpy": 2820
+            }
           },
           "details": {
-            "fee": { "idr": 100000, "jpy": 940 },
+            "fee": {
+              "idr": 100000,
+              "jpy": 940
+            },
             "hours": "7:00-16:00",
             "bestTime": "午前中の光がベスト。午後でも十分楽しめる",
             "duration": "2-3時間（展望台のみなら1時間、谷底まで降りると3時間）",
             "dressCode": "動きやすい服装。スニーカーまたはトレッキングシューズ必須。濡れてもいい服",
-            "mustBring": ["トレッキングシューズ（必須。サンダル不可）", "防水バッグ（スマホ・カメラ用）", "着替え（谷底は水しぶきでずぶ濡れ）", "水1L"],
+            "mustBring": [
+              "トレッキングシューズ（必須。サンダル不可）",
+              "防水バッグ（スマホ・カメラ用）",
+              "着替え（谷底は水しぶきでずぶ濡れ）",
+              "水1L"
+            ],
             "tips": [
               "外国人入場料: Rp100,000。谷底への下降は追加Rp50,000",
               "谷底までの下りは急勾配（約30-45分）。ロープを掴む箇所あり。体力に自信がない場合は展望台のみでも十分",
               "地元ガイド（Rp100,000-200,000）を雇うと安全。入口で声をかけてくる",
               "雨季は水量が多くて迫力があるが、下りが危険になる",
-              "近くにコバン・スリティ滝（Coban Sriti）もあり。時間があればセットで"
+              "近くにコバン・スリティ滝（Coban Sriti）もあり。時間があればセットで",
+              "【警告】谷底への下りは本当に急勾配。雨の後は特に危険。滑落事故が実際に起きている。体力に自信がない場合は展望台からの鑑賞で十分",
+              "【警告】雨季は水量が多く迫力があるが、下りのロープが濡れて滑る。無理は禁物"
             ]
           }
         },
@@ -2171,24 +3075,42 @@
             "from": "トゥンパックスウ滝",
             "method": "チャーター車",
             "duration": "2-3時間",
-            "cost": { "idr": 400000, "jpy": 3760 },
+            "cost": {
+              "idr": 400000,
+              "jpy": 3760
+            },
             "steps": [
               "チャーター車でプロボリンゴ方面 → チェモロ・ラワン村へ",
               "山道のため暗くなると時間がかかる。明るいうちに出発したい"
             ]
           },
           "details": {
+            "mustBring": [
+              "防寒着（ダウンジャケット・フリース必須。夜は5-10℃）",
+              "手袋・ニット帽",
+              "カップ麺・軽食（村の選択肢は限られる）",
+              "水1L以上",
+              "懐中電灯/ヘッドライト"
+            ],
+            "dressCode": "防寒着必須。標高2,217mの山村。夜は気温5-10℃",
             "tips": [
               "チェモロ・ラワン村は標高2,217m。夜は気温5-10℃。防寒着必須",
               "村の売店でカップ麺や飲み物は買える",
               "宿でジープツアーを手配（翌朝3:30ピックアップ。日の出＋火口でRp550,000/ジープ）",
-              "ジャケットのレンタル（Rp30,000）も村で可能"
+              "ジャケットのレンタル（Rp30,000）も村で可能",
+              "【重要】村にATMはない！マランで必ず現金を引き出しておくこと。最低Rp500,000は必要（宿泊+ジープ代+入場料+食事）",
+              "【重要】到着したらすぐにジープツアーを宿で手配すること。翌朝3:30出発"
             ]
           }
         }
       ],
       "food": {
-        "localSpecialties": ["ラウォン（Rawon/黒い牛肉スープ）", "バクソ・マラン", "チュチュル（揚げ菓子）", "テンペ・クリピック"],
+        "localSpecialties": [
+          "ラウォン（Rawon/黒い牛肉スープ）",
+          "バクソ・マラン",
+          "チュチュル（揚げ菓子）",
+          "テンペ・クリピック"
+        ],
         "mustTry": {
           "dish": "ラウォン（Rawon）",
           "description": "東ジャワの名物スープ。クルアック（パンギウムの実）で真っ黒に染まった牛肉スープ。見た目はインパクト大だが、味はコクがあってまろやか。もやしとサンバルを添えて食べる。1杯Rp15,000-25,000。"
@@ -2198,12 +3120,23 @@
             "name": "Rawon Nguling",
             "type": "ラウォン専門店",
             "budget": "cheap",
-            "priceRange": { "idr": "15,000-30,000", "jpy": "141-282" },
-            "popular": ["ラウォン", "ソト・アヤム"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.9780,112.6350" }
+            "priceRange": {
+              "idr": "15,000-30,000",
+              "jpy": "141-282"
+            },
+            "popular": [
+              "ラウォン",
+              "ソト・アヤム"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.9780,112.6350"
+            }
           }
         ],
-        "drinks": ["コピ・マラン", "テ・ウェダン・ジャヘ（生姜茶）"],
+        "drinks": [
+          "コピ・マラン",
+          "テ・ウェダン・ジャヘ（生姜茶）"
+        ],
         "safetyTips": [
           "マランは食の街。屋台も清潔で安心",
           "チェモロ・ラワン村の選択肢は限られる。マランで食べておくか、カップ麺を持参"
@@ -2215,16 +3148,26 @@
           {
             "name": "Cemara Indah Hotel",
             "budget": "mid",
-            "pricePerNight": { "idr": 400000, "jpy": 3760 },
+            "pricePerNight": {
+              "idr": 400000,
+              "jpy": 3760
+            },
             "bookingTip": "砂の海（Sand Sea）の眺め。Booking.comで予約。週末は早めに",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.9220,112.9650" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.9220,112.9650"
+            }
           },
           {
             "name": "Cahyo Homestay",
             "budget": "cheap",
-            "pricePerNight": { "idr": 200000, "jpy": 1880 },
+            "pricePerNight": {
+              "idr": 200000,
+              "jpy": 1880
+            },
             "bookingTip": "Booking.com評価9.6/10。庭から山の景色。プライベートバスルーム付き",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-7.9225,112.9660" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-7.9225,112.9660"
+            }
           }
         ]
       },
@@ -2233,7 +3176,10 @@
         "to": "ブロモ山日の出ツアー（Day 8早朝）",
         "method": "ジープツアー",
         "duration": "全行程4-5時間（深夜3:30〜8:00頃）",
-        "cost": { "idr": 550000, "jpy": 5170 },
+        "cost": {
+          "idr": 550000,
+          "jpy": 5170
+        },
         "options": [
           {
             "method": "ジープツアー（プナンジャカン＋火口）",
@@ -2297,13 +3243,26 @@
             "from": "チェモロ・ラワン村",
             "method": "ジープ",
             "duration": "30-40分",
-            "cost": { "idr": 550000, "jpy": 5170 }
+            "cost": {
+              "idr": 550000,
+              "jpy": 5170
+            }
           },
           "details": {
             "tips": [
               "ジープ代Rp550,000は1台の料金（最大4-5人乗り）。宿で同行者を探してシェアするのが定番",
-              "プナンジャカン2（セルニ・ポイント）は標高が低いが人が少ない穴場"
-            ]
+              "プナンジャカン2（セルニ・ポイント）は標高が低いが人が少ない穴場",
+              "【警告】気温は0-5℃。風も強い。防寒対策が不十分だと低体温症のリスクあり。ジャケットレンタル（Rp30,000）は村で可能"
+            ],
+            "mustBring": [
+              "ダウンジャケット（必須。気温0-5℃）",
+              "手袋・ニット帽",
+              "マスク（火山灰・砂塵対策）",
+              "カメラ（予備バッテリー。寒さで消耗が早い）",
+              "懐中電灯/ヘッドライト",
+              "水500ml"
+            ],
+            "dressCode": "防寒着必須（ダウンジャケット・手袋・ニット帽）。気温0-5℃。ジープは窓全開で走行するため体感はさらに寒い"
           }
         },
         {
@@ -2326,18 +3285,27 @@
             "lng": 112.9516
           },
           "details": {
-            "fee": { "idr": 220000, "jpy": 2068 },
+            "fee": {
+              "idr": 220000,
+              "jpy": 2068
+            },
             "hours": "日の出: 5:15-5:30頃",
             "bestTime": "乾季（4-10月）が雲海の確率高い",
             "duration": "1-1.5時間（日の出鑑賞）",
             "dressCode": "防寒着必須。ダウンジャケット・手袋・ニット帽。気温0-10℃",
-            "mustBring": ["ダウンジャケットまたはフリース（必須）", "手袋・ニット帽", "マスク（火山灰対策）", "カメラ（予備バッテリー。寒さで消耗が早い）"],
+            "mustBring": [
+              "ダウンジャケットまたはフリース（必須）",
+              "手袋・ニット帽",
+              "マスク（火山灰対策）",
+              "カメラ（予備バッテリー。寒さで消耗が早い）"
+            ],
             "tips": [
               "国立公園入場料: 外国人 平日Rp220,000、週末Rp320,000。オンライン事前購入必須",
               "気温は0-10℃。風が強いとさらに寒く感じる",
               "ジャケットレンタル: チェモロ・ラワン村でRp30,000",
               "スマホ・カメラのバッテリーは寒さで急速に消耗。ポケットに入れて温めておく",
-              "噴火警戒レベルによっては火口周辺が立入禁止になることがある。最新情報を要確認"
+              "噴火警戒レベルによっては火口周辺が立入禁止になることがある。最新情報を要確認",
+              "【警告】噴火警戒レベルによっては火口周辺が立入禁止。出発前にBMKG（インドネシア気象庁）で最新情報を必ず確認すること"
             ]
           }
         },
@@ -2357,14 +3325,17 @@
           "location": {
             "name": "Mount Bromo Crater",
             "googleMapsUrl": "https://maps.google.com/?q=-7.9430,112.9532",
-            "lat": -7.9430,
+            "lat": -7.943,
             "lng": 112.9532
           },
           "access": {
             "from": "プナンジャカン展望台",
             "method": "ジープ + 徒歩",
             "duration": "ジープ20分 + 徒歩30分",
-            "cost": { "idr": 0, "jpy": 0 }
+            "cost": {
+              "idr": 0,
+              "jpy": 0
+            }
           },
           "details": {
             "fee": "国立公園入場料に含む",
@@ -2373,8 +3344,17 @@
               "砂の海では馬に乗ることもできる（Rp100,000程度。交渉制）",
               "火口の階段は急で滑りやすい。手すりをしっかり持つこと",
               "火口付近は硫黄ガスが漂う。マスクを着用",
-              "柵がない箇所もある。火口に近づきすぎないこと"
-            ]
+              "柵がない箇所もある。火口に近づきすぎないこと",
+              "【警告】火口の縁には柵がない箇所がある。近づきすぎると落下の危険。特に写真撮影に夢中になって足元に注意を払わない事故が多発",
+              "【警告】砂の海で馬に乗る場合、料金は事前に確定させること。後から法外な金額を請求されるケースあり"
+            ],
+            "mustBring": [
+              "マスク（砂塵と硫黄ガス対策。N95推奨）",
+              "サングラス（砂塵対策）",
+              "水",
+              "タオル"
+            ],
+            "dressCode": "動きやすい服装。砂地を歩くのでスニーカー必須。サンダル不可"
           }
         },
         {
@@ -2394,7 +3374,11 @@
             "duration": "1時間",
             "tips": [
               "宿で簡単な朝食（ナシゴレンとコーヒー）が出ることが多い",
-              "次の目的地バニュワンギまでは長距離。体力を回復しておこう"
+              "次の目的地バニュワンギまでは長距離。体力を回復しておこう",
+              "【重要】次の目的地バニュワンギまでは5-7時間の長距離移動。体力を回復しておくこと"
+            ],
+            "mustBring": [
+              "日焼け止め（下山は日が出てから）"
             ]
           }
         },
@@ -2415,11 +3399,26 @@
             "from": "チェモロ・ラワン",
             "method": "車＋電車、またはチャーター車直行",
             "duration": "5-7時間",
-            "cost": { "idr": 200000, "jpy": 1880 },
+            "cost": {
+              "idr": 200000,
+              "jpy": 1880
+            },
             "options": [
-              { "method": "車でクラカ駅（1h）→ 電車でバニュワンギ（3h）", "price": "Rp60,000-280,000（電車の等級による）+ 車Rp100,000-150,000", "duration": "4.5-5時間" },
-              { "method": "チャーター車（直行）", "price": "Rp800,000-1,200,000（約7,520-11,280円）", "duration": "5-6時間" },
-              { "method": "シェア送迎（ツアー会社）", "price": "Rp200,000-350,000/人", "duration": "6-7時間" }
+              {
+                "method": "車でクラカ駅（1h）→ 電車でバニュワンギ（3h）",
+                "price": "Rp60,000-280,000（電車の等級による）+ 車Rp100,000-150,000",
+                "duration": "4.5-5時間"
+              },
+              {
+                "method": "チャーター車（直行）",
+                "price": "Rp800,000-1,200,000（約7,520-11,280円）",
+                "duration": "5-6時間"
+              },
+              {
+                "method": "シェア送迎（ツアー会社）",
+                "price": "Rp200,000-350,000/人",
+                "duration": "6-7時間"
+              }
             ],
             "steps": [
               "【電車の場合】チェモロ・ラワンからクラカ駅まで車（約1時間）→ クラカ駅からバニュワンギ・コタ駅行き電車",
@@ -2431,7 +3430,14 @@
             "tips": [
               "ブロモ→イジェンのシェア送迎サービスを利用するのが現実的。宿で手配可",
               "バニュワンギ到着後、すぐにイジェンの夜間ツアーを宿で手配",
-              "イジェン出発は深夜0:00-1:00AM。夕方に到着してしっかり休むこと"
+              "イジェン出発は深夜0:00-1:00AM。夕方に到着してしっかり休むこと",
+              "【おすすめ】ブロモ→バニュワンギのシェア送迎が最もコスパ良い。宿で前日に手配（Rp200,000-350,000/人）",
+              "【重要】バニュワンギ到着後、すぐにイジェンツアーを手配すること。深夜0:00-1:00AM出発に備えて21:00までに就寝"
+            ],
+            "mustBring": [
+              "水と軽食（長距離移動）",
+              "充電ケーブル",
+              "酔い止め薬（山道が多い）"
             ]
           }
         },
@@ -2452,7 +3458,15 @@
             "tips": [
               "イジェンツアーは深夜0:00-1:00AM出発。21:00には就寝を",
               "ヘッドライト、防寒着、マスクの準備を確認",
-              "ツアー料金にガスマスクが含まれているか確認。なければレンタル（Rp45,000）"
+              "ツアー料金にガスマスクが含まれているか確認。なければレンタル（Rp45,000）",
+              "【重要】イジェンの必需品チェックリスト: ガスマスク、ヘッドライト、防寒着、手袋、水500ml、タオル、替えTシャツ。全て今晩中に準備！"
+            ],
+            "mustBring": [
+              "ガスマスク（イジェン用。ツアーに含まれるか確認）",
+              "ヘッドライト＋予備バッテリー",
+              "防寒着",
+              "手袋",
+              "替えのTシャツ（硫黄臭が染みつく）"
             ]
           }
         },
@@ -2466,21 +3480,30 @@
           "location": {
             "name": "バニュワンギ市内のワルン",
             "googleMapsUrl": "https://maps.google.com/?q=-8.2200,114.3700",
-            "lat": -8.2200,
-            "lng": 114.3700
+            "lat": -8.22,
+            "lng": 114.37
           },
           "details": {
-            "fee": { "idr": 15000, "jpy": 141 },
+            "fee": {
+              "idr": 15000,
+              "jpy": 141
+            },
             "duration": "30分",
             "tips": [
               "辛さは本当に強烈。覚悟して食べること",
-              "辛いのが苦手なら「sambal sedikit（サンバル少なめ）」と言えば調整してくれる"
+              "辛いのが苦手なら「sambal sedikit（サンバル少なめ）」と言えば調整してくれる",
+              "【注意】明日の深夜出発に備えて、食べ過ぎ・辛すぎに注意。胃を壊すと登山が地獄になる"
             ]
           }
         }
       ],
       "food": {
-        "localSpecialties": ["ラウォン（黒い牛肉スープ）", "セゴ・テンポン", "ルジャック・ソト", "アヤム・ケスルッ"],
+        "localSpecialties": [
+          "ラウォン（黒い牛肉スープ）",
+          "セゴ・テンポン",
+          "ルジャック・ソト",
+          "アヤム・ケスルッ"
+        ],
         "mustTry": {
           "dish": "セゴ・テンポン（Sego Tempong）",
           "description": "バニュワンギの名物。白いご飯に揚げ魚か鶏、野菜をのせ、強烈な辛さのサンバル・テンポン（チリ・トマト・シュリンプペースト）をドカンとのせたもの。1食Rp10,000-15,000。名前の「テンポン」は「ビンタ」の意味。サンバルの辛さに口がビンタされる。"
@@ -2490,12 +3513,23 @@
             "name": "Warung Umbul Bu Lest",
             "type": "ローカルワルン",
             "budget": "cheap",
-            "priceRange": { "idr": "10,000-20,000", "jpy": "94-188" },
-            "popular": ["ナシ・ペチェル", "アヤム・ケスルッ"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-8.2195,114.3695" }
+            "priceRange": {
+              "idr": "10,000-20,000",
+              "jpy": "94-188"
+            },
+            "popular": [
+              "ナシ・ペチェル",
+              "アヤム・ケスルッ"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.2195,114.3695"
+            }
           }
         ],
-        "drinks": ["コピ・バニュワンギ", "エス・テ"],
+        "drinks": [
+          "コピ・バニュワンギ",
+          "エス・テ"
+        ],
         "safetyTips": [
           "東ジャワの食事は辛い。覚悟のうえで挑戦を",
           "バニュワンギのワルンは清潔で安全"
@@ -2507,16 +3541,26 @@
           {
             "name": "Ketapang Indah Hotel",
             "budget": "mid",
-            "pricePerNight": { "idr": 350000, "jpy": 3290 },
+            "pricePerNight": {
+              "idr": 350000,
+              "jpy": 3290
+            },
             "bookingTip": "Booking.comで予約。イジェンツアーの手配も頼める",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-8.2190,114.3685" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.2190,114.3685"
+            }
           },
           {
             "name": "Zzz Ijen Hostel",
             "budget": "cheap",
-            "pricePerNight": { "idr": 100000, "jpy": 940 },
+            "pricePerNight": {
+              "idr": 100000,
+              "jpy": 940
+            },
             "bookingTip": "バックパッカー向け。ケタパン港にも近い",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-8.1500,114.3950" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.1500,114.3950"
+            }
           }
         ]
       },
@@ -2525,7 +3569,10 @@
         "to": "イジェン火山（Day 9-10）",
         "method": "ツアー車両",
         "duration": "バニュワンギ → パルトゥディン登山口: 約1.5時間",
-        "cost": { "idr": 300000, "jpy": 2820 },
+        "cost": {
+          "idr": 300000,
+          "jpy": 2820
+        },
         "options": [
           {
             "method": "イジェン・ブルーファイアツアー（おすすめ）",
@@ -2575,14 +3622,17 @@
           "location": {
             "name": "Paltuding（パルトゥディン登山口）",
             "googleMapsUrl": "https://maps.google.com/?q=-8.0650,114.2270",
-            "lat": -8.0650,
-            "lng": 114.2270
+            "lat": -8.065,
+            "lng": 114.227
           },
           "access": {
             "from": "バニュワンギ市内",
             "method": "ツアー車両",
             "duration": "約1.5時間",
-            "cost": { "idr": 300000, "jpy": 2820 },
+            "cost": {
+              "idr": 300000,
+              "jpy": 2820
+            },
             "steps": [
               "ツアー車両が0:00-1:00AMにホテルピックアップ",
               "パルトゥディン到着後、入場手続き・健康証明書の確認",
@@ -2608,13 +3658,21 @@
           "location": {
             "name": "イジェン登山道",
             "googleMapsUrl": "https://maps.google.com/?q=-8.0580,114.2420",
-            "lat": -8.0580,
-            "lng": 114.2420
+            "lat": -8.058,
+            "lng": 114.242
           },
           "details": {
             "duration": "1.5-2時間（片道3km）",
             "dressCode": "防寒着必須（気温5-15℃）。長袖・長ズボン。トレッキングシューズ",
-            "mustBring": ["ガスマスク（必須。通常のマスクでは不十分）", "ヘッドライト＋予備バッテリー", "防寒着（ダウンジャケット等）", "手袋", "水500ml", "タオル（硫黄を拭く用）", "替えのTシャツ（硫黄臭が染みつく）"],
+            "mustBring": [
+              "ガスマスク（必須。通常のマスクでは不十分）",
+              "ヘッドライト＋予備バッテリー",
+              "防寒着（ダウンジャケット等）",
+              "手袋",
+              "水500ml",
+              "タオル（硫黄を拭く用）",
+              "替えのTシャツ（硫黄臭が染みつく）"
+            ],
             "tips": [
               "【警告】絶対にガスマスクを外さないこと。硫黄ガスは致死量に達することがある",
               "ガイドの指示に必ず従うこと。単独行動は禁止",
@@ -2639,11 +3697,14 @@
           "location": {
             "name": "Kawah Ijen Blue Fire Area",
             "googleMapsUrl": "https://maps.google.com/?q=-8.0580,114.2420",
-            "lat": -8.0580,
-            "lng": 114.2420
+            "lat": -8.058,
+            "lng": 114.242
           },
           "details": {
-            "fee": { "idr": 150000, "jpy": 1410 },
+            "fee": {
+              "idr": 150000,
+              "jpy": 1410
+            },
             "hours": "ブルーファイアは暗い時間帯（2:00-4:30AM）のみ可視",
             "bestTime": "3:00-4:00AM（最も暗く、炎がはっきり見える）",
             "duration": "30分-1時間（ブルーファイア鑑賞）",
@@ -2695,14 +3756,17 @@
           "location": {
             "name": "パルトゥディン登山口",
             "googleMapsUrl": "https://maps.google.com/?q=-8.0650,114.2270",
-            "lat": -8.0650,
-            "lng": 114.2270
+            "lat": -8.065,
+            "lng": 114.227
           },
           "access": {
             "from": "イジェン火口の縁",
             "method": "徒歩 + ツアー車両",
             "duration": "下山1-1.5時間 + 車1.5時間",
-            "cost": { "idr": 0, "jpy": 0 }
+            "cost": {
+              "idr": 0,
+              "jpy": 0
+            }
           },
           "details": {
             "tips": [
@@ -2742,11 +3806,14 @@
           "location": {
             "name": "バニュワンギ市内",
             "googleMapsUrl": "https://maps.google.com/?q=-8.2200,114.3700",
-            "lat": -8.2200,
-            "lng": 114.3700
+            "lat": -8.22,
+            "lng": 114.37
           },
           "details": {
-            "fee": { "idr": 20000, "jpy": 188 },
+            "fee": {
+              "idr": 20000,
+              "jpy": 188
+            },
             "duration": "45分",
             "tips": [
               "ルジャック・ソトはバニュワンギ独自の料理。野菜サラダと牛スープの融合で意外なほど美味",
@@ -2776,7 +3843,13 @@
         }
       ],
       "food": {
-        "localSpecialties": ["セゴ・テンポン", "ルジャック・ソト", "ナシ・ラウォン", "ナシ・ロドッ", "サンベル・ケチョンブラン"],
+        "localSpecialties": [
+          "セゴ・テンポン",
+          "ルジャック・ソト",
+          "ナシ・ラウォン",
+          "ナシ・ロドッ",
+          "サンベル・ケチョンブラン"
+        ],
         "mustTry": {
           "dish": "ルジャック・ソト（Rujak Soto）",
           "description": "バニュワンギでしか食べられないユニークな一品。タンギーな野菜・フルーツのルジャック（サラダ）と、コクのある牛肉ソト（スープ）を1つの皿で合体。酸味とコクが絶妙にマッチする不思議な料理。1食Rp15,000-20,000。"
@@ -2786,13 +3859,27 @@
             "name": "Seafood Sobo",
             "type": "シーフードレストラン",
             "budget": "mid",
-            "priceRange": { "idr": "30,000-80,000", "jpy": "282-752" },
-            "popular": ["焼き魚", "エビ料理", "カニ"],
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-8.2200,114.3700" }
+            "priceRange": {
+              "idr": "30,000-80,000",
+              "jpy": "282-752"
+            },
+            "popular": [
+              "焼き魚",
+              "エビ料理",
+              "カニ"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.2200,114.3700"
+            }
           }
         ],
-        "drinks": ["コピ・バニュワンギ", "テ・ウェダン"],
-        "safetyTips": ["バニュワンギの食事は安全で美味しい。東ジャワは辛い料理が多い"]
+        "drinks": [
+          "コピ・バニュワンギ",
+          "テ・ウェダン"
+        ],
+        "safetyTips": [
+          "バニュワンギの食事は安全で美味しい。東ジャワは辛い料理が多い"
+        ]
       },
       "accommodation": {
         "area": "バニュワンギ市内（前日と同じ宿に連泊）",
@@ -2800,9 +3887,14 @@
           {
             "name": "Ketapang Indah Hotel",
             "budget": "mid",
-            "pricePerNight": { "idr": 350000, "jpy": 3290 },
+            "pricePerNight": {
+              "idr": 350000,
+              "jpy": 3290
+            },
             "bookingTip": "連泊がおすすめ。イジェンツアー後の休息に最適",
-            "location": { "googleMapsUrl": "https://maps.google.com/?q=-8.2190,114.3685" }
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.2190,114.3685"
+            }
           }
         ]
       },
@@ -2811,7 +3903,10 @@
         "to": "ケタパン港（バリ島行きフェリー）",
         "method": "Grab or ベモ",
         "duration": "30-40分（約10km）",
-        "cost": { "idr": 30000, "jpy": 282 },
+        "cost": {
+          "idr": 30000,
+          "jpy": 282
+        },
         "options": [
           {
             "method": "GrabCar",
@@ -2874,7 +3969,10 @@
             "from": "バニュワンギ市内",
             "method": "GrabCar",
             "duration": "30分（約10km）",
-            "cost": { "idr": 25000, "jpy": 235 },
+            "cost": {
+              "idr": 25000,
+              "jpy": 235
+            },
             "steps": [
               "GrabCarで「Pelabuhan Ketapang」を目的地に設定",
               "港のフェリーターミナルに到着",
@@ -2884,8 +3982,16 @@
           "details": {
             "tips": [
               "フェリーは24時間運航。約30分間隔で出航",
-              "予約なしで乗れるが、休日は混むのでFerizyアプリで事前購入も可"
-            ]
+              "予約なしで乗れるが、休日は混むのでFerizyアプリで事前購入も可",
+              "【重要】フェリーは24時間運航・約30分間隔。予約なしで乗れるが、休日は混むのでFerizyアプリで事前購入が安心"
+            ],
+            "mustBring": [
+              "パスポート（念のため手元に）",
+              "Ferizyアプリ（フェリーチケット購入用）",
+              "現金Rp50,000以上（港の売店用）",
+              "日焼け止め（デッキに出る場合）"
+            ],
+            "dressCode": "カジュアル。フェリーのデッキは風が強いので上着があると便利"
           }
         },
         {
@@ -2905,7 +4011,10 @@
             "from": "ケタパン港",
             "method": "公共フェリー",
             "duration": "30-45分",
-            "cost": { "idr": 10000, "jpy": 94 },
+            "cost": {
+              "idr": 10000,
+              "jpy": 94
+            },
             "steps": [
               "チケットカウンターで乗船券を購入（大人Rp8,000-10,000）",
               "フェリーターミナルで乗船待ち（通常15-30分）",
@@ -2914,14 +4023,22 @@
             ]
           },
           "details": {
-            "fee": { "idr": 10000, "jpy": 94 },
+            "fee": {
+              "idr": 10000,
+              "jpy": 94
+            },
             "hours": "24時間運航（約30分間隔）",
             "duration": "30-45分",
             "tips": [
               "徒歩乗船が最も安い。バイク込みならRp22,000-30,000、車込みならRp138,000-172,000",
               "デッキに出ると海風が気持ちいい。写真スポットも多い",
               "船内に売店あり。軽食と飲み物が買える",
-              "ギリマヌク港到着後はGrabでバリ島内の目的地へ"
+              "ギリマヌク港到着後はGrabでバリ島内の目的地へ",
+              "【注意】フェリー内は清潔だが、デッキは滑りやすい。走り回らないこと"
+            ],
+            "mustBring": [
+              "カメラ（海峡の景色を撮影）",
+              "上着（デッキは風が強い）"
             ]
           }
         },
@@ -2935,27 +4052,38 @@
           "location": {
             "name": "ギリマヌク港（Pelabuhan Gilimanuk）",
             "googleMapsUrl": "https://maps.google.com/?q=-8.1640,114.4410",
-            "lat": -8.1640,
-            "lng": 114.4410
+            "lat": -8.164,
+            "lng": 114.441
           },
           "details": {
             "tips": [
               "ギリマヌクからバリ島南部（クタ/スミニャック）まではGrabで約3.5時間（Rp400,000-600,000）",
               "ングラライ空港（デンパサール）まではGrabで約4時間",
               "バリ島内のバスならPeramaバスが観光客向けに運行（要予約）",
-              "お疲れさまでした。10日間のジャワ島横断、よい旅でしたか？"
+              "お疲れさまでした。10日間のジャワ島横断、よい旅でしたか？",
+              "【重要】ギリマヌクからバリ南部（クタ/空港）までは3.5-4時間。飛行機の時間に余裕を持つこと",
+              "10日間のジャワ島横断、お疲れさまでした！火口湖、ビーチ、世界遺産、滝、活火山——一生の思い出になる旅でした。Selamat jalan！"
+            ],
+            "mustBring": [
+              "Grabアプリ（バリ島内移動用）",
+              "バリ島のホテル予約確認書"
             ]
           }
         }
       ],
       "food": {
-        "localSpecialties": ["セゴ・テンポン", "ナシ・ラウォン"],
+        "localSpecialties": [
+          "セゴ・テンポン",
+          "ナシ・ラウォン"
+        ],
         "mustTry": {
           "dish": "旅の最後の朝食",
           "description": "バニュワンギで最後の朝食。この10日間で食べたインドネシア料理を振り返りながら、お気に入りの一品をもう一度。ナシゴレン、バソ、グドゥグ、イカン・バカール——どれも忘れられない味になったはず。"
         },
         "restaurants": [],
-        "drinks": ["コピ・バニュワンギ"],
+        "drinks": [
+          "コピ・バニュワンギ"
+        ],
         "safetyTips": []
       },
       "accommodation": {
@@ -2967,7 +4095,10 @@
         "to": "バリ島内の目的地",
         "method": "Grab or Peramaバス",
         "duration": "ギリマヌク → クタ/スミニャック: 約3.5時間、空港: 約4時間",
-        "cost": { "idr": 500000, "jpy": 4700 },
+        "cost": {
+          "idr": 500000,
+          "jpy": 4700
+        },
         "options": [
           {
             "method": "GrabCar",
@@ -2996,7 +4127,10 @@
       "name": "ジャカルタ（ガンビル駅周辺）",
       "subtitle": "空港から列車でバンドンへ向かう中継地点",
       "description": "ジャカルタはインドネシアの首都で人口1,000万人超の大都市。この旅ではバンドンへの中継地点として通過するが、ガンビル駅周辺にはコンビニ・ATM・薬局・飲食店が揃っており、列車の待ち時間を快適に過ごせる。駅から徒歩圏内にモナス（独立記念塔）もあり、時間があれば立ち寄りたい。",
-      "center": { "lat": -6.1767, "lng": 106.8303 },
+      "center": {
+        "lat": -6.1767,
+        "lng": 106.8303
+      },
       "areaTips": [
         "ガンビル駅構内にコンビニ・ATM・薬局あり。出なくても基本的な買い物はできる",
         "駅から南に出ると飲食店が並ぶ。Bugis Kopitiamは駅1階で便利",
@@ -3005,21 +4139,91 @@
         "TransJakarta（BRT）のジュアンダ停留所がガンビル駅から徒歩10分。市内移動に便利"
       ],
       "landmarks": [
-        { "name": "ガンビル駅", "lat": -6.1767, "lng": 106.8303 },
-        { "name": "モナス（独立記念塔）", "lat": -6.1753, "lng": 106.8272 },
-        { "name": "BNI City駅（空港鉄道）", "lat": -6.2016, "lng": 106.8197 }
+        {
+          "name": "ガンビル駅",
+          "lat": -6.1767,
+          "lng": 106.8303
+        },
+        {
+          "name": "モナス（独立記念塔）",
+          "lat": -6.1753,
+          "lng": 106.8272
+        },
+        {
+          "name": "BNI City駅（空港鉄道）",
+          "lat": -6.2016,
+          "lng": 106.8197
+        }
       ],
       "pois": [
-        { "name": "Indomaret ガンビル駅", "lat": -6.1758, "lng": 106.8304, "type": "convenience", "description": "駅構内コンビニ。飲み物・軽食・SIMカード。05:00-19:00", "googleMapsUrl": "https://maps.google.com/?q=-6.1758,106.8304" },
-        { "name": "ATM BCA ガンビル駅", "lat": -6.1768, "lng": 106.8305, "type": "atm", "description": "駅構内ATMセンター。BCA/Mandiri/BNI。24時間利用可", "googleMapsUrl": "https://maps.google.com/?q=-6.1768,106.8305" },
-        { "name": "キミア・ファルマ薬局", "lat": -6.1767, "lng": 106.8307, "type": "pharmacy", "description": "駅南口1階の薬局。常備薬・虫除け・マスク購入可", "googleMapsUrl": "https://maps.google.com/?q=-6.1767,106.8307" },
-        { "name": "Bugis Kopitiam ガンビル駅", "lat": -6.1765, "lng": 106.8304, "type": "restaurant", "description": "駅1階の東南アジア料理カフェ。ナシゴレン・ミーゴレンなど", "googleMapsUrl": "https://maps.google.com/?q=-6.1765,106.8304" },
-        { "name": "コピ・ケナンガン Wisma BNI 46", "lat": -6.2020, "lng": 106.8195, "type": "cafe", "description": "インドネシア発の人気コーヒーチェーン。BNI 46ビル内。平日07:00-20:00", "googleMapsUrl": "https://maps.google.com/?q=-6.2020,106.8195" },
-        { "name": "Indomaret Sudirman Park", "lat": -6.2025, "lng": 106.8189, "type": "convenience", "description": "BNI City駅から徒歩3分のコンビニ", "googleMapsUrl": "https://maps.google.com/?q=-6.2025,106.8189" },
-        { "name": "TransJakarta ジュアンダ停留所", "lat": -6.1711, "lng": 106.8261, "type": "transit", "description": "コリドー2・8のBRT停留所。ガンビル駅から徒歩10分", "googleMapsUrl": "https://maps.google.com/?q=-6.1711,106.8261" },
-        { "name": "ドゥクアタス BNI MRT駅", "lat": -6.2008, "lng": 106.8228, "type": "transit", "description": "南北線MRT駅。BNI City駅・LRT駅と接続する交通ハブ", "googleMapsUrl": "https://maps.google.com/?q=-6.2008,106.8228" }
+        {
+          "name": "Indomaret ガンビル駅",
+          "lat": -6.1758,
+          "lng": 106.8304,
+          "type": "convenience",
+          "description": "駅構内コンビニ。飲み物・軽食・SIMカード。05:00-19:00",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.1758,106.8304"
+        },
+        {
+          "name": "ATM BCA ガンビル駅",
+          "lat": -6.1768,
+          "lng": 106.8305,
+          "type": "atm",
+          "description": "駅構内ATMセンター。BCA/Mandiri/BNI。24時間利用可",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.1768,106.8305"
+        },
+        {
+          "name": "キミア・ファルマ薬局",
+          "lat": -6.1767,
+          "lng": 106.8307,
+          "type": "pharmacy",
+          "description": "駅南口1階の薬局。常備薬・虫除け・マスク購入可",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.1767,106.8307"
+        },
+        {
+          "name": "Bugis Kopitiam ガンビル駅",
+          "lat": -6.1765,
+          "lng": 106.8304,
+          "type": "restaurant",
+          "description": "駅1階の東南アジア料理カフェ。ナシゴレン・ミーゴレンなど",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.1765,106.8304"
+        },
+        {
+          "name": "コピ・ケナンガン Wisma BNI 46",
+          "lat": -6.202,
+          "lng": 106.8195,
+          "type": "cafe",
+          "description": "インドネシア発の人気コーヒーチェーン。BNI 46ビル内。平日07:00-20:00",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.2020,106.8195"
+        },
+        {
+          "name": "Indomaret Sudirman Park",
+          "lat": -6.2025,
+          "lng": 106.8189,
+          "type": "convenience",
+          "description": "BNI City駅から徒歩3分のコンビニ",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.2025,106.8189"
+        },
+        {
+          "name": "TransJakarta ジュアンダ停留所",
+          "lat": -6.1711,
+          "lng": 106.8261,
+          "type": "transit",
+          "description": "コリドー2・8のBRT停留所。ガンビル駅から徒歩10分",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.1711,106.8261"
+        },
+        {
+          "name": "ドゥクアタス BNI MRT駅",
+          "lat": -6.2008,
+          "lng": 106.8228,
+          "type": "transit",
+          "description": "南北線MRT駅。BNI City駅・LRT駅と接続する交通ハブ",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.2008,106.8228"
+        }
       ],
-      "relatedDays": [1],
+      "relatedDays": [
+        1
+      ],
       "backLink": "/day/1",
       "backLinkLabel": "Day 1に戻る"
     },
@@ -3027,7 +4231,10 @@
       "name": "バンドン（駅〜ブラガ通り〜ダゴ通り）",
       "subtitle": "標高768mの高原都市。グルメとカフェの街",
       "description": "バンドンはジャワ島西部の高原都市で、オランダ植民地時代の建築が残るブラガ通りと、学生街のダゴ通りが二大エリア。スンダ料理のワルン（大衆食堂）、1918年創業のブラガ・ペルマイ、名物バタゴールなど、食の楽しみが尽きない。カフェ文化も盛んで、地元焙煎のコーヒーショップが多数。",
-      "center": { "lat": -6.9150, "lng": 107.6090 },
+      "center": {
+        "lat": -6.915,
+        "lng": 107.609
+      },
       "areaTips": [
         "ブラガ通り（Jl. Braga）は歩行者天国になることも。コロニアル建築のカフェ・レストランが並ぶ",
         "ダゴ通り（Jl. Ir. H. Juanda）は大学エリア。若者向けカフェ・ファッション店が豊富",
@@ -3036,25 +4243,124 @@
         "週末はジャカルタからの観光客で渋滞する。移動は早めに"
       ],
       "landmarks": [
-        { "name": "バンドン駅", "lat": -6.9122, "lng": 107.6032 },
-        { "name": "ブラガ通り", "lat": -6.9174, "lng": 107.6092 },
-        { "name": "アジア・アフリカ会議記念博物館", "lat": -6.9215, "lng": 107.6096 }
+        {
+          "name": "バンドン駅",
+          "lat": -6.9122,
+          "lng": 107.6032
+        },
+        {
+          "name": "ブラガ通り",
+          "lat": -6.9174,
+          "lng": 107.6092
+        },
+        {
+          "name": "アジア・アフリカ会議記念博物館",
+          "lat": -6.9215,
+          "lng": 107.6096
+        }
       ],
       "pois": [
-        { "name": "Warung Nasi Ampera", "lat": -6.9124, "lng": 107.6012, "type": "restaurant", "description": "スンダ料理。24h営業。駅から徒歩2分", "googleMapsUrl": "https://maps.google.com/?q=-6.9124,107.6012" },
-        { "name": "Bakso Boedjangan Braga", "lat": -6.9171, "lng": 107.6088, "type": "restaurant", "description": "人気バクソチェーン。Braga City Walk内", "googleMapsUrl": "https://maps.google.com/?q=-6.9171,107.6088" },
-        { "name": "Braga Permai", "lat": -6.9174, "lng": 107.6095, "type": "restaurant", "description": "1918年創業の歴史的レストラン。Jl. Braga 58", "googleMapsUrl": "https://maps.google.com/?q=-6.9174,107.6095" },
-        { "name": "Batagor Kingsley", "lat": -6.9190, "lng": 107.6154, "type": "restaurant", "description": "1979年創業の伝説的バタゴール。Jl. Veteran 25", "googleMapsUrl": "https://maps.google.com/?q=-6.9190,107.6154" },
-        { "name": "Warung Nasi Bu Eha", "lat": -6.9105, "lng": 107.6123, "type": "restaurant", "description": "ローカルワルン。安くて旨い。駅から徒歩5分", "googleMapsUrl": "https://maps.google.com/?q=-6.9105,107.6123" },
-        { "name": "Kampung Daun", "lat": -6.8404, "lng": 107.6075, "type": "restaurant", "description": "山の中のスンダ料理レストラン。雰囲気抜群", "googleMapsUrl": "https://maps.google.com/?q=-6.8404,107.6075" },
-        { "name": "Kopi Toko Djawa", "lat": -6.9175, "lng": 107.6092, "type": "cafe", "description": "バンドン発の人気コーヒー店。Jl. Braga 81", "googleMapsUrl": "https://maps.google.com/?q=-6.9175,107.6092" },
-        { "name": "Starbucks Dipati Ukur", "lat": -6.8960, "lng": 107.6168, "type": "cafe", "description": "2階建て。Dago通りから徒歩5分。Jl. Dipati Ukur 42", "googleMapsUrl": "https://maps.google.com/?q=-6.8960,107.6168" },
-        { "name": "Indomaret Kebon Kawung", "lat": -6.9123, "lng": 107.6003, "type": "convenience", "description": "コンビニ（24h）。駅北口から徒歩3分", "googleMapsUrl": "https://maps.google.com/?q=-6.9123,107.6003" },
-        { "name": "Indomaret Dago 303", "lat": -6.8775, "lng": 107.6170, "type": "convenience", "description": "コンビニ（24h）。ATM BCA/Mandiri併設。Jl. Dago", "googleMapsUrl": "https://maps.google.com/?q=-6.8775,107.6170" },
-        { "name": "ATM BCA 駅構内", "lat": -6.9127, "lng": 107.6019, "type": "atm", "description": "駅構内ATMセンター（BCA/Mandiri/BNI）", "googleMapsUrl": "https://maps.google.com/?q=-6.9127,107.6019" },
-        { "name": "Braga City Walk", "lat": -6.9171, "lng": 107.6092, "type": "mall", "description": "モール・飲食街。Jl. Braga 99-101", "googleMapsUrl": "https://maps.google.com/?q=-6.9171,107.6092" }
+        {
+          "name": "Warung Nasi Ampera",
+          "lat": -6.9124,
+          "lng": 107.6012,
+          "type": "restaurant",
+          "description": "スンダ料理。24h営業。駅から徒歩2分",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.9124,107.6012"
+        },
+        {
+          "name": "Bakso Boedjangan Braga",
+          "lat": -6.9171,
+          "lng": 107.6088,
+          "type": "restaurant",
+          "description": "人気バクソチェーン。Braga City Walk内",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.9171,107.6088"
+        },
+        {
+          "name": "Braga Permai",
+          "lat": -6.9174,
+          "lng": 107.6095,
+          "type": "restaurant",
+          "description": "1918年創業の歴史的レストラン。Jl. Braga 58",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.9174,107.6095"
+        },
+        {
+          "name": "Batagor Kingsley",
+          "lat": -6.919,
+          "lng": 107.6154,
+          "type": "restaurant",
+          "description": "1979年創業の伝説的バタゴール。Jl. Veteran 25",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.9190,107.6154"
+        },
+        {
+          "name": "Warung Nasi Bu Eha",
+          "lat": -6.9105,
+          "lng": 107.6123,
+          "type": "restaurant",
+          "description": "ローカルワルン。安くて旨い。駅から徒歩5分",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.9105,107.6123"
+        },
+        {
+          "name": "Kampung Daun",
+          "lat": -6.8404,
+          "lng": 107.6075,
+          "type": "restaurant",
+          "description": "山の中のスンダ料理レストラン。雰囲気抜群",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.8404,107.6075"
+        },
+        {
+          "name": "Kopi Toko Djawa",
+          "lat": -6.9175,
+          "lng": 107.6092,
+          "type": "cafe",
+          "description": "バンドン発の人気コーヒー店。Jl. Braga 81",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.9175,107.6092"
+        },
+        {
+          "name": "Starbucks Dipati Ukur",
+          "lat": -6.896,
+          "lng": 107.6168,
+          "type": "cafe",
+          "description": "2階建て。Dago通りから徒歩5分。Jl. Dipati Ukur 42",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.8960,107.6168"
+        },
+        {
+          "name": "Indomaret Kebon Kawung",
+          "lat": -6.9123,
+          "lng": 107.6003,
+          "type": "convenience",
+          "description": "コンビニ（24h）。駅北口から徒歩3分",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.9123,107.6003"
+        },
+        {
+          "name": "Indomaret Dago 303",
+          "lat": -6.8775,
+          "lng": 107.617,
+          "type": "convenience",
+          "description": "コンビニ（24h）。ATM BCA/Mandiri併設。Jl. Dago",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.8775,107.6170"
+        },
+        {
+          "name": "ATM BCA 駅構内",
+          "lat": -6.9127,
+          "lng": 107.6019,
+          "type": "atm",
+          "description": "駅構内ATMセンター（BCA/Mandiri/BNI）",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.9127,107.6019"
+        },
+        {
+          "name": "Braga City Walk",
+          "lat": -6.9171,
+          "lng": 107.6092,
+          "type": "mall",
+          "description": "モール・飲食街。Jl. Braga 99-101",
+          "googleMapsUrl": "https://maps.google.com/?q=-6.9171,107.6092"
+        }
       ],
-      "relatedDays": [1, 2],
+      "relatedDays": [
+        1,
+        2
+      ],
       "backLink": "/day/1",
       "backLinkLabel": "Day 1に戻る",
       "customGuideUrl": "/bandung"
@@ -3063,7 +4369,10 @@
       "name": "パンガンダラン（ビーチエリア）",
       "subtitle": "インド洋に面した素朴なビーチタウン",
       "description": "パンガンダランはジャワ島南海岸のビーチタウン。半島の西側は穏やかな西ビーチ（泳げる）、東側は東ビーチ（遊泳禁止だがジェットスキー等あり）。先端には国立公園が広がる。バリのような華やかさはないが、新鮮な魚介と素朴な空気が魅力。グリーンキャニオンやバトゥカラスへの拠点でもある。",
-      "center": { "lat": -7.6882, "lng": 108.6561 },
+      "center": {
+        "lat": -7.6882,
+        "lng": 108.6561
+      },
       "areaTips": [
         "ビーチ周辺は徒歩で回れる。グリーンキャニオンやバトゥカラスへはバイクレンタル（Rp50,000/日）が便利",
         "ATMはラウッビル・リゾートホテル横に2台。カード決済は不安定なので現金を多めに",
@@ -3072,18 +4381,68 @@
         "2006年に津波被害あり。海辺で強い地震を感じたら直ちに高台へ"
       ],
       "landmarks": [
-        { "name": "パンガンダラン西ビーチ", "lat": -7.7188, "lng": 108.4873 },
-        { "name": "パンガンダラン国立公園", "lat": -7.7046, "lng": 108.6588 },
-        { "name": "グリーンキャニオン", "lat": -7.7344, "lng": 108.4667 }
+        {
+          "name": "パンガンダラン西ビーチ",
+          "lat": -7.7188,
+          "lng": 108.4873
+        },
+        {
+          "name": "パンガンダラン国立公園",
+          "lat": -7.7046,
+          "lng": 108.6588
+        },
+        {
+          "name": "グリーンキャニオン",
+          "lat": -7.7344,
+          "lng": 108.4667
+        }
       ],
       "pois": [
-        { "name": "Pasar Ikan Pangandaran", "lat": -7.6880, "lng": 108.6575, "type": "restaurant", "description": "魚市場。新鮮な魚を選んでその場で焼いてもらう", "googleMapsUrl": "https://maps.google.com/?q=-7.6880,108.6575" },
-        { "name": "Green Garden Cafe", "lat": -7.6895, "lng": 108.6550, "type": "restaurant", "description": "ビーチビュー。洋食＋インドネシア料理。Rp15,000-40,000", "googleMapsUrl": "https://maps.google.com/?q=-7.6895,108.6550" },
-        { "name": "Warung Nasi Pa Djaja", "lat": -7.6890, "lng": 108.6560, "type": "restaurant", "description": "スンダ料理ワルン。野菜メニューも豊富。Rp10,000-20,000", "googleMapsUrl": "https://maps.google.com/?q=-7.6890,108.6560" },
-        { "name": "ATM BCA/BRI", "lat": -7.6900, "lng": 108.6555, "type": "atm", "description": "ラウッビル・リゾートホテル横。24時間", "googleMapsUrl": "https://maps.google.com/?q=-7.6900,108.6555" },
-        { "name": "Indomaret Pangandaran", "lat": -7.6920, "lng": 108.6560, "type": "convenience", "description": "コンビニ。飲み物・軽食・日用品", "googleMapsUrl": "https://maps.google.com/?q=-7.6920,108.6560" }
+        {
+          "name": "Pasar Ikan Pangandaran",
+          "lat": -7.688,
+          "lng": 108.6575,
+          "type": "restaurant",
+          "description": "魚市場。新鮮な魚を選んでその場で焼いてもらう",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.6880,108.6575"
+        },
+        {
+          "name": "Green Garden Cafe",
+          "lat": -7.6895,
+          "lng": 108.655,
+          "type": "restaurant",
+          "description": "ビーチビュー。洋食＋インドネシア料理。Rp15,000-40,000",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.6895,108.6550"
+        },
+        {
+          "name": "Warung Nasi Pa Djaja",
+          "lat": -7.689,
+          "lng": 108.656,
+          "type": "restaurant",
+          "description": "スンダ料理ワルン。野菜メニューも豊富。Rp10,000-20,000",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.6890,108.6560"
+        },
+        {
+          "name": "ATM BCA/BRI",
+          "lat": -7.69,
+          "lng": 108.6555,
+          "type": "atm",
+          "description": "ラウッビル・リゾートホテル横。24時間",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.6900,108.6555"
+        },
+        {
+          "name": "Indomaret Pangandaran",
+          "lat": -7.692,
+          "lng": 108.656,
+          "type": "convenience",
+          "description": "コンビニ。飲み物・軽食・日用品",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.6920,108.6560"
+        }
       ],
-      "relatedDays": [3, 4],
+      "relatedDays": [
+        3,
+        4
+      ],
       "backLink": "/day/3",
       "backLinkLabel": "Day 3に戻る",
       "customGuideUrl": "/pangandaran"
@@ -3092,7 +4451,10 @@
       "name": "ジョグジャカルタ（マリオボロ〜プラウィロタマン）",
       "subtitle": "ジャワ文化の中心地。世界遺産とストリートフードの街",
       "description": "ジョグジャカルタはジャワ島の古都で、今もスルタン（王）が統治する特別州。マリオボロ通りは買い物とストリートフードの天国。南にはクラトン（王宮）とタマンサリ（水の宮殿）、北にはボロブドゥール、東にはプランバナンと、世界遺産に囲まれた文化都市。",
-      "center": { "lat": -7.7956, "lng": 110.3695 },
+      "center": {
+        "lat": -7.7956,
+        "lng": 110.3695
+      },
       "areaTips": [
         "マリオボロ通りはジョグジャのメインストリート。バティック・お土産・屋台が並ぶ",
         "TransJogjaバスは均一Rp3,600で市内をカバー。Route 1A/1Bでプランバナンへ直行",
@@ -3101,20 +4463,81 @@
         "ボロブドゥールの日の出ツアーは宿のフロントで手配可能（前日までに）"
       ],
       "landmarks": [
-        { "name": "トゥグ駅", "lat": -7.7892, "lng": 110.3635 },
-        { "name": "マリオボロ通り", "lat": -7.7934, "lng": 110.3657 },
-        { "name": "クラトン（王宮）", "lat": -7.8085, "lng": 110.3637 },
-        { "name": "タマンサリ", "lat": -7.8101, "lng": 110.3596 }
+        {
+          "name": "トゥグ駅",
+          "lat": -7.7892,
+          "lng": 110.3635
+        },
+        {
+          "name": "マリオボロ通り",
+          "lat": -7.7934,
+          "lng": 110.3657
+        },
+        {
+          "name": "クラトン（王宮）",
+          "lat": -7.8085,
+          "lng": 110.3637
+        },
+        {
+          "name": "タマンサリ",
+          "lat": -7.8101,
+          "lng": 110.3596
+        }
       ],
       "pois": [
-        { "name": "Gudeg Yu Djum", "lat": -7.7830, "lng": 110.3680, "type": "restaurant", "description": "伝説的グドゥグ店。宮廷料理人の味。Rp20,000-35,000", "googleMapsUrl": "https://maps.google.com/?q=-7.7830,110.3680" },
-        { "name": "Angkringan Lek Man", "lat": -7.7935, "lng": 110.3660, "type": "restaurant", "description": "マリオボロの屋台。コピ・ジョスが名物。Rp3,000-10,000", "googleMapsUrl": "https://maps.google.com/?q=-7.7935,110.3660" },
-        { "name": "Bale Raos", "lat": -7.8090, "lng": 110.3640, "type": "restaurant", "description": "宮廷料理レストラン。歴代スルタンの好物", "googleMapsUrl": "https://maps.google.com/?q=-7.8090,110.3640" },
-        { "name": "Waroeng SS", "lat": -7.8010, "lng": 110.3690, "type": "restaurant", "description": "サンバル専門チェーン。サンバルの種類が豊富", "googleMapsUrl": "https://maps.google.com/?q=-7.8010,110.3690" },
-        { "name": "ATM BCA Malioboro", "lat": -7.7925, "lng": 110.3658, "type": "atm", "description": "マリオボロ通り沿い。24時間", "googleMapsUrl": "https://maps.google.com/?q=-7.7925,110.3658" },
-        { "name": "Indomaret Malioboro", "lat": -7.7930, "lng": 110.3655, "type": "convenience", "description": "マリオボロ通りのコンビニ。24時間", "googleMapsUrl": "https://maps.google.com/?q=-7.7930,110.3655" }
+        {
+          "name": "Gudeg Yu Djum",
+          "lat": -7.783,
+          "lng": 110.368,
+          "type": "restaurant",
+          "description": "伝説的グドゥグ店。宮廷料理人の味。Rp20,000-35,000",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.7830,110.3680"
+        },
+        {
+          "name": "Angkringan Lek Man",
+          "lat": -7.7935,
+          "lng": 110.366,
+          "type": "restaurant",
+          "description": "マリオボロの屋台。コピ・ジョスが名物。Rp3,000-10,000",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.7935,110.3660"
+        },
+        {
+          "name": "Bale Raos",
+          "lat": -7.809,
+          "lng": 110.364,
+          "type": "restaurant",
+          "description": "宮廷料理レストラン。歴代スルタンの好物",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.8090,110.3640"
+        },
+        {
+          "name": "Waroeng SS",
+          "lat": -7.801,
+          "lng": 110.369,
+          "type": "restaurant",
+          "description": "サンバル専門チェーン。サンバルの種類が豊富",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.8010,110.3690"
+        },
+        {
+          "name": "ATM BCA Malioboro",
+          "lat": -7.7925,
+          "lng": 110.3658,
+          "type": "atm",
+          "description": "マリオボロ通り沿い。24時間",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.7925,110.3658"
+        },
+        {
+          "name": "Indomaret Malioboro",
+          "lat": -7.793,
+          "lng": 110.3655,
+          "type": "convenience",
+          "description": "マリオボロ通りのコンビニ。24時間",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.7930,110.3655"
+        }
       ],
-      "relatedDays": [5, 6],
+      "relatedDays": [
+        5,
+        6
+      ],
       "backLink": "/day/5",
       "backLinkLabel": "Day 5に戻る",
       "customGuideUrl": "/yogyakarta"
@@ -3124,7 +4547,10 @@
       "name": "マラン/バトゥ（東ジャワ高原都市）",
       "subtitle": "滝と火山に囲まれた東ジャワの拠点 — 標高470m・年間平均気温23.6℃",
       "description": "マランは東ジャワの高原都市（標高約470m）で、オランダ植民地時代の面影が残るイジェン通りやカユタンガン・ヘリテージが徒歩で楽しめる。周辺にはトゥンパックスウ滝やコバン・ロンド滝など壮大な滝が点在し、隣のバトゥ市にはテーマパークも多い。ブロモ山やイジェンへのアクセス拠点としても重要。東ジャワの食都でもあり、ラウォン（黒い牛肉スープ）やバクソ・マランは必食。",
-      "center": { "lat": -7.9774, "lng": 112.6341 },
+      "center": {
+        "lat": -7.9774,
+        "lng": 112.6341
+      },
       "areaTips": [
         "【気候】標高470mで涼しい。日中28-30℃、夜間17-20℃。長袖を1枚持とう。ジャカルタより5℃程度低い",
         "【乾季】6-10月がベスト。8月が最も乾燥（降水26mm）。ブロモの雲海も乾季が確率高い",
@@ -3146,28 +4572,144 @@
         "【1日予算目安】バックパッカー: Rp300,000-450,000（屋台+ドミ+アンコット）/ 快適旅: Rp700,000-1,300,000（レストラン+ホテル+Grab）"
       ],
       "landmarks": [
-        { "name": "マラン・コタバル駅", "lat": -7.9774, "lng": 112.6341 },
-        { "name": "アルンアルン・トゥグ（中央広場）", "lat": -7.9775, "lng": 112.6310 },
-        { "name": "イジェン通り（Jl. Ijen Boulevard）", "lat": -7.9690, "lng": 112.6320 },
-        { "name": "カユタンガン・ヘリテージ", "lat": -7.9810, "lng": 112.6330 },
-        { "name": "マラン・タウンスクエア（MATOS）", "lat": -7.9760, "lng": 112.6282 },
-        { "name": "トゥンパックスウ滝", "lat": -8.2301, "lng": 112.9178 },
-        { "name": "ブロモ山", "lat": -7.9430, "lng": 112.9532 },
-        { "name": "バトゥ市（Alun-Alun Batu）", "lat": -7.8700, "lng": 112.5280 }
+        {
+          "name": "マラン・コタバル駅",
+          "lat": -7.9774,
+          "lng": 112.6341
+        },
+        {
+          "name": "アルンアルン・トゥグ（中央広場）",
+          "lat": -7.9775,
+          "lng": 112.631
+        },
+        {
+          "name": "イジェン通り（Jl. Ijen Boulevard）",
+          "lat": -7.969,
+          "lng": 112.632
+        },
+        {
+          "name": "カユタンガン・ヘリテージ",
+          "lat": -7.981,
+          "lng": 112.633
+        },
+        {
+          "name": "マラン・タウンスクエア（MATOS）",
+          "lat": -7.976,
+          "lng": 112.6282
+        },
+        {
+          "name": "トゥンパックスウ滝",
+          "lat": -8.2301,
+          "lng": 112.9178
+        },
+        {
+          "name": "ブロモ山",
+          "lat": -7.943,
+          "lng": 112.9532
+        },
+        {
+          "name": "バトゥ市（Alun-Alun Batu）",
+          "lat": -7.87,
+          "lng": 112.528
+        }
       ],
       "pois": [
-        { "name": "Rawon Nguling", "lat": -7.9780, "lng": 112.6350, "type": "restaurant", "description": "ラウォン（黒い牛肉スープ）の名店。東ジャワ必食の一杯。Rp15,000-30,000", "googleMapsUrl": "https://maps.google.com/?q=-7.9780,112.6350" },
-        { "name": "Bakso President Malang", "lat": -7.9790, "lng": 112.6320, "type": "restaurant", "description": "マラン名物バクソ（肉団子スープ）の人気店。Rp15,000-25,000", "googleMapsUrl": "https://maps.google.com/?q=-7.9790,112.6320" },
-        { "name": "Warung Leko", "lat": -7.9815, "lng": 112.6345, "type": "restaurant", "description": "アヤム・ゴレン（フライドチキン）とサンバルが絶品のワルン。Rp12,000-25,000", "googleMapsUrl": "https://maps.google.com/?q=-7.9815,112.6345" },
-        { "name": "Toko Oen", "lat": -7.9803, "lng": 112.6328, "type": "restaurant", "description": "1930年創業のレトロカフェ。アイスクリームとオランダ菓子。植民地時代の内装が残る名店。Jl. Basuki Rachmat 5", "googleMapsUrl": "https://maps.google.com/?q=-7.9803,112.6328" },
-        { "name": "Indomaret Malang Station", "lat": -7.9770, "lng": 112.6345, "type": "convenience", "description": "駅周辺のコンビニ。24時間。ATM BCA併設", "googleMapsUrl": "https://maps.google.com/?q=-7.9770,112.6345" },
-        { "name": "Alfamart Jl. Veteran", "lat": -7.9755, "lng": 112.6280, "type": "convenience", "description": "MATOS近くのコンビニ。24時間。ATM Mandiri併設", "googleMapsUrl": "https://maps.google.com/?q=-7.9755,112.6280" },
-        { "name": "ATM BCA Malang 駅周辺", "lat": -7.9775, "lng": 112.6340, "type": "atm", "description": "マラン駅周辺。BCA/Mandiri。Visa/Mastercard対応。24時間", "googleMapsUrl": "https://maps.google.com/?q=-7.9775,112.6340" },
-        { "name": "ATM Center MATOS", "lat": -7.9758, "lng": 112.6283, "type": "atm", "description": "マラン・タウンスクエア1F。BCA/BNI/Mandiri/BRI。国際カード対応", "googleMapsUrl": "https://maps.google.com/?q=-7.9758,112.6283" },
-        { "name": "Ratri Money Changer（MATOS内）", "lat": -7.9760, "lng": 112.6282, "type": "atm", "description": "信頼できる両替所。日本円・米ドル・ユーロ対応。MATOS 1F", "googleMapsUrl": "https://maps.google.com/?q=-7.9760,112.6282" },
-        { "name": "Kopi Cak Wang", "lat": -7.9785, "lng": 112.6338, "type": "cafe", "description": "マラン発のローカルコーヒー店。WiFiあり。Rp10,000-25,000", "googleMapsUrl": "https://maps.google.com/?q=-7.9785,112.6338" },
-        { "name": "Shelter Hostel Malang", "lat": -7.9770, "lng": 112.6310, "type": "landmark", "description": "アルンアルン・トゥグから徒歩4分のホステル。ブロモツアー手配可。ドミRp80,000〜", "googleMapsUrl": "https://maps.google.com/?q=-7.9770,112.6310" },
-        { "name": "マラン・タウンスクエア（MATOS）", "lat": -7.9760, "lng": 112.6282, "type": "mall", "description": "ショッピングモール。飲食・ATM・Telkomselショップ・両替所が揃う", "googleMapsUrl": "https://maps.google.com/?q=-7.9760,112.6282" }
+        {
+          "name": "Rawon Nguling",
+          "lat": -7.978,
+          "lng": 112.635,
+          "type": "restaurant",
+          "description": "ラウォン（黒い牛肉スープ）の名店。東ジャワ必食の一杯。Rp15,000-30,000",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9780,112.6350"
+        },
+        {
+          "name": "Bakso President Malang",
+          "lat": -7.979,
+          "lng": 112.632,
+          "type": "restaurant",
+          "description": "マラン名物バクソ（肉団子スープ）の人気店。Rp15,000-25,000",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9790,112.6320"
+        },
+        {
+          "name": "Warung Leko",
+          "lat": -7.9815,
+          "lng": 112.6345,
+          "type": "restaurant",
+          "description": "アヤム・ゴレン（フライドチキン）とサンバルが絶品のワルン。Rp12,000-25,000",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9815,112.6345"
+        },
+        {
+          "name": "Toko Oen",
+          "lat": -7.9803,
+          "lng": 112.6328,
+          "type": "restaurant",
+          "description": "1930年創業のレトロカフェ。アイスクリームとオランダ菓子。植民地時代の内装が残る名店。Jl. Basuki Rachmat 5",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9803,112.6328"
+        },
+        {
+          "name": "Indomaret Malang Station",
+          "lat": -7.977,
+          "lng": 112.6345,
+          "type": "convenience",
+          "description": "駅周辺のコンビニ。24時間。ATM BCA併設",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9770,112.6345"
+        },
+        {
+          "name": "Alfamart Jl. Veteran",
+          "lat": -7.9755,
+          "lng": 112.628,
+          "type": "convenience",
+          "description": "MATOS近くのコンビニ。24時間。ATM Mandiri併設",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9755,112.6280"
+        },
+        {
+          "name": "ATM BCA Malang 駅周辺",
+          "lat": -7.9775,
+          "lng": 112.634,
+          "type": "atm",
+          "description": "マラン駅周辺。BCA/Mandiri。Visa/Mastercard対応。24時間",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9775,112.6340"
+        },
+        {
+          "name": "ATM Center MATOS",
+          "lat": -7.9758,
+          "lng": 112.6283,
+          "type": "atm",
+          "description": "マラン・タウンスクエア1F。BCA/BNI/Mandiri/BRI。国際カード対応",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9758,112.6283"
+        },
+        {
+          "name": "Ratri Money Changer（MATOS内）",
+          "lat": -7.976,
+          "lng": 112.6282,
+          "type": "atm",
+          "description": "信頼できる両替所。日本円・米ドル・ユーロ対応。MATOS 1F",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9760,112.6282"
+        },
+        {
+          "name": "Kopi Cak Wang",
+          "lat": -7.9785,
+          "lng": 112.6338,
+          "type": "cafe",
+          "description": "マラン発のローカルコーヒー店。WiFiあり。Rp10,000-25,000",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9785,112.6338"
+        },
+        {
+          "name": "Shelter Hostel Malang",
+          "lat": -7.977,
+          "lng": 112.631,
+          "type": "landmark",
+          "description": "アルンアルン・トゥグから徒歩4分のホステル。ブロモツアー手配可。ドミRp80,000〜",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9770,112.6310"
+        },
+        {
+          "name": "マラン・タウンスクエア（MATOS）",
+          "lat": -7.976,
+          "lng": 112.6282,
+          "type": "mall",
+          "description": "ショッピングモール。飲食・ATM・Telkomselショップ・両替所が揃う",
+          "googleMapsUrl": "https://maps.google.com/?q=-7.9760,112.6282"
+        }
       ],
       "gettingThere": {
         "fromYogyakarta": {
@@ -3253,7 +4795,16 @@
         "name": "マラン・コタバル駅（Stasiun Malang Kota Baru）",
         "code": "ML",
         "description": "2021年5月に新装開業。ジグザグ屋根が特徴的な近代的駅舎。アルンアルン・トゥグ（中央広場）から徒歩5分の好立地。最大2,500人収容。スカイブリッジ・エスカレーター・トラベレーター完備でバリアフリー対応",
-        "facilities": ["待合室（冷房完備）", "チケットカウンター", "自動券売機", "ATM（BCA/Mandiri/BNI）", "売店・軽食店", "トイレ", "礼拝室", "ウォーターサーバー"],
+        "facilities": [
+          "待合室（冷房完備）",
+          "チケットカウンター",
+          "自動券売機",
+          "ATM（BCA/Mandiri/BNI）",
+          "売店・軽食店",
+          "トイレ",
+          "礼拝室",
+          "ウォーターサーバー"
+        ],
         "ticketPurchase": [
           "Access by KAIアプリ（パスポート番号で登録。OTP送信失敗の場合あり）",
           "Traveloka / tiket.com（外国人はこちらが確実。クレジットカードOK）",
@@ -3355,13 +4906,31 @@
         "bookingTips": "Booking.comまたはAgodaで予約。ハイシーズン（7-8月、年末年始）は早めに。ホステルはWalk-inでも空きがあることが多いが、週末は予約推奨"
       },
       "apps": [
-        { "name": "Grab", "use": "配車（車・バイク）、フードデリバリー。マラン市内はほぼ全域カバー" },
-        { "name": "Gojek", "use": "配車（車・バイク）、フードデリバリー。GrabBikeの代替としても" },
-        { "name": "Access by KAI", "use": "列車の時刻表確認・チケット予約・e-boardingパス。外国人はOTP認証が不安定な場合あり" },
-        { "name": "Traveloka", "use": "列車・飛行機・ホテル予約。外国人に最も使いやすい総合予約アプリ" },
-        { "name": "Google Maps", "use": "ナビゲーション。マラン市内+ブロモ周辺のオフラインマップを事前ダウンロードしておくこと" }
+        {
+          "name": "Grab",
+          "use": "配車（車・バイク）、フードデリバリー。マラン市内はほぼ全域カバー"
+        },
+        {
+          "name": "Gojek",
+          "use": "配車（車・バイク）、フードデリバリー。GrabBikeの代替としても"
+        },
+        {
+          "name": "Access by KAI",
+          "use": "列車の時刻表確認・チケット予約・e-boardingパス。外国人はOTP認証が不安定な場合あり"
+        },
+        {
+          "name": "Traveloka",
+          "use": "列車・飛行機・ホテル予約。外国人に最も使いやすい総合予約アプリ"
+        },
+        {
+          "name": "Google Maps",
+          "use": "ナビゲーション。マラン市内+ブロモ周辺のオフラインマップを事前ダウンロードしておくこと"
+        }
       ],
-      "relatedDays": [7, 8],
+      "relatedDays": [
+        7,
+        8
+      ],
       "backLink": "/day/7",
       "backLinkLabel": "Day 7に戻る"
     },
@@ -3370,7 +4939,10 @@
       "subtitle": "ジャワ島最東端の街。イジェン火山とバリへの玄関口",
       "description": "バニュワンギはジャワ島最東端に位置する街で、イジェン火山のブルーファイアトレッキングの拠点。バリ島行きフェリーが出るケタパン港もここにある。セゴ・テンポン（激辛ご飯）やルジャック・ソト（サラダとスープの合体料理）など独自の食文化も魅力的。",
       "customGuideUrl": "/banyuwangi",
-      "center": { "lat": -8.2192, "lng": 114.3691 },
+      "center": {
+        "lat": -8.2192,
+        "lng": 114.3691
+      },
       "areaTips": [
         "イジェン火山ツアーは宿で手配可能。深夜0:00-1:00AM出発",
         "ケタパン港まで市内から約10km。Grab/ベモで移動",
@@ -3379,17 +4951,61 @@
         "2024年1月からイジェンの入場料は非現金決済（QRIS）のみ"
       ],
       "landmarks": [
-        { "name": "バニュワンギ・コタ駅", "lat": -8.2192, "lng": 114.3691 },
-        { "name": "ケタパン港", "lat": -8.1422, "lng": 114.4011 },
-        { "name": "カワ・イジェン", "lat": -8.0580, "lng": 114.2420 }
+        {
+          "name": "バニュワンギ・コタ駅",
+          "lat": -8.2192,
+          "lng": 114.3691
+        },
+        {
+          "name": "ケタパン港",
+          "lat": -8.1422,
+          "lng": 114.4011
+        },
+        {
+          "name": "カワ・イジェン",
+          "lat": -8.058,
+          "lng": 114.242
+        }
       ],
       "pois": [
-        { "name": "Warung Umbul Bu Lest", "lat": -8.2195, "lng": 114.3695, "type": "restaurant", "description": "セゴ・テンポン、アヤム・ケスルッ。Rp10,000-20,000", "googleMapsUrl": "https://maps.google.com/?q=-8.2195,114.3695" },
-        { "name": "Seafood Sobo", "lat": -8.2200, "lng": 114.3700, "type": "restaurant", "description": "新鮮シーフード。焼き魚、エビ、カニ", "googleMapsUrl": "https://maps.google.com/?q=-8.2200,114.3700" },
-        { "name": "Indomaret Banyuwangi", "lat": -8.2185, "lng": 114.3680, "type": "convenience", "description": "24時間コンビニ。イジェン登山前の買い出しに", "googleMapsUrl": "https://maps.google.com/?q=-8.2185,114.3680" },
-        { "name": "ATM BCA Banyuwangi", "lat": -8.2188, "lng": 114.3688, "type": "atm", "description": "BCA/BRI。24時間", "googleMapsUrl": "https://maps.google.com/?q=-8.2188,114.3688" }
+        {
+          "name": "Warung Umbul Bu Lest",
+          "lat": -8.2195,
+          "lng": 114.3695,
+          "type": "restaurant",
+          "description": "セゴ・テンポン、アヤム・ケスルッ。Rp10,000-20,000",
+          "googleMapsUrl": "https://maps.google.com/?q=-8.2195,114.3695"
+        },
+        {
+          "name": "Seafood Sobo",
+          "lat": -8.22,
+          "lng": 114.37,
+          "type": "restaurant",
+          "description": "新鮮シーフード。焼き魚、エビ、カニ",
+          "googleMapsUrl": "https://maps.google.com/?q=-8.2200,114.3700"
+        },
+        {
+          "name": "Indomaret Banyuwangi",
+          "lat": -8.2185,
+          "lng": 114.368,
+          "type": "convenience",
+          "description": "24時間コンビニ。イジェン登山前の買い出しに",
+          "googleMapsUrl": "https://maps.google.com/?q=-8.2185,114.3680"
+        },
+        {
+          "name": "ATM BCA Banyuwangi",
+          "lat": -8.2188,
+          "lng": 114.3688,
+          "type": "atm",
+          "description": "BCA/BRI。24時間",
+          "googleMapsUrl": "https://maps.google.com/?q=-8.2188,114.3688"
+        }
       ],
-      "relatedDays": [8, 9, 10],
+      "relatedDays": [
+        8,
+        9,
+        10
+      ],
       "backLink": "/day/9",
       "backLinkLabel": "Day 9に戻る"
     },
@@ -3398,7 +5014,10 @@
       "name": "ケタパン港エリア",
       "subtitle": "バリ島行きフェリーの出発港。バンスリンでシュノーケリングも",
       "description": "バニュワンギ県北部に位置するジャワ島→バリ島フェリーの出発港。多くの旅行者が通過点として素通りするが、港から車10分のバンスリン・アンダーウォーターは珊瑚再生プロジェクトの穴場シュノーケリングスポット。1泊して海を楽しんでからバリ島に渡るのがおすすめ。",
-      "center": { "lat": -8.1593, "lng": 114.4168 },
+      "center": {
+        "lat": -8.1593,
+        "lng": 114.4168
+      },
       "areaTips": [
         "フェリーは24時間運航。15-30分間隔で出航",
         "バンスリン・アンダーウォーターは港から車10分。シュノーケリングの穴場",
@@ -3406,15 +5025,41 @@
         "バリ島に渡ると時差+1時間（UTC+7→UTC+8）"
       ],
       "landmarks": [
-        { "name": "ケタパン港", "lat": -8.1593, "lng": 114.4168 },
-        { "name": "バンスリン・アンダーウォーター", "lat": -8.0980, "lng": 114.3800 },
-        { "name": "ワトゥドドルビーチ", "lat": -8.1790, "lng": 114.3700 }
+        {
+          "name": "ケタパン港",
+          "lat": -8.1593,
+          "lng": 114.4168
+        },
+        {
+          "name": "バンスリン・アンダーウォーター",
+          "lat": -8.098,
+          "lng": 114.38
+        },
+        {
+          "name": "ワトゥドドルビーチ",
+          "lat": -8.179,
+          "lng": 114.37
+        }
       ],
       "pois": [
-        { "name": "Indomaret Ketapang", "lat": -8.1605, "lng": 114.4135, "type": "convenience", "description": "24時間コンビニ" },
-        { "name": "ATM BRI", "lat": -8.1608, "lng": 114.4145, "type": "atm", "description": "24時間ATM" }
+        {
+          "name": "Indomaret Ketapang",
+          "lat": -8.1605,
+          "lng": 114.4135,
+          "type": "convenience",
+          "description": "24時間コンビニ"
+        },
+        {
+          "name": "ATM BRI",
+          "lat": -8.1608,
+          "lng": 114.4145,
+          "type": "atm",
+          "description": "24時間ATM"
+        }
       ],
-      "relatedDays": [10],
+      "relatedDays": [
+        10
+      ],
       "backLink": "/day/10",
       "backLinkLabel": "Day 10に戻る"
     },
@@ -3423,7 +5068,10 @@
       "name": "バリ島（神々の島）",
       "subtitle": "ギリマヌク港到着。ヒンドゥー文化・棚田・ビーチ・寺院の島",
       "description": "インドネシア唯一のヒンドゥー教の島。ケタパン港からフェリーで30分、ギリマヌク港に到着。火山と棚田とビーチと寺院が凝縮した島。バリ・ヒンドゥーの独自文化、壮大な寺院群、世界有数のサーフスポット、そして色とりどりの供物が溢れる日常の風景が待っている。",
-      "center": { "lat": -8.5069, "lng": 115.2624 },
+      "center": {
+        "lat": -8.5069,
+        "lng": 115.2624
+      },
       "areaTips": [
         "ギリマヌク港到着後、南部（クタ・ウブド）まで3〜3.5時間",
         "バリ観光税 Rp 150,000 が全外国人に必須（事前オンライン支払い推奨）",
@@ -3432,18 +5080,61 @@
         "乾季（5-10月）がベストシーズン。7-8月は最も混雑"
       ],
       "landmarks": [
-        { "name": "ギリマヌク港", "lat": -8.1628, "lng": 114.4413 },
-        { "name": "ウルワツ寺院", "lat": -8.8291, "lng": 115.0849 },
-        { "name": "タナロット寺院", "lat": -8.6212, "lng": 115.0868 },
-        { "name": "テガラランの棚田", "lat": -8.4312, "lng": 115.2788 },
-        { "name": "モンキーフォレスト", "lat": -8.5189, "lng": 115.2589 }
+        {
+          "name": "ギリマヌク港",
+          "lat": -8.1628,
+          "lng": 114.4413
+        },
+        {
+          "name": "ウルワツ寺院",
+          "lat": -8.8291,
+          "lng": 115.0849
+        },
+        {
+          "name": "タナロット寺院",
+          "lat": -8.6212,
+          "lng": 115.0868
+        },
+        {
+          "name": "テガラランの棚田",
+          "lat": -8.4312,
+          "lng": 115.2788
+        },
+        {
+          "name": "モンキーフォレスト",
+          "lat": -8.5189,
+          "lng": 115.2589
+        }
       ],
       "pois": [
-        { "name": "ングラライ空港 (DPS)", "lat": -8.7482, "lng": 115.1672, "type": "transit", "description": "バリ唯一の国際空港", "googleMapsUrl": "https://maps.google.com/?q=-8.7482,115.1672" },
-        { "name": "BIMC Hospital Nusa Dua", "lat": -8.7983, "lng": 115.2280, "type": "pharmacy", "description": "24時間救急 +62-361-3000911", "googleMapsUrl": "https://maps.google.com/?q=-8.7983,115.2280" },
-        { "name": "ATM BCA Kuta", "lat": -8.7200, "lng": 115.1700, "type": "atm", "description": "BCA/BNI/Mandiri 24時間", "googleMapsUrl": "https://maps.google.com/?q=-8.7200,115.1700" }
+        {
+          "name": "ングラライ空港 (DPS)",
+          "lat": -8.7482,
+          "lng": 115.1672,
+          "type": "transit",
+          "description": "バリ唯一の国際空港",
+          "googleMapsUrl": "https://maps.google.com/?q=-8.7482,115.1672"
+        },
+        {
+          "name": "BIMC Hospital Nusa Dua",
+          "lat": -8.7983,
+          "lng": 115.228,
+          "type": "pharmacy",
+          "description": "24時間救急 +62-361-3000911",
+          "googleMapsUrl": "https://maps.google.com/?q=-8.7983,115.2280"
+        },
+        {
+          "name": "ATM BCA Kuta",
+          "lat": -8.72,
+          "lng": 115.17,
+          "type": "atm",
+          "description": "BCA/BNI/Mandiri 24時間",
+          "googleMapsUrl": "https://maps.google.com/?q=-8.7200,115.1700"
+        }
       ],
-      "relatedDays": [10],
+      "relatedDays": [
+        10
+      ],
       "backLink": "/day/10",
       "backLinkLabel": "Day 10に戻る"
     }
@@ -3473,11 +5164,22 @@
     "sim": {
       "description": "空港の到着ロビーでSIMカードを購入するのが最も簡単。パスポート提示が必要",
       "carriers": [
-        { "name": "Telkomsel", "plan": "Tourist SIM 8-18GB（30日間）", "cost": "Rp150,000〜260,000（約1,410〜2,444円）空港価格" },
-        { "name": "XL Axiata", "plan": "Tourist SIM 12GB（30日間）", "cost": "Rp100,000〜150,000（約940〜1,410円）空港価格" }
+        {
+          "name": "Telkomsel",
+          "plan": "Tourist SIM 8-18GB（30日間）",
+          "cost": "Rp150,000〜260,000（約1,410〜2,444円）空港価格"
+        },
+        {
+          "name": "XL Axiata",
+          "plan": "Tourist SIM 12GB（30日間）",
+          "cost": "Rp100,000〜150,000（約940〜1,410円）空港価格"
+        }
       ]
     },
-    "electricity": { "voltage": "220V/50Hz", "plugType": "Cタイプ（丸ピン2本）。日本のAタイプとは異なるので変換プラグ必要" },
+    "electricity": {
+      "voltage": "220V/50Hz",
+      "plugType": "Cタイプ（丸ピン2本）。日本のAタイプとは異なるので変換プラグ必要"
+    },
     "emergency": {
       "embassy": "在インドネシア日本国大使館: +62-21-3192-4308（ジャカルタ）",
       "police": "110",
@@ -3493,7 +5195,11 @@
           "name": "デング熱",
           "risk": "高",
           "description": "蚊（ネッタイシマカ）が媒介。日中に刺されることが多い。ワクチンは限定的。",
-          "prevention": ["DEET30%以上の虫よけを日中も塗る", "長袖・長ズボンを着用（特に朝夕）", "蚊取り線香・電気蚊取りを持参"],
+          "prevention": [
+            "DEET30%以上の虫よけを日中も塗る",
+            "長袖・長ズボンを着用（特に朝夕）",
+            "蚊取り線香・電気蚊取りを持参"
+          ],
           "symptoms": "高熱（40度近く）、激しい頭痛、関節痛、発疹。発症したら直ちに病院へ",
           "note": "解熱剤はアセトアミノフェン（カロナール）のみ使用可。アスピリン・イブプロフェンは出血リスクを高めるため絶対禁止"
         }
@@ -3604,22 +5310,70 @@
       "モバイルバッテリー"
     ],
     "phrases": [
-      { "ja": "ありがとう", "id": "Terima kasih（テリマカシ）" },
-      { "ja": "いくらですか？", "id": "Berapa harganya?（ブラパ ハルガニャ？）" },
-      { "ja": "安くしてください", "id": "Bisa kurang?（ビサ クラン？）" },
-      { "ja": "辛くしないでください", "id": "Tidak pedas（ティダ プダス）" },
-      { "ja": "これをください", "id": "Saya mau ini（サヤ マウ イニ）" },
-      { "ja": "おいしい！", "id": "Enak!（エナッ！）" },
-      { "ja": "トイレはどこですか？", "id": "Di mana toilet?（ディ マナ トイレ？）" },
-      { "ja": "助けて！", "id": "Tolong!（トロン！）" },
-      { "ja": "すみません", "id": "Permisi（プルミシ）" },
-      { "ja": "大丈夫です", "id": "Tidak apa-apa（ティダ アパアパ）" },
-      { "ja": "〜へ行きたいです", "id": "Saya mau ke ~（サヤ マウ ク〜）" },
-      { "ja": "病院に連れて行って", "id": "Tolong antar ke rumah sakit（トロン アンタル ク ルマサキッ）" },
-      { "ja": "警察を呼んで", "id": "Tolong panggil polisi（トロン パンギル ポリシ）" },
-      { "ja": "具合が悪いです", "id": "Saya tidak enak badan（サヤ ティダ エナッ バダン）" },
-      { "ja": "お会計お願いします", "id": "Minta bon（ミンタ ボン）" },
-      { "ja": "ゆっくり走って", "id": "Pelan-pelan（プランプラン）" }
+      {
+        "ja": "ありがとう",
+        "id": "Terima kasih（テリマカシ）"
+      },
+      {
+        "ja": "いくらですか？",
+        "id": "Berapa harganya?（ブラパ ハルガニャ？）"
+      },
+      {
+        "ja": "安くしてください",
+        "id": "Bisa kurang?（ビサ クラン？）"
+      },
+      {
+        "ja": "辛くしないでください",
+        "id": "Tidak pedas（ティダ プダス）"
+      },
+      {
+        "ja": "これをください",
+        "id": "Saya mau ini（サヤ マウ イニ）"
+      },
+      {
+        "ja": "おいしい！",
+        "id": "Enak!（エナッ！）"
+      },
+      {
+        "ja": "トイレはどこですか？",
+        "id": "Di mana toilet?（ディ マナ トイレ？）"
+      },
+      {
+        "ja": "助けて！",
+        "id": "Tolong!（トロン！）"
+      },
+      {
+        "ja": "すみません",
+        "id": "Permisi（プルミシ）"
+      },
+      {
+        "ja": "大丈夫です",
+        "id": "Tidak apa-apa（ティダ アパアパ）"
+      },
+      {
+        "ja": "〜へ行きたいです",
+        "id": "Saya mau ke ~（サヤ マウ ク〜）"
+      },
+      {
+        "ja": "病院に連れて行って",
+        "id": "Tolong antar ke rumah sakit（トロン アンタル ク ルマサキッ）"
+      },
+      {
+        "ja": "警察を呼んで",
+        "id": "Tolong panggil polisi（トロン パンギル ポリシ）"
+      },
+      {
+        "ja": "具合が悪いです",
+        "id": "Saya tidak enak badan（サヤ ティダ エナッ バダン）"
+      },
+      {
+        "ja": "お会計お願いします",
+        "id": "Minta bon（ミンタ ボン）"
+      },
+      {
+        "ja": "ゆっくり走って",
+        "id": "Pelan-pelan（プランプラン）"
+      }
     ],
     "culture": {
       "description": "インドネシアは世界最大のイスラム教国。宗教と文化への敬意が大切",
