@@ -161,9 +161,9 @@ export default function DayDetail() {
             <button
               key={s.id}
               onClick={() => scrollToSection(s.id)}
-              className={`flex-shrink-0 px-4 py-3 text-xs font-medium border-b-2 transition-colors ${
+              className={`flex-shrink-0 px-4 py-3.5 text-sm font-medium border-b-[3px] transition-colors ${
                 activeSection === s.id
-                  ? 'border-sunset-600 text-sunset-600'
+                  ? 'border-sunset-600 text-sunset-600 font-bold'
                   : 'border-transparent text-gray-500'
               }`}
             >
@@ -214,8 +214,8 @@ export default function DayDetail() {
         {day.areaInfo && (
           <div className="mt-4 grid grid-cols-2 gap-2">
             {day.areaInfo.walkable !== undefined && (
-              <div className="bg-sand-100 rounded-lg p-2">
-                <span className="text-xs text-gray-500 block">徒歩圏内</span>
+              <div className="bg-white border border-sand-200 rounded-lg p-2">
+                <span className="text-xs text-gray-500 block">🚶 徒歩圏内</span>
                 <span className="text-sm font-medium">
                   {day.areaInfo.walkable ? 'OK' : '要移動'}
                 </span>
@@ -225,32 +225,32 @@ export default function DayDetail() {
               </div>
             )}
             {day.areaInfo.safety && (
-              <div className="bg-sand-100 rounded-lg p-2">
-                <span className="text-xs text-gray-500 block">治安</span>
+              <div className="bg-white border border-sand-200 rounded-lg p-2">
+                <span className="text-xs text-gray-500 block">🛡 治安</span>
                 <span className="text-xs font-medium">{day.areaInfo.safety}</span>
               </div>
             )}
             {day.areaInfo.atm && (
-              <div className="bg-sand-100 rounded-lg p-2">
-                <span className="text-xs text-gray-500 block">ATM</span>
+              <div className="bg-white border border-sand-200 rounded-lg p-2">
+                <span className="text-xs text-gray-500 block">💳 ATM</span>
                 <span className="text-xs font-medium">{day.areaInfo.atm}</span>
               </div>
             )}
             {day.areaInfo.convenience && (
-              <div className="bg-sand-100 rounded-lg p-2">
-                <span className="text-xs text-gray-500 block">コンビニ</span>
+              <div className="bg-white border border-sand-200 rounded-lg p-2">
+                <span className="text-xs text-gray-500 block">🏪 コンビニ</span>
                 <span className="text-xs font-medium">{day.areaInfo.convenience}</span>
               </div>
             )}
             {day.areaInfo.transportNeeded && (
-              <div className="bg-sand-100 rounded-lg p-2">
-                <span className="text-xs text-gray-500 block">交通手段</span>
+              <div className="bg-white border border-sand-200 rounded-lg p-2">
+                <span className="text-xs text-gray-500 block">🚗 交通手段</span>
                 <span className="text-xs font-medium">{day.areaInfo.transportNeeded}</span>
               </div>
             )}
             {day.areaInfo.wifi && (
-              <div className="bg-sand-100 rounded-lg p-2">
-                <span className="text-xs text-gray-500 block">WiFi/通信</span>
+              <div className="bg-white border border-sand-200 rounded-lg p-2">
+                <span className="text-xs text-gray-500 block">📶 WiFi/通信</span>
                 <span className="text-xs font-medium">{day.areaInfo.wifi}</span>
               </div>
             )}
@@ -259,10 +259,10 @@ export default function DayDetail() {
       </div>
 
       {/* Map section */}
-      <div id="map" ref={(el) => (sectionRefs.current.map = el)} className="px-4 pb-6">
+      <div id="map" ref={(el) => (sectionRefs.current.map = el)} className="px-4 pb-6 border-t border-sand-200 pt-6 mt-2">
         {mapSpots.length > 0 && (
           <>
-            <h3 className="text-lg font-bold text-gray-800 mb-2">今日のルートマップ</h3>
+            <h3 className="text-lg font-bold text-gray-800 mb-2 border-l-[3px] border-sunset-500 pl-3">今日のルートマップ</h3>
             <RouteMap spots={mapSpots} pois={mapPois} height="350px" />
             <div className="mt-2 flex flex-wrap gap-1">
               {mapSpots.map((s, i) => (
@@ -290,24 +290,24 @@ export default function DayDetail() {
 
       {/* Schedule section */}
       {day.timeline && (
-        <div id="schedule" ref={(el) => (sectionRefs.current.schedule = el)} className="px-4 pb-6">
-          <h3 className="text-lg font-bold text-gray-800 mb-2">今日の行程</h3>
+        <div id="schedule" ref={(el) => (sectionRefs.current.schedule = el)} className="px-4 pb-6 border-t border-sand-200 pt-6 mt-2">
+          <h3 className="text-lg font-bold text-gray-800 mb-2 border-l-[3px] border-sunset-500 pl-3">今日の行程</h3>
           <Timeline items={day.timeline} />
         </div>
       )}
 
       {/* Food section */}
-      <div id="food" ref={(el) => (sectionRefs.current.food = el)}>
+      <div id="food" ref={(el) => (sectionRefs.current.food = el)} className="border-t border-sand-200 pt-6 mt-2">
         <FoodSection food={day.food} />
       </div>
 
       {/* Stay section */}
-      <div id="stay" ref={(el) => (sectionRefs.current.stay = el)}>
+      <div id="stay" ref={(el) => (sectionRefs.current.stay = el)} className="border-t border-sand-200 pt-6 mt-2">
         <AccommodationCard accommodation={day.accommodation} />
       </div>
 
       {/* Transport section */}
-      <div id="transport" ref={(el) => (sectionRefs.current.transport = el)}>
+      <div id="transport" ref={(el) => (sectionRefs.current.transport = el)} className="border-t border-sand-200 pt-6 mt-2">
         <TransportInfo transport={day.transport} />
       </div>
 
@@ -316,17 +316,17 @@ export default function DayDetail() {
         {prevDay && (
           <Link
             to={`/day/${prevDay.day}`}
-            className="flex-1 text-center bg-sand-100 rounded-xl py-3 text-sm font-medium text-gray-700"
+            className="flex-1 text-center bg-sand-100 rounded-xl py-4 text-sm font-medium text-gray-700"
           >
-            &larr; Day {prevDay.day}
+            &larr; Day {prevDay.day} {prevDay.title}
           </Link>
         )}
         {nextDay && (
           <Link
             to={`/day/${nextDay.day}`}
-            className="flex-1 text-center bg-sunset-600 rounded-xl py-3 text-sm font-medium text-white"
+            className="flex-1 text-center bg-sunset-600 rounded-xl py-4 text-sm font-medium text-white"
           >
-            Day {nextDay.day} &rarr;
+            Day {nextDay.day} {nextDay.title} &rarr;
           </Link>
         )}
       </div>

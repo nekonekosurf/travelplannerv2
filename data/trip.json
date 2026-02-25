@@ -1,11 +1,11 @@
 {
   "meta": {
-    "title": "ジャワ島横断 ジャカルタ→ケタパン港 10日間",
+    "title": "ジャワ島横断＆バリ島 ジャカルタ→バリ 15日間",
     "subtitle": "火山と海と南国の風に出会う旅",
     "country": "インドネシア",
     "startCity": "ジャカルタ",
-    "endCity": "ケタパン港（バリ島行きフェリー）",
-    "totalDays": 10,
+    "endCity": "バリ島（ングラライ空港）",
+    "totalDays": 15,
     "currency": {
       "code": "IDR",
       "symbol": "Rp",
@@ -22,7 +22,7 @@
         "人が少ない場所"
       ]
     },
-    "lastUpdated": "2026-02-22",
+    "lastUpdated": "2026-02-26",
     "budgetSummary": {
       "daily": {
         "backpacker": {
@@ -45,14 +45,17 @@
     }
   },
   "routeOverview": {
-    "summary": "ジャカルタに降り立ったら、都会は素通り。高原の火口湖、南海岸の秘境ビーチ、世界遺産の遺跡群、滝だらけの山間部、そして早朝の火山トレッキング——ジャワ島を西から東へ貫く10日間の冒険。最終日はイジェン火山のブルーファイアを目に焼きつけて、バリ島行きフェリー乗り場へ。",
+    "summary": "ジャカルタに降り立ったら、都会は素通り。高原の火口湖、南海岸の秘境ビーチ、世界遺産の遺跡群、滝だらけの山間部、そして早朝の火山トレッキング——ジャワ島を西から東へ横断し、フェリーでバリ海峡を渡る。後半はバリ島で棚田と寺院の文化に浸り、断崖のケチャダンスと砂浜のシーフードで旅を締めくくる15日間の冒険。",
     "highlights": [
       "カワプティ火口湖（バンドン高原の青白い幻想的な湖）",
       "パンガンダラン（観光客の少ない南海岸のビーチタウン）",
       "ボロブドゥール寺院（世界最大の仏教遺跡で日の出鑑賞）",
       "トゥンパックスウ滝（ナイアガラを思わせる圧巻の滝）",
       "ブロモ山（雲海に浮かぶ火山の日の出）",
-      "カワイジェン（深夜の硫黄ブルーファイア・トレッキング）"
+      "カワイジェン（深夜の硫黄ブルーファイア・トレッキング）",
+      "テガラランの棚田（ウブドの象徴的な緑の階段）",
+      "ウルワツ寺院のケチャダンス（断崖の上で日没と共に）",
+      "ジンバラン・ビーチの夕日シーフード（砂浜でBBQディナー）"
     ],
     "route": [
       {
@@ -124,6 +127,41 @@
         "type": "nature",
         "lat": -8.0584,
         "lng": 114.2421
+      },
+      {
+        "day": 11,
+        "area": "ギリマヌク → ウブド",
+        "type": "culture",
+        "lat": -8.5069,
+        "lng": 115.2625
+      },
+      {
+        "day": 12,
+        "area": "ウブド",
+        "type": "culture",
+        "lat": -8.4312,
+        "lng": 115.2788
+      },
+      {
+        "day": 13,
+        "area": "ウブド → 南バリ",
+        "type": "transit",
+        "lat": -8.6874,
+        "lng": 115.1582
+      },
+      {
+        "day": 14,
+        "area": "南バリ（ウルワツ＆ジンバラン）",
+        "type": "culture",
+        "lat": -8.8291,
+        "lng": 115.0849
+      },
+      {
+        "day": 15,
+        "area": "バリ → 空港",
+        "type": "transit",
+        "lat": -8.7482,
+        "lng": 115.1672
       }
     ],
     "safetyAlerts": [
@@ -146,6 +184,18 @@
       {
         "spot": "イジェン火山（Day 9）",
         "warning": "【極めて危険】深夜の火口下り。防毒ガスマスク必須（通常マスク不可）。ガイド同行必須（2024年から義務化）。健康証明書必須。過去に死亡事故あり。単独行絶対禁止"
+      },
+      {
+        "spot": "ウルワツ寺院のサル（Day 14）",
+        "warning": "サルが眼鏡・帽子・サングラス・光る物（スマホ・アクセサリー）を奪う。ポケットのファスナーを閉め、帽子は手で押さえるか外す。奪われた場合、餌と交換で返してもらえることもある"
+      },
+      {
+        "spot": "バリの交通（Day 11-15 全日）",
+        "warning": "バイク事故が外国人の死傷原因No.1。国際運転免許証（IDP）なしの運転は違法。レンタルバイクは保険適用外になることが多い。Grab/チャーター車の利用を強く推奨"
+      },
+      {
+        "spot": "離岸流（Day 13-14）",
+        "warning": "クタ・レギアン・スミニャックの南海岸は離岸流（Rip Current）が頻発。赤旗が立っているエリアでは遊泳禁止。流された場合は岸に向かって泳がず、横方向に泳いで流れから抜ける"
       }
     ],
     "mapImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg/1280px-Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg"
@@ -3932,14 +3982,14 @@
     {
       "day": 10,
       "date": "",
-      "title": "旅の終着点 — ケタパン港からバリ島へ",
+      "title": "バリ島上陸 — フェリーで海峡を渡る",
       "area": "イジェン火山 → ケタパン港",
       "heroImage": {
         "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Bali-Strait_Indonesia_KMP-Niaga-Ferry-II-01.jpg/960px-Bali-Strait_Indonesia_KMP-Niaga-Ferry-II-01.jpg",
         "alt": "ギリマヌク港のフェリー",
         "credit": "Wikimedia Commons"
       },
-      "summary": "10日間のジャワ島横断の旅もいよいよ最終日。バニュワンギからケタパン港へ向かい、バリ島行きのフェリーに乗船。30-45分の短い航海でバリ島のギリマヌク港に到着。ジャカルタの喧騒から始まり、火口湖、ビーチ、世界遺産、滝、活火山を巡った冒険が、海峡を渡って新しい島で幕を閉じる。",
+      "summary": "ジャワ島横断を終え、いよいよバリ島へ。バニュワンギからケタパン港へ向かい、フェリーでバリ海峡を渡る。30-45分の短い航海でギリマヌク港に到着。ここからバリ島5日間の旅が始まる。",
       "areaInfo": {
         "walkable": false,
         "walkableNote": "ケタパン港まではGrab/ベモ。港内は徒歩",
@@ -3999,7 +4049,7 @@
           "period": "morning",
           "type": "transport",
           "title": "バリ島行きフェリー乗船",
-          "description": "ケタパン港からバリ島のギリマヌク港へ。バリ海峡をわずか30-45分で渡る短い航海。デッキに出れば、青い海とバリ島の山並みが見えてくる。10日間のジャワ島横断の旅が、海を渡って終わりを迎える。",
+          "description": "ケタパン港からバリ島のギリマヌク港へ。バリ海峡をわずか30-45分で渡る短い航海。デッキに出れば、青い海とバリ島の山並みが見えてくる。ジャワ島から新しい島へ、旅はまだまだ続く。",
           "images": [],
           "location": {
             "name": "バリ海峡（ケタパン港 → ギリマヌク港）",
@@ -4047,7 +4097,7 @@
           "period": "morning",
           "type": "activity",
           "title": "ギリマヌク港到着 — バリ島上陸",
-          "description": "バリ島のギリマヌク港に到着。ここからバリの旅が始まる——あるいは、空港に向かって日本への帰路につく。10日間で見た景色を思い返しながら、次の目的地へ。",
+          "description": "バリ島のギリマヌク港に到着。ここからバリ島5日間の旅が始まる。明日はタナロット寺院を経由してウブドへ向かう。今日はギリマヌクで一泊。",
           "images": [],
           "location": {
             "name": "ギリマヌク港（Pelabuhan Gilimanuk）",
@@ -4060,9 +4110,8 @@
               "ギリマヌクからバリ島南部（クタ/スミニャック）まではGrabで約3.5時間（Rp400,000-600,000）",
               "ングラライ空港（デンパサール）まではGrabで約4時間",
               "バリ島内のバスならPeramaバスが観光客向けに運行（要予約）",
-              "お疲れさまでした。10日間のジャワ島横断、よい旅でしたか？",
-              "【重要】ギリマヌクからバリ南部（クタ/空港）までは3.5-4時間。飛行機の時間に余裕を持つこと",
-              "10日間のジャワ島横断、お疲れさまでした！火口湖、ビーチ、世界遺産、滝、活火山——一生の思い出になる旅でした。Selamat jalan！"
+              "明日はチャーター車でタナロット寺院経由でウブドへ移動",
+              "バリ観光税 Rp150,000 をオンラインで事前に支払っておくとスムーズ"
             ],
             "mustBring": [
               "Grabアプリ（バリ島内移動用）",
@@ -4117,6 +4166,1423 @@
           "ギリマヌクは西バリの端。バリ南部までは距離がある",
           "空港へ直行する場合は早めにGrabを手配",
           "バリ島内の観光を楽しむなら、途中のロヴィナやウブドに寄るのもおすすめ"
+        ]
+      }
+    },
+    {
+      "day": 11,
+      "date": "",
+      "title": "タナロット寺院の夕日 — ギリマヌクからウブドへ",
+      "area": "ギリマヌク → タナロット → ウブド",
+      "heroImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Tanah-Lot_Bali_Indonesia_Pura-Tanah-Lot-01.jpg/960px-Tanah-Lot_Bali_Indonesia_Pura-Tanah-Lot-01.jpg",
+        "alt": "タナロット寺院、バリ島",
+        "credit": "Wikimedia Commons"
+      },
+      "summary": "フェリーで渡ったバリ島を南下。途中でバリ島を代表する海上寺院タナロットに立ち寄り、夕日を浴びるシルエットを堪能。日が暮れたらウブドへ向かい、バリ文化の中心地で最初の夜を過ごす。",
+      "areaInfo": {
+        "walkable": false,
+        "walkableNote": "各スポット間はチャーター車移動。タナロット寺院内は徒歩散策",
+        "transportNeeded": "チャーター車（1日）が最も効率的",
+        "atm": "ウブド中心部にBCA/BNI ATM多数",
+        "wifi": "ウブドのカフェ・ホテルはWiFi完備。4Gも良好",
+        "sim": "既存SIMでOK。バリ島内は4G/LTE良好",
+        "safety": "バリ観光税 Rp150,000 の支払いが必須（事前オンライン推奨）。タナロットの岩場は波が高い時は注意",
+        "convenience": "ウブド中心部にMinimart、薬局あり"
+      },
+      "cityPois": [
+        {
+          "name": "Seniman Coffee Studio",
+          "lat": -8.5055,
+          "lng": 115.2616,
+          "type": "cafe",
+          "description": "ウブドの人気コーヒー店。Jl. Sriwedari 5"
+        },
+        {
+          "name": "Ibu Oka",
+          "lat": -8.5068,
+          "lng": 115.2631,
+          "type": "restaurant",
+          "description": "バビグリン（子豚の丸焼き）の名店。王宮向かい"
+        },
+        {
+          "name": "ATM BCA Ubud",
+          "lat": -8.5072,
+          "lng": 115.2625,
+          "type": "atm",
+          "description": "BCA ATM。Jl. Raya Ubud沿い"
+        },
+        {
+          "name": "Bintang Supermarket Ubud",
+          "lat": -8.5028,
+          "lng": 115.2601,
+          "type": "convenience",
+          "description": "輸入食品も揃うスーパー。Jl. Raya Sanggingan"
+        }
+      ],
+      "timeline": [
+        {
+          "time": "08:00",
+          "period": "morning",
+          "type": "transport",
+          "title": "ギリマヌク出発、バリ観光税支払い",
+          "description": "チャーター車でギリマヌクを出発。バリ島の外国人観光税 Rp150,000 を事前にオンラインで支払い済みか確認。南へ向かう道中、バリの田園風景が広がる。",
+          "images": [],
+          "location": {
+            "name": "ギリマヌク港",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.1628,114.4413",
+            "lat": -8.1628,
+            "lng": 114.4413
+          },
+          "access": {
+            "from": "ギリマヌク港周辺の宿",
+            "method": "チャーター車",
+            "duration": "タナロットまで約2時間",
+            "cost": {
+              "idr": 700000,
+              "jpy": 6580
+            },
+            "steps": [
+              "前日にチャーター車を手配（宿のフロントで依頼可）",
+              "Toyota Avanza（7人乗り）が一般的",
+              "1日チャーター Rp600,000-800,000（ガソリン代込み）"
+            ]
+          },
+          "details": {
+            "tips": [
+              "バリ観光税はオンライン事前支払い推奨: lovebali.baliprov.go.id",
+              "チャーター車のドライバーは英語が通じることが多い",
+              "ギリマヌク→タナロットは約80km、2時間"
+            ]
+          }
+        },
+        {
+          "time": "10:30",
+          "period": "morning",
+          "type": "meal",
+          "title": "途中休憩、コーヒー＆軽食",
+          "description": "ドライブの途中で地元のワルンに立ち寄り、バリコーヒーと軽食で一息。バリ島の穏やかな空気を感じる。",
+          "images": [],
+          "location": {
+            "name": "道中のワルン",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.4000,115.0000",
+            "lat": -8.4,
+            "lng": 115.0
+          },
+          "details": {
+            "fee": {
+              "idr": 30000,
+              "jpy": 282
+            },
+            "duration": "30分",
+            "tips": [
+              "バリのコーヒー（Kopi Bali）は粉が沈むまで待ってから飲む",
+              "ピサンゴレン（揚げバナナ）はバリの定番おやつ"
+            ]
+          }
+        },
+        {
+          "time": "14:00",
+          "period": "afternoon",
+          "type": "spot",
+          "title": "タナロット寺院到着・散策",
+          "description": "海に浮かぶ岩の上に建つバリ島で最も象徴的な寺院。満潮時は海に囲まれ、干潮時は歩いて岩場まで近づける。寺院周辺の散策路からの景色も絶景。",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Tanah-Lot_Bali_Indonesia_Pura-Tanah-Lot-01.jpg/960px-Tanah-Lot_Bali_Indonesia_Pura-Tanah-Lot-01.jpg",
+              "alt": "タナロット寺院、バリ島",
+              "credit": "Wikimedia Commons"
+            }
+          ],
+          "location": {
+            "name": "タナロット寺院（Pura Tanah Lot）",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.6211,115.0867",
+            "lat": -8.6211,
+            "lng": 115.0867
+          },
+          "details": {
+            "fee": {
+              "idr": 75000,
+              "jpy": 705
+            },
+            "hours": "07:00-19:00",
+            "duration": "2-3時間（夕日まで滞在）",
+            "tips": [
+              "入場料: 外国人 Rp75,000",
+              "干潮時は岩場を歩いて寺院の麓まで行ける。聖水のお清めも体験可",
+              "寺院内部はヒンドゥー教徒のみ入場可",
+              "周辺にカフェや土産物店が多数。夕日待ちの時間を過ごせる"
+            ]
+          }
+        },
+        {
+          "time": "17:00",
+          "period": "evening",
+          "type": "spot",
+          "title": "タナロット寺院の夕日鑑賞",
+          "description": "バリ島の夕日スポットとして最も有名な場所のひとつ。太陽がインド洋に沈む中、寺院のシルエットが浮かび上がる。多くの観光客で賑わうが、一見の価値あり。",
+          "images": [],
+          "location": {
+            "name": "タナロット寺院 夕日ビューポイント",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.6211,115.0867",
+            "lat": -8.6211,
+            "lng": 115.0867
+          },
+          "details": {
+            "bestTime": "17:30-18:15頃（季節により変動）",
+            "duration": "45分-1時間",
+            "tips": [
+              "夕日の30分前には場所取りを。崖の上のカフェからの眺めも良い",
+              "カメラの充電と空き容量を確認しておくこと"
+            ]
+          }
+        },
+        {
+          "time": "18:30",
+          "period": "evening",
+          "type": "transport",
+          "title": "ウブドへ移動、到着後チェックイン＆夕食",
+          "description": "タナロットから約1.5時間でウブドに到着。チェックイン後、ウブドの夜を散策しながらディナー。バビグリンの名店 Ibu Oka は必訪。",
+          "images": [],
+          "location": {
+            "name": "ウブド中心部",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.5069,115.2625",
+            "lat": -8.5069,
+            "lng": 115.2625
+          },
+          "access": {
+            "from": "タナロット寺院",
+            "method": "チャーター車",
+            "duration": "約1.5時間",
+            "cost": {
+              "idr": 0,
+              "jpy": 0
+            },
+            "steps": [
+              "チャーター車でそのままウブドへ（1日チャーター料金に含む）"
+            ]
+          },
+          "details": {
+            "tips": [
+              "Ibu Okaのバビグリンは早い時間に売り切れることも。到着後すぐ向かうのがベスト",
+              "ウブドの夜は静か。王宮前の通りはライトアップされて雰囲気が良い"
+            ]
+          }
+        }
+      ],
+      "food": {
+        "localSpecialties": [
+          "バビグリン（子豚の丸焼き）",
+          "ラワール（ココナッツと香辛料の和え物）",
+          "サテ・リリッ（バリ風つくね串）"
+        ],
+        "mustTry": {
+          "dish": "バビグリン（Babi Guling）",
+          "description": "バリ島を代表する料理。子豚を丸ごとスパイスを詰めて回転焼き。パリパリの皮とジューシーな肉、スパイシーなラワールの組み合わせが絶品。ウブドのIbu Okaが最も有名。1皿 Rp60,000-80,000。"
+        },
+        "restaurants": [
+          {
+            "name": "Ibu Oka",
+            "type": "バビグリン専門店",
+            "budget": "mid",
+            "priceRange": {
+              "idr": "60,000-80,000",
+              "jpy": "564-752"
+            },
+            "popular": [
+              "バビグリン",
+              "ラワール",
+              "スープ"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.5068,115.2631"
+            }
+          },
+          {
+            "name": "Warung Biah Biah",
+            "type": "バリ家庭料理",
+            "budget": "low",
+            "priceRange": {
+              "idr": "25,000-50,000",
+              "jpy": "235-470"
+            },
+            "popular": [
+              "ナシチャンプル・バリ",
+              "サテ・リリッ"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.5063,115.2618"
+            }
+          },
+          {
+            "name": "Seniman Coffee Studio",
+            "type": "スペシャルティコーヒー",
+            "budget": "mid",
+            "priceRange": {
+              "idr": "35,000-70,000",
+              "jpy": "329-658"
+            },
+            "popular": [
+              "シングルオリジンコーヒー",
+              "ブランチメニュー"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.5055,115.2616"
+            }
+          }
+        ],
+        "drinks": [
+          "コピ・バリ",
+          "ジャムウ（伝統ハーブドリンク）"
+        ],
+        "safetyTips": [
+          "バビグリンは豚肉。ムスリムの同行者がいる場合は別の料理を"
+        ]
+      },
+      "accommodation": {
+        "area": "ウブド中心部（Jl. Raya Ubud / Jl. Monkey Forest周辺）",
+        "recommendations": [
+          {
+            "name": "ゲストハウス（民宿）",
+            "budget": "low",
+            "pricePerNight": {
+              "idr": 300000,
+              "jpy": 2820
+            },
+            "bookingTip": "Rp200,000-400,000。Booking.comで予約可。朝食付きが多い",
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.5069,115.2625"
+            }
+          },
+          {
+            "name": "中級ホテル",
+            "budget": "mid",
+            "pricePerNight": {
+              "idr": 750000,
+              "jpy": 7050
+            },
+            "bookingTip": "Rp500,000-1,000,000。プール付きが多い。Agoda推奨",
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.5069,115.2625"
+            }
+          },
+          {
+            "name": "プライベートヴィラ",
+            "budget": "high",
+            "pricePerNight": {
+              "idr": 1500000,
+              "jpy": 14100
+            },
+            "bookingTip": "Rp1,500,000+。渓谷ビュー・インフィニティプール付きヴィラも",
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.5069,115.2625"
+            }
+          }
+        ]
+      },
+      "shopping": null,
+      "transport": {
+        "to": "ウブド",
+        "method": "チャーター車（1日）",
+        "duration": "ギリマヌク → タナロット 2h → ウブド 1.5h",
+        "cost": {
+          "idr": 700000,
+          "jpy": 6580
+        },
+        "options": [
+          {
+            "method": "チャーター車（Toyota Avanza）",
+            "price": "Rp600,000-800,000（約5,640-7,520円）",
+            "details": "1日チャーター。ドライバー付き。ガソリン代込み",
+            "duration": "計3.5時間（移動時間のみ）"
+          }
+        ],
+        "tips": [
+          "チャーター車は宿のフロントで手配可。前日予約がベスト",
+          "ドライバーへのチップはRp50,000-100,000が相場",
+          "途中の寄り道（景勝地等）も柔軟に対応してくれる"
+        ]
+      }
+    },
+    {
+      "day": 12,
+      "date": "",
+      "title": "ウブド満喫 — 棚田・寺院・森",
+      "area": "ウブド",
+      "heroImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Tegallalang_Rice_Terraces_Bali.jpg/960px-Tegallalang_Rice_Terraces_Bali.jpg",
+        "alt": "テガラランのライステラス、ウブド、バリ島",
+        "credit": "Wikimedia Commons"
+      },
+      "summary": "バリ文化の中心ウブドを1日かけて堪能。朝は涼しいうちにテガラランの棚田を歩き、聖水の寺院ティルタ・エンプルで沐浴体験。午後はウブド王宮のマーケットを覗き、モンキーフォレストでサルたちと出会う。夕方はチャンプアン・リッジウォークで緑の稜線を歩く。",
+      "areaInfo": {
+        "walkable": true,
+        "walkableNote": "ウブド中心部は徒歩圏内。郊外の棚田・寺院はチャーター車",
+        "transportNeeded": "チャーター車半日 + 徒歩",
+        "atm": "Jl. Raya Ubud沿いにBCA/BNI ATM多数",
+        "wifi": "カフェ・レストランはWiFi完備",
+        "sim": "既存SIMでOK",
+        "safety": "モンキーフォレストのサルに注意。食べ物・光る物は隠す",
+        "convenience": "Bintang Supermarket、Coco Supermarket等あり"
+      },
+      "cityPois": [],
+      "timeline": [
+        {
+          "time": "07:00",
+          "period": "morning",
+          "type": "spot",
+          "title": "テガラランの棚田",
+          "description": "ウブド北部に広がる美しい棚田。朝の涼しい時間帯がベスト。スバック（バリの伝統的水利システム）で管理された緑の階段が、谷間に広がる。ブランコやカフェからの眺めも人気。",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Tegallalang_Rice_Terraces_Bali.jpg/960px-Tegallalang_Rice_Terraces_Bali.jpg",
+              "alt": "テガラランのライステラス、ウブド、バリ島",
+              "credit": "Wikimedia Commons"
+            }
+          ],
+          "location": {
+            "name": "テガラランの棚田（Tegallalang Rice Terrace）",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.4312,115.2788",
+            "lat": -8.4312,
+            "lng": 115.2788
+          },
+          "details": {
+            "fee": {
+              "idr": 25000,
+              "jpy": 235
+            },
+            "hours": "06:00-18:00",
+            "duration": "1.5-2時間",
+            "tips": [
+              "入場料: Rp15,000-50,000（エリアにより異なる）",
+              "朝7:00が最もおすすめ。涼しく、観光客も少ない",
+              "棚田の中を歩くルートあり。スニーカー推奨",
+              "ブランコ（Bali Swing）はRp100,000-200,000。写真映えするがかなり並ぶ"
+            ]
+          }
+        },
+        {
+          "time": "09:30",
+          "period": "morning",
+          "type": "spot",
+          "title": "ティルタ・エンプル寺院（聖水の沐浴体験）",
+          "description": "1,000年以上の歴史を持つバリ・ヒンドゥーの聖水寺院。湧き水が流れる沐浴場で、バリの人々と一緒に浄化の儀式を体験できる。サロン（腰巻き）を巻いて順番に各噴水口をくぐっていく。",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Pura_Tirta_Empul%2C_Bali.JPG/960px-Pura_Tirta_Empul%2C_Bali.JPG",
+              "alt": "ティルタ・エンプル寺院、バリ島",
+              "credit": "Wikimedia Commons"
+            }
+          ],
+          "location": {
+            "name": "ティルタ・エンプル寺院（Pura Tirta Empul）",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.4154,115.3156",
+            "lat": -8.4154,
+            "lng": 115.3156
+          },
+          "details": {
+            "fee": {
+              "idr": 75000,
+              "jpy": 705
+            },
+            "hours": "08:00-18:00",
+            "duration": "1-1.5時間",
+            "dressCode": "サロン（腰巻き）必須。入口で無料レンタルあり。肩が出る服はNGの場合あり",
+            "tips": [
+              "入場料: 外国人 Rp75,000",
+              "沐浴する場合は着替えとタオル持参。更衣室あり",
+              "沐浴の作法: 左から右へ順番に各噴水口をくぐる。最後の2つは葬儀用なので入らない",
+              "カメラは防水バッグに入れておくと安心"
+            ]
+          }
+        },
+        {
+          "time": "12:00",
+          "period": "afternoon",
+          "type": "meal",
+          "title": "ウブド王宮周辺でランチ＆マーケット散策",
+          "description": "ウブドの中心、王宮（Puri Saren Agung）周辺でランチ。すぐ隣のウブド・マーケットでは、バリの工芸品やお土産が所狭しと並ぶ。値段交渉を楽しもう。",
+          "images": [],
+          "location": {
+            "name": "ウブド王宮（Puri Saren Agung）",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.5065,115.2632",
+            "lat": -8.5065,
+            "lng": 115.2632
+          },
+          "details": {
+            "fee": {
+              "idr": 40000,
+              "jpy": 376
+            },
+            "duration": "1.5-2時間",
+            "tips": [
+              "ウブド・マーケットは朝が一番活気がある（06:00-）",
+              "値段交渉は提示価格の30-50%からスタート",
+              "Murni's Warungは渓谷ビューのレストラン。やや高めだが雰囲気抜群"
+            ]
+          }
+        },
+        {
+          "time": "14:30",
+          "period": "afternoon",
+          "type": "spot",
+          "title": "モンキーフォレスト",
+          "description": "700匹以上のカニクイザルが暮らす神聖な森。巨木が茂る遊歩道を歩きながら、サルたちの自然な姿を観察できる。3つの寺院も敷地内にある。",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Bali_Indonesia_Ubud_Monkey_Forest_01.JPG/960px-Bali_Indonesia_Ubud_Monkey_Forest_01.JPG",
+              "alt": "ウブド・モンキーフォレスト、バリ島",
+              "credit": "Wikimedia Commons"
+            }
+          ],
+          "location": {
+            "name": "Sacred Monkey Forest Sanctuary",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.5189,115.2589",
+            "lat": -8.5189,
+            "lng": 115.2589
+          },
+          "details": {
+            "fee": {
+              "idr": 100000,
+              "jpy": 940
+            },
+            "hours": "08:30-18:00（最終入場17:00）",
+            "duration": "1-1.5時間",
+            "tips": [
+              "入場料: 大人 Rp100,000-120,000",
+              "【重要】サルに食べ物を見せない。バッグのファスナーを閉める",
+              "サルに目を合わせ続けない。歯を見せない（威嚇と取られる）",
+              "帽子・サングラス・イヤリングは外す or しっかり固定"
+            ]
+          }
+        },
+        {
+          "time": "17:00",
+          "period": "evening",
+          "type": "activity",
+          "title": "チャンプアン・リッジウォーク（夕方の散歩道）",
+          "description": "ウブド西部の稜線を歩く人気トレッキングコース。2つの渓谷に挟まれた狭い尾根道で、両側に緑の絶景が広がる。夕方の柔らかい光の中を歩くのがおすすめ。",
+          "images": [],
+          "location": {
+            "name": "Campuhan Ridge Walk",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.4985,115.2480",
+            "lat": -8.4985,
+            "lng": 115.248
+          },
+          "details": {
+            "fee": {
+              "idr": 0,
+              "jpy": 0
+            },
+            "hours": "24時間（早朝・夕方がベスト）",
+            "duration": "30分-1時間（片道約2km）",
+            "tips": [
+              "入場無料。ウブドのIbah Hotel脇から入る",
+              "日中は暑いので朝6:00-7:00か夕方16:30以降がおすすめ",
+              "水を持参。途中に売店はない"
+            ]
+          }
+        }
+      ],
+      "food": {
+        "localSpecialties": [
+          "ベベッ・ベトゥトゥ（スパイス煮込みアヒル）",
+          "バビグリン",
+          "ナシチャンプル・バリ",
+          "サテ・リリッ"
+        ],
+        "mustTry": {
+          "dish": "ベベッ・ベトゥトゥ（Bebek Betutu）",
+          "description": "アヒルを丸ごとバナナの葉で包み、スパイスと共に数時間かけて蒸し焼きにしたバリの儀式料理。ほろほろに崩れる肉とスパイスの香りが絶品。Bebek Tepi Sawahでは棚田を眺めながら味わえる。1皿 Rp75,000-120,000。"
+        },
+        "restaurants": [
+          {
+            "name": "Bebek Tepi Sawah",
+            "type": "バリ料理（棚田ビュー）",
+            "budget": "mid",
+            "priceRange": {
+              "idr": "75,000-150,000",
+              "jpy": "705-1,410"
+            },
+            "popular": [
+              "ベベッ・ベトゥトゥ",
+              "ベベッ・ゴレン"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.5100,115.2700"
+            }
+          },
+          {
+            "name": "Murni's Warung",
+            "type": "インドネシア＆洋食",
+            "budget": "mid",
+            "priceRange": {
+              "idr": "60,000-120,000",
+              "jpy": "564-1,128"
+            },
+            "popular": [
+              "渓谷ビュー",
+              "ナシゴレン",
+              "カクテル"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.4998,115.2510"
+            }
+          },
+          {
+            "name": "Locavore NXT",
+            "type": "モダン・インドネシア料理",
+            "budget": "high",
+            "priceRange": {
+              "idr": "150,000-400,000",
+              "jpy": "1,410-3,760"
+            },
+            "popular": [
+              "ローカル食材のコース",
+              "テイスティングメニュー"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.5060,115.2640"
+            }
+          }
+        ],
+        "drinks": [
+          "ルアックコーヒー",
+          "ジャムウ"
+        ],
+        "safetyTips": [
+          "ウブドの水道水は飲めない。ミネラルウォーターを購入"
+        ]
+      },
+      "accommodation": {
+        "area": "ウブド中心部（2泊目）",
+        "recommendations": []
+      },
+      "shopping": null,
+      "transport": {
+        "to": "ウブド周辺（同じエリア内）",
+        "method": "チャーター車半日 + 徒歩",
+        "duration": "チャーター車は棚田・寺院方面で半日",
+        "cost": {
+          "idr": 450000,
+          "jpy": 4230
+        },
+        "options": [
+          {
+            "method": "チャーター車半日",
+            "price": "Rp400,000-500,000（約3,760-4,700円）",
+            "details": "午前中に棚田・ティルタエンプルを回るルート",
+            "duration": "4-5時間"
+          },
+          {
+            "method": "徒歩",
+            "price": "無料",
+            "details": "午後のウブド中心部（王宮→モンキーフォレスト→リッジウォーク）は徒歩で回れる",
+            "duration": "各スポット間10-20分"
+          }
+        ],
+        "tips": [
+          "午前のチャーター車は8:00出発で手配。午後はウブド中心部を徒歩で",
+          "モンキーフォレストからリッジウォークまでは徒歩25-30分"
+        ]
+      }
+    },
+    {
+      "day": 13,
+      "date": "",
+      "title": "芸術の村からビーチタウンへ — ウブド → スミニャック",
+      "area": "ウブド → スミニャック/チャングー",
+      "heroImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Seminyak_Beach_at_sunset.jpg/960px-Seminyak_Beach_at_sunset.jpg",
+        "alt": "スミニャックビーチの夕日、バリ島",
+        "credit": "Wikimedia Commons"
+      },
+      "summary": "ウブドの朝市を楽しんでから、象の洞窟遺跡ゴア・ガジャを見学。午後はビーチタウン・スミニャックへ移動し、おしゃれなカフェ文化を満喫。夕方はチャングーのバトゥボロン・ビーチでサーファーたちと一緒にサンセットを眺める。",
+      "areaInfo": {
+        "walkable": true,
+        "walkableNote": "スミニャック中心部は徒歩可。チャングーへはGrab推奨",
+        "transportNeeded": "Grab（ウブド→スミニャック）+ 徒歩",
+        "atm": "スミニャック Jl. Kayu Aya沿いにATM多数",
+        "wifi": "カフェ・ホテルはWiFi完備",
+        "sim": "既存SIMでOK",
+        "safety": "スミニャック・チャングーの海は離岸流に注意。赤旗エリアは遊泳禁止",
+        "convenience": "Circle K、Coco Mart等コンビニ多数"
+      },
+      "cityPois": [
+        {
+          "name": "Made's Warung Seminyak",
+          "lat": -8.6874,
+          "lng": 115.1582,
+          "type": "restaurant",
+          "description": "バリの定番レストラン。観光客にも人気"
+        },
+        {
+          "name": "KYND Community",
+          "lat": -8.6532,
+          "lng": 115.1401,
+          "type": "cafe",
+          "description": "チャングーの人気ヴィーガンカフェ。フォトジェニック"
+        }
+      ],
+      "timeline": [
+        {
+          "time": "08:00",
+          "period": "morning",
+          "type": "activity",
+          "title": "ウブドの朝市散策＆朝食",
+          "description": "ウブド最後の朝。早起きして王宮前の朝市を散策。地元のお供え物の花や果物、新鮮なスパイスが並ぶ。近くのカフェで朝食を。",
+          "images": [],
+          "location": {
+            "name": "ウブド・マーケット（朝市）",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.5065,115.2632",
+            "lat": -8.5065,
+            "lng": 115.2632
+          },
+          "details": {
+            "hours": "朝市は06:00-09:00がベスト",
+            "duration": "1時間",
+            "tips": [
+              "観光客向けのマーケットは09:00以降に変わる。朝は地元民の生活市場",
+              "お供え物のチャナン（小さな花かご）は写真映えする"
+            ]
+          }
+        },
+        {
+          "time": "10:00",
+          "period": "morning",
+          "type": "spot",
+          "title": "ゴア・ガジャ（象の洞窟）遺跡",
+          "description": "9世紀に造られた石窟遺跡。悪魔の顔が彫られた入口を抜けると、ガネーシャ像とリンガが安置された洞窟に入れる。外には沐浴場の遺跡も。",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Goa_Gajah_temple%2C_Bedulu%2C_Bali%2C_Indonesia%2C_20220824_0929_0544.jpg/960px-Goa_Gajah_temple%2C_Bedulu%2C_Bali%2C_Indonesia%2C_20220824_0929_0544.jpg",
+              "alt": "ゴア・ガジャ（象の洞窟）、バリ島",
+              "credit": "Wikimedia Commons"
+            }
+          ],
+          "location": {
+            "name": "ゴア・ガジャ（Goa Gajah / Elephant Cave）",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.5244,115.2874",
+            "lat": -8.5244,
+            "lng": 115.2874
+          },
+          "details": {
+            "fee": {
+              "idr": 50000,
+              "jpy": 470
+            },
+            "hours": "08:00-16:00",
+            "duration": "45分-1時間",
+            "dressCode": "サロン必須（入口で無料レンタルあり）",
+            "tips": [
+              "入場料: 外国人 Rp50,000",
+              "洞窟内は暗い。懐中電灯は不要だが目が慣れるまで少し待つ",
+              "階段を降りた先の沐浴場遺跡も見逃さないこと"
+            ]
+          }
+        },
+        {
+          "time": "12:00",
+          "period": "afternoon",
+          "type": "transport",
+          "title": "ウブドチェックアウト → スミニャックへ移動",
+          "description": "ウブドに別れを告げ、ビーチタウン・スミニャックへ。Grabで約1-1.5時間。田園風景から一転、おしゃれなブティックやカフェが並ぶ南バリの雰囲気に変わる。",
+          "images": [],
+          "location": {
+            "name": "スミニャック",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.6874,115.1582",
+            "lat": -8.6874,
+            "lng": 115.1582
+          },
+          "access": {
+            "from": "ウブド中心部",
+            "method": "GrabCar",
+            "duration": "1-1.5時間",
+            "cost": {
+              "idr": 250000,
+              "jpy": 2350
+            },
+            "steps": [
+              "GrabCarで「Seminyak」を目的地に設定",
+              "ウブドからスミニャックは約25km",
+              "渋滞時はさらに時間がかかる（特に夕方）"
+            ]
+          }
+        },
+        {
+          "time": "14:00",
+          "period": "afternoon",
+          "type": "meal",
+          "title": "スミニャックでランチ（Made's Warung）",
+          "description": "バリで最も有名なレストランチェーンのひとつ。1969年創業のMade's Warungで、ナシチャンプル・バリやミーゴレンを味わう。",
+          "images": [],
+          "location": {
+            "name": "Made's Warung Seminyak",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.6874,115.1582",
+            "lat": -8.6874,
+            "lng": 115.1582
+          },
+          "details": {
+            "fee": {
+              "idr": 80000,
+              "jpy": 752
+            },
+            "duration": "1時間",
+            "tips": [
+              "ナシチャンプル・バリ（Rp65,000-85,000）が定番",
+              "ランチタイムは混むが回転は早い"
+            ]
+          }
+        },
+        {
+          "time": "16:30",
+          "period": "evening",
+          "type": "spot",
+          "title": "チャングー・バトゥボロン・ビーチでサンセット",
+          "description": "サーファーの聖地チャングーのメインビーチ。黒い砂浜に波が打ち寄せ、夕日がインド洋に沈む。ビーチ沿いのバーでビンタンビールを片手にサンセットを満喫。",
+          "images": [],
+          "location": {
+            "name": "Batu Bolong Beach",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.6478,115.1385",
+            "lat": -8.6478,
+            "lng": 115.1385
+          },
+          "details": {
+            "fee": {
+              "idr": 0,
+              "jpy": 0
+            },
+            "hours": "24時間（サンセットは17:30-18:15頃）",
+            "duration": "2時間",
+            "tips": [
+              "ビーチチェアのレンタルはRp50,000程度",
+              "サーフレッスンも受けられる（Rp350,000-500,000/2時間）",
+              "チャングーからスミニャックの宿まではGrabで15-20分"
+            ]
+          }
+        }
+      ],
+      "food": {
+        "localSpecialties": [
+          "ナシチャンプル・バリ",
+          "ミーゴレン",
+          "スムージーボウル"
+        ],
+        "mustTry": {
+          "dish": "ナシチャンプル・バリ（Nasi Campur Bali）",
+          "description": "バリ式の混ぜご飯。白いご飯の上にサテ・リリッ、ラワール、サンバル、揚げ物、野菜など多彩なおかずが盛られた一皿。店ごとに組み合わせが違い、バリの味覚の集大成。ワルンでRp25,000-40,000、レストランでRp65,000-100,000。"
+        },
+        "restaurants": [
+          {
+            "name": "Made's Warung",
+            "type": "バリ料理",
+            "budget": "mid",
+            "priceRange": {
+              "idr": "65,000-120,000",
+              "jpy": "611-1,128"
+            },
+            "popular": [
+              "ナシチャンプル",
+              "ミーゴレン",
+              "サテ"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.6874,115.1582"
+            }
+          },
+          {
+            "name": "Babi Guling Pak Malen",
+            "type": "バビグリン専門店",
+            "budget": "low",
+            "priceRange": {
+              "idr": "35,000-60,000",
+              "jpy": "329-564"
+            },
+            "popular": [
+              "バビグリン"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.6900,115.1580"
+            }
+          },
+          {
+            "name": "KYND Community",
+            "type": "ヴィーガンカフェ",
+            "budget": "mid",
+            "priceRange": {
+              "idr": "60,000-100,000",
+              "jpy": "564-940"
+            },
+            "popular": [
+              "スムージーボウル",
+              "アボカドトースト"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.6532,115.1401"
+            }
+          }
+        ],
+        "drinks": [
+          "ビンタンビール",
+          "ヤングココナッツ"
+        ],
+        "safetyTips": [
+          "スミニャック・チャングーは物価がウブドより高め"
+        ]
+      },
+      "accommodation": {
+        "area": "スミニャック / チャングー",
+        "recommendations": [
+          {
+            "name": "ゲストハウス",
+            "budget": "low",
+            "pricePerNight": {
+              "idr": 300000,
+              "jpy": 2820
+            },
+            "bookingTip": "Rp200,000-400,000。チャングー側が安め",
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.6874,115.1582"
+            }
+          },
+          {
+            "name": "ブティックホテル",
+            "budget": "mid",
+            "pricePerNight": {
+              "idr": 1000000,
+              "jpy": 9400
+            },
+            "bookingTip": "Rp500,000-1,500,000。プール付き・おしゃれなデザインが多い",
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.6874,115.1582"
+            }
+          },
+          {
+            "name": "プライベートヴィラ",
+            "budget": "high",
+            "pricePerNight": {
+              "idr": 2000000,
+              "jpy": 18800
+            },
+            "bookingTip": "Rp2,000,000+。プール＆キッチン付きヴィラ。グループ旅行に最適",
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.6874,115.1582"
+            }
+          }
+        ]
+      },
+      "shopping": null,
+      "transport": {
+        "to": "スミニャック / チャングー",
+        "method": "Grab + 徒歩",
+        "duration": "ウブド → スミニャック: 1-1.5時間",
+        "cost": {
+          "idr": 250000,
+          "jpy": 2350
+        },
+        "options": [
+          {
+            "method": "GrabCar",
+            "price": "Rp200,000-350,000（約1,880-3,290円）",
+            "details": "ウブド→スミニャック直行",
+            "duration": "1-1.5時間"
+          },
+          {
+            "method": "Grab（スミニャック↔チャングー）",
+            "price": "Rp30,000-50,000（約282-470円）",
+            "details": "スミニャック⇄チャングーの移動",
+            "duration": "15-20分"
+          }
+        ],
+        "tips": [
+          "スミニャック・チャングー間はGrabで15-20分。気軽に行き来できる",
+          "夕方のスミニャック→チャングーは渋滞注意"
+        ]
+      }
+    },
+    {
+      "day": 14,
+      "date": "",
+      "title": "断崖の寺院と砂浜のシーフード — ウルワツ＆ジンバラン",
+      "area": "南バリ（ウルワツ＆ジンバラン）",
+      "heroImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Kuta_Bali_Indonesia_Pura-Luhur-Uluwatu-03.jpg/960px-Kuta_Bali_Indonesia_Pura-Luhur-Uluwatu-03.jpg",
+        "alt": "ウルワツ寺院、バリ島",
+        "credit": "Wikimedia Commons"
+      },
+      "summary": "バリ旅のハイライト。午前はゆっくり過ごし、午後から南バリへ。パダンパダン・ビーチで泳いだ後、断崖絶壁のウルワツ寺院へ。日没と共に始まるケチャダンスは圧巻。夜はジンバラン・ビーチの砂浜に並ぶテーブルで、波音を聞きながらシーフードBBQを堪能する。",
+      "areaInfo": {
+        "walkable": false,
+        "walkableNote": "各スポット間はチャーター車が必須。ウルワツ寺院内は徒歩",
+        "transportNeeded": "チャーター車（午後〜夜）",
+        "atm": "クタ・ジンバラン周辺にATMあり",
+        "wifi": "レストラン・ホテルはWiFi完備",
+        "sim": "既存SIMでOK",
+        "safety": "ウルワツ寺院のサルに注意！眼鏡・帽子・スマホを奪う。光る物はバッグの中に",
+        "convenience": "ジンバラン周辺にMinimart、コンビニあり"
+      },
+      "cityPois": [],
+      "timeline": [
+        {
+          "time": "09:00",
+          "period": "morning",
+          "type": "activity",
+          "title": "スミニャック周辺でゆっくり朝食＆ショッピング",
+          "description": "バリ旅も後半。朝はゆっくりカフェで過ごし、スミニャックのブティックやセレクトショップを覗く。Jl. Kayu Aya（Eat Street）周辺がおすすめ。",
+          "images": [],
+          "location": {
+            "name": "スミニャック Jl. Kayu Aya周辺",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.6850,115.1560",
+            "lat": -8.685,
+            "lng": 115.156
+          },
+          "details": {
+            "duration": "2時間",
+            "tips": [
+              "Revolver Espressoは路地裏の隠れ家カフェ。コーヒーが絶品",
+              "お土産はスミニャックのブティックが質が良い（ウブドのマーケットより洗練）"
+            ]
+          }
+        },
+        {
+          "time": "11:00",
+          "period": "morning",
+          "type": "spot",
+          "title": "パダンパダン・ビーチ",
+          "description": "映画『食べて、祈って、恋をして』のロケ地として有名な隠れ家ビーチ。岩の割れ目の階段を下りると、小さな白砂のビーチが現れる。透明度が高く泳ぎやすい。",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Padang_Padang_Beach_Bali.jpg/960px-Padang_Padang_Beach_Bali.jpg",
+              "alt": "パダンパダンビーチ、バリ島",
+              "credit": "Wikimedia Commons"
+            }
+          ],
+          "location": {
+            "name": "Padang Padang Beach",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.8115,115.1003",
+            "lat": -8.8115,
+            "lng": 115.1003
+          },
+          "details": {
+            "fee": {
+              "idr": 15000,
+              "jpy": 141
+            },
+            "hours": "07:00-19:00",
+            "duration": "1.5-2時間",
+            "tips": [
+              "入場料: Rp15,000",
+              "ビーチは狭いので混雑時は場所取りが大変",
+              "サーフポイントとしても有名（上級者向け）",
+              "荷物の管理に注意。貴重品は防水バッグに"
+            ]
+          }
+        },
+        {
+          "time": "14:00",
+          "period": "afternoon",
+          "type": "spot",
+          "title": "ウルワツ寺院散策",
+          "description": "インド洋を見下ろす高さ70mの断崖絶壁に建つバリ六大寺院のひとつ。11世紀に建立された寺院で、崖沿いの遊歩道からの眺めは息をのむ美しさ。サルが多いので注意。",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Kuta_Bali_Indonesia_Pura-Luhur-Uluwatu-03.jpg/960px-Kuta_Bali_Indonesia_Pura-Luhur-Uluwatu-03.jpg",
+              "alt": "ウルワツ寺院、バリ島",
+              "credit": "Wikimedia Commons"
+            }
+          ],
+          "location": {
+            "name": "ウルワツ寺院（Pura Luhur Uluwatu）",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.8291,115.0849",
+            "lat": -8.8291,
+            "lng": 115.0849
+          },
+          "details": {
+            "fee": {
+              "idr": 50000,
+              "jpy": 470
+            },
+            "hours": "08:00-19:00",
+            "duration": "1.5-2時間（ケチャダンスまで時間つぶし込み）",
+            "dressCode": "サロン必須（入口で無料レンタルあり）",
+            "tips": [
+              "入場料: 外国人 Rp50,000",
+              "【重要】サルが眼鏡・帽子・サングラス・スマホを奪う。光る物はバッグの中に",
+              "サルに奪われたら追いかけない。スタッフが餌と交換で取り返してくれることも",
+              "崖の縁は柵がない箇所がある。注意して歩くこと"
+            ]
+          }
+        },
+        {
+          "time": "18:00",
+          "period": "evening",
+          "type": "activity",
+          "title": "ウルワツ寺院ケチャダンス鑑賞",
+          "description": "日没と共に始まるケチャダンス（Kecak Dance）。50人以上の男性が「チャッチャッチャッ」と合唱する中、ラーマーヤナの物語が演じられる。断崖の上のオープンエアステージで、燃える夕焼けをバックに繰り広げられるパフォーマンスは圧巻。",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Kecak_and_Fire_Dance_at_Uluwatu_Temple_in_Bali%2C_Indonesia.jpg/960px-Kecak_and_Fire_Dance_at_Uluwatu_Temple_in_Bali%2C_Indonesia.jpg",
+              "alt": "ウルワツ寺院のケチャックダンス、バリ島",
+              "credit": "Wikimedia Commons"
+            }
+          ],
+          "location": {
+            "name": "Uluwatu Kecak Dance Stage",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.8291,115.0849",
+            "lat": -8.8291,
+            "lng": 115.0849
+          },
+          "details": {
+            "fee": {
+              "idr": 150000,
+              "jpy": 1410
+            },
+            "hours": "18:00開演（日没に合わせて変動）",
+            "duration": "約1時間",
+            "tips": [
+              "チケット: Rp150,000/人。当日券のみ（事前予約不可）",
+              "開演30分前には席を確保。前方中央がベスト",
+              "座席は石の階段。クッション持参がおすすめ",
+              "終演後は暗くなるので懐中電灯/スマホライトがあると便利"
+            ]
+          }
+        },
+        {
+          "time": "19:30",
+          "period": "evening",
+          "type": "meal",
+          "title": "ジンバラン・ビーチのシーフードディナー",
+          "description": "バリ旅のクライマックス。ジンバラン・ビーチの砂浜にテーブルと椅子が並び、波打ち際でシーフードBBQを楽しむ。ロブスター、イカ、エビ、魚を炭火で焼き、サンバルマタ（生サンバル）と一緒に味わう。キャンドルの灯りと波音のロマンチックなディナー。",
+          "images": [
+            {
+              "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Jimbaran_beach_at_sunset.jpg/960px-Jimbaran_beach_at_sunset.jpg",
+              "alt": "ジンバランビーチの夕暮れ、バリ島",
+              "credit": "Wikimedia Commons"
+            }
+          ],
+          "location": {
+            "name": "Menega Cafe（ジンバラン・ビーチ）",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.7654,115.1592",
+            "lat": -8.7654,
+            "lng": 115.1592
+          },
+          "details": {
+            "fee": {
+              "idr": 300000,
+              "jpy": 2820
+            },
+            "hours": "16:00-22:00",
+            "duration": "1.5-2時間",
+            "tips": [
+              "予算: 1人 Rp175,000-500,000（選ぶ魚介で大きく変動）",
+              "ロブスター・大エビは時価で高め。事前に値段を確認してから注文",
+              "セットメニュー（Rp175,000-250,000）がコスパ良い",
+              "夕日の時間帯に合わせて17:30頃に到着がベスト"
+            ]
+          }
+        }
+      ],
+      "food": {
+        "localSpecialties": [
+          "シーフードBBQ",
+          "サンバルマタ",
+          "イカンバカール（焼き魚）"
+        ],
+        "mustTry": {
+          "dish": "ジンバランのシーフードBBQ",
+          "description": "ジンバラン湾の漁師が獲った新鮮な魚介を、砂浜の炭火で豪快に焼くバリ島のシグネチャー体験。ロブスター、大エビ、イカ、白身魚を選び、ピリ辛のサンバルマタと空心菜炒めを添えて。波音とキャンドルの灯りが最高のスパイス。1人 Rp175,000-500,000。"
+        },
+        "restaurants": [
+          {
+            "name": "Menega Cafe",
+            "type": "シーフードBBQ",
+            "budget": "mid",
+            "priceRange": {
+              "idr": "175,000-500,000",
+              "jpy": "1,645-4,700"
+            },
+            "popular": [
+              "シーフードBBQセット",
+              "ロブスター",
+              "グリルドプラウン"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.7654,115.1592"
+            }
+          },
+          {
+            "name": "Single Fin",
+            "type": "バー＆レストラン",
+            "budget": "mid",
+            "priceRange": {
+              "idr": "80,000-200,000",
+              "jpy": "752-1,880"
+            },
+            "popular": [
+              "サンセットカクテル",
+              "ピザ",
+              "サーフビュー"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.8100,115.1000"
+            }
+          }
+        ],
+        "drinks": [
+          "ビンタンビール",
+          "フレッシュココナッツ"
+        ],
+        "safetyTips": [
+          "ジンバランのシーフードは時価制。注文前に値段を必ず確認"
+        ]
+      },
+      "accommodation": {
+        "area": "スミニャック（2泊目）",
+        "recommendations": []
+      },
+      "shopping": null,
+      "transport": {
+        "to": "南バリ（ウルワツ＆ジンバラン）",
+        "method": "チャーター車",
+        "duration": "スミニャック → ウルワツ: 約1時間",
+        "cost": {
+          "idr": 700000,
+          "jpy": 6580
+        },
+        "options": [
+          {
+            "method": "チャーター車（午後〜夜）",
+            "price": "Rp600,000-800,000（約5,640-7,520円）",
+            "details": "ウルワツ方面はGrabの帰りが捕まりにくいため、チャーター車が安心",
+            "duration": "半日（14:00-21:00頃）"
+          }
+        ],
+        "tips": [
+          "ウルワツ→ジンバラン→スミニャックのルートで回ると効率的",
+          "ケチャダンス終了後（19:00頃）はウルワツ周辺でGrabがほぼ捕まらない",
+          "チャーター車のドライバーにジンバランでの待機を依頼しておく"
+        ]
+      }
+    },
+    {
+      "day": 15,
+      "date": "",
+      "title": "旅の終わり — バリの余韻と空港へ",
+      "area": "バリ → 空港",
+      "heroImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Bali_Airport_%28DPS%29_I_Gusti_Ngurah_Rai_International_Airport.jpg/960px-Bali_Airport_%28DPS%29_I_Gusti_Ngurah_Rai_International_Airport.jpg",
+        "alt": "ングラ・ライ国際空港、バリ島",
+        "credit": "Wikimedia Commons"
+      },
+      "summary": "15日間の旅の最終日。最後の朝をビーチ沿いのカフェで過ごし、お土産を買い足してから空港へ。ジャカルタの喧騒から始まり、火口湖、ビーチ、世界遺産、滝、活火山、棚田、寺院、ケチャダンス——すべてが詰まった冒険の旅が、バリ島の空港で幕を閉じる。Selamat jalan！",
+      "areaInfo": {
+        "walkable": true,
+        "walkableNote": "スミニャック中心部は徒歩可。空港へはGrab",
+        "transportNeeded": "Grab（スミニャック→空港）",
+        "atm": "空港内にATMあり（両替は市内の方がレート良好）",
+        "wifi": "空港内にフリーWiFiあり",
+        "sim": "SIMカードは空港で返却不要。帰国後に自動失効",
+        "safety": "空港には出発3時間前に到着推奨",
+        "convenience": "空港内に免税店、レストラン、カフェあり"
+      },
+      "cityPois": [
+        {
+          "name": "Krisna Oleh-Oleh Sunset Road",
+          "lat": -8.718,
+          "lng": 115.1693,
+          "type": "convenience",
+          "description": "バリ最大のお土産チェーン。24時間営業"
+        },
+        {
+          "name": "Revolver Espresso",
+          "lat": -8.6862,
+          "lng": 115.1558,
+          "type": "cafe",
+          "description": "スミニャックの路地裏の名カフェ"
+        }
+      ],
+      "timeline": [
+        {
+          "time": "08:00",
+          "period": "morning",
+          "type": "activity",
+          "title": "ビーチ沿いの散歩 or カフェで朝食",
+          "description": "バリ最後の朝。スミニャックのビーチを散歩するか、お気に入りのカフェでゆっくり朝食。15日間の旅を振り返る贅沢な時間。",
+          "images": [],
+          "location": {
+            "name": "スミニャック・ビーチ",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.6900,115.1550",
+            "lat": -8.69,
+            "lng": 115.155
+          },
+          "details": {
+            "duration": "1.5時間",
+            "tips": [
+              "朝のビーチは静かで気持ちいい。日差しが強くなる前に",
+              "Revolver Espressoでコーヒーを飲むのもおすすめ"
+            ]
+          }
+        },
+        {
+          "time": "10:00",
+          "period": "morning",
+          "type": "activity",
+          "title": "Krisna Oleh-Oleh でお土産購入",
+          "description": "バリ最大のお土産チェーン。バリコーヒー、スパイス、クリピック（チップス）、バティック、木彫りなど、バリの定番お土産が何でも揃う。値段も空港より安い。",
+          "images": [],
+          "location": {
+            "name": "Krisna Oleh-Oleh Sunset Road",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.7180,115.1693",
+            "lat": -8.718,
+            "lng": 115.1693
+          },
+          "details": {
+            "hours": "24時間営業",
+            "duration": "1時間",
+            "tips": [
+              "バリコーヒー（Kopi Bali）は軽くてお土産に最適",
+              "サンバル・マタの瓶詰めも人気",
+              "クレジットカード使用可",
+              "空港より30-50%安いので、ここでまとめ買いがおすすめ"
+            ]
+          }
+        },
+        {
+          "time": "12:00",
+          "period": "afternoon",
+          "type": "meal",
+          "title": "最後のランチ（お気に入りの料理をもう一度）",
+          "description": "15日間で食べた中で一番美味しかった料理をもう一度。バビグリン、ナシチャンプル、シーフード——どれにする？",
+          "images": [],
+          "location": {
+            "name": "スミニャック/クタ周辺",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.6900,115.1580",
+            "lat": -8.69,
+            "lng": 115.158
+          },
+          "details": {
+            "duration": "1時間",
+            "tips": [
+              "空港近くで食べるならクタのワルンがおすすめ",
+              "空港内のレストランは割高（市内の2-3倍）"
+            ]
+          }
+        },
+        {
+          "time": "14:00",
+          "period": "afternoon",
+          "type": "transport",
+          "title": "ングラライ空港へ移動",
+          "description": "Grabでングラライ国際空港（DPS）へ。スミニャックからは渋滞なしで20-30分、渋滞ありで40-60分。余裕を持って出発。",
+          "images": [],
+          "location": {
+            "name": "ングラライ国際空港（DPS）",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.7482,115.1672",
+            "lat": -8.7482,
+            "lng": 115.1672
+          },
+          "access": {
+            "from": "スミニャック",
+            "method": "GrabCar",
+            "duration": "20-40分",
+            "cost": {
+              "idr": 100000,
+              "jpy": 940
+            },
+            "steps": [
+              "GrabCarで「Ngurah Rai International Airport」を目的地に設定",
+              "国際線ターミナルで降車",
+              "出発3時間前に到着推奨"
+            ]
+          },
+          "details": {
+            "tips": [
+              "Grab: スミニャック→空港 Rp50,000-180,000（距離・時間帯で変動）",
+              "空港タクシーは使わない。Grabの方が安全で安い",
+              "空港内の免税店は品揃え豊富。時間があれば覗く価値あり"
+            ]
+          }
+        },
+        {
+          "time": "15:00",
+          "period": "afternoon",
+          "type": "activity",
+          "title": "空港到着、チェックイン",
+          "description": "ングラライ国際空港に到着。チェックインと出国手続き。15日間のインドネシアの旅がここで終わる。ジャカルタの喧騒、バンドンの高原、パンガンダランの秘境ビーチ、ボロブドゥールの荘厳、ブロモの雲海、イジェンのブルーファイア、そしてバリの寺院と棚田——すべてが一生の思い出に。Selamat jalan（よい旅を）！",
+          "images": [],
+          "location": {
+            "name": "ングラライ国際空港（DPS）",
+            "googleMapsUrl": "https://maps.google.com/?q=-8.7482,115.1672",
+            "lat": -8.7482,
+            "lng": 115.1672
+          },
+          "details": {
+            "tips": [
+              "出国審査は混むことがある。余裕を持って",
+              "ルピアが余ったら空港内で使い切るか、次の旅のためにとっておく",
+              "免税枠: アルコール1リットル、タバコ200本まで",
+              "15日間のジャワ島横断＆バリ島の旅、お疲れさまでした！"
+            ]
+          }
+        }
+      ],
+      "food": {
+        "localSpecialties": [
+          "バリコーヒー",
+          "旅の思い出の味"
+        ],
+        "mustTry": {
+          "dish": "旅の最後に好きだった料理をもう一度",
+          "description": "15日間で出会ったインドネシア料理の中から、お気に入りをもう一度。バビグリン、ナシチャンプル、グドゥグ、ルジャックソト、シーフードBBQ——どれも忘れられない味になったはず。"
+        },
+        "restaurants": [
+          {
+            "name": "Revolver Espresso",
+            "type": "コーヒーショップ",
+            "budget": "mid",
+            "priceRange": {
+              "idr": "35,000-70,000",
+              "jpy": "329-658"
+            },
+            "popular": [
+              "エスプレッソ",
+              "ブランチ"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=-8.6862,115.1558"
+            }
+          }
+        ],
+        "drinks": [
+          "最後のコピ・バリ"
+        ],
+        "safetyTips": []
+      },
+      "accommodation": {
+        "area": "なし（帰国日）",
+        "recommendations": []
+      },
+      "shopping": null,
+      "transport": {
+        "to": "ングラライ国際空港（DPS）",
+        "method": "GrabCar",
+        "duration": "スミニャック → 空港: 20-40分",
+        "cost": {
+          "idr": 100000,
+          "jpy": 940
+        },
+        "options": [
+          {
+            "method": "GrabCar",
+            "price": "Rp50,000-180,000（約470-1,692円）",
+            "details": "スミニャック→空港。距離約10km",
+            "duration": "20-40分"
+          }
+        ],
+        "tips": [
+          "渋滞時間帯（16:00-19:00）は避けるのがベスト",
+          "空港のGrab乗降場は到着ロビー1階外。出発時はターミナル前で降車",
+          "空港タクシーのぼったくりに注意。必ずGrabを使う"
         ]
       }
     }
@@ -5133,10 +6599,15 @@
         }
       ],
       "relatedDays": [
-        10
+        10,
+        11,
+        12,
+        13,
+        14,
+        15
       ],
-      "backLink": "/day/10",
-      "backLinkLabel": "Day 10に戻る"
+      "backLink": "/day/11",
+      "backLinkLabel": "Day 11に戻る"
     }
   },
   "practicalInfo": {

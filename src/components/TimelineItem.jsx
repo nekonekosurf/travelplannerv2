@@ -19,11 +19,11 @@ export default function TimelineItem({ item, isLast }) {
 
   return (
     <div className={`relative ${isLast ? '' : 'pb-6'}`}>
-      <div className={`absolute -left-5 top-1 w-3 h-3 rounded-full ${dotColor} ring-4 ring-sand-50`} />
+      <div className={`absolute -left-5 top-1 w-3.5 h-3.5 rounded-full ${dotColor} ring-4 ring-sand-50`} />
 
       <div className="ml-2">
         <div className="flex items-center gap-2 mb-1">
-          <span className="text-xs font-medium text-gray-500">{item.time}</span>
+          <span className="text-xs font-semibold text-gray-600">{item.time}</span>
           <span className="text-xs text-gray-500">{periodLabels[item.period]}</span>
         </div>
 

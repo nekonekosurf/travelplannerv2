@@ -7,8 +7,8 @@ export default function Layout({ children }) {
     <div className="min-h-screen flex flex-col">
       <main className="flex-1">{children}</main>
 
-      <nav aria-label="メインナビゲーション" className="sticky bottom-0 bg-white border-t border-sand-200 shadow-lg">
-        <div className="flex justify-around py-1">
+      <nav aria-label="メインナビゲーション" className="sticky bottom-0 bg-white border-t border-sand-200 shadow-[0_-2px_10px_rgba(0,0,0,0.08)]">
+        <div className="flex justify-around py-1.5">
           <Link
             to="/"
             aria-current={location.pathname === '/' ? 'page' : undefined}

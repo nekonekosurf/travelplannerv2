@@ -13,7 +13,7 @@ export default function DayCard({ day }) {
       to={`/day/${day.day}`}
       className="block rounded-2xl overflow-hidden shadow-md hover:shadow-lg transition-shadow bg-white"
     >
-      <div className="relative h-40 overflow-hidden">
+      <div className="relative h-44 overflow-hidden">
         <img
           src={imgUrl}
           alt={day.heroImage?.alt || day.title}
@@ -27,7 +27,7 @@ export default function DayCard({ day }) {
       <div className="p-4">
         <h3 className="font-bold text-lg text-gray-800">{day.title}</h3>
         <p className="text-sm text-gray-500 mt-1">{day.area}</p>
-        <p className="text-sm text-gray-600 mt-2 line-clamp-2">{day.summary}</p>
+        <p className="text-sm text-gray-600 mt-2 line-clamp-2 leading-relaxed">{day.summary}</p>
       </div>
     </Link>
   )

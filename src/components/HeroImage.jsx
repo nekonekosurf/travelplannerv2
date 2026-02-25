@@ -8,10 +8,10 @@ export default function HeroImage({ url, alt, overlay, children }) {
         className="w-full h-full object-cover"
       />
       {overlay && (
-        <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+        <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-black/5" />
       )}
       {children && (
-        <div className="absolute bottom-0 left-0 right-0 p-6 text-white">
+        <div className="absolute bottom-0 left-0 right-0 p-6 text-white text-shadow-lg">
           {children}
         </div>
       )}

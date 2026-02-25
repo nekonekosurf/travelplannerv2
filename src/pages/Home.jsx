@@ -80,7 +80,7 @@ export default function Home() {
               {routeOverview.highlights.map((h, i) => (
                 <div
                   key={i}
-                  className="flex-shrink-0 bg-white border border-sand-200 rounded-xl px-3 py-2 text-xs text-gray-700 shadow-sm max-w-[200px]"
+                  className="flex-shrink-0 bg-white border border-sand-200 rounded-xl px-3 py-2 text-sm text-gray-700 shadow-sm max-w-[200px] min-w-[160px]"
                 >
                   {h}
                 </div>
@@ -94,7 +94,7 @@ export default function Home() {
             <h2 className="text-lg font-bold text-gray-800 mb-3">全体ルートマップ</h2>
             <RouteMap spots={overallMapSpots} height="380px" />
             <p className="text-xs text-gray-500 mt-2 text-center">
-              ジャカルタからケタパン港まで、ジャワ島を西から東へ横断
+              ジャカルタからバリ島まで、ジャワ島横断＆バリ島を巡る15日間
             </p>
           </div>
         )}
