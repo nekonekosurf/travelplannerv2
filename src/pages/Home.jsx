@@ -169,6 +169,13 @@ export default function Home() {
         >
           実用情報を見る（ビザ・通貨・持ち物など）
         </Link>
+
+        <Link
+          to="/singapore"
+          className="mt-3 block border border-sand-300 text-gray-500 text-center rounded-xl py-2.5 text-xs hover:bg-sand-50 transition-colors"
+        >
+          SG Transit - シンガポール乗り継ぎプラン
+        </Link>
       </div>
     </div>
   )

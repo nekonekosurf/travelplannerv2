@@ -14,6 +14,7 @@ import JakartaGuide from './pages/JakartaGuide'
 import BandungGuide from './pages/BandungGuide'
 import PangandaranGuide from './pages/PangandaranGuide'
 import YogyakartaGuide from './pages/YogyakartaGuide'
+import SingaporeTransit from './pages/SingaporeTransit'
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
           <Route path="/bandung" element={<BandungGuide />} />
           <Route path="/pangandaran" element={<PangandaranGuide />} />
           <Route path="/yogyakarta" element={<YogyakartaGuide />} />
+          <Route path="/singapore" element={<SingaporeTransit />} />
           <Route path="/info" element={<Info />} />
           <Route path="/food" element={<Food />} />
         </Routes>
