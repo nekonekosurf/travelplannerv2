@@ -1,3 +1,5 @@
+import { formatMoney } from '../utils/money'
+
 export default function FoodSection({ food }) {
   if (!food) return null
 
@@ -61,7 +63,7 @@ export default function FoodSection({ food }) {
                 <p className="text-xs text-gray-500 mt-0.5">{r.type}</p>
                 {r.priceRange && (
                   <p className="text-xs text-gray-600 mt-1">
-                    {r.priceRange.idr}（¥{r.priceRange.jpy}）
+                    {formatMoney(r.priceRange)}
                   </p>
                 )}
                 {r.popular?.length > 0 && (

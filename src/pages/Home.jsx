@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useMemo } from 'react'
-import tripData from '../../data/trip.json'
+import { getCurrentTrip, getCurrentTripId, TRIPS, DEFAULT_TRIP_ID, buildTripUrl } from '../data/tripLoader'
 import HeroImage from '../components/HeroImage'
 import DayCard from '../components/DayCard'
 import RouteMap from '../components/RouteMap'
@@ -11,9 +11,12 @@ const typeIcons = {
   nature: '🌿',
   beach: '🏖️',
   culture: '🏛️',
+  casino: '🎰',
 }
 
 export default function Home() {
+  const tripData = getCurrentTrip()
+  const currentTripId = getCurrentTripId()
   const { meta, routeOverview, days } = tripData
 
   const overallMapSpots = useMemo(() => {
@@ -31,7 +34,7 @@ export default function Home() {
     <div>
       <HeroImage
         url={routeOverview.mapImageUrl || 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg/960px-Bandung_View_dari_Gedung_Wisma_HSBC_Asia_Afrika_4.jpg'}
-        alt="インドネシアの風景"
+        alt={`${meta.country}の風景`}
         overlay
       >
         <p className="text-xs font-medium tracking-widest uppercase opacity-80 mb-1">
@@ -46,6 +49,31 @@ export default function Home() {
       </HeroImage>
 
       <div className="px-4 py-6">
+        {/* Trip Switcher */}
+        <div className="mb-6">
+          <h2 className="text-sm font-bold text-sunset-600 uppercase tracking-wide mb-3">
+            旅を切り替え
+          </h2>
+          <div className="grid grid-cols-2 gap-2">
+            {Object.values(TRIPS).map((t) => (
+              <a
+                key={t.id}
+                href={buildTripUrl(t.id, '#/')}
+                className={`block rounded-xl px-3 py-3 text-center text-xs font-medium border transition-colors ${
+                  currentTripId === t.id
+                    ? 'bg-sunset-600 text-white border-sunset-600 shadow-sm'
+                    : 'bg-white text-gray-700 border-sand-300 hover:bg-sand-50'
+                }`}
+              >
+                {t.label}
+              </a>
+            ))}
+          </div>
+          <p className="text-[10px] text-gray-500 mt-1">
+            URLで共有できます（{Object.keys(TRIPS).map((id) => `?trip=${id}`).join(' / ')}）
+          </p>
+        </div>
+
         {routeOverview.summary && (
           <p className="text-sm text-gray-600 leading-relaxed mb-6">
             {routeOverview.summary}
@@ -60,8 +88,10 @@ export default function Home() {
             <div className="grid grid-cols-3 gap-2">
               {Object.entries(meta.budgetSummary.daily).map(([key, val]) => (
                 <div key={key} className="bg-white border border-sand-200 rounded-xl p-3 text-center shadow-sm">
-                  <p className="text-lg font-black text-sunset-600">
-                    {val.jpy.toLocaleString()}<span className="text-xs font-normal text-gray-500">円</span>
+                  <p className={`font-black text-sunset-600 ${typeof val.jpy === 'number' ? 'text-lg' : 'text-sm leading-6'}`}>
+                    {typeof val.jpy === 'number'
+                      ? <>{val.jpy.toLocaleString()}<span className="text-xs font-normal text-gray-500">円</span></>
+                      : val.jpy}
                   </p>
                   <p className="text-[10px] text-gray-500 mt-1 leading-tight">{val.label}</p>
                 </div>
@@ -94,7 +124,7 @@ export default function Home() {
             <h2 className="text-lg font-bold text-gray-800 mb-3">全体ルートマップ</h2>
             <RouteMap spots={overallMapSpots} height="380px" />
             <p className="text-xs text-gray-500 mt-2 text-center">
-              ジャカルタからバリ島まで、ジャワ島横断＆バリ島を巡る15日間
+              {routeOverview.mapCaption || `${meta.startCity}から${meta.endCity}まで、${meta.totalDays}日間の旅`}
             </p>
           </div>
         )}
@@ -160,7 +190,7 @@ export default function Home() {
           to="/food"
           className="mt-6 block bg-sunset-600 text-white text-center rounded-xl py-3 text-sm font-medium hover:bg-sunset-700 transition-colors"
         >
-          インドネシアの食ガイドを見る
+          {currentTripId === 'cebu' ? 'フィリピンの食ガイドを見る' : `${meta.country}の食ガイドを見る`}
         </Link>
 
         <Link
@@ -170,12 +200,14 @@ export default function Home() {
           実用情報を見る（ビザ・通貨・持ち物など）
         </Link>
 
-        <Link
-          to="/singapore"
-          className="mt-3 block border border-sand-300 text-gray-500 text-center rounded-xl py-2.5 text-xs hover:bg-sand-50 transition-colors"
-        >
-          SG Transit - シンガポール乗り継ぎプラン
-        </Link>
+        {currentTripId === 'indonesia' && (
+          <Link
+            to="/singapore"
+            className="mt-3 block border border-sand-300 text-gray-500 text-center rounded-xl py-2.5 text-xs hover:bg-sand-50 transition-colors"
+          >
+            SG Transit - シンガポール乗り継ぎプラン
+          </Link>
+        )}
       </div>
     </div>
   )

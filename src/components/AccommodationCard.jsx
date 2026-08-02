@@ -1,3 +1,5 @@
+import { formatMoney } from '../utils/money'
+
 export default function AccommodationCard({ accommodation }) {
   if (!accommodation) return null
 
@@ -27,7 +29,7 @@ export default function AccommodationCard({ accommodation }) {
               </div>
               {hotel.pricePerNight && (
                 <p className="text-sm text-sunset-600 font-medium">
-                  1泊 {hotel.pricePerNight.idr?.toLocaleString()} Rp（¥{hotel.pricePerNight.jpy?.toLocaleString()}）
+                  1泊 {formatMoney(hotel.pricePerNight)}
                 </p>
               )}
               {hotel.bookingTip && (

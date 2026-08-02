@@ -1,8 +1,9 @@
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
-import tripData from '../../data/trip.json'
+import { getCurrentTrip } from '../data/tripLoader'
 
 export default function Info() {
+  const tripData = getCurrentTrip()
   const info = tripData.practicalInfo
 
   const [checked, setChecked] = useState(() => {
@@ -253,17 +254,16 @@ export default function Info() {
         )}
 
         {info.phrases?.length > 0 && (
-          <Section title="インドネシア語フレーズ">
-            <div className="space-y-2">
-              {info.phrases.map((p, i) => (
-                <div key={i} className="flex justify-between bg-sand-100 rounded-lg p-2">
-                  <span className="text-sm text-gray-700">{p.ja}</span>
-                  <span className="text-sm font-medium text-ocean-700">{p.id}</span>
-                </div>
-              ))}
-            </div>
+          <Section title={info.phrasesTitle || '現地語フレーズ'}>
+            <PhraseList phrases={info.phrases} />
           </Section>
         )}
+
+        {info.phraseGroups?.map((group, gi) => (
+          <Section key={gi} title={group.title}>
+            <PhraseList phrases={group.phrases} />
+          </Section>
+        ))}
 
         <Link
           to="/"
@@ -272,6 +272,19 @@ export default function Info() {
           ホームに戻る
         </Link>
       </div>
+    </div>
+  )
+}
+
+function PhraseList({ phrases }) {
+  return (
+    <div className="space-y-2">
+      {phrases?.map((p, i) => (
+        <div key={i} className="flex justify-between gap-2 bg-sand-100 rounded-lg p-2">
+          <span className="text-sm text-gray-700 flex-shrink-0">{p.ja}</span>
+          <span className="text-sm font-medium text-ocean-700 text-right">{p.local || p.id}</span>
+        </div>
+      ))}
     </div>
   )
 }

@@ -1,6 +1,9 @@
 import { useParams, Link, useLocation } from 'react-router-dom'
 import { useEffect, useMemo, useState, useRef, useCallback } from 'react'
-import tripData from '../../data/trip.json'
+import { getCurrentTrip, getCurrentTripId } from '../data/tripLoader'
+
+const tripData = getCurrentTrip()
+const currentTripId = getCurrentTripId()
 import HeroImage from '../components/HeroImage'
 import SafetyAlerts from '../components/SafetyAlerts'
 import Timeline from '../components/Timeline'
@@ -178,7 +181,7 @@ export default function DayDetail() {
       <div className="px-4 py-4">
         <p className="text-sm text-gray-700 leading-relaxed">{day.summary}</p>
 
-        {dayNum === 1 && (
+        {dayNum === 1 && currentTripId === 'indonesia' && (
           <Link
             to="/airport"
             className="mt-3 flex items-center gap-3 bg-ocean-50 border border-ocean-200 rounded-xl p-3"

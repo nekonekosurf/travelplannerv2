@@ -1,3 +1,5 @@
+import { formatMoney, hasAmount } from '../utils/money'
+
 export default function TransportInfo({ transport }) {
   if (!transport) return null
 
@@ -26,11 +28,11 @@ export default function TransportInfo({ transport }) {
               <span className="font-medium text-sm">{transport.duration}</span>
             </div>
           )}
-          {transport.cost && (transport.cost.idr > 0 || transport.cost.jpy > 0) && (
+          {hasAmount(transport.cost) && (
             <div className="bg-white rounded-lg p-2">
               <span className="text-xs text-gray-400 block">費用</span>
               <span className="font-medium text-sm">
-                {transport.cost.idr?.toLocaleString()} Rp（¥{transport.cost.jpy?.toLocaleString()}）
+                {formatMoney(transport.cost)}
               </span>
             </div>
           )}

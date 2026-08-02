@@ -17,9 +17,9 @@ export default function SafetyAlerts({ alerts, className = '' }) {
               <path d="M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z" />
             </svg>
             <div>
-              <p className="text-xs font-bold text-red-800">{alert.spot}</p>
+              <p className="text-xs font-bold text-red-800">{alert.spot || alert.title}</p>
               <p className="text-xs text-red-700 mt-1 leading-relaxed">
-                {alert.warning}
+                {alert.warning || alert.description}
               </p>
             </div>
           </div>

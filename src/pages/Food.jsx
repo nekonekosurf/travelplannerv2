@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
+import { getCurrentTrip, getCurrentTripId } from '../data/tripLoader'
 
-const dishes = [
+const indonesiaDishes = [
   {
     name: 'ナシゴレン（Nasi Goreng）',
     desc: 'インドネシアの国民食。甘辛いケチャップマニス（甘い醤油）で炒めたチャーハン。目玉焼きとクルプック（えびせん）がのっているのが定番。屋台からレストランまでどこでも食べられる。',
@@ -63,12 +64,47 @@ const dishes = [
   },
 ]
 
-const drinkList = [
+const indonesiaDrinks = [
   { name: 'コピ・ルアク（Kopi Luwak）', desc: '世界一高いコーヒー。ジャコウネコの消化を経たコーヒー豆。※動物福祉の懸念あり（ケージ飼育が多い）。倫理的な調達か確認するか、通常のインドネシアコーヒーを楽しむのも良い' },
   { name: 'テ・ボトル（Teh Botol）', desc: 'インドネシア版の午後ティー。甘い紅茶のボトル飲料。コンビニでRp5,000' },
   { name: 'コピ・スス（Kopi Susu）', desc: 'インドネシアのミルクコーヒー。練乳入りで甘い' },
   { name: 'バンドレック（Bandrek）', desc: '生姜とスパイスの温かいドリンク。バンドン高原の寒い夜にぴったり' },
   { name: 'ジャムウ（Jamu）', desc: 'インドネシアの伝統的なハーブドリンク。ウコン、生姜、タマリンドなどで作る' },
+]
+
+const cebuDishes = [
+  { name: 'セブ・レチョン（Lechon Cebu）', desc: '子豚の丸焼き。皮はパリパリ、肉はジューシー、ハーブとレモングラスで味付け。CNNが「世界一の豚料理」と評した。Zubuchon、Rico\'s、CNT、House of Lechonが有名店。', price: '1人前 PHP 200-400（約530-1,060円）', where: 'セブシティ全域（Day 2）' },
+  { name: 'シシグ（Sisig）', desc: '豚耳・ほほ肉・玉ねぎ・チリを鉄板でジュージュー焼き、最後に生卵を割り入れる。San Miguelビールとの相性が最強の代表料理。', price: 'PHP 200-350（約530-925円）', where: 'フィリピン全土' },
+  { name: 'シニガン（Sinigang）', desc: 'タマリンドの酸味スープ。豚（na baboy）、エビ（na sugpo）、魚など具材自在。野菜と一緒に煮込まれた酸っぱい味が暑さに効く。', price: 'PHP 250-450（約660-1,190円）', where: 'フィリピン全土' },
+  { name: 'アドボ（Adobo）', desc: 'フィリピンの国民食。鶏か豚を醤油・酢・ニンニク・ローリエで煮込んだ料理。地域ごとにレシピが少しずつ違う。', price: 'PHP 180-300（約475-790円）', where: 'フィリピン全土' },
+  { name: 'カレカレ（Kare-Kare）', desc: '牛尾・牛足・牛モツをピーナッツソースで煮込んだスタウ。エビペースト（Bagoong）を添えて食べる濃厚料理。', price: 'PHP 350-600（約925-1,580円）', where: 'フィリピン全土。地元レストラン' },
+  { name: 'ハロハロ（Halo-Halo）', desc: 'タガログ語で「混ぜ混ぜ」の意味。かき氷に小豆・タピオカ・寒天・ココナッツ・パープルヤム（ウベ）アイス・プリンを盛った極彩色デザート。', price: 'PHP 80-200（約210-530円）', where: 'フィリピン全土。Chowking、Razon\'sが定番' },
+  { name: 'キニラウ（Kinilaw）', desc: 'フィリピン式セビーチェ。新鮮な生魚をココナッツ酢、生姜、玉ねぎ、唐辛子で締めた前菜。火を使わず酸で煮る南国の知恵。', price: 'PHP 250-500（約660-1,320円）', where: 'マクタン島のシーフード店（Day 3）' },
+  { name: 'パンシット（Pancit）', desc: 'フィリピン版焼きそば。Pancit Canton（中華麺）、Pancit Bihon（細米麺）、Pancit Palabok（オレンジ色のソースがけ）など種類豊富。', price: 'PHP 150-300（約400-790円）', where: 'フィリピン全土' },
+  { name: 'レチョン・マノック（Lechon Manok）', desc: '鶏の丸焼き。レモングラスを詰めて炭火でじっくり焼く。Andok\'s、Sr. Pedro等のチェーンが安くて旨い。1羽 PHP 200-300の庶民の味方。', price: 'PHP 200-300/1羽', where: 'Andok\'s、Sr. Pedroの店舗' },
+  { name: 'ドライマンゴー（Dried Mango）', desc: 'セブ名物のお土産。フィリピン産マンゴーの完熟果実を乾燥させたもの。7D、Cebu Brand、Profoodが有名。空港・モールで買える。', price: 'PHP 150-400/袋', where: 'SM Seaside、空港、Ayala（お土産）' },
+]
+
+const cebuDrinks = [
+  { name: 'San Miguel Pale Pilsen', desc: 'フィリピン国民ビール。シシグ・BBQと相性◎。レストランPHP 80-120、コンビニPHP 50-70' },
+  { name: 'Red Horse Beer', desc: 'San Migの強めビール（アルコール6.9%）。フィリピンの飲み会の定番' },
+  { name: 'Calamansi Juice', desc: 'フィリピンライム（カラマンシー）の搾りジュース。爽快な酸味でビタミンC補給' },
+  { name: 'Buko Juice', desc: 'ヤシの実ジュース。実をその場で割って提供。屋台でPHP 30-50' },
+  { name: 'Mango Shake', desc: 'フィリピン産マンゴーを凍らせてミキサーへ。世界一甘いと言われる完熟マンゴーの幸福' },
+  { name: 'Tanduay Rum', desc: 'フィリピン産ラム酒。シングルボトルPHP 100台で買える。コーラ割り（クバリブレ）で' },
+  { name: 'Sago\'t Gulaman', desc: 'タピオカと寒天入りの甘いジュース。屋台でPHP 20-30' },
+]
+
+const cebuSafetyTips = [
+  '水道水は絶対に飲まない。歯磨きもペットボトルで（PHP20）。屋台の氷も避ける',
+  '生野菜サラダ・カットフルーツは旅行者下痢のリスク。火が通ったものを選ぶ',
+  '屋台のBBQ（Larsian等）は焼きたて・熱いものを。冷めたものは避ける',
+  '【カジノで】無料アルコールは控えめに。判断力が鈍る',
+  '【深夜便前】脂っこいレチョン大盛りは避け、軽めに（消化負担で寝不足悪化）',
+  '【ピーナッツアレルギー注意】カレカレ、サテのソースに使われる',
+  '【シーフードアレルギー注意】Kinilaw・Bagoongはエビ・魚介類',
+  'レチョンの皮は美味だが油分が多い。最初は少量から',
+  '食前の手洗い/アルコールジェル消毒を徹底',
 ]
 
 const safetyTips = [
@@ -84,19 +120,30 @@ const safetyTips = [
 ]
 
 export default function Food() {
+  const tripId = getCurrentTripId()
+  const guide = getCurrentTrip().foodGuide
+  const isCebu = tripId === 'cebu'
+  const dishes = guide?.dishes || (isCebu ? cebuDishes : indonesiaDishes)
+  const drinkList = guide?.drinks || (isCebu ? cebuDrinks : indonesiaDrinks)
+  const tips = guide?.safetyTips || (isCebu ? cebuSafetyTips : safetyTips)
+  const title = guide?.title || (isCebu ? 'フィリピンの食' : 'インドネシアの食')
+  const intro = guide?.intro || (isCebu
+    ? 'フィリピン料理はスペイン・米・中国・マレーの影響が混ざり合った独自の世界。レチョン（豚の丸焼き）、シシグ、シニガンの酸味、マンゴー、そしてSan Miguelビール。セブはレチョンの本場、マクタンはシーフード天国。'
+    : 'インドネシア料理は「辛い・甘い・うまい」のトライアングル。ケチャップマニス（甘い醤油）、サンバル（唐辛子ペースト）、ココナッツミルクが味の土台。屋台（カキリマ）で食べるのが一番安くて本物の味に出会える。')
+
   return (
     <div>
       <div className="bg-sunset-600 px-4 py-8 text-white">
-        <h1 className="text-2xl font-black">インドネシアの食</h1>
+        <h1 className="text-2xl font-black">{title}</h1>
         <p className="text-sm opacity-90 mt-1">旅先で食べたい料理ガイド</p>
       </div>
 
       <div className="px-4 py-6 space-y-6">
         <p className="text-sm text-gray-600 leading-relaxed">
-          インドネシア料理は「辛い・甘い・うまい」のトライアングル。ケチャップマニス（甘い醤油）、サンバル（唐辛子ペースト）、ココナッツミルクが味の土台。屋台（カキリマ）で食べるのが一番安くて本物の味に出会える。
+          {intro}
         </p>
 
-        <h2 className="text-lg font-bold text-gray-800">定番料理10選</h2>
+        <h2 className="text-lg font-bold text-gray-800">定番料理{dishes.length}選</h2>
 
         <div className="space-y-4">
           {dishes.map((d, i) => (
@@ -128,7 +175,7 @@ export default function Food() {
         <h2 className="text-lg font-bold text-gray-800 mt-6">食の安全メモ</h2>
         <div className="bg-yellow-50 rounded-2xl p-4">
           <ul className="space-y-2">
-            {safetyTips.map((t, i) => (
+            {tips.map((t, i) => (
               <li key={i} className="text-xs text-gray-700 flex gap-2">
                 <span className="text-yellow-500 flex-shrink-0">&#9679;</span>
                 {t}

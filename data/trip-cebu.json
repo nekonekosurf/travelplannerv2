@@ -1,0 +1,858 @@
+{
+  "meta": {
+    "title": "セブ島カジノ大勝負 3泊4日",
+    "subtitle": "マゼランの上陸地で、テーブルとビーチに賭ける夏",
+    "country": "フィリピン",
+    "startCity": "成田",
+    "endCity": "成田",
+    "totalDays": 4,
+    "currency": {
+      "code": "PHP",
+      "symbol": "₱",
+      "rateToJPY": 2.64
+    },
+    "travelerProfile": {
+      "origin": "東京",
+      "firstVisit": true,
+      "preferences": ["カジノ", "シーフード", "ビーチ", "ナイトライフ"]
+    },
+    "lastUpdated": "2026-06-19",
+    "budgetSummary": {
+      "daily": {
+        "backpacker": {"php": 2500, "jpy": 6600, "label": "節約（屋台＋ローカル宿）"},
+        "budget": {"php": 5500, "jpy": 14500, "label": "標準（カジノ併設ホテル＋Grab）"},
+        "comfortable": {"php": 11000, "jpy": 29000, "label": "豪華（NUSTAR等高級リゾート）"}
+      },
+      "excludes": "国際航空券（成田⇔セブ往復7-13万円/人）、海外旅行保険、カジノ軍資金（推奨 1万-3万円/人）",
+      "coupleCasinoBudget": {
+        "label": "カップル合算カジノ予算（推奨）",
+        "totalLimit": "JPY 100,000（PHP 38,000）が安全上限",
+        "rules": [
+          "夫婦合計で「総額10万円まで」と最初に決め、超えたら即撤退",
+          "1人が「ストッパー役」を担当し、相手のATM追加引き出しを物理的に止める",
+          "クレジットカードのキャッシング暗証番号を相手に預ける（または事前に一時停止）",
+          "Day 1（Waterfront）2-5千円・Day 2（NUSTAR本命）5-7万円・Day 3（最後）残額のみの配分",
+          "勝った時は「半分Cage現金化→ホテル金庫」のルールで持ち帰り確保",
+          "PAGCOR発行「Win/Loss Statement」をCageで依頼し保管（日本での税申告用）"
+        ]
+      }
+    }
+  },
+  "routeOverview": {
+    "summary": "成田から約5時間、マクタン・セブ国際空港着。テーマはただひとつ「カジノで勝つ」。初日はLahugの老舗WaterfrontでPAGCORカジノ肩慣らし、2日目はマゼランクロスとレチョンで腹ごしらえしてSRPの最新リゾートNUSTARで本命勝負、3日目はマクタン島でビーチと海鮮、夜は最後のあがき。4日目は深夜便で成田へ早朝帰国するスリリングな3泊4日。",
+    "highlights": [
+      "NUSTAR Resort and Casino（フィリピン最大級・250テーブル超）",
+      "Waterfront Cebu City Hotel & Casino（老舗・コスパ◎）",
+      "マゼランクロス＆サントニーニョ教会（フィリピンの原点）",
+      "Zubuchonのレチョン（CNN絶賛・世界一の豚料理）",
+      "Larsian BBQの屋台体験",
+      "マクタン島アイランドホッピング＆Lantaw Cordovaの海上シーフード",
+      "トップス展望台のセブ夜景"
+    ],
+    "route": [
+      {"day": 1, "area": "成田→マクタン→Lahug", "type": "transit", "lat": 10.3322, "lng": 123.8979},
+      {"day": 2, "area": "セブ市内観光→NUSTAR本命勝負", "type": "casino", "lat": 10.2712, "lng": 123.881},
+      {"day": 3, "area": "マクタン島ビーチ＆最終カジノ", "type": "beach", "lat": 10.3088, "lng": 123.9856},
+      {"day": 4, "area": "マクタン→成田（早朝便）", "type": "transit", "lat": 10.3075, "lng": 123.9794}
+    ],
+    "safetyAlerts": [
+      {
+        "spot": "カジノ全般（Day 1-3）",
+        "warning": "【依存リスク】カジノは負ける前提のエンタメ。1日の予算上限を事前に決め、ATM追加引き出しは絶対禁止。21歳未満入場不可、パスポート必須、ドレスコード（短パン・ビーサン・タンクトップ不可）"
+      },
+      {
+        "spot": "マクタン空港→市内（Day 1）",
+        "warning": "白タク・客引きが多い。Grabか公式Yellow Taxi（Airport Coupon Taxi）以外は絶対使わない。「ポーター」を装って勝手に荷物を運ぶ人物に注意"
+      },
+      {
+        "spot": "セブ市内・コロン通り（Day 2）",
+        "warning": "スリ・ひったくり多発。スマホ・財布は前ポケットに。夜間の単独行動は避ける。カルボン市場周辺も日中のみ"
+      },
+      {
+        "spot": "マクタン島アクティビティ（Day 3）",
+        "warning": "アイランドホッピング・シュノーケリングはライフジャケット必須。DOT認定業者を選ぶ。離岸流注意。SPF50+とラッシュガード必須"
+      },
+      {
+        "spot": "デング熱（Day 1-4 全日）",
+        "warning": "セブはデング熱流行地。DEET30%以上の虫よけ。発症時の解熱はカロナールのみ、イブプロフェン・アスピリン禁忌"
+      },
+      {
+        "spot": "水・氷・生もの（Day 1-4 全日）",
+        "warning": "水道水・屋台の氷は絶対NG。歯磨きもペットボトル。生野菜サラダ・カットフルーツは旅行者下痢の原因"
+      },
+      {
+        "spot": "早朝便（Day 4）",
+        "warning": "03:55発は空港着02:00推奨。深夜のGrabは台数減のため、前夜にホテルフロントでタクシー予約。前夜カジノで負けてもATM引き出し禁止"
+      }
+    ],
+    "mapImageUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cebu_city_skyline%2C_Philippines.jpg/1280px-Cebu_city_skyline%2C_Philippines.jpg"
+  },
+  "days": [
+    {
+      "day": 1,
+      "date": "2026-07-03（金）",
+      "title": "セブ着、Waterfrontで肩慣らしカジノ",
+      "area": "成田 → マクタン → セブ市内（Lahug）",
+      "heroImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cebu_City_Skyline_at_Night.jpg/1280px-Cebu_City_Skyline_at_Night.jpg",
+        "alt": "セブ市の夜景",
+        "credit": "Wikimedia Commons"
+      },
+      "summary": "成田を朝出発、約5時間のフライトでマクタン・セブ国際空港に着陸。両替・SIMを済ませGrabで30分かけてセブ市Lahug地区へ。Waterfront Cebu City Hotel & Casinoにチェックイン、夕食後はホテル併設の老舗カジノで初日の肩慣らし。低レートのテーブルで初心者にも優しい。",
+      "areaInfo": {
+        "walkable": false,
+        "walkableNote": "空港〜市内は車のみ。市内ホテル周辺は徒歩可だが夜間はGrab推奨",
+        "transportNeeded": "Grab（配車アプリ）。空港のGrab乗り場はBay 3-5",
+        "atm": "空港到着階にBDO/BPI/Metrobank ATMあり。手数料PHP250/回、1回上限PHP10,000-20,000",
+        "wifi": "空港フリーWiFi。SIMはGlobe/Smartカウンターで購入",
+        "sim": "Globe Go Tourist（PHP499≒1,320円）またはSmart Giga Travel（PHP500前後）",
+        "safety": "空港〜ホテル間は安全。白タク・客引きは無視",
+        "convenience": "ホテル周辺に7-Eleven、Ayala Center Cebuも徒歩圏"
+      },
+      "cityPois": [
+        {"name": "マクタン・セブ国際空港 T2", "lat": 10.3075, "lng": 123.9794, "type": "transit", "description": "国際線。木造ドームが美しい新ターミナル", "googleMapsUrl": "https://maps.google.com/?q=10.3075,123.9794"},
+        {"name": "Waterfront Cebu City Hotel & Casino", "lat": 10.3306, "lng": 123.9081, "type": "hotel", "description": "Lahugの老舗大型ホテル。Casino Filipino併設", "googleMapsUrl": "https://maps.google.com/?q=10.3306,123.9081"},
+        {"name": "Ayala Center Cebu", "lat": 10.3179, "lng": 123.9056, "type": "mall", "description": "セブ最大級モール。両替・レストラン豊富", "googleMapsUrl": "https://maps.google.com/?q=10.3179,123.9056"},
+        {"name": "7-Eleven Salinas Drive", "lat": 10.3286, "lng": 123.9098, "type": "convenience", "description": "24時間営業。水・スナック", "googleMapsUrl": "https://maps.google.com/?q=10.3286,123.9098"},
+        {"name": "Chika-an sa Cebu Capitol", "lat": 10.3203, "lng": 123.8983, "type": "restaurant", "description": "セブ料理人気店。シニガン・カレカレ", "googleMapsUrl": "https://maps.google.com/?q=10.3203,123.8983"}
+      ],
+      "timeline": [
+        {
+          "time": "06:30", "period": "morning", "type": "transport",
+          "title": "成田空港 第1ターミナル集合（離陸3時間前）",
+          "description": "成田空港第1ターミナル北ウィングのチェックインカウンターへ。Philippine Airlines（PR、北ウィング）またはCebu Pacific（5J）。離陸3時間前の06:30到着を厳守。早朝便のため前日空港近隣のホテルor深夜バス利用も検討。",
+          "images": [],
+          "location": {"name": "成田国際空港", "googleMapsUrl": "https://maps.google.com/?q=35.7700,140.3929", "lat": 35.77, "lng": 140.3929},
+          "access": {"from": "東京駅・都心", "method": "成田エクスプレス or リムジン", "duration": "60-90分", "cost": {"php": 0, "jpy": 3070}, "steps": ["N'EX 東京→成田（60分、3,070円）", "京成スカイライナー（44分、2,580円）"]},
+          "details": {"hours": "24時間", "bestTime": "出発3時間前", "duration": "60-90分", "mustBring": ["パスポート(残存6ヶ月+)", "eTravel登録", "保険証", "クレカ", "電子航空券"], "tips": ["【eTravel手順】日本出発72時間前にhttps://etravel.gov.phで登録（無料・必須）。氏名・パスポート・便番号・宿泊先入力→QRコード発行→スクリーンショット保存。空港入国審査と航空会社カウンターで提示", "偽サイト（etravelpass.ph、etravelregistration.com）注意、必ず.gov.phで", "両替は現地ATMの方がレート良", "PAL Premier Loungeへのアクセス可否はカード次第（プライオリティパス等）"]}
+        },
+        {
+          "time": "09:30", "period": "morning", "type": "transport",
+          "title": "成田→マクタン直行便で離陸",
+          "description": "Philippine Airlines PR427（NRT 09:30→CEB 13:30）またはCebu Pacific 5J5063（NRT 10:00→CEB 14:10）の直行便。所要約5時間（300分）。フィリピンは日本より1時間遅い（GMT+8）。便番号・時刻は予約時に公式で最終確認すること（季節スケジュール変動あり）。",
+          "images": [],
+          "location": {"name": "成田→マクタン", "googleMapsUrl": "https://maps.google.com/?q=10.3075,123.9794", "lat": 10.3075, "lng": 123.9794},
+          "access": {"from": "成田空港", "method": "国際線直行便", "duration": "5h 20m", "cost": {"php": 38000, "jpy": 100000}, "steps": ["Philippine Airlines PR427（NRT 09:30→CEB 13:30、A321、所要約5h）", "Philippine Airlines PR433（NRT 15:33→CEB 19:07、午後便、所要約5h）", "Cebu Pacific 5J5063（NRT 10:00→CEB 14:10、所要約5h）", "便番号は公式サイトで予約時に最終確認（PR437・5J5057はCEB行きではないので注意）"]},
+          "details": {"fee": "往復7-13万円/人", "hours": "毎日運航", "bestTime": "午前便で午後着が観光しやすい", "duration": "5h 20m", "mustBring": ["上着（機内冷房強）", "モバイルバッテリー"], "tips": ["PRは機内食・荷物込み、5JはLCCで別売", "時計はマクタン着陸前にJST-1hに調整"]}
+        },
+        {
+          "time": "13:30", "period": "afternoon", "type": "activity",
+          "title": "マクタン・セブ国際空港 着陸",
+          "description": "T2（国際線）着。木造ドームの天井。入国審査は外国人レーン、eTravel QR提示。受託手荷物受け取り→税関通過。",
+          "images": [{"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mactan-Cebu_International_Airport_Terminal_2_interior.jpg/1280px-Mactan-Cebu_International_Airport_Terminal_2_interior.jpg", "alt": "マクタン空港T2", "credit": "Wikimedia Commons"}],
+          "location": {"name": "マクタン・セブ国際空港 T2", "googleMapsUrl": "https://maps.google.com/?q=10.3075,123.9794", "lat": 10.3075, "lng": 123.9794},
+          "access": {"from": "搭乗ゲート", "method": "徒歩", "duration": "30-60分", "cost": {"php": 0, "jpy": 0}, "steps": ["Foreigner レーンに並ぶ", "eTravel QR＋パスポート提示", "入国スタンプ（30日ビザ免除）", "受託手荷物受け取り", "税関ゲート緑（申告なし）"]},
+          "details": {"fee": "ビザ無料", "hours": "24時間", "bestTime": "午後着が両替・SIM購入に楽", "duration": "30-60分", "mustBring": ["eTravel QR", "パスポート", "復路航空券コピー"], "tips": ["両替はCzarinaがレート◎", "SIMはGlobe Go Touristが安定人気", "ATMはBDO/BPIで初回PHP10,000引き出し", "白タク・客引きには「No thanks」"]}
+        },
+        {
+          "time": "14:30", "period": "afternoon", "type": "transport",
+          "title": "Grabでセブ市Lahug地区へ",
+          "description": "到着階を出てBay 3-5のGrab Pick-up Zoneへ。マクタン橋を渡って所要30-45分。",
+          "images": [],
+          "location": {"name": "Waterfront Cebu City Hotel & Casino", "googleMapsUrl": "https://maps.google.com/?q=10.3306,123.9081", "lat": 10.3306, "lng": 123.9081},
+          "access": {"from": "マクタン・セブ国際空港", "method": "Grab Car", "duration": "25-60分（時間帯次第）", "cost": {"php": 325, "jpy": 858}, "steps": ["到着階を右に出てBay 1-8のGrab Pick-up Zoneへ（看板少なめ、アプリでBay番号指定）", "Grabアプリで「Waterfront Cebu City Hotel」を指定", "マクタン-マンダウェ橋経由（オフピーク25分、ピーク60分）"]},
+          "details": {"fee": "Grab PHP 250-400、White Taxi（メーター） PHP 250-350、Yellow Airport Taxi PHP 400-550", "hours": "Grabは24時間", "bestTime": "17時前はスムーズ（25-30分）", "duration": "オフピーク25分／ピーク60分", "mustBring": ["Grabアプリ", "現地SIM"], "tips": ["白タクは絶対NG。Grab > White Taxi（メーター）> Yellow Airport Taxi の順におすすめ", "Coupon Taxi（PHP 500-650固定）は割高でスキップ", "ラッシュ時マクタン橋渋滞で60分かかることも", "NUSTAR宿泊なら無料シャトルあり（24/7、要事前連絡 09989615608）"]}
+        },
+        {
+          "time": "15:30", "period": "afternoon", "type": "activity",
+          "title": "Waterfront Cebu City Hotel & Casino チェックイン",
+          "description": "1998年開業の老舗大型リゾート。561室、専用カジノ棟、9つのF&B。ロビーは大理石でクラシカル。",
+          "images": [],
+          "location": {"name": "Waterfront Cebu City Hotel & Casino", "googleMapsUrl": "https://maps.google.com/?q=10.3306,123.9081", "lat": 10.3306, "lng": 123.9081},
+          "access": {"from": "Grab到着", "method": "徒歩", "duration": "10分", "cost": {"php": 0, "jpy": 0}, "steps": ["ロビーでパスポート提示＋カードでデポジット", "ルームキー＋朝食バウチャー受領", "ベルボーイにチップPHP50-100"]},
+          "details": {"fee": "1泊USD 55-90（約8,800-14,400円）/2名", "hours": "イン15:00/アウト12:00", "bestTime": "夕方着がベスト", "duration": "10分", "mustBring": ["パスポート", "クレカ"], "tips": ["Booking.com/Agoda朝食付きプラン推奨", "高層階リクエスト無料対応多", "屋外プール・ジム・サウナあり"]}
+        },
+        {
+          "time": "19:00", "period": "evening", "type": "meal",
+          "title": "Chika-an sa Cebuで初日ディナー",
+          "description": "Capitol近くの人気ローカル料理店。シニガン、カレカレ、シシグ、レチョン少量盛り。地元客で賑わう。",
+          "images": [],
+          "location": {"name": "Chika-an sa Cebu Capitol", "googleMapsUrl": "https://maps.google.com/?q=10.3203,123.8983", "lat": 10.3203, "lng": 123.8983},
+          "access": {"from": "Waterfront", "method": "Grab", "duration": "10分", "cost": {"php": 100, "jpy": 264}, "steps": ["Grabで「Chika-an sa Cebu Capitol」", "ホテル玄関乗車", "10分で到着"]},
+          "details": {"fee": "2名 PHP 800-1,200（約2,100-3,200円）", "hours": "10:00-22:00", "bestTime": "19時前は空き", "duration": "60-90分", "mustBring": ["現金"], "tips": ["シニガン・カレカレ・シシグの3品が王道", "食後デザートはハロハロ"]}
+        },
+        {
+          "time": "21:00", "period": "night", "type": "activity",
+          "title": "Casino Filipino Waterfront で肩慣らし",
+          "description": "ホテル併設のPAGCOR運営カジノ。スロット数百台、ブラックジャック・バカラ・ルーレット・ポーカーのテーブル充実。最低ベットPHP100-300からと初心者にも優しい。初日は少額で雰囲気を掴むのが鉄則。",
+          "images": [],
+          "location": {"name": "Casino Filipino Waterfront", "googleMapsUrl": "https://maps.google.com/?q=10.3306,123.9081", "lat": 10.3306, "lng": 123.9081},
+          "access": {"from": "客室", "method": "徒歩", "duration": "5分", "cost": {"php": 0, "jpy": 0}, "steps": ["エレベーターで2階カジノ棟へ", "入口でパスポート提示＋ID登録", "Cageで現金→チップ交換", "テーブル/スロットへ"]},
+          "details": {"fee": "入場料PHP100程度、軍資金1人PHP3,000-10,000（約8,000-26,000円）推奨", "hours": "24時間", "bestTime": "21時-翌1時ピーク", "duration": "2-3時間（深追い禁止）", "mustBring": ["パスポート（21歳+原本）", "現金PHP", "襟付きシャツ・革靴", "撤退ラインを決める"], "tips": ["【必須】ドレスコード：短パン・ビーサン・タンクトップ・サンダル不可", "館内撮影禁止", "アルコール無料サービスあり、飲み過ぎ厳禁", "初日は予算の1/3まで。負けも勝ちも深追いしない", "チップは退店時にCageで現金化"]}
+        }
+      ],
+      "food": {
+        "localSpecialties": ["シニガン（タマリンドの酸味スープ）", "カレカレ（ピーナッツ煮込み）", "アドボ（醤油酢煮込み）", "シシグ（豚耳・ほほ肉の鉄板焼）", "ハロハロ（混ぜかき氷）"],
+        "mustTry": {
+          "dish": "セブ風シシグ",
+          "description": "豚耳・ほほ肉・玉ねぎ・チリを鉄板でジュージュー焼き、生卵を割り入れる。San Miguelビールとの相性最強。",
+          "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Sizzling_sisig.jpg/960px-Sizzling_sisig.jpg", "alt": "シシグ"}
+        },
+        "restaurants": [
+          {
+            "name": "Chika-an sa Cebu Capitol",
+            "type": "セブ料理レストラン",
+            "budget": "mid",
+            "priceRange": {"php": "300-600/人", "jpy": "790-1,580"},
+            "popular": ["シニガン・ナ・バブイ", "カレカレ", "Lechon Belly"],
+            "location": {"googleMapsUrl": "https://maps.google.com/?q=10.3203,123.8983"},
+            "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Sinigang_na_baboy.jpg/640px-Sinigang_na_baboy.jpg", "alt": "シニガン"}
+          },
+          {
+            "name": "House of Lechon",
+            "type": "レチョン専門店",
+            "budget": "mid",
+            "priceRange": {"php": "350-700/人", "jpy": "925-1,850"},
+            "popular": ["Lechon Belly Roll", "Crispy Pata"],
+            "location": {"googleMapsUrl": "https://maps.google.com/?q=10.3253,123.9067"},
+            "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Cebu_Lechon.jpg/960px-Cebu_Lechon.jpg", "alt": "セブのレチョン"}
+          }
+        ],
+        "drinks": ["San Miguel Pale Pilsen", "Red Horse Beer", "Calamansi Juice", "Buko Juice"],
+        "safetyTips": ["屋台の水・氷は避ける。ペットボトル水（PHP20）常備", "生野菜サラダ・カットフルーツは旅行者下痢のリスク", "屋台BBQは焼きたてのみ"]
+      },
+      "accommodation": {
+        "area": "セブ市Lahug地区（IT Park/Ayala近く）",
+        "recommendations": [
+          {
+            "name": "Waterfront Cebu City Hotel & Casino",
+            "budget": "mid",
+            "pricePerNight": {"php": 5500, "jpy": 14500},
+            "bookingTip": "Booking.com/Agoda朝食付き。カジノ併設で初日に最適",
+            "location": {"googleMapsUrl": "https://maps.google.com/?q=10.3306,123.9081"},
+            "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cebu_City_Skyline_at_Night.jpg/640px-Cebu_City_Skyline_at_Night.jpg", "alt": "セブ市の夜景"}
+          },
+          {
+            "name": "Quest Hotel & Conference Center Cebu",
+            "budget": "mid",
+            "pricePerNight": {"php": 4500, "jpy": 11900},
+            "bookingTip": "Ayala Center直結。コスパ良。カジノなし",
+            "location": {"googleMapsUrl": "https://maps.google.com/?q=10.3175,123.9038"},
+            "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cebu_city_skyline%2C_Philippines.jpg/640px-Cebu_city_skyline%2C_Philippines.jpg", "alt": "セブシティ"}
+          }
+        ]
+      },
+      "transport": {
+        "to": "セブ市Lahug地区",
+        "method": "国際線＋Grab",
+        "duration": "成田離陸→ホテル着 約8時間",
+        "cost": {"php": 38500, "jpy": 101500},
+        "options": [
+          {"method": "Philippine Airlines（PR427/PR433・フルサービス）", "price": "往復8-13万円/人", "details": "NRT朝発→CEB午後着、機内食・荷物込み", "pros": "フルサービス", "cons": "やや高い"},
+          {"method": "Cebu Pacific（5J5063・LCC）", "price": "往復5-8万円/人", "details": "NRT昼発→CEB夜着、機内食・荷物別売", "pros": "安い、本数多", "cons": "LCC、深夜便あり時差ボケ"},
+          {"method": "ANA/PR経由マニラ＋国内線", "price": "往復8-12万円/人", "details": "マニラ乗継（NAIA T1↔T3移動必要）", "pros": "便数多", "cons": "乗継リスク"}
+        ],
+        "bookingInfo": "Skyscanner/Google Flights/Trip.com比較、2-3ヶ月前予約が安い",
+        "steps": ["成田T1チェックイン", "出国審査→搭乗", "5h20m飛行→セブ着", "入国（eTravel QR）", "受託荷物→税関", "両替・SIM・ATM", "Grab Bay 3-5から乗車"],
+        "tips": ["復路の出発時刻に合わせ往路便を選ぶ", "機内持ち込みサイズで済ませると入国スムーズ"]
+      }
+    },
+    {
+      "day": 2,
+      "date": "2026-07-04（土）",
+      "title": "セブ市内観光からNUSTARで本命勝負",
+      "area": "セブ市内観光 → NUSTAR（SRP）",
+      "heroImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Magellan%27s_Cross_in_Cebu_City.jpg/1280px-Magellan%27s_Cross_in_Cebu_City.jpg",
+        "alt": "マゼランクロス",
+        "credit": "Wikimedia Commons"
+      },
+      "summary": "午前中はセブ市の歴史エリア巡り（マゼランクロス、サントニーニョ、サンペドロ）。昼はZubuchonで世界一のレチョン。午後はSRPの最新リゾートNUSTAR Resort and Casinoへチェックイン。プールで一休みしてディナー、夜21:30から今夜が本命の勝負。",
+      "areaInfo": {
+        "walkable": true,
+        "walkableNote": "歴史エリアは徒歩圏。コロン通り周辺は日中のみ。NUSTAR敷地内のみ徒歩",
+        "transportNeeded": "観光スポット間はGrab。ジプニーは安いが慣れ要（PHP12-15）",
+        "atm": "Ayala Center、SM Seaside（NUSTAR隣）にBDO/BPI/Metrobank",
+        "wifi": "ホテル・モール無料WiFi。NUSTAR全域高速",
+        "sim": "前日分で十分。トップアップは7-Eleven",
+        "safety": "コロン・カルボン市場は日中のみ。スリ注意。NUSTARはセキュリティ厳重",
+        "convenience": "観光エリア7-Eleven複数、SM Seasideに全て揃う"
+      },
+      "cityPois": [
+        {"name": "NUSTAR Resort and Casino", "lat": 10.2712, "lng": 123.881, "type": "hotel", "description": "SRPの超高級カジノリゾート", "googleMapsUrl": "https://maps.google.com/?q=10.2712,123.8810"},
+        {"name": "マゼランクロス", "lat": 10.2933, "lng": 123.9019, "type": "attraction", "description": "1521年マゼランが立てた木製十字架", "googleMapsUrl": "https://maps.google.com/?q=10.2933,123.9019"},
+        {"name": "サント・ニーニョ教会", "lat": 10.2933, "lng": 123.9023, "type": "attraction", "description": "フィリピン最古の教会", "googleMapsUrl": "https://maps.google.com/?q=10.2933,123.9023"},
+        {"name": "サン・ペドロ要塞", "lat": 10.2922, "lng": 123.9061, "type": "attraction", "description": "スペイン統治時代の要塞跡", "googleMapsUrl": "https://maps.google.com/?q=10.2922,123.9061"},
+        {"name": "Zubuchon Mango Avenue", "lat": 10.3134, "lng": 123.9035, "type": "restaurant", "description": "CNN絶賛のレチョン専門店", "googleMapsUrl": "https://maps.google.com/?q=10.3134,123.9035"},
+        {"name": "SM Seaside City Cebu", "lat": 10.2738, "lng": 123.8729, "type": "mall", "description": "セブ最大級モール、NUSTAR隣接", "googleMapsUrl": "https://maps.google.com/?q=10.2738,123.8729"}
+      ],
+      "timeline": [
+        {
+          "time": "08:00", "period": "morning", "type": "meal",
+          "title": "Waterfront朝食ビュッフェ",
+          "description": "Uno Restaurantでビュッフェ朝食。タプシログ、パンデサル、洋食、和食、フレッシュフルーツ。",
+          "images": [],
+          "location": {"name": "Waterfront - Uno Restaurant", "googleMapsUrl": "https://maps.google.com/?q=10.3306,123.9081", "lat": 10.3306, "lng": 123.9081},
+          "access": {"from": "客室", "method": "徒歩", "duration": "5分", "cost": {"php": 0, "jpy": 0}, "steps": ["ロビー階のUno Restaurantへ", "朝食バウチャー提示"]},
+          "details": {"fee": "プラン込（プラン外PHP800/人）", "hours": "06:00-10:00", "bestTime": "8時前", "duration": "45-60分", "mustBring": ["バウチャー"], "tips": ["フレッシュマンゴーは必食", "カラマンシージュース", "Barakoコーヒー"]}
+        },
+        {
+          "time": "09:30", "period": "morning", "type": "transport",
+          "title": "Grabで歴史エリアへ",
+          "description": "ホテル→マゼランクロス周辺へGrab。15分。",
+          "images": [],
+          "location": {"name": "マゼランクロス", "googleMapsUrl": "https://maps.google.com/?q=10.2933,123.9019", "lat": 10.2933, "lng": 123.9019},
+          "access": {"from": "Waterfront", "method": "Grab", "duration": "15分", "cost": {"php": 180, "jpy": 475}, "steps": ["ホテル玄関でGrab乗車", "「Magellan's Cross」指定"]},
+          "details": {"fee": "PHP 150-200", "hours": "24時間", "bestTime": "土日午前10時前", "duration": "15分", "mustBring": [], "tips": ["歩道狭い、降車時注意"]}
+        },
+        {
+          "time": "10:00", "period": "morning", "type": "activity",
+          "title": "マゼランクロス＆サントニーニョ教会",
+          "description": "1521年マゼランがセブに上陸しキリスト教を伝えた象徴の木製十字架。隣接サントニーニョ教会（1565年）はフィリピン最古、サントニーニョ像が祀られる。",
+          "images": [{"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Magellan%27s_Cross_in_Cebu_City.jpg/960px-Magellan%27s_Cross_in_Cebu_City.jpg", "alt": "マゼランクロス", "credit": "Wikimedia Commons"}],
+          "location": {"name": "マゼランクロス＆サントニーニョ教会", "googleMapsUrl": "https://maps.google.com/?q=10.2933,123.9019", "lat": 10.2933, "lng": 123.9019},
+          "access": {"from": "Grab降車", "method": "徒歩", "duration": "5分", "cost": {"php": 0, "jpy": 0}, "steps": ["マゼランクロスは小さなパビリオン", "天井フレスコ画も鑑賞", "教会まで徒歩2分"]},
+          "details": {"fee": "無料（寄付歓迎）", "hours": "08:00-18:00", "bestTime": "10-11時", "duration": "60分", "mustBring": ["肩・膝を隠す服装", "帽子", "蝋燭/寄付の小銭"], "tips": ["教会内静粛、ミサ中撮影禁止", "物乞いは毅然と「No」", "蝋燭奉納も体験のひとつ"]}
+        },
+        {
+          "time": "11:30", "period": "morning", "type": "activity",
+          "title": "サン・ペドロ要塞",
+          "description": "スペイン統治時代（1565年〜）の三角形要塞跡。屋上からセブ港が見渡せる。",
+          "images": [],
+          "location": {"name": "Fort San Pedro", "googleMapsUrl": "https://maps.google.com/?q=10.2922,123.9061", "lat": 10.2922, "lng": 123.9061},
+          "access": {"from": "サントニーニョ", "method": "徒歩", "duration": "10分", "cost": {"php": 50, "jpy": 132}, "steps": ["Plaza Independencia公園を通って入口", "入場料：ローカルPHP30、外国人PHP50"]},
+          "details": {"fee": "ローカルPHP30 / 外国人PHP50", "hours": "08:00-19:00", "bestTime": "午前中", "duration": "45分", "mustBring": ["帽子", "飲み物"], "tips": ["屋上城壁の柵が低い箇所注意"]}
+        },
+        {
+          "time": "13:00", "period": "afternoon", "type": "meal",
+          "title": "Zubuchonで世界一のレチョン",
+          "description": "アンソニー・ボーディン絶賛の「世界一の豚料理」。皮はパリパリ、肉はジューシー、ハーブとスパイスでしっかり下味。",
+          "images": [{"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Cebu_Lechon.jpg/960px-Cebu_Lechon.jpg", "alt": "セブのレチョン", "credit": "Wikimedia Commons"}],
+          "location": {"name": "Zubuchon Mango Avenue", "googleMapsUrl": "https://maps.google.com/?q=10.3134,123.9035", "lat": 10.3134, "lng": 123.9035},
+          "access": {"from": "要塞", "method": "Grab", "duration": "10-15分", "cost": {"php": 150, "jpy": 396}, "steps": ["Grabで「Zubuchon Mango Avenue」"]},
+          "details": {"fee": "2名 PHP 800-1,300", "hours": "10:00-21:00", "bestTime": "13時か14時半", "duration": "60分", "mustBring": [], "tips": ["Lechon Belly Roll(看板)", "Sukaサウス＋Mang Tomasソース", "Puso（葉包みご飯）定番", "テイクアウト可"]}
+        },
+        {
+          "time": "15:00", "period": "afternoon", "type": "transport",
+          "title": "NUSTAR Resort and Casino へチェックイン",
+          "description": "セブ市内中心からGrab30分、SRP埋立地の最新カジノリゾート。2022年開業、フィリピン最大規模。",
+          "images": [],
+          "location": {"name": "NUSTAR Resort and Casino", "googleMapsUrl": "https://maps.google.com/?q=10.2712,123.8810", "lat": 10.2712, "lng": 123.881},
+          "access": {"from": "Zubuchon", "method": "Grab or NUSTAR無料シャトル", "duration": "20-30分", "cost": {"php": 280, "jpy": 740}, "steps": ["Grabで「NUSTAR Resort and Casino」（PHP180-280）", "またはNUSTAR無料シャトル（24/7、ホットライン 09989615608、要事前手配）", "SRP海岸道路南下、CCLEX経由の場合はトールPHP100"]},
+          "details": {"fee": "1泊USD 150-220（約24,000-35,000円）/2名", "hours": "イン15:00/アウト12:00", "bestTime": "15時きっかり", "duration": "15分", "mustBring": ["パスポート", "クレカ", "予約確認書"], "tips": ["Fili Hotel（メイン）/NUSTAR Hotel（最高級）/Marina Suites", "BAY VIEW指定（無料叶うこと多）", "ターンダウン＆チョコ"]}
+        },
+        {
+          "time": "17:00", "period": "evening", "type": "activity",
+          "title": "インフィニティプールで休憩",
+          "description": "海を見下ろすインフィニティプールで日没前のひととき。プールサイドバーでカクテル1杯。",
+          "images": [],
+          "location": {"name": "NUSTAR Pool", "googleMapsUrl": "https://maps.google.com/?q=10.2712,123.8810", "lat": 10.2712, "lng": 123.881},
+          "access": {"from": "客室", "method": "徒歩", "duration": "5分", "cost": {"php": 0, "jpy": 0}, "steps": ["プール階へ"]},
+          "details": {"fee": "宿泊者無料、カクテルPHP350-500", "hours": "06:00-22:00", "bestTime": "17-18時日没", "duration": "60-90分", "mustBring": ["水着", "サンダル"], "tips": ["プールバーで軽食可"]}
+        },
+        {
+          "time": "19:30", "period": "evening", "type": "meal",
+          "title": "NUSTAR内レストランでディナー",
+          "description": "広東料理Pearl、イタリアンFilini、多国籍ビュッフェFili Café。本命勝負前の縁起担ぎでPearl（広東料理）のローストダックや、Fili Caféビュッフェ。",
+          "images": [],
+          "location": {"name": "NUSTAR - Pearl / Filini / Fili Café", "googleMapsUrl": "https://maps.google.com/?q=10.2712,123.8810", "lat": 10.2712, "lng": 123.881},
+          "access": {"from": "客室", "method": "徒歩", "duration": "5分", "cost": {"php": 0, "jpy": 0}, "steps": ["F&Bフロアへ", "コンシェルジュ予約推奨"]},
+          "details": {"fee": "2名 PHP 3,500-7,000（9,200-18,500円）", "hours": "18:00-23:00", "bestTime": "19時半", "duration": "90-120分", "mustBring": ["スマートカジュアル"], "tips": ["Fili Caféビュッフェ（PHP1,500/人）コスパ◎", "Pearlの広東料理ローストダック要予約60分（日本から事前メール予約推奨：info@nustar.ph）", "Filiniは石窯ピザとパスタの本格イタリアン", "【撮影禁止のカジノ代替】NUSTAR外観・インフィニティプール・ロビーの天井ガラスドームは撮影OK。本命勝負前のカップル記念撮影はここで"]}
+        },
+        {
+          "time": "21:30", "period": "night", "type": "activity",
+          "title": "NUSTAR Casinoで本命勝負",
+          "description": "今夜が本命。フィリピン最大級、250テーブル超＋スロット1,500台超。バカラ、ブラックジャック、ルーレット、シックボー、ポーカー、スロット完備。最低ベットPHP200-500から、VIPエリアもあり。",
+          "images": [],
+          "location": {"name": "NUSTAR Casino", "googleMapsUrl": "https://maps.google.com/?q=10.2712,123.8810", "lat": 10.2712, "lng": 123.881},
+          "access": {"from": "客室", "method": "徒歩", "duration": "5分", "cost": {"php": 0, "jpy": 0}, "steps": ["カジノフロアへ", "パスポート提示＋ID登録", "Cageで現金→チップ", "テーブルへ"]},
+          "details": {"fee": "入場料PHP100程度、本命軍資金1人PHP 10,000-30,000（約26,000-79,000円）", "hours": "24時間", "bestTime": "22-翌2時ピーク、21時はテーブル空き", "duration": "3-5時間（深追い厳禁）", "mustBring": ["パスポート", "現金/クレカ", "ドレスコード"], "tips": ["【ドレスコード】襟付きシャツ＋長ズボン＋革靴", "【撤退ライン】勝ち越し額・負け額の上限を絶対守る", "アルコールほどほどに", "バカラ（バンカー）ハウスエッジ1.06%が最善", "ブラックジャック基本戦略を覚えてから", "スロットは控えめに", "勝ったらすぐCageで現金化（小分け）", "館内撮影厳禁", "21歳未満NG、酔っ払いは退場"]}
+        }
+      ],
+      "food": {
+        "localSpecialties": ["セブレチョン（丸焼き豚）", "Pochero（牛骨スープ）", "Tinolang Manok", "Puso（葉包みご飯）", "Lechon Manok"],
+        "mustTry": {
+          "dish": "Zubuchon Lechon Belly Roll",
+          "description": "皮ごとくるんとロールしたバラ肉。皮はガラスのようにパリパリ、肉はジューシー、レモングラスの香り。",
+          "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Cebu_Lechon.jpg/960px-Cebu_Lechon.jpg", "alt": "セブのレチョン"}
+        },
+        "restaurants": [
+          {"name": "Zubuchon Mango Avenue", "type": "レチョン専門店", "budget": "mid", "priceRange": {"php": "400-700/人", "jpy": "1,060-1,850"}, "popular": ["Lechon Belly Roll", "Lechon Sisig", "Crispy Pata"], "location": {"googleMapsUrl": "https://maps.google.com/?q=10.3134,123.9035"}, "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/33/Cebu_Lechon.jpg/640px-Cebu_Lechon.jpg", "alt": "レチョン"}},
+          {"name": "NUSTAR Fili Café", "type": "国際ビュッフェ", "budget": "lux", "priceRange": {"php": "1,800-2,500/人", "jpy": "4,750-6,600"}, "popular": ["ライブステーション", "シーフード", "デザート"], "location": {"googleMapsUrl": "https://maps.google.com/?q=10.2712,123.8810"}, "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cebu_City_Skyline_at_Night.jpg/640px-Cebu_City_Skyline_at_Night.jpg", "alt": "セブ夜景"}},
+          {"name": "Larsian BBQ", "type": "屋台街", "budget": "cheap", "priceRange": {"php": "200-400/人", "jpy": "530-1,060"}, "popular": ["ポークBBQ串", "Chorizo", "Pungko-pungko"], "location": {"googleMapsUrl": "https://maps.google.com/?q=10.3127,123.8975"}, "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Sizzling_sisig.jpg/640px-Sizzling_sisig.jpg", "alt": "BBQ"}}
+        ],
+        "drinks": ["San Miguel Pale Pilsen", "Tanduay Rum", "Carbon Cool Lemonade", "Sago't Gulaman"],
+        "safetyTips": ["Larsianは炭火で完全に火が通ったものを", "屋台ソースは小皿に取って自分専用", "NUSTAR内は安全度100%"]
+      },
+      "accommodation": {
+        "area": "SRP（South Road Properties）/NUSTAR",
+        "recommendations": [
+          {"name": "NUSTAR - Fili Hotel", "budget": "lux", "pricePerNight": {"php": 9000, "jpy": 23800}, "bookingTip": "公式 or Booking.comでBAY VIEW指定。本命泊", "location": {"googleMapsUrl": "https://maps.google.com/?q=10.2712,123.8810"}, "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cebu_city_skyline%2C_Philippines.jpg/640px-Cebu_city_skyline%2C_Philippines.jpg", "alt": "SRP"}},
+          {"name": "NUSTAR - Marina Suites", "budget": "lux", "pricePerNight": {"php": 11500, "jpy": 30400}, "bookingTip": "全室スイート。本気で奮発するならここ", "location": {"googleMapsUrl": "https://maps.google.com/?q=10.2712,123.8810"}, "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cebu_city_skyline%2C_Philippines.jpg/640px-Cebu_city_skyline%2C_Philippines.jpg", "alt": "マリーナ"}}
+        ]
+      },
+      "transport": {
+        "to": "観光→NUSTAR",
+        "method": "Grab",
+        "duration": "1日合計60分",
+        "cost": {"php": 700, "jpy": 1850},
+        "options": [
+          {"method": "Grab Car（推奨）", "price": "1区間PHP150-300", "details": "全Grab", "pros": "安全、価格固定", "cons": "ピーク1.5倍"},
+          {"method": "ジプニー＋徒歩", "price": "1区間PHP12-15", "details": "ローカル体験", "pros": "最安", "cons": "ルート複雑、スリ"},
+          {"method": "1日チャーター（NUSTAR）", "price": "PHP3,500-5,000/4h", "details": "ドライバー付", "pros": "確実", "cons": "高い"}
+        ],
+        "bookingInfo": "Grab都度配車。GrabTips+PHP20-50で優先",
+        "steps": ["Waterfront→マゼランクロス（Grab15分、PHP180）", "歴史エリア徒歩", "→Zubuchon（Grab10分、PHP150）", "→NUSTAR（Grab25分、PHP300）"],
+        "tips": ["GrabTipsで配車早", "高速料金は別、Grab込み多"]
+      }
+    },
+    {
+      "day": 3,
+      "date": "2026-07-05（日）",
+      "title": "マクタン島でビーチ＆最後のあがき",
+      "area": "NUSTAR → マクタン島 → マンダウェ",
+      "heroImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mactan_island_beach.jpg/1280px-Mactan_island_beach.jpg",
+        "alt": "マクタン島のビーチ",
+        "credit": "Wikimedia Commons"
+      },
+      "summary": "朝はNUSTARの朝食ビュッフェ。チェックアウト後マクタン島へ渡り、Shangri-Laデイユース or アイランドホッピング。昼はマクタン橋向こうCordovaのLantaw Native Restaurantで海上席シーフード。夕方は空港至近のBai Hotelにチェックイン、夜は最後のあがきカジノ。深夜便のため早めに切り上げ仮眠。",
+      "areaInfo": {
+        "walkable": false,
+        "walkableNote": "リゾート間はGrab/タクシー。リゾート敷地内は徒歩",
+        "transportNeeded": "Grab、リゾートシャトル、Bangka",
+        "atm": "Bai Hotel、JPark、Save MoreにBDO/BPI ATM",
+        "wifi": "全リゾート無料WiFi",
+        "sim": "前日購入分で十分",
+        "safety": "リゾートは安全。ビーチ貴重品管理。アイランドホッピングはDOT認定業者",
+        "convenience": "Save More、7-Eleven多数。SM Marina"
+      },
+      "cityPois": [
+        {"name": "Bai Hotel Cebu", "lat": 10.3357, "lng": 123.9536, "type": "hotel", "description": "マンダウェの大型ホテル。空港車15分", "googleMapsUrl": "https://maps.google.com/?q=10.3357,123.9536"},
+        {"name": "JPark Island Resort & Waterpark", "lat": 10.2941, "lng": 124.0072, "type": "hotel", "description": "マクタン東岸大型リゾート。カジノ併設", "googleMapsUrl": "https://maps.google.com/?q=10.2941,124.0072"},
+        {"name": "Shangri-La's Mactan Resort", "lat": 10.3239, "lng": 124.0107, "type": "hotel", "description": "高級ビーチリゾート。デイユース可", "googleMapsUrl": "https://maps.google.com/?q=10.3239,124.0107"},
+        {"name": "Lapu-Lapu Shrine", "lat": 10.3122, "lng": 124.015, "type": "attraction", "description": "1521年マゼランを倒したラプラプ王像", "googleMapsUrl": "https://maps.google.com/?q=10.3122,124.0150"},
+        {"name": "Lantaw Native Restaurant Cordova", "lat": 10.3258, "lng": 124.0064, "type": "restaurant", "description": "マクタン橋向こうCordova、海上席で夜景◎、SUTUKIL風シーフード", "googleMapsUrl": "https://maps.google.com/?q=10.3258,124.0064"},
+        {"name": "10,000 Roses Café", "lat": 10.2554, "lng": 123.9929, "type": "cafe", "description": "コルドバの夕日スポット", "googleMapsUrl": "https://maps.google.com/?q=10.2554,123.9929"}
+      ],
+      "timeline": [
+        {
+          "time": "08:00", "period": "morning", "type": "meal",
+          "title": "NUSTAR Fili Caféで贅沢朝食ビュッフェ",
+          "description": "ビュッフェでフィリピン式＋洋食＋アジア各国料理。フレッシュマンゴー、エッグステーション、フォー、点心。",
+          "images": [],
+          "location": {"name": "NUSTAR Fili Café", "googleMapsUrl": "https://maps.google.com/?q=10.2712,123.8810", "lat": 10.2712, "lng": 123.881},
+          "access": {"from": "客室", "method": "徒歩", "duration": "5分", "cost": {"php": 0, "jpy": 0}, "steps": ["朝食フロアへ"]},
+          "details": {"fee": "プラン込 or PHP1,800/人", "hours": "06:00-10:30", "bestTime": "8時半", "duration": "60-90分", "mustBring": ["ルームキー"], "tips": ["マンゴー、Champorado、Sinangagを試す"]}
+        },
+        {
+          "time": "10:30", "period": "morning", "type": "transport",
+          "title": "チェックアウト→マクタン島へ",
+          "description": "NUSTARチェックアウト。SRP→マクタン橋→マクタン東岸へ45-60分。",
+          "images": [],
+          "location": {"name": "マクタン島マリバゴ", "googleMapsUrl": "https://maps.google.com/?q=10.3239,124.0107", "lat": 10.3239, "lng": 124.0107},
+          "access": {"from": "NUSTAR", "method": "Grab", "duration": "45-60分", "cost": {"php": 500, "jpy": 1320}, "steps": ["コンシェルジュにチェックアウト", "ベルボーイチップPHP100", "Grab乗車（荷物2個OK）"]},
+          "details": {"fee": "Grab PHP 450-600", "hours": "24時間", "bestTime": "10-11時", "duration": "45-60分", "mustBring": ["全荷物"], "tips": ["荷物多ならGrab XL（+PHP100-200）"]}
+        },
+        {
+          "time": "11:30", "period": "morning", "type": "activity",
+          "title": "Shangri-Laデイユース or アイランドホッピング",
+          "description": "選択A：Shangri-La's Mactan Resortデイユース（PHP 2,500-3,500/人）。選択B：マリバゴ波止場発のアイランドホッピング（半日、PHP 1,500-2,500/人、3島巡り＋シュノーケリング）。",
+          "images": [{"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mactan_island_beach.jpg/960px-Mactan_island_beach.jpg", "alt": "マクタンビーチ", "credit": "Wikimedia Commons"}],
+          "location": {"name": "Shangri-La / Maribago Beach", "googleMapsUrl": "https://maps.google.com/?q=10.3239,124.0107", "lat": 10.3239, "lng": 124.0107},
+          "access": {"from": "Grab降車", "method": "徒歩", "duration": "5分", "cost": {"php": 0, "jpy": 0}, "steps": ["A：Shangri-Laフロントでデイユース申込", "B：マリバゴ波止場で業者選定（要事前予約）"]},
+          "details": {"fee": "Shangri-La デイユース 大人PHP 3,000（F&Bクレジット PHP 2,500付）/ アイランドホッピング joiner PHP 1,500-2,500/人 + 各島入場料PHP 100-300", "hours": "Shangri-La 9:00-18:00（要事前予約、週末は宿泊客優先）/ ホッピング 通常7:00-15:00", "bestTime": "11-15時（午後スコール回避は午前出発）", "duration": "Shangri-La 6時間 / ホッピング 7-8時間", "mustBring": ["水着・ラッシュガード", "SPF50+", "サンダル・タオル", "現金（島入場料用）", "防水バッグ"], "tips": ["【ホッピング選択時】通常7:00ピックアップ→15:00帰着が一般的。本プランの11:30開始はShangri-Laデイユース向き", "Shangri-La予約：Klook（割安）、KKday、公式（032）231-0288", "ホッピング業者：Klook/Viator経由でDOT認定業者を選ぶ（保険・救命具・運航認可確保）", "島：ナルスアン、ヒルトゥガン、パンダノン、カオハガン", "ライフジャケット必須着用", "貴重品は最小限、防水ケースに"]}
+        },
+        {
+          "time": "14:30", "period": "afternoon", "type": "meal",
+          "title": "Lantaw Cordovaで海上シーフードランチ",
+          "description": "Cordova（マクタン橋向こう南マクタン）の人気店。海上に張り出したナイパ屋根のテーブルで、新鮮なシーフードを「Sugba（炭火焼）/Tula（スープ）/Kilaw（セビーチェ）」スタイルで楽しむ。Lapu-Lapu（ハタ）塩焼き、Garlic Shrimp、Kinilawが看板。※アイランドホッピング選択時は15:30-16:00ランチ（時間後ろ倒し）、Bai Hotelチェックインは17:30に。",
+          "images": [],
+          "location": {"name": "Lantaw Native Restaurant Cordova", "googleMapsUrl": "https://maps.google.com/?q=10.3258,124.0064", "lat": 10.3258, "lng": 124.0064},
+          "access": {"from": "Shangri-La", "method": "Grab", "duration": "10分", "cost": {"php": 150, "jpy": 396}, "steps": ["Grabで「Lantaw Native Restaurant Cordova」", "店頭ディスプレイから注文"]},
+          "details": {"fee": "2名 PHP 1,500-3,000（4,000-7,900円）", "hours": "11:00-22:00", "bestTime": "14時半", "duration": "75分", "mustBring": [], "tips": ["Lapu-Lapu塩焼き", "ガーリックシュリンプ", "Kinilaw（セビーチェ）", "Spiced Vinegarで", "ガーリックライス＆マンゴーシェイク"]}
+        },
+        {
+          "time": "16:30", "period": "afternoon", "type": "activity",
+          "title": "Bai Hotel Cebuチェックイン",
+          "description": "深夜便対応で空港車15分のマンダウェ「Bai Hotel Cebu」へ。屋上プール・展望カフェあり。",
+          "images": [],
+          "location": {"name": "Bai Hotel Cebu", "googleMapsUrl": "https://maps.google.com/?q=10.3357,123.9536", "lat": 10.3357, "lng": 123.9536},
+          "access": {"from": "Lantaw Cordova", "method": "Grab", "duration": "20-30分", "cost": {"php": 280, "jpy": 740}, "steps": ["Grabで「Bai Hotel Cebu」（PHP250-300）", "Cordova南端からマクタン橋経由でマンダウェへ"]},
+          "details": {"fee": "1泊PHP 4,000-5,500（10,500-14,500円）/2名", "hours": "イン14:00/アウト12:00", "bestTime": "16-17時", "duration": "30分", "mustBring": ["パスポート", "クレカ"], "tips": ["屋上Twilight Roofdeck＆プール", "翌朝01:00タクシー予約をフロントへ", "Late Check-out交渉可"]}
+        },
+        {
+          "time": "18:30", "period": "evening", "type": "meal",
+          "title": "Bai Hotel Twilight Roofdeckで早めの夕食",
+          "description": "Bai Hotel屋上レストラン。360度の夜景でフィリピン料理。深夜便対応で軽め＆早め。",
+          "images": [],
+          "location": {"name": "Bai Hotel Twilight Roofdeck", "googleMapsUrl": "https://maps.google.com/?q=10.3357,123.9536", "lat": 10.3357, "lng": 123.9536},
+          "access": {"from": "客室", "method": "徒歩", "duration": "5分", "cost": {"php": 0, "jpy": 0}, "steps": ["屋上階へ"]},
+          "details": {"fee": "2名 PHP 1,200-2,500", "hours": "11:00-23:00", "bestTime": "18:30サンセット", "duration": "60分", "mustBring": [], "tips": ["夕日席は予約推奨", "軽めに（脂っこいNG）", "ハロハロでクールダウン"]}
+        },
+        {
+          "time": "20:00", "period": "night", "type": "activity",
+          "title": "最後のカジノ：Casino Filipino Mactan（空港隣接で安全）",
+          "description": "翌朝03:55離陸のためマクタン側に固定。Casino Filipino Mactan（Waterfront Airport Hotel併設、空港から車5分、Bai Hotelから車15分）。Lahug方面は深夜の移動リスク（渋滞30-40分・Grab捕まりにくい）回避のため避ける。負け追わず、お小遣い範囲で楽しんで22:30切り上げ。",
+          "images": [],
+          "location": {"name": "Casino Filipino Mactan (Waterfront Airport Hotel)", "googleMapsUrl": "https://maps.google.com/?q=10.3055,123.9788", "lat": 10.3055, "lng": 123.9788},
+          "access": {"from": "Bai Hotel", "method": "Grab", "duration": "15分", "cost": {"php": 180, "jpy": 475}, "steps": ["Grabで「Casino Filipino Mactan」（PHP150-200）", "Bai Hotelフロントで復路タクシーを事前依頼（22:30 pickup予約）"]},
+          "details": {"fee": "残額のみ、負け追わない", "hours": "24時間", "bestTime": "20-22時", "duration": "1.5-2時間（22:30撤退厳守）", "mustBring": ["パスポート", "予算上限現金のみ（カードは部屋金庫）", "ドレスコード"], "tips": ["【最重要】翌朝01:30ホテル発、22:30には部屋戻り（睡眠2-3時間確保）", "ATM追加引き出し絶対NG", "Day 1-2で大負けしてるならDay 3カジノはスキップして仮眠優先", "勝っても深追い禁止", "復路は予約タクシーが確実、Grab頼みは禁物"]}
+        },
+        {
+          "time": "22:30", "period": "night", "type": "activity",
+          "title": "ホテル帰着→仮眠＆荷物最終チェック",
+          "description": "Casino Filipino Mactanからタクシーで15分、Bai Hotelに22:45-23:00帰着。荷物最終確認、パスポート＆チケット＆ペソ残額。01:00タクシー再確認。シャワー＆歯磨き。23:00-01:00の2時間仮眠。",
+          "images": [],
+          "location": {"name": "Bai Hotel Cebu", "googleMapsUrl": "https://maps.google.com/?q=10.3357,123.9536", "lat": 10.3357, "lng": 123.9536},
+          "access": {"from": "カジノ", "method": "Grab", "duration": "20分", "cost": {"php": 250, "jpy": 660}, "steps": ["Grabで帰着", "フロントで翌朝タクシー再確認"]},
+          "details": {"fee": "0", "hours": "24時間", "bestTime": "深夜", "duration": "30分", "mustBring": [], "tips": ["アラーム3つ（スマホ＋目覚まし＋モーニングコール）", "明日の服を枕元に", "残ペソは少額のみ手元、他は両替"]}
+        }
+      ],
+      "food": {
+        "localSpecialties": ["Lapu-Lapu（ハタ）塩焼き", "Kinilaw（セビーチェ）", "Sutukil 3種調理", "Garlic Shrimp", "Crispy Squid"],
+        "mustTry": {
+          "dish": "Kinilaw（フィリピン式セビーチェ）",
+          "description": "新鮮な生魚をココナッツ酢、生姜、玉ねぎ、唐辛子で締めた前菜。火を使わず酸で煮る南国の知恵。",
+          "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mactan_island_beach.jpg/640px-Mactan_island_beach.jpg", "alt": "マクタン"}
+        },
+        "restaurants": [
+          {"name": "Lantaw Native Restaurant Cordova", "type": "SUTUKILシーフード", "budget": "mid", "priceRange": {"php": "750-1,500/人", "jpy": "1,980-3,960"}, "popular": ["Lapu-Lapu塩焼き", "Kinilaw", "Garlic Shrimp"], "location": {"googleMapsUrl": "https://maps.google.com/?q=10.3258,124.0064"}, "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mactan_island_beach.jpg/640px-Mactan_island_beach.jpg", "alt": "マクタン"}},
+          {"name": "Twilight Roofdeck (Bai rooftop)", "type": "フィリピン料理", "budget": "mid", "priceRange": {"php": "600-1,200/人", "jpy": "1,580-3,170"}, "popular": ["エビのシニガン", "Crispy Pata", "Halo-Halo"], "location": {"googleMapsUrl": "https://maps.google.com/?q=10.3357,123.9536"}, "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cebu_City_Skyline_at_Night.jpg/640px-Cebu_City_Skyline_at_Night.jpg", "alt": "夜景"}}
+        ],
+        "drinks": ["Mango Shake", "Buko Pandan Shake", "San Miguel Light", "Pomelo Juice"],
+        "safetyTips": ["シーフードは火が通ったもの優先", "ビーチ屋台の水・氷は避ける", "深夜便前夜は脂っこいレチョン大盛りNG"]
+      },
+      "accommodation": {
+        "area": "マンダウェ（空港車15分）",
+        "recommendations": [
+          {"name": "Bai Hotel Cebu", "budget": "mid", "pricePerNight": {"php": 4500, "jpy": 11900}, "bookingTip": "Booking.com朝食付き。空港アクセス◎", "location": {"googleMapsUrl": "https://maps.google.com/?q=10.3357,123.9536"}, "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cebu_City_Skyline_at_Night.jpg/640px-Cebu_City_Skyline_at_Night.jpg", "alt": "夜景"}},
+          {"name": "Quest Hotel Cebu Mactan", "budget": "mid", "pricePerNight": {"php": 4200, "jpy": 11100}, "bookingTip": "マクタン側、空港車5分、早朝便に至近", "location": {"googleMapsUrl": "https://maps.google.com/?q=10.3175,123.9038"}, "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Cebu_city_skyline%2C_Philippines.jpg/640px-Cebu_city_skyline%2C_Philippines.jpg", "alt": "セブ"}},
+          {"name": "JPark Island Resort & Waterpark", "budget": "lux", "pricePerNight": {"php": 9000, "jpy": 23800}, "bookingTip": "Casino Filipino併設、空港10分。最終夜カジノしたいならここ", "location": {"googleMapsUrl": "https://maps.google.com/?q=10.2941,124.0072"}, "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Mactan_island_beach.jpg/640px-Mactan_island_beach.jpg", "alt": "マクタン"}}
+        ]
+      },
+      "transport": {
+        "to": "NUSTAR→マクタン→マンダウェ",
+        "method": "Grab",
+        "duration": "合計2時間",
+        "cost": {"php": 1200, "jpy": 3170},
+        "options": [
+          {"method": "Grab Car", "price": "1区間PHP200-500", "details": "全Grab、荷物多はXL", "pros": "安全", "cons": "ピーク1.5倍"},
+          {"method": "ホテル専用車", "price": "1区間PHP800-1,500", "details": "事前予約", "pros": "確実", "cons": "Grabの2-3倍"}
+        ],
+        "bookingInfo": "Grab都度。深夜便対応は前日19時までにフロント手配",
+        "steps": ["NUSTAR→マリバゴ/Shangri-La（Grab45分、PHP450-700、CCLEX経由）", "→Lantaw Cordova（Grab15分、PHP200-300）", "→Bai Hotel（Grab30分、PHP280-300、マクタン橋経由）", "Bai→Casino Filipino Mactan往復（各PHP150-200、空港隣接）", "Day4早朝：Bai→空港（タクシー15分、PHP200-300）"],
+        "tips": ["荷物2個+はXL", "深夜送迎はフロント前日予約", "Grabピーク19-21時1.3-1.5倍"]
+      }
+    },
+    {
+      "day": 4,
+      "date": "2026-07-06（月）",
+      "title": "深夜出発、セブとさよなら",
+      "area": "マクタン → 成田（早朝便）",
+      "heroImage": {
+        "url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mactan-Cebu_International_Airport_Terminal_2_interior.jpg/1280px-Mactan-Cebu_International_Airport_Terminal_2_interior.jpg",
+        "alt": "マクタン空港T2",
+        "credit": "Wikimedia Commons"
+      },
+      "summary": "深夜01:00起床、01:30ホテル発、02:00マクタン空港T2着、02:30チェックインオープン、03:55離陸の早朝便で帰国。約5時間で日本時間09:00頃成田着、午後には帰宅。眠いがセブの夏を持ち帰る朝。",
+      "areaInfo": {
+        "walkable": false,
+        "walkableNote": "深夜タクシー or Grab。空港まで15分",
+        "transportNeeded": "深夜手配済みタクシー or Grab",
+        "atm": "空港到着・出発階両方にATM（最後のペソ調整）",
+        "wifi": "空港フリーWiFi、SIM有効",
+        "sim": "保管 or 廃棄",
+        "safety": "深夜空港アクセスは混雑なくスムーズ。流しタクシー絶対NG",
+        "convenience": "空港内Save More、Coffee Beanが早朝営業"
+      },
+      "cityPois": [
+        {"name": "マクタン・セブ国際空港 T2 出発階", "lat": 10.3075, "lng": 123.9794, "type": "transit", "description": "国際線出発。早朝便カウンター02:30オープン", "googleMapsUrl": "https://maps.google.com/?q=10.3075,123.9794"}
+      ],
+      "timeline": [
+        {
+          "time": "01:00", "period": "morning", "type": "activity",
+          "title": "起床＆最終チェック",
+          "description": "アラームで起床。荷物・パスポート・搭乗券・残り現金を最終チェック。チェックアウト（24h対応）。",
+          "images": [],
+          "location": {"name": "Bai Hotel Cebu", "googleMapsUrl": "https://maps.google.com/?q=10.3357,123.9536", "lat": 10.3357, "lng": 123.9536},
+          "access": {"from": "客室", "method": "徒歩", "duration": "10分", "cost": {"php": 0, "jpy": 0}, "steps": ["アラーム3つで確実起床", "歯磨き＆着替え", "荷物確認", "ロビーへ"]},
+          "details": {"fee": "0", "hours": "24時間", "bestTime": "01:00起床、01:30出発", "duration": "30分", "mustBring": ["パスポート", "搭乗券", "クレカ", "PHP少額"], "tips": ["Travel Tax PHP1,620は日本人観光客（30日未満）は原則exempt・不要", "Wi-Fiでフライトステータス確認"]}
+        },
+        {
+          "time": "01:30", "period": "morning", "type": "transport",
+          "title": "タクシーで空港へ",
+          "description": "前日予約タクシーでT2へ。深夜は道路空きで15-20分。",
+          "images": [],
+          "location": {"name": "マクタン空港 T2", "googleMapsUrl": "https://maps.google.com/?q=10.3075,123.9794", "lat": 10.3075, "lng": 123.9794},
+          "access": {"from": "Bai Hotel", "method": "タクシー（深夜手配）", "duration": "15-20分", "cost": {"php": 250, "jpy": 660}, "steps": ["ロビーで予約タクシー乗車", "T2国際線で降車"]},
+          "details": {"fee": "PHP 200-300（深夜割増込）", "hours": "24時間", "bestTime": "02:00前空き", "duration": "15-20分", "mustBring": ["現金", "ホテルチップPHP50-100"], "tips": ["深夜Grab捕まりにくい、前日手配が確実", "T2 Internationalと明確に伝える"]}
+        },
+        {
+          "time": "02:00", "period": "morning", "type": "activity",
+          "title": "チェックイン＆出国",
+          "description": "T2出発階でチェックインカウンターオープンを待つ。受託荷物預け、出国審査、セキュリティ。免税店ほぼ閉店、Coffee Bean等で軽く待機。",
+          "images": [],
+          "location": {"name": "マクタン空港 T2 出発", "googleMapsUrl": "https://maps.google.com/?q=10.3075,123.9794", "lat": 10.3075, "lng": 123.9794},
+          "access": {"from": "T2エントランス", "method": "徒歩", "duration": "90分", "cost": {"php": 0, "jpy": 0}, "steps": ["エントランスでX線通過", "チェックインカウンター", "Travel Tax PHP1,620は日本人観光客exempt不要", "出国審査", "セキュリティ", "搭乗ゲート"]},
+          "details": {"fee": "Travel Tax PHP1,620は日本人観光客exempt（不要）、チケット込みなら確実", "hours": "T2 24h、カウンターは便毎", "bestTime": "離陸1.5h前に出国エリア", "duration": "90分", "mustBring": ["パスポート", "搭乗券"], "tips": ["余ペソは出国前にATM/両替で円戻し or 免税店で消費", "ドライマンゴー、Banana Chips、Polvoronが定番土産"]}
+        },
+        {
+          "time": "03:55", "period": "morning", "type": "transport",
+          "title": "セブ離陸 → 成田へ",
+          "description": "Cebu Pacific 5J5062（CEB 03:55→NRT 09:30）または5J5064（CEB 05:05→NRT 10:40）の早朝直行便。所要約5時間、機内ほぼ就寝。時差1時間（GMT+8→+9）。便番号は予約時に再確認すること（5J5058は別路線）。",
+          "images": [],
+          "location": {"name": "セブ→成田", "googleMapsUrl": "https://maps.google.com/?q=35.7700,140.3929", "lat": 35.77, "lng": 140.3929},
+          "access": {"from": "T2", "method": "国際線直行便", "duration": "5h", "cost": {"php": 0, "jpy": 0}, "steps": ["搭乗ゲートで券＋パスポート", "機内座席", "離陸03:55", "5h飛行", "成田09:00（JST）"]},
+          "details": {"fee": "往復券込", "hours": "毎日早朝便", "bestTime": "03:55便で午前帰着", "duration": "5h", "mustBring": ["アイマスク・耳栓", "ネックピロー", "上着"], "tips": ["離陸直後就寝", "5Jは機内食有料、軽食持込", "成田着陸前に税関申告書"]}
+        },
+        {
+          "time": "09:00", "period": "morning", "type": "activity",
+          "title": "成田到着＆帰宅",
+          "description": "成田着陸、入国（自動化ゲート5分）、受託荷物、税関通過。お疲れ様でした、勝ち負けはあなた次第。",
+          "images": [],
+          "location": {"name": "成田国際空港", "googleMapsUrl": "https://maps.google.com/?q=35.7700,140.3929", "lat": 35.77, "lng": 140.3929},
+          "access": {"from": "搭乗ゲート", "method": "徒歩＋公共交通", "duration": "60-90分", "cost": {"php": 0, "jpy": 3070}, "steps": ["入国自動化ゲート", "受託荷物", "税関電子申告", "N'EX/スカイライナー/リムジン"]},
+          "details": {"fee": "N'EX 3,070円", "hours": "24時間", "bestTime": "9-10時着は鉄道空き", "duration": "60-90分", "mustBring": ["Visit Japan Web QR"], "tips": ["N'EX東京駅60分3,070円", "スカイライナー日暮里44分2,580円", "リムジン新宿等3,200円〜"]}
+        }
+      ],
+      "food": {
+        "localSpecialties": ["Polvoron", "Dried Mango", "Banana Chips", "7D Mango"],
+        "mustTry": {
+          "dish": "Polvoron（ポルボロン）",
+          "description": "ミルクパウダー・小麦粉・砂糖・バターの素朴な伝統菓子。空港土産店で。",
+          "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mactan-Cebu_International_Airport_Terminal_2_interior.jpg/640px-Mactan-Cebu_International_Airport_Terminal_2_interior.jpg", "alt": "空港"}
+        },
+        "restaurants": [],
+        "drinks": [],
+        "safetyTips": ["機内は水分補給意識、アルコール控えめ", "深夜便で胃腸弱、脂っこいNG"]
+      },
+      "accommodation": {
+        "area": "機内",
+        "recommendations": [
+          {"name": "機内泊（5J5062/5J5064 セブ→成田 早朝便）", "budget": "transit", "pricePerNight": {"php": 0, "jpy": 0}, "bookingTip": "往復券込み。座席事前指定、上着必須", "location": {"googleMapsUrl": "https://maps.google.com/?q=10.3075,123.9794"}, "image": {"url": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Mactan-Cebu_International_Airport_Terminal_2_interior.jpg/640px-Mactan-Cebu_International_Airport_Terminal_2_interior.jpg", "alt": "空港"}}
+        ]
+      },
+      "transport": {
+        "to": "成田（帰国）",
+        "method": "国際線直行便",
+        "duration": "5h",
+        "cost": {"php": 38000, "jpy": 100000},
+        "options": [
+          {"method": "Cebu Pacific 5J5062 早朝便", "price": "往復券込", "details": "CEB 03:55→NRT 09:30、所要約5h（GMT+9）", "pros": "早朝着で1日活用", "cons": "寝不足、機内食有料"},
+          {"method": "Cebu Pacific 5J5064 朝便", "price": "往復券込", "details": "CEB 05:05→NRT 10:40（参考）", "pros": "01:30起床より楽", "cons": "到着が午前中遅め"},
+          {"method": "Philippine Airlines（夜便）", "price": "往復券込", "details": "夜便 or マニラ経由", "pros": "フルサービス", "cons": "朝早く帰国の要望と不一致"}
+        ],
+        "bookingInfo": "出発時予約済み。座席指定はチェックイン or WEB",
+        "steps": ["Bai 01:30タクシー", "T2 02:00着、02:30オープン", "出国03:00", "搭乗03:30", "離陸03:55", "成田09:00"],
+        "tips": ["アラーム複数、寝坊厳禁", "前夜カジノは23時切り上げ", "機内が寒い、上着持込"]
+      }
+    }
+  ],
+  "cities": {
+    "cebu_city": {
+      "name": "セブシティ（Cebu City）",
+      "subtitle": "歴史と現代が交差するフィリピン2大都市",
+      "relatedDays": [1, 2],
+      "description": "1565年スペインがフィリピン統治の最初に拠点とした古都。マゼランクロス、サントニーニョ教会、サン・ペドロ要塞の3点が歴史エリアを形成。北部Lahug地区にはAyala Center、IT Park、Waterfront Hotelなど現代街並み。",
+      "areas": [
+        {"name": "Lahug地区", "lat": 10.3306, "lng": 123.9081, "description": "Ayala、IT Park、Waterfront。レストラン・ホテル・ATM集中、比較的安全"},
+        {"name": "歴史エリア（Downtown）", "lat": 10.2933, "lng": 123.9019, "description": "マゼランクロス・サントニーニョ・サンペドロ・コロン・カルボン。日中観光、夜は避ける"},
+        {"name": "SRP（South Road Properties）", "lat": 10.2712, "lng": 123.881, "description": "南部埋立地。NUSTAR・SM Seasideが集まる新興エリア"}
+      ],
+      "pois": [
+        {"name": "Casino Filipino Waterfront", "lat": 10.3306, "lng": 123.9081, "type": "casino", "description": "PAGCOR運営の老舗カジノ。最低ベットPHP100-300", "googleMapsUrl": "https://maps.google.com/?q=10.3306,123.9081"},
+        {"name": "NUSTAR Casino", "lat": 10.2712, "lng": 123.881, "type": "casino", "description": "フィリピン最大級、250テーブル・1,500スロット", "googleMapsUrl": "https://maps.google.com/?q=10.2712,123.8810"}
+      ]
+    },
+    "mactan": {
+      "name": "マクタン島（Mactan Island）",
+      "subtitle": "ビーチリゾートと国際空港の島",
+      "relatedDays": [1, 3, 4],
+      "description": "セブ本島の東隣、橋で結ばれた島。北側は国際空港、東側はリゾートエリア（マリバゴ・プンタエンガニョ）。1521年マゼランが戦死しラプラプ王が勝利した地。",
+      "areas": [
+        {"name": "マリバゴ", "lat": 10.3239, "lng": 124.0107, "description": "Shangri-La、Plantation Bay、Movenpick等の高級リゾート集積"},
+        {"name": "プンタエンガニョ", "lat": 10.3122, "lng": 124.015, "description": "マクタン東端の岬、ラプラプ像"},
+        {"name": "マンダウェ", "lat": 10.3357, "lng": 123.9536, "description": "マクタン橋を渡ったセブ本島側。Bai Hotel、SM City Cebu"}
+      ],
+      "pois": [
+        {"name": "Casino Filipino Mactan (Waterfront Airport Hotel)", "lat": 10.3055, "lng": 123.9788, "type": "casino", "description": "Waterfront Airport Hotel併設、マクタン空港隣接。スロット270台・テーブル23卓", "googleMapsUrl": "https://maps.google.com/?q=10.3055,123.9788"},
+        {"name": "Lapu-Lapu Shrine", "lat": 10.3122, "lng": 124.015, "type": "attraction", "description": "ラプラプ王像", "googleMapsUrl": "https://maps.google.com/?q=10.3122,124.0150"}
+      ]
+    }
+  },
+  "practicalInfo": {
+    "visa": {
+      "description": "日本国籍は30日以内ビザ免除。eTravel登録（出発72時間前から無料）必須",
+      "details": ["パスポート残存6ヶ月以上", "復路航空券提示を求められることあり", "eTravel（https://etravel.gov.ph）でQRコード", "30日超滞在はビザ延長申請"]
+    },
+    "currency": {
+      "description": "フィリピン・ペソ（PHP/₱）。1 PHP ≈ 2.64円。100円 ≈ 38 PHP",
+      "tips": [
+        "ATM引き出しが最良。BDO/BPI/Metrobank、手数料PHP250/回",
+        "両替はAyala/SM内Czarinaが好レート",
+        "1回上限PHP10,000-20,000、手数料注意",
+        "高級ホテル・カジノ・モールはVisa/Master可、屋台・タクシー・ジプニーは現金",
+        "PHP20・50・100小額紙幣を多めに",
+        "カジノチップは現金（PHP/USD）またはカードキャッシング"
+      ]
+    },
+    "sim": {
+      "description": "マクタン空港T2到着階にGlobe・Smartカウンター。パスポート提示で即購入＆開通",
+      "carriers": [
+        {"name": "Globe Go Tourist SIM", "plan": "Go SURF 4-8GB（7-30日）", "cost": "PHP 499-999（約1,320-2,640円）"},
+        {"name": "Smart Giga Travel SIM", "plan": "Giga Travel 4-8GB（5-30日）", "cost": "PHP 500-1,000"},
+        {"name": "DITO Telecommunity", "plan": "3GB/7日", "cost": "PHP 200-400"}
+      ]
+    },
+    "electricity": {
+      "voltage": "220V/60Hz",
+      "plugType": "AまたはCタイプ。日本のAタイプそのまま使えるが220V対応機器か要確認。スマホ・PC充電器は大半220V対応OK"
+    },
+    "emergency": {
+      "embassy": "在セブ日本国総領事館: +63-32-231-7321/7322（cebucoj@ce.mofa.go.jp） / +63-32-231-7322、cebucoj@ce.mofa.go.jp、住所: Cebu Business Park 2Quad Bldg 8F",
+      "police": "117 or 911",
+      "ambulance": "911",
+      "hospital": "Chong Hua Hospital（+63-32-255-8000）、Cebu Doctors' University Hospital（+63-32-255-5555）、Mactan Doctors Hospital（+63-32-340-3000）"
+    },
+    "health": {
+      "description": "熱帯地域。デング熱・旅行者下痢が主リスク。カジノ室内冷房での体調管理",
+      "climate": "熱帯モンスーン。7月雨季、気温26-32℃、湿度80%超。スコール多",
+      "timeDifference": "日本より1時間遅い（JST -1）",
+      "diseases": [
+        {
+          "name": "デング熱",
+          "risk": "高",
+          "description": "セブ・マクタン市街地で年間感染例。2025年Central Visayasで5,880例（前年比+5%）と増加傾向。雨季の7月は特にリスク高。日中の蚊（ネッタイシマカ）媒介",
+          "prevention": ["DEET30%以上の虫よけ", "長袖・長ズボン", "蚊取り線香（部屋）"],
+          "symptoms": "高熱、激しい頭痛、関節痛、目の奥の痛み、発疹",
+          "note": "解熱はカロナールのみ。イブプロフェン・アスピリン禁忌"
+        },
+        {
+          "name": "旅行者下痢",
+          "risk": "中-高",
+          "description": "水道水・氷・生もので感染。発症率20-40%",
+          "prevention": ["水はペットボトル（歯磨きも）", "屋台は火を通したものを", "携帯アルコールジェル"],
+          "symptoms": "下痢、腹痛、軽い発熱。ORSで水分補給",
+          "note": "血便・高熱・3日以上は病院"
+        }
+      ],
+      "vaccinations": ["A型肝炎", "B型肝炎", "破傷風（追加接種）", "腸チフス（屋台多用なら）"],
+      "medications": ["カロナール（解熱）", "正露丸/ビオフェルミン", "ストッパ（緊急下痢止め）", "ORS", "酔い止め", "虫刺され薬", "SPF50+日焼け止め"],
+      "heatAndSun": ["7月の紫外線は日本の真夏並み", "SPF50+を2時間ごと", "帽子・サングラス・ラッシュガード", "水分1日2-3L", "冷房強い室内は羽織1枚"],
+      "foodSafety": ["水道水NG、歯磨きもペットボトル", "氷はホテル・有名チェーンのみ", "生野菜サラダ・カットフルーツは最初2日避ける", "屋台BBQは焼きたて"]
+    },
+    "insurance": {
+      "description": "海外旅行保険必須。3泊4日でもデング熱・転倒・水難リスク",
+      "recommendations": ["治療費用1,000万円以上", "救援者費用500万円以上", "携行品損害30万円以上（カジノ勝ち金は対象外）", "クレカ付帯のみでは不十分", "アクティビティ（アイランドホッピング・シュノーケリング）カバー確認"]
+    },
+    "safety": {
+      "scamPrevention": [
+        "白タク・客引きNG。Grab or 公式Yellow Taxi",
+        "両替詐欺：公式両替商を",
+        "ホテル・カジノ周辺の「ガイド」「マッサージ嬢」声かけ無視",
+        "コロン通り・カルボン市場でスマホひったくり多発",
+        "ATM周辺の覗き見・スキミング注意、銀行内ATMが安全",
+        "カジノで親しげに話しかける人物は要警戒"
+      ],
+      "casinoSafety": [
+        "【ATM追加引き出し厳禁】撤退ライン死守、トイレで深呼吸して退店",
+        "アルコール控えめ、判断力維持",
+        "勝ち金は小分けでCageに",
+        "親切な「アドバイザー」「同伴者」はイカサマの可能性",
+        "館内撮影禁止（PAGCOR規定、没収リスク）、警備員監視",
+        "ドレスコード遵守（短パン・ビーサン・タンクトップ・スリッパ・無地Tシャツ不可）",
+        "21歳未満NG、パスポート原本必須、入場時に顔写真撮影＆ID登録あり",
+        "館内禁煙（喫煙室別途）",
+        "チップは持ち帰り不可→館内Cageで現金化必須",
+        "【トランプ賭博詐欺】街中・バー・モールで日本語で声かけてきて自宅誘導→イカサマトランプで巻き上げる詐欺が頻発。「日本人ですか」と話しかけられても絶対についていかない",
+        "【日本での税申告】カジノ勝ち金は一時所得扱い。特別控除50万円、超過分は確定申告（負け分は相殺不可）。年間勝ち越し50万円超ならカジノ発行の証明書を保管"
+      ],
+      "trafficSafety": "フィリピンの交通事故死亡率は日本の約7倍。バイクタクシー（Habal-habal）リスク高、Grab/Yellow Taxi優先"
+    },
+    "emergencyProcedures": [
+      {"situation": "パスポート紛失・盗難", "steps": ["警察署で盗難届（Police Report）", "在セブ日本国総領事館: +63-32-231-7321/7322（cebucoj@ce.mofa.go.jp）", "渡航書申請（コピー＋証明写真2枚）", "コピーをスマホ・メール・紙3箇所に保存"]},
+      {"situation": "体調不良・怪我", "steps": ["保険会社24h ダイヤル", "キャッシュレス病院確認", "Chong Hua Hospital +63-32-255-8000", "Cebu Doctors' +63-32-255-5555", "Mactan Doctors +63-32-340-3000"]},
+      {"situation": "カジノ多額負け", "steps": ["【即退店】負け追わない、ATM引き出し禁止", "クレカ キャッシング枠を一時凍結（カード会社に電話）", "翌日予算をホテル金庫保管、財布の現金最小限", "残り旅は完全節約モード"]},
+      {"situation": "深夜Grab捕まらない", "steps": ["前日19時までにフロントタクシー予約", "JoyRide、Angkas、MoveIt他アプリ試す", "空港は公式Yellow Taxi or White Airport Taxi"]}
+    ],
+    "packing": [
+      "パスポート（残存6ヶ月以上）",
+      "海外旅行保険証",
+      "クレカ2枚（カジノ用と日常用分離）",
+      "現金（PHP両替＋USD100-200予備）",
+      "eTravel QR（スマホ＋紙）",
+      "電子航空券",
+      "ホテル予約確認書",
+      "変換プラグ（不要、Aタイプそのまま）",
+      "SPF50+日焼け止め",
+      "DEET30%以上虫よけ",
+      "常備薬（カロナール、胃腸薬、ORS、酔い止め）",
+      "アルコールジェル",
+      "薄手長袖（冷房・蚊対策）",
+      "襟付きシャツ＋長ズボン（カジノ）",
+      "革靴 or 黒スニーカー（カジノ）",
+      "サンダル（ビーチ・ホテル内）",
+      "水着・ラッシュガード",
+      "速乾タオル",
+      "モバイルバッテリー10000mAh",
+      "ジップロック（防水）",
+      "サングラス・帽子"
+    ],
+    "phrases": [
+      {"ja": "ありがとう", "id": "Salamat（サラマット）"},
+      {"ja": "ありがとうございます（丁寧）", "id": "Salamat po（サラマット・ポ）"},
+      {"ja": "はい / いいえ", "id": "Oo / Hindi（オオ／ヒンディ）"},
+      {"ja": "いくらですか？", "id": "Magkano?（マグカノ？）"},
+      {"ja": "おいしい！", "id": "Masarap!（マサラップ！）"},
+      {"ja": "トイレはどこ？", "id": "Saan ang CR?（サアン・アン・シーアール？）"},
+      {"ja": "助けて！", "id": "Tulong!（トゥロン！）"},
+      {"ja": "病院に連れて行って", "id": "Dalhin mo ako sa ospital"},
+      {"ja": "警察を呼んで", "id": "Tumawag ka ng pulis"},
+      {"ja": "現金で", "id": "Cash, please（英語OK）"},
+      {"ja": "領収書ください", "id": "Resibo, please"},
+      {"ja": "もう負けすぎ。やめる", "id": "I'm done. Cash out, please"}
+    ],
+    "culture": {
+      "description": "東南アジアで唯一のカトリック国（80%超）。スペイン統治300年・米統治50年の影響で英語が公用語。フィリピン人はホスピタリティ高くフレンドリー",
+      "tips": [
+        "教会内は静粛、ミサ中撮影禁止、帽子を脱ぐ",
+        "肌の露出（教会・歴史地区）は控えめに",
+        "「Po」「Opo」を文末で丁寧（年上に）",
+        "笑顔と「Salamat」を惜しまない",
+        "公共の場で過度な飲酒・大声NG",
+        "写真撮影は許可を取る、子供は親の了承"
+      ]
+    },
+    "tipping": {
+      "description": "義務ではないが、サービスに感謝を示す文化はある。欧米よりやや控えめ",
+      "guide": [
+        "レストラン: サービス料込みなら不要、なければ10%",
+        "ホテルポーター: PHP 50-100/荷物",
+        "ハウスキーピング: PHP 50/日",
+        "Grabドライバー: 不要（任意PHP20-50）",
+        "Yellow Taxi: 「Keep the change」",
+        "カジノディーラー: 勝った時のみPHP100-500",
+        "ツアーガイド: PHP200-500/半日",
+        "マッサージ: PHP100-200"
+      ]
+    },
+    "season": {
+      "description": "熱帯モンスーン。乾季と雨季の2シーズン。7月は雨季ど真ん中だがスコール中心、丸1日降りは稀",
+      "drySeason": {"period": "12月-5月", "description": "ベストシーズン。晴天多くビーチ・ダイビング・アイランドホッピングに最適", "temperature": "24-32℃、湿度70%"},
+      "wetSeason": {"period": "6月-11月", "description": "雨季。午後スコール（1-2時間）多。台風シーズン（特に9-11月）", "temperature": "26-32℃、湿度80%超"},
+      "tips": ["7月は雨季だがセブはルソンより雨少", "アイランドホッピングは午前中に", "折りたたみ傘 or レインコート常備", "雨上がりは蒸し暑い、冷房との温度差注意", "台風接近時はフライト欠航リスク"]
+    },
+    "casino": {
+      "description": "フィリピンのカジノはPAGCOR監督下で合法。21歳以上、パスポート原本必須。ドレスコード遵守。負け前提のエンタメ",
+      "majorCasinos": [
+        {"name": "NUSTAR Resort and Casino", "location": "SRP（Kawit Point、座標10.2712,123.881）", "scale": "約226,042平方フィート、フィリピン最大級、250テーブル超、スロット1,000+", "games": "バカラ、BJ、ルーレット、シックボー、ホールデム、パイガオ、Super 6、スロット", "minBet": "公式非公開（要問合せ +63 32 888 8282 / info@nustar.ph）。口コミではバカラPHP500〜、BJ PHP300〜の例", "highRoller": "VIP/ハイリミットあり", "dressCode": "スマートカジュアル（スリッパ・サンダル・ノースリーブ不可）"},
+        {"name": "Casino Filipino Waterfront", "location": "Lahug（45,000平方フィート）", "scale": "PAGCOR直営老舗。スロット425台・テーブル60卓", "games": "バカラ、BJ、ルーレット、シックボー、ビデオポーカー、スロット", "minBet": "ビデオポーカーPHP2-5、Roulette PHP10-（上限PHP40,000）、シックボー PHP50-、BJ PHP100-（上限PHP3,000）、バカラ PHP2,000-（上限PHP300,000）", "highRoller": "VIPルームあり", "dressCode": "襟付き＋長ズボン＋つま先閉じた靴"},
+        {"name": "Casino Filipino Mactan (Waterfront Airport Hotel)", "location": "マクタン空港隣接", "scale": "53,819平方フィート、スロット270台・テーブル23卓", "games": "BJ、バカラ、ルーレット、シックボー、ビデオポーカー、スロット（PAGCOR統一基準）", "minBet": "ビデオポーカーPHP2-5、Roulette PHP10-、BJ PHP100-、バカラ PHP2,000-", "highRoller": "あり（VIP）", "dressCode": "襟付き＋長ズボン＋つま先閉じた靴"}
+      ],
+      "tips": [
+        "【予算管理】1日上限を決めATM追加引出絶対NG",
+        "【ゲーム選び】バカラ（バンカー）ハウスエッジ1.06%、BJ（基本戦略）0.5%が最善期待値。スロットは控えめ",
+        "【撤退タイミング】勝ち時の撤退が最重要。半分勝ったら半分Cage現金化",
+        "【ドリンク】無料アルコールあり、飲み過ぎNG",
+        "【撮影禁止】館内厳禁、警備員監視",
+        "【イカサマ警戒】親しげな同伴者は詐欺可能性",
+        "【法定通貨】現金PHP基本。USD一部受付、カードはキャッシング扱い"
+      ]
+    },
+    "airportTips": {
+      "arrival": ["T2国際線着、Foreigner レーンへ", "eTravel QR必須", "受託荷物→税関", "両替→SIM→ATM→Grabの順"],
+      "departure": ["T2出発、チェックイン2-3h前", "Travel Tax PHP1,620は日本人観光客（30日未満）は原則exempt（不要）。チケット込みの場合は確実に不要", "出国→セキュリティ→ゲート", "深夜便（03:55等）はカウンター02:30オープン、空港着02:00推奨"]
+    }
+  }
+}
