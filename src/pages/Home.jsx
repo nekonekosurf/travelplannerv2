@@ -172,6 +172,29 @@ export default function Home() {
           </div>
         )}
 
+        {tripData.cities && Object.keys(tripData.cities).length > 0 && (
+          <div className="mb-6">
+            <h2 className="text-lg font-bold text-gray-800 mb-3">街ガイド</h2>
+            <div className="grid grid-cols-2 gap-2">
+              {Object.entries(tripData.cities).map(([key, city]) => (
+                <Link
+                  key={key}
+                  to={`/city/${key}`}
+                  className="bg-white border border-sand-200 rounded-xl p-3 shadow-sm hover:bg-sand-50 transition-colors"
+                >
+                  <p className="text-sm font-bold text-gray-800">{city.name}</p>
+                  <p className="text-[11px] text-gray-500 mt-0.5 line-clamp-1">{city.subtitle}</p>
+                  {city.relatedDays?.length > 0 && (
+                    <p className="text-[10px] text-sunset-600 mt-1">
+                      Day {city.relatedDays[0]}{city.relatedDays.length > 1 ? `-${city.relatedDays[city.relatedDays.length - 1]}` : ''}
+                    </p>
+                  )}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
         <h2 className="text-lg font-bold text-gray-800 mb-4">旅のスケジュール</h2>
 
         {days.length > 0 ? (

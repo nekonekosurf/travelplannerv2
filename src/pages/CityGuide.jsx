@@ -1,7 +1,9 @@
 import { useParams, Link, useLocation, Navigate } from 'react-router-dom'
 import { useEffect, useMemo } from 'react'
-import tripData from '../../data/trip.json'
+import { getCurrentTrip } from '../data/tripLoader'
 import RouteMap from '../components/RouteMap'
+
+const tripData = getCurrentTrip()
 
 const poiTypeLabels = {
   restaurant: '食事',
@@ -171,7 +173,7 @@ export default function CityGuide() {
       {/* Getting There */}
       {cityData.gettingThere && (
         <div className="px-4 pb-6 space-y-4">
-          <h2 className="text-lg font-bold text-gray-800">マランへのアクセス</h2>
+          <h2 className="text-lg font-bold text-gray-800">{cityData.name}へのアクセス</h2>
 
           {/* From Yogyakarta */}
           {cityData.gettingThere.fromYogyakarta && (
