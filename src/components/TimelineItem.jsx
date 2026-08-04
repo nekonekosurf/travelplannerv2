@@ -5,12 +5,21 @@ const periodColors = {
   morning: 'bg-yellow-400',
   afternoon: 'bg-sunset-500',
   evening: 'bg-indigo-500',
+  night: 'bg-indigo-800',
 }
 
 const periodLabels = {
   morning: '朝',
   afternoon: '昼',
-  evening: '夜',
+  evening: '夕',
+  night: '夜',
+}
+
+const typeIcons = {
+  transport: '🚌',
+  meal: '🍽️',
+  spot: '📍',
+  activity: '🎒',
 }
 
 export default function TimelineItem({ item, isLast }) {
@@ -25,6 +34,7 @@ export default function TimelineItem({ item, isLast }) {
         <div className="flex items-center gap-2 mb-1">
           <span className="text-xs font-semibold text-gray-600">{item.time}</span>
           <span className="text-xs text-gray-500">{periodLabels[item.period]}</span>
+          {typeIcons[item.type] && <span className="text-xs">{typeIcons[item.type]}</span>}
         </div>
 
         <button

@@ -1,6 +1,7 @@
 import { useParams, Link, useLocation } from 'react-router-dom'
 import { useEffect, useMemo, useState, useRef, useCallback } from 'react'
 import { getCurrentTrip, getCurrentTripId } from '../data/tripLoader'
+import { formatDateJa } from '../utils/date'
 
 const tripData = getCurrentTrip()
 const currentTripId = getCurrentTripId()
@@ -150,8 +151,15 @@ export default function DayDetail() {
         alt={day.heroImage?.alt || day.title}
         overlay
       >
-        <span className="text-xs font-bold bg-sunset-600 px-3 py-1 rounded-full inline-block mb-2">
-          Day {day.day}
+        <span className="inline-flex items-center gap-1.5 mb-2">
+          <span className="text-xs font-bold bg-sunset-600 px-3 py-1 rounded-full">
+            Day {day.day}
+          </span>
+          {day.date && (
+            <span className="text-xs font-medium bg-black/40 backdrop-blur-sm px-2.5 py-1 rounded-full">
+              {formatDateJa(day.date)}
+            </span>
+          )}
         </span>
         <h1 className="text-2xl font-black">{day.title}</h1>
         <p className="text-sm opacity-90 mt-1">{day.area}</p>

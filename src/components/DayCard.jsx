@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { formatDateJa } from '../utils/date'
 
 const fallbackImages = [
   'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Kawah_Putih_from_the_bottom%2C_Bandung_Regency%2C_2014-08-21.jpg/960px-Kawah_Putih_from_the_bottom%2C_Bandung_Regency%2C_2014-08-21.jpg',
@@ -20,8 +21,15 @@ export default function DayCard({ day }) {
           loading="lazy"
           className="w-full h-full object-cover"
         />
-        <div className="absolute top-3 left-3 bg-sunset-600 text-white text-xs font-bold px-3 py-1 rounded-full">
-          Day {day.day}
+        <div className="absolute top-3 left-3 flex items-center gap-1.5">
+          <span className="bg-sunset-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+            Day {day.day}
+          </span>
+          {day.date && (
+            <span className="bg-black/50 backdrop-blur-sm text-white text-xs font-medium px-2.5 py-1 rounded-full">
+              {formatDateJa(day.date)}
+            </span>
+          )}
         </div>
       </div>
       <div className="p-4">
