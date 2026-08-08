@@ -23,7 +23,7 @@
         "実用情報重視"
       ]
     },
-    "lastUpdated": "2026-08-03",
+    "lastUpdated": "2026-08-08",
     "budgetSummary": {
       "daily": {
         "backpacker": {
@@ -67,7 +67,9 @@
       "雨季で水量最大のデビッツ・フォールとグプテシュワル洞窟",
       "独立記念日のタージマハル(8/15は独立記念日、事前オンライン購入必須)",
       "ブッダ生誕地ルンビニのマヤ・デヴィ寺院",
-      "プムディコットの巨大シヴァ像と雲海の谷"
+      "プムディコットの巨大シヴァ像と雲海の谷",
+      "バイクで行くナガルコットと最古の寺チャング・ナラヤン",
+      "タメルでシロダーラ(アーユルヴェーダ)体験"
     ],
     "route": [
       {
@@ -119,45 +121,45 @@
       },
       {
         "day": 8,
-        "area": "ポカラ（セティ渓谷・旧市街）",
-        "type": "nature",
-        "lat": 28.2378,
-        "lng": 83.9834
-      },
-      {
-        "day": 9,
-        "area": "ポカラ→カトマンズ",
+        "area": "ポカラ→カトマンズ(空路)",
         "type": "transit",
         "lat": 27.7154,
         "lng": 85.3123
       },
       {
-        "day": 10,
-        "area": "カトマンズ（西側・旧王宮）",
+        "day": 9,
+        "area": "カトマンズ(西側・旧王宮)",
         "type": "culture",
         "lat": 27.7104,
         "lng": 85.2909
       },
       {
-        "day": 11,
+        "day": 10,
         "area": "ボダナート・パシュパティナート",
         "type": "culture",
         "lat": 27.7215,
         "lng": 85.362
       },
       {
-        "day": 12,
-        "area": "バクタプル",
-        "type": "culture",
-        "lat": 27.671,
-        "lng": 85.4298
+        "day": 11,
+        "area": "バイクでバクタプル・ナガルコット",
+        "type": "nature",
+        "lat": 27.7172,
+        "lng": 85.5204
       },
       {
-        "day": 13,
-        "area": "パタン・ブンガマティ",
+        "day": 12,
+        "area": "パタン・ブンガマティ+シロダーラ",
         "type": "culture",
         "lat": 27.6644,
         "lng": 85.3188
+      },
+      {
+        "day": 13,
+        "area": "キルティプル・タメル",
+        "type": "culture",
+        "lat": 27.6789,
+        "lng": 85.2774
       },
       {
         "day": 14,
@@ -226,9 +228,14 @@
         "title": "8月15日はインド独立記念日: 厳戒態勢+ドライデー",
         "description": "デリー中心部は交通規制と厳戒態勢、酒類販売禁止(ドライデー)、列車・観光地は国内客で大混雑。タージマハルは開いている(休みは金曜のみ)が手荷物検査が厳格化するので、バッグは極力持たずパスポート・スマホ・現金のみで早朝入場。チケットは事前オンライン購入必須。",
         "severity": "medium"
+      },
+      {
+        "title": "ネパールでのバイクレンタルは免許の法的問題あり",
+        "description": "ネパールはジュネーブ条約非加盟のため日本の国際免許は法的に無効。店はパスポートコピーで貸すが、検問で罰金NPR 1,000-5,000、事故時は海外旅行保険が支払い拒否になるリスクがある。乗るなら自己責任で、ヘルメット着用・日没2時間前帰着・雨天時は行程短縮を厳守。代替は貸切タクシー(ナガルコット周回NPR 7,000-11,000)。",
+        "severity": "high"
       }
     ],
-    "mapImageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%20(Edited).jpeg"
+    "mapImageUrl": "/travelplannerv2/img/taj-mahal-edited-.jpeg"
   },
   "days": [
     {
@@ -237,7 +244,7 @@
       "title": "出発日 — 夜行便でデリーへ、書類と現金の最終チェック",
       "area": "東京 → 機内",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/India%20Gate%20in%20New%20Delhi%2003-2016.jpg",
+        "url": "/travelplannerv2/img/india-gate-in-new-delhi-03-2016.jpg",
         "alt": "インド門（ニューデリー）（明日の朝に到着するデリーのインド門）",
         "credit": "Wikimedia Commons"
       },
@@ -416,7 +423,7 @@
       "title": "深夜のデリー着 → Vande Bharatでバラナシへ、夜はガンガー・アールティ",
       "area": "デリー → バラナシ（ガート地区）",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ganga%20Aarti%20at%20Dashashwamedh%20Ghat%2C%20Varanasi.jpg",
+        "url": "/travelplannerv2/img/ganga-aarti-at-dashashwamedh-ghat-varanasi.jpg",
         "alt": "ダシャーシュワメード・ガートのガンガー・アールティ",
         "credit": "Wikimedia Commons"
       },
@@ -496,7 +503,7 @@
           "description": "空港からニューデリー駅（NDLS）まで約16km、深夜なら20-30分。Uberなら₹400-700（空港ピックアップ料込・深夜サージで変動）、公認プリペイドタクシーは23時-5時の深夜割増込みで₹550-650。エアポートメトロは始発4:45頃で6:00発には余裕ゼロなので使わない。行き先は「New Delhi Railway Station, Ajmeri Gate side」を指定（Vande Bharatは16番線側=Ajmeri Gate側発着のことが多い。当日表示で確認）。遅くとも5:00に空港を出れば5:30駅着、荷物検査を経て5:40には乗車できる。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/New%20Delhi%20railway%20station%20board,%20India.jpg",
+              "url": "/travelplannerv2/img/new-delhi-railway-station-board-india.jpg",
               "alt": "ニューデリー駅の駅名標",
               "credit": "Wikimedia Commons"
             }
@@ -656,7 +663,7 @@
           "description": "バラナシの中心ダシャーシュワメード・ガートを起点に、夕方のガートを歩く。ただし今はガンガーが増水し下段ガートは水没中で、ガート間の川沿い徒歩移動は不可の区間が多い。上段の路地（ガリー）を経由して歩くのが今の正解。行政が川縁に近づかないよう注意喚起しており、手すりのない濡れた石段は非常に滑る。北へ10-15分歩けば火葬場マニカルニカー・ガート（見学無料・撮影は絶対禁止）だが、今日は無理せずアールティ周辺だけでも十分。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dashashwamedh%20Ghat%20Varanasi.jpg",
+              "url": "/travelplannerv2/img/dashashwamedh-ghat-varanasi.jpg",
               "alt": "ダシャーシュワメード・ガート",
               "credit": "Wikimedia Commons"
             }
@@ -720,7 +727,7 @@
           "description": "ガンジス川に捧げる炎の礼拝。雨季（4-9月）は18:45頃開始で約45分間、日没時刻に連動するため±15分ずれる。1991年以来一度も中止されたことがなく、小雨なら決行、豪雨でも屋根の下で続けられる。増水期の今は会場が上段に移り規模は縮小されているが、燃え上がる大燈明と読経、鐘の音が重なる時間はやはりバラナシの夜の核心。観覧は無料。終了直後は数千人が一斉に狭い路地へ流れ出すので、人波が引くまで少し待つか、先に抜けるかを決めておく。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Ganga%20Aarti%20at%20Dashashwamedh%20Ghat%2C%20Varanasi.jpg",
+              "url": "/travelplannerv2/img/ganga-aarti-at-dashashwamedh-ghat-varanasi.jpg",
               "alt": "ガンガー・アールティ",
               "credit": "Wikimedia Commons"
             }
@@ -966,7 +973,7 @@
       "title": "朝のアッシー・ガート、サールナート — 午後は明朝の切符確保が最重要",
       "area": "バラナシ（ガート地区・サールナート）",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dhamek%20Stupa%2C%202025.jpg",
+        "url": "/travelplannerv2/img/dhamek-stupa-2025.jpg",
         "alt": "サールナートのダメーク・ストゥーパ",
         "credit": "Wikimedia Commons"
       },
@@ -990,7 +997,7 @@
           "description": "ダシャーシュワメードから南へ約2km。増水期は川沿いを歩けないため、上の道路（Sonarpura Rd）経由でリキシャ₹50-80、または徒歩30分。朝アールティは5:00頃に始まるので、4:30に宿を出れば間に合う。夜明け前の旧市街は巡礼者がすでに動き始めていて、この時間帯の街の空気そのものが見ものになっている。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Assi%20Ghat%20Varanasi%20morning%20Aarti.jpg",
+              "url": "/travelplannerv2/img/assi-ghat-varanasi-morning-aarti.jpg",
               "alt": "アッシー・ガートの朝アールティ",
               "credit": "Wikimedia Commons"
             }
@@ -1120,7 +1127,7 @@
           "description": "悟りを開いた仏陀が初めて説法をした仏教四大聖地のひとつ。巨大なダメーク・ストゥーパの立つ考古遺跡公園は外国人₹250-300（現地で₹300の可能性あり、インド人は₹25-30）。隣のサールナート考古博物館にはインド国章の実物「アショーカ王柱の獅子柱頭」があり、入場わずか₹5。博物館は9:00-17:00で金曜休——今日は月曜なので開いている。日本人画家・野生司香雪の壁画があるムールガンダ・クティー寺院（無料〜寄付）も忘れずに。喧騒のバラナシ市街と対照的な、静かな緑の遺跡だ。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Dhamek%20Stupa%2C%202025.jpg",
+              "url": "/travelplannerv2/img/dhamek-stupa-2025.jpg",
               "alt": "ダメーク・ストゥーパ",
               "credit": "Wikimedia Commons"
             }
@@ -1271,7 +1278,7 @@
           "description": "昨夜のアールティが気に入ったならもう一度（18:45頃開始、月曜の今夜は普段より混む前提で早めに）。人混みを避けたいなら、上段の路地を歩きながら巡礼で沸く旧市街の夜を眺めるだけでも十分に濃い。カーシー・ヴィシュワナート寺院（外国人はヘルプデスクでパスポート提示+₹600のダルシャンチケット、スマホ・革製品持込不可）はシヴァ聖月の月曜の今日、数時間待ちの大行列が予想される。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shri%20Kashi%20Vishwanath%20Temple%202.jpg",
+              "url": "/travelplannerv2/img/shri-kashi-vishwanath-temple-2.jpg",
               "alt": "カーシー・ヴィシュワナート寺院",
               "credit": "Wikimedia Commons"
             }
@@ -1507,7 +1514,7 @@
       "title": "早朝列車と徒歩の国境越え — 夜行バスを捨ててブッダ生誕地ルンビニ泊へ",
       "area": "バラナシ → ゴーラクプル → スノウリ国境 → ルンビニ（ネパール）",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Inadia_Nepal_Border_Gate.jpg",
+        "url": "/travelplannerv2/img/inadia-nepal-border-gate.jpg",
         "alt": "インド・ネパール国境スノウリのゲート",
         "credit": "Wikimedia Commons"
       },
@@ -1608,7 +1615,7 @@
           "description": "ゴーラクプル・ジャンクション駅は北東鉄道の本部が置かれた鉄道の要衝で、世界級の長さのプラットフォームは駅自体がちょっとした見どころ。ただし今日は先を急ぐ日なので、観光はなし。長距離列車のハブだけあって駅構内・駅前には食堂と売店が充実しており、ターリー（₹150〜300）か東UP名物のリッティ・チョーカ、揚げたてサモサで手早く腹ごしらえする。同時に駅前のATMでINR現金₹3,000〜5,000を確保 — 国境までのタクシー代とネパール側での両替原資になる。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gorakhpur_Junction_railway_station.jpg",
+              "url": "/travelplannerv2/img/gorakhpur-junction-railway-station.jpg",
               "alt": "ゴーラクプル・ジャンクション駅",
               "credit": "Wikimedia Commons"
             }
@@ -1691,7 +1698,7 @@
           "description": "車を降りたら、国境ゲートに向かう手前、道路左側にある小さなインド入国管理（Immigration）オフィスへ。ここでパスポートに出国スタンプをもらい、出国カードを記入する。看板が小さく素通りしてしまう外国人が非常に多いポイントで、複数の旅行記が共通して警告している。スタンプなしでネパール側へ進むと戻らされるうえ、後日の出入国記録トラブルの元になる。スタンプの日付と押印をその場で確認したら、徒歩で国境ゲート（Welcome Gate）をくぐる。荷物検査は通常簡易的なもので、歩く距離は200〜300mほどだ。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Inadia_Nepal_Border_Gate.jpg",
+              "url": "/travelplannerv2/img/inadia-nepal-border-gate.jpg",
               "alt": "スノウリのインド・ネパール国境ゲート",
               "credit": "Wikimedia Commons"
             }
@@ -1820,7 +1827,7 @@
           "description": "ブッダ（釈迦）生誕の地ルンビニは、聖園（Sacred Garden）を中心に各国の僧院が並ぶ広大な世界遺産の園林都市。宿にチェックインして荷を下ろしたら、日没前の1時間で聖園の入口あたりまで散歩してみる。田園の中に祈祷旗がはためき、各国僧院の屋根が夕陽に染まる時間帯は、国境越えの緊張がほどけていくのがわかる。本命のマヤ・デヴィ寺院参拝は明朝の涼しく静かな時間に取ってあるので、今日は下見と時間確認だけで十分。バザール（門前町）で明朝のバスの発着場所も確認しておくと朝が滑らかだ。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lumbini,%20Maya%20Devi.jpg",
+              "url": "/travelplannerv2/img/lumbini-maya-devi.jpg",
               "alt": "ルンビニ聖園とマヤ・デヴィ寺院",
               "credit": "Wikimedia Commons"
             }
@@ -2063,7 +2070,7 @@
       "title": "夜明けのマヤ・デヴィ寺院参拝、昼のハイウェイでポカラへ",
       "area": "ルンビニ → ポカラ（レイクサイド）",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maya%20Devi%20Temple%20and%20Ashoka%20Pillar,%20Lumbini,%20Rupandehi,%20Nepal.jpg",
+        "url": "/travelplannerv2/img/maya-devi-temple-and-ashoka-pillar-lumbini-rupandehi-nepal.jpg",
         "alt": "マヤ・デヴィ寺院とアショカ王柱（ルンビニ）",
         "credit": "Wikimedia Commons"
       },
@@ -2087,12 +2094,12 @@
           "description": "日の出とともに聖園へ。白い箱型の覆屋であるマヤ・デヴィ寺院の内部には、紀元前3世紀までさかのぼる祠堂の遺構と、ブッダ誕生の正確な位置を示すマーカーストーンが保存されている。摩耶夫人が無憂樹の枝をつかんで出産したと伝わるその場所を、世界中の巡礼者が無言で回っていく。寺院の外にはアショカ王が紀元前249年に建てた石柱が立ち、「ここでブッダが生まれた」と刻まれた碑文が2,300年前の巡礼の証拠として残る。朝のこの時間帯は僧侶の読経が聞こえ、暑さも人出も最小限。旅程全体でも屈指の静けさに満ちた1時間になる。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lumbini,%20Maya%20Devi%20Temple.jpg",
+              "url": "/travelplannerv2/img/lumbini-maya-devi-temple.jpg",
               "alt": "マヤ・デヴィ寺院",
               "credit": "Wikimedia Commons"
             },
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Maya%20Devi%20Temple,%20Lumbini,%20Nepal.jpg",
+              "url": "/travelplannerv2/img/maya-devi-temple-lumbini-nepal.jpg",
               "alt": "聖園に立つマヤ・デヴィ寺院",
               "credit": "Wikimedia Commons"
             }
@@ -2378,7 +2385,7 @@
           "description": "ネパール2日目の夜は、レイクサイドのタカリ食堂で本場のダルバートを。西部タカリ族式が最上級とされ、豆スープ・青菜・アチャールはおかわり自由が基本で、店員が鍋を持って回ってくる。タカリ・バンチャならノンベジのタカリ・ダルバートが腹一杯食べてNPR 400〜550ほど。長距離バスの疲れに豆スープの塩気が沁みる。食後は湖岸をひと歩きして、明日からのポカラ滞在の空気をつかんでおこう。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phewa%20lake%20and%20Tal%20Barahi.jpg",
+              "url": "/travelplannerv2/img/phewa-lake-and-tal-barahi.jpg",
               "alt": "フェワ湖畔レイクサイドの夕景",
               "credit": "Wikimedia Commons"
             }
@@ -2429,7 +2436,7 @@
           "dish": "タカリ・ダルバート（ノンベジ）",
           "description": "豆スープ+米+カレー+青菜+漬物の定食で、おかわり自由が基本。西部タカリ族式が最上級とされる。タカリ・バンチャならNPR 400〜550（420〜577円）で腹一杯になる。長い移動の締めにふさわしい一皿。",
           "image": {
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phewa%20lake%20and%20Tal%20Barahi.jpg",
+            "url": "/travelplannerv2/img/phewa-lake-and-tal-barahi.jpg",
             "alt": "フェワ湖畔レイクサイドの景色"
           }
         },
@@ -2572,7 +2579,7 @@
       "title": "ポカラ1日目 — 朝のフェワ湖ボートとタル・バラヒ寺院",
       "area": "ポカラ（レイクサイド）",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phewa%20lake%20and%20Tal%20Barahi.jpg",
+        "url": "/travelplannerv2/img/phewa-lake-and-tal-barahi.jpg",
         "alt": "フェワ湖とタル・バラヒ寺院",
         "credit": "Wikimedia Commons"
       },
@@ -2596,7 +2603,7 @@
           "description": "レイクサイドに並ぶパラグライダー各社のオフィス（Blue Sky Paragliding、Sunrise Paragliding、Frontiers Paragliding等。離陸はいずれもサランコット）で、まず申込と当日催行の確認をする。7〜8月はモンスーンでキャンセルが非常に多く、会社は完全休業ではなく雲・風の条件が整った日の主に午前だけ催行する。滞在初日に申し込み、ダメなら翌日・翌々日に振替というのが現実的な運用で、天候中止時は全額返金が業界標準。外国人料金は20〜30分フライトでNPR 8,000〜12,000。雨季はオフシーズン割引の交渉余地もある。今日飛べればそのまま午前がフライトに、ダメなら8/8の振替枠に回して湖へ向かう。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarangkot%20Pokhara-%20Sunrise%20View.jpg",
+              "url": "/travelplannerv2/img/sarangkot-pokhara-sunrise-view.jpg",
               "alt": "パラグライダーの離陸地サランコットからの眺め",
               "credit": "Wikimedia Commons"
             }
@@ -2644,7 +2651,7 @@
           "description": "申込を済ませたら、湖岸のカフェでゆっくり朝食。雨上がりの朝は湖面に霧がかかり、レイクサイドが一番きれいに見える時間帯だ。湖に面した屋外席があるPerky Beans Coffee（コーヒーNPR 200〜350、朝食NPR 350〜600）なら、雨の湖面を眺める特等席に座れる。ローカル寄りに攻めるなら、朝のバザールで揚げたてのセルロティ（米粉の揚げドーナツ、1個NPR 20〜50）をかじるのもいい。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Lakeside%20Pokhara%202025.jpg",
+              "url": "/travelplannerv2/img/lakeside-pokhara-2025.jpg",
               "alt": "レイクサイドの湖岸",
               "credit": "Wikimedia Commons"
             }
@@ -2688,7 +2695,7 @@
           "description": "ポカラ観光の中心、フェワ湖へ。バラヒ・チョーク前のボート乗り場（Barahi Ghat）から、湖上の小島に建つ2層パゴダのタル・バラヒ寺院（ドゥルガー女神を祀るヒンドゥー寺院）を目指す。寺院へはボートでのみアクセスでき、乗合ボートなら往復NPR 100〜150、船頭付きの貸切手漕ぎボートはNPR 500〜700/時。雨季は湖面が満水で緑が濃く、早朝は風がなく湖面が穏やかで、霧がかかれば幻想的ですらある。寺院の入場は無料。参拝を済ませたら、1時間ほど漕いでもらって湖上から街を眺めるのが気持ちいい。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phewa%20lake%20and%20Tal%20Barahi.jpg",
+              "url": "/travelplannerv2/img/phewa-lake-and-tal-barahi.jpg",
               "alt": "フェワ湖に浮かぶタル・バラヒ寺院",
               "credit": "Wikimedia Commons"
             }
@@ -2813,7 +2820,7 @@
           "description": "雨季のポカラは午後に強い雨が来る日が多い。ここで無理に外を歩かず、レイクサイドのスパで移動続きの体をほぐすのが賢い過ごし方だ。1時間フルボディマッサージの中心相場はNPR 3,500〜4,000（Tranquility SpaならNPR 3,000〜）で、足マッサージ等の部分施術ならNPR 1,500前後から。雨脚が弱ければ、タクシー15〜20分の国際山岳博物館（外国人NPR 750、毎日8:30〜17:00）に切り替えてもいい — エベレスト初登頂や8000m峰の展示で「山が見えない雨季にヒマラヤを見た気になれる」屋内スポットだ。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/International%20Mountain%20Museum%20gate,%20Pokhara.jpg",
+              "url": "/travelplannerv2/img/international-mountain-museum-gate-pokhara.jpg",
               "alt": "雨天時の選択肢・国際山岳博物館",
               "credit": "Wikimedia Commons"
             }
@@ -2903,7 +2910,7 @@
           "dish": "湖の魚フライ（Machha）",
           "description": "フェワ湖・ベグナス湖名物。獲れたての魚にスパイスをまぶして揚げた一皿で、相場はNPR 300〜600（315〜630円）。湖を一日眺めた締めに食べたい。",
           "image": {
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Phewa%20lake%20and%20Tal%20Barahi.jpg",
+            "url": "/travelplannerv2/img/phewa-lake-and-tal-barahi.jpg",
             "alt": "フェワ湖"
           }
         },
@@ -3074,7 +3081,7 @@
       "title": "ポカラ2日目 — 巨大シヴァ像と白い仏塔、チベットの村から滝へ",
       "area": "ポカラ（南の尾根・タシリン・市内南部）",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiva%20Temple%20Pumdikot%202.jpg",
+        "url": "/travelplannerv2/img/shiva-temple-pumdikot-2.jpg",
         "alt": "プムディコットの巨大シヴァ像",
         "credit": "Wikimedia Commons"
       },
@@ -3135,7 +3142,7 @@
           "description": "標高約1,500mの尾根上に2021年に完成した、台座込み全高108フィート（約33m）のシヴァ座像。ネパールで2番目に高いシヴァ像で、台座の周囲には108体のシヴァリンガが並び、像へは108段の石段を登る。丘の上からはポカラ市街とフェワ湖の360度パノラマ — ヒマラヤは雨季ほぼ雲の中だが、白い巨像と雲海と緑の谷の組み合わせはむしろ雨季ならではの構図だ。参拝客は地元とインド系が中心で、欧米人観光客はまだ少ない。入場は無料（寄付歓迎）。朝のこの時間は人も少なく、読経のスピーカーと風の音だけが尾根に響く。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Shiva%20Temple%20Pumdikot%202.jpg",
+              "url": "/travelplannerv2/img/shiva-temple-pumdikot-2.jpg",
               "alt": "プムディコットのシヴァ像",
               "credit": "Wikimedia Commons"
             }
@@ -3182,7 +3189,7 @@
           "description": "プムディコットから同じ尾根上を車で5〜6km・約15分走れば、日本山妙法寺が建てた白い仏塔ワールド・ピース・パゴダ（シャンティ・ストゥーパ、標高約1,100m）に着く。車道終点から徒歩10分で、ポカラ市街とフェワ湖を一望 — 山が見えない雨季でも行く価値がある数少ない展望スポットだ。仏塔の階段から上は土足禁止なので、靴下を持っていくと楽。ハイキングなら尾根道2〜3時間の区間を、車ならわずか15分で結べるのがチャーター周回の利点で、雨季のぬかるみとヒルを避けられる。入場は無料。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/World%20Peace%20Pagoda%20Pokhara.jpg",
+              "url": "/travelplannerv2/img/world-peace-pagoda-pokhara.jpg",
               "alt": "ワールド・ピース・パゴダ（シャンティ・ストゥーパ）",
               "credit": "Wikimedia Commons"
             }
@@ -3228,7 +3235,7 @@
           "description": "尾根を下りて、デビッツ・フォールのすぐ南隣にある1964年設立のチベット難民居住区タシリンへ。小さな僧院と手織り絨毯の工房、おばあちゃんたちが数珠や木彫りを並べる小さな土産市場がある。ここは観光地である前に住民の生活の場 — 人物撮影は必ず一声かけて許可を取り、買い物は家族経営の工房から直接、値切りすぎないのが流儀だ。滝の見物客のほとんどが素通りする場所に30〜60分足すだけで、旅のローカル度が一段跳ね上がる。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pokhara0182a,%20Tashiling.JPG",
+              "url": "/travelplannerv2/img/pokhara0182a-tashiling.jpg",
               "alt": "タシリン・チベット難民キャンプ",
               "credit": "Wikimedia Commons"
             }
@@ -3311,7 +3318,7 @@
           "description": "キャンプから徒歩5分、地下に吸い込まれるように消えていく珍しい滝デビッツ・フォール（現地名パタレ・チャンゴ）へ。雨季（6〜9月）は水量が年間最大で、まさに見頃 — 轟音と水煙は乾季の比ではないと、複数のガイドがモンスーン期をベストシーズンに挙げる。前夜に雨が降っていたら期待していい。入場は外国人NPR 100。水しぶきでカメラが濡れるので防水対策を。増水期の事故例があるため、柵の外への立ち入りは厳禁だ。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Davis%20Falls%20-%20Pokhara,%20Nepal.jpg",
+              "url": "/travelplannerv2/img/davis-falls-pokhara-nepal.jpg",
               "alt": "デビッツ・フォール",
               "credit": "Wikimedia Commons"
             }
@@ -3356,7 +3363,7 @@
           "description": "デビッツ・フォールから道路を渡って徒歩2分、ネパール最大級の鍾乳洞グプテシュワル・マハデブ洞窟へ。シヴァ神を祀る洞内寺院と、最深部から見上げるデビッツ・フォールの「裏側」が見どころだ。地上で見た滝が頭上から降ってくる構図は、この洞窟でしか見られない。今朝プムディコットで見た巨大シヴァ像と、洞窟の胎内のシヴァ祠 — 同じ神を天と地の両側から拝む一日の締めくくりになる。入場は外国人NPR 100。雨季は洞内が滴りで濡れて滑りやすく、増水時は最深部が閉鎖されることがある点は織り込んでおく。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gupteshwor%20Mahadev%20Cave,%20Pokhara.jpg",
+              "url": "/travelplannerv2/img/gupteshwor-mahadev-cave-pokhara.jpg",
               "alt": "グプテシュワル・マハデブ洞窟",
               "credit": "Wikimedia Commons"
             }
@@ -3487,7 +3494,7 @@
           "dish": "タシリンのトゥクパ",
           "description": "チベット難民キャンプの食堂で食べる煮込み麺。NPR 150〜300（157〜315円）。観光客向けの食堂ではなく、住民の日常の味をそのまま分けてもらう一杯で、雨に濡れた体に湯気が沁みる。",
           "image": {
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pokhara0182a,%20Tashiling.JPG",
+            "url": "/travelplannerv2/img/pokhara0182a-tashiling.jpg",
             "alt": "タシリン・チベット難民キャンプ"
           }
         },
@@ -3625,853 +3632,70 @@
         ]
       },
       "transport": {
-        "to": "ポカラ旧市街+ベグナス湖（翌日）",
-        "method": "徒歩+タクシー/InDrive",
-        "duration": "K.I.シン橋へ車20〜25分、ベグナス湖へ30〜40分",
+        "to": "カトマンズ(翌8/8、国内線で移動)",
+        "method": "国内線(Buddha Air / Yeti Airlines、ポカラ→カトマンズ 25-30分)",
+        "duration": "フライト25-30分(空港往復・待ち時間込みで半日)",
         "cost": {
-          "npr": "400-1500",
-          "jpy": "420-1575"
+          "usd": "110-130",
+          "jpy": "17,380-20,540"
         },
-        "bookingInfo": "明日は午前がパラグライダー振替枠（催行なら送迎付き）。地上プランはK.I.シン橋→ビンドゥバシニ寺院→オールドバザール徒歩コース→午後ベグナス湖",
+        "bookingInfo": "Buddha Air/Yeti公式サイトかレイクサイドの代理店で前日までに購入。雨季は午前便が欠航しにくい",
         "steps": [
-          "パラグライダー会社に振替可否を今夜確認",
-          "K.I.シン橋へはInDrive/タクシー20〜25分（片道NPR 400〜600）",
-          "ベグナス湖へはタクシー往復+待機交渉（NPR 2,000前後）かプリトビ・チョーク発ローカルバス（NPR 50〜80）"
+          "レイクサイドからポカラ国際空港へタクシー15-20分(NPR 500-700)",
+          "出発90分前に空港着、国内線カウンターでチェックイン",
+          "カトマンズ・トリブバン空港 国内線ターミナル着",
+          "プリペイドタクシーかPathaoでタメルへ(NPR 700-1,000、30-40分)"
         ],
         "tips": [
-          "明日の夜はカトマンズ行きバスの前日予約日。忘れずに（Swift Holidays VIP NPR 1,600等）"
+          "雨季は午後便ほど欠航・遅延率が上がる。午前〜昼の便が安全",
+          "左側の窓側席ならヒマラヤが見えることも(雨季は期待しすぎない)",
+          "バス(8-10時間)との差額は約1.5万円/人。雨季の土砂崩れリスクを避けられる価値は大きい"
         ]
       }
     },
     {
       "day": 8,
       "date": "2026-08-08",
-      "title": "ポカラ3日目 — 白濁のセティ渓谷と旧市街、静かなベグナス湖",
-      "area": "ポカラ（旧市街・セティ渓谷・ベグナス湖）",
+      "title": "ポカラの朝をゆっくり、午後の国内線25分でカトマンズへ — 夜タメル着",
+      "area": "ポカラ → カトマンズ（タメル）",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seti%20gorge.jpg",
-        "alt": "幅わずか2mの裂け目を流れるセティ川渓谷",
+        "url": "/travelplannerv2/img/thamel-at-night-kathmandu-nepal-panoramio-1-.jpg",
+        "alt": "夜のタメル地区",
         "credit": "Wikimedia Commons"
       },
-      "summary": "土曜日、ポカラ最終日。午前はパラグライダーの振替枠 — 条件が整えばサランコットから飛ぶ。地上の目玉は、アンナプルナの氷河由来の石灰岩でミルク色に白濁したセティ川が、幅わずか2m・深さ20m以上の裂け目を轟音とともに流れるセティ渓谷。デビッツ・フォール同様「雨季がベストシーズン」の稀有なスポットで、最良の展望地K.I.シン橋からポカラ最古のビンドゥバシニ寺院、300年前のネワール商家が連なるオールドバザールへと歩いて下る半日コースを組む。土曜のビンドゥバシニ寺院は参拝者で最も賑わう日だ。午後は観光地化していない第2の湖ベグナス湖で獲れたて魚フライの昼食と静かな湖上時間を過ごし、夕方はマッサージで4日分の疲れをほぐす。忘れてはいけないのが明日のカトマンズ行きツーリストバスの前日予約 — Swift HolidaysのVIPソファがNPR 1,600だ。",
+      "summary": "土曜日、移動日。当初の「明朝バスで8〜10時間」を取りやめ、今日のうちに飛行機でカトマンズへ渡る決断をした日。朝はレイクサイドで最後のポカラをゆっくり過ごし、午後にポカラ空港からBuddha Air/Yeti Airlinesの国内線へ——所要はわずか25〜30分、外国人運賃はUSD 110〜130（17,380〜20,540円）とバスの10倍だが、雨季のプリトビ・ハイウェイの土砂崩れリスクと丸一日を金で買い戻した形だ。夜にカトマンズ着、タクシーでタメルの宿へ入り、今夜から8/13泊まで6泊をまとめて確保する。これで8/9〜8/13の丸5日間がカトマンズ観光に使える。今日は観光なし、無理せず休んで明日からに備える。",
       "areaInfo": {
-        "walkable": false,
-        "walkableNote": "K.I.シン橋→ビンドゥバシニ寺院→オールドバザールは徒歩で下る設計（約2〜3km）。それ以外はタクシー/InDrive",
-        "transportNeeded": "K.I.シン橋へ車20〜25分、ベグナス湖へ30〜40分。ベグナス湖の帰りは流しが少ないので往復+待機で交渉",
-        "atm": "朝のうちにレイクサイドで現金確保。バス代・マッサージ代・明日の朝食まで見込んで",
-        "wifi": "郊外はWiFiに期待しない。SIMのデータ通信で",
-        "sim": "市街はNcellが速い",
-        "safety": "セティ渓谷は柵の外・川岸への立ち入り厳禁（雨季の流速は致死的）。橋上は滑りやすい。ベグナス湖のバス最終便は17時前後",
-        "convenience": "紅茶などの定価買いはスーパー（Bhat-Bhateni）が安心。オールドバザールはレイクサイドより2〜3割安い"
+        "walkable": true,
+        "walkableNote": "タメル内は徒歩で完結。今夜は宿周辺だけで十分",
+        "transportNeeded": "空港からタメルへはタクシー（プリペイドカウンターあり）。市内の配車アプリはPathao（固定料金制）とinDrive（運賃提示制）で、バイク便NPR 100〜150、車NPR 400〜500が相場",
+        "atm": "タメルに複数銀行のATMブースが集約された「ATMラウンジ」あり。外国カード手数料NPR 500〜700/回の定額なので、Nabil・Siddhartha銀行の上限35,000 NPRを1回で下ろすのが得",
+        "wifi": "ホテル・カフェで無料WiFiが標準",
+        "sim": "ポカラで使っていたNcell/NTCのSIMがそのまま使える。残量が心細ければタメルの正規ショップでリチャージ（今夜でも22時頃まで開いている）",
+        "safety": "夜のタメルは22時頃まで賑やか。客引き（トレッキング勧誘・タイガーバーム売り）は笑顔でNo, thank youを繰り返せば実害なし。夜間は表通りのみ歩く",
+        "convenience": "両替商（電光レート掲示の公認店）、薬局、雑貨店が密集。ペットボトル水は1L NPR 25〜50"
       },
       "timeline": [
         {
-          "time": "06:30",
+          "time": "08:30",
           "period": "morning",
           "type": "activity",
-          "title": "パラグライダー振替フライト（条件が合えば）+ 明日のバス予約",
-          "description": "8/6に天候中止だった場合の振替枠。催行は雲と風の条件が整った日の主に午前で、決行ならサランコット（標高1,592m）の離陸場からフェワ湖に向かって20〜30分のフライトになる。雨上がりの朝は空気が洗われて視界が劇的にクリアになることがあり、雲海の上を飛べたら雨季ならではのご褒美だ。中止なら潔く全額返金を受けて地上プランへ。どちらに転んでも、朝のうちに宿かレイクサイドの旅行代理店で明日のカトマンズ行きツーリストバス（7:00発）を必ず予約しておく — これが今日の最重要タスクだ。",
+          "title": "レイクサイドで最後のポカラの朝 — 朝食と荷造り",
+          "description": "バス移動をやめた分、朝は焦らなくていい。宿で朝食を済ませ、フェワ湖畔をひと回り散歩して、4泊したポカラに別れを告げる。荷造りのついでに、宿のフロントに午後の空港行きタクシーを頼んでおくと動きが軽くなる。航空券が未購入なら、宿か旅行代理店、またはBuddha Air公式サイトで午後便を押さえるのが最初の仕事だ（雨季は午前便ほど飛びやすいが、当日の空模様次第で午後も普通に飛ぶ。欠航時は翌便振替が通例）。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Sarangkot%20Pokhara-%20Sunrise%20View.jpg",
-              "alt": "サランコットからの朝の眺め",
+              "url": "/travelplannerv2/img/begnas-lake-pokhara-kaski.jpg",
+              "alt": "ポカラの湖の風景",
               "credit": "Wikimedia Commons"
             }
           ],
           "location": {
-            "name": "サランコット離陸場（催行時）/ レイクサイド",
-            "googleMapsUrl": "https://maps.google.com/?q=28.2417,83.9667",
-            "lat": 28.2417,
-            "lng": 83.9667
-          },
-          "access": {
-            "from": "レイクサイド（各社オフィス集合）",
-            "method": "催行会社の送迎車",
-            "duration": "サランコットまで約30分",
-            "cost": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "steps": [
-              "前夜〜当日朝に催行可否を確認",
-              "オフィス集合→送迎車でサランコットへ",
-              "フライト後レイクサイドへ戻る",
-              "宿/代理店で明日のバス予約（手数料NPR 100〜200上乗せ程度）"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": "8000-12000",
-              "jpy": "8400-12600"
-            },
-            "hours": "催行は主に午前",
-            "bestTime": "前夜に強い雨→朝に晴れ間、が最高のコンディション",
-            "duration": "催行なら半日（送迎込み、10:30頃戻り）",
-            "tips": [
-              "決行した場合は地上プランを圧縮: セティ渓谷+オールドバザールを11時開始に後ろ倒し、ベグナス湖はタクシー往復（NPR 2,000前後）に切り替えれば全部回れる",
-              "中止でも代替のジップライン（全長1,850m・最高時速140km、クラシックNPR 8,000前後、6〜8月は20%割引あり）は風の影響を受けにくく催行日が多い",
-              "バス予約時は進行方向左側の席を指定（トリスリ川の渓谷ビュー）"
-            ]
-          }
-        },
-        {
-          "time": "09:30",
-          "period": "morning",
-          "type": "spot",
-          "title": "K.I.シン橋 — 幅2mの裂け目を流れる白いセティ川",
-          "description": "レイクサイドから車で20〜25分、バガール地区のK.I.シン橋へ。アンナプルナの氷河由来の石灰岩を含むためミルクのように白濁したセティ川（セティ=ネパール語で「白」）が、市街の真下を幅わずか2m・深さ20m以上の裂け目状に流れる奇観だ。モンスーン期は水量が年間最大で、水煙と地響きを伴う流れは見応えのピーク — デビッツ・フォール同様「雨季がベスト」の稀有なスポットで、この橋が渓谷が最も狭く深く見える最良ポイントになる。入場は外国人NPR 60。増水期の川岸への立ち入りは厳禁、橋上も滑りやすいので手すり側を歩く。",
-          "images": [
-            {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Seti%20gorge.jpg",
-              "alt": "セティ川渓谷",
-              "credit": "Wikimedia Commons"
-            }
-          ],
-          "location": {
-            "name": "K.I.シン橋（セティ川渓谷）",
-            "googleMapsUrl": "https://maps.google.com/?q=28.2455,83.9890",
-            "lat": 28.2455,
-            "lng": 83.989
-          },
-          "access": {
-            "from": "レイクサイド",
-            "method": "InDrive/タクシー",
-            "duration": "20-25分",
-            "cost": {
-              "npr": "400-600",
-              "jpy": "420-630"
-            },
-            "steps": [
-              "「K.I. Singh Pul, Bagar」で配車",
-              "入場券を購入して橋と展望路へ"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": 60,
-              "jpy": 63
-            },
-            "hours": "日中開放（明確な時刻掲示なし、日没まで）",
-            "bestTime": "午前。増水した朝ほど迫力がある",
-            "duration": "30-45分",
-            "tips": [
-              "柵の外・川岸への立ち入りは厳禁（過去に転落事故例。雨季の流速は致死的）",
-              "市街中心部のマヘンドラ橋からも無料で覗ける（帰路に通ったら車窓から）",
-              "トイレあり"
-            ]
-          }
-        },
-        {
-          "time": "10:30",
-          "period": "morning",
-          "type": "spot",
-          "title": "ビンドゥバシニ寺院 — 土曜の参拝で賑わうポカラ最古の寺",
-          "description": "K.I.シン橋から徒歩約15分（1.2km）、丘の上に建つポカラ最古の寺院ビンドゥバシニ寺院へ。ドゥルガー女神を祀る白い本殿を中心に、家族連れの参拝者が階段を上っていく。今日は土曜 — ネパールの休日で参拝者が最も多く、生贄の儀式が見られることもある日だ。境内からは旧市街の赤い屋根越しに、雲をまとった山裾が見渡せる。入場は無料（寄付歓迎）。儀式中の撮影は一言断るのがマナーで、革製品の持ち込みを嫌う祠がある点も覚えておきたい。",
-          "images": [
-            {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bindhyabasini%20Temple%20GP%20(3).JPG",
-              "alt": "ビンドゥバシニ寺院",
-              "credit": "Wikimedia Commons"
-            }
-          ],
-          "location": {
-            "name": "ビンドゥバシニ寺院",
-            "googleMapsUrl": "https://maps.google.com/?q=28.2378,83.9842",
-            "lat": 28.2378,
-            "lng": 83.9842
-          },
-          "access": {
-            "from": "K.I.シン橋",
-            "method": "徒歩",
-            "duration": "約15分（1.2km）",
-            "cost": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "steps": [
-              "橋から南西へ徒歩、丘の階段を上る"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "hours": "日中開放（早朝〜夕方）",
-            "bestTime": "朝8:00〜11:00が参拝の活気のピーク",
-            "duration": "30-45分",
-            "tips": [
-              "土曜は生贄の儀式が行われることがある。苦手なら本殿裏手側から参観",
-              "靴を脱ぐ場所あり。肩・膝を隠す服装で"
-            ]
-          }
-        },
-        {
-          "time": "11:15",
-          "period": "morning",
-          "type": "spot",
-          "title": "オールドバザール徒歩コース — 300年前のネワール商家を南へ下る",
-          "description": "寺院の階段を下り、旧市街（プラノ・バザール）のメインストリートを南へ約2kmそぞろ歩く。300年前にカトマンズ盆地から移住したネワール商人の赤レンガと彫刻木窓の商家が連なり、真鍮器・金物・布地の老舗の店先で時が止まったような路地が続く。観光地化したレイクサイドとはまるで別の、生活のポカラだ。終点のナラムク交差点周辺はネワール軽食の名所で、揚げ菓子や甘い蒸し餃子ヨマリ（1個NPR 30〜100）をつまみながら歩ける。シンギングボウルや真鍮器を狙うなら、レイクサイドより割安なこの通りが本命になる。",
-          "images": [],
-          "location": {
-            "name": "オールドバザール（プラノ・バザール）〜ナラムク",
-            "googleMapsUrl": "https://maps.google.com/?q=28.2378,83.9842",
-            "lat": 28.2378,
-            "lng": 83.9842
-          },
-          "access": {
-            "from": "ビンドゥバシニ寺院",
-            "method": "徒歩（南へ下り基調）",
-            "duration": "1-1.5時間（約2km）",
-            "cost": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "steps": [
-              "寺院→旧市街メインストリートを南下",
-              "ナラムク交差点で軽食",
-              "InDrive/タクシーを拾ってベグナス湖方面へ"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "hours": "商店は日中。バザールの活気は午前",
-            "bestTime": "朝〜昼前",
-            "duration": "1-1.5時間",
-            "tips": [
-              "買い物の交渉は言い値の50〜70%スタート。レイクサイドより元値が安い",
-              "側溝が溢れやすい。折りたたみ傘+速乾靴で",
-              "ヨマリはネワール族の冬の祭菓子だが、旧市街の菓子店では通年見かけることも。なければ揚げ菓子セルロティを"
-            ]
-          }
-        },
-        {
-          "time": "13:00",
-          "period": "afternoon",
-          "type": "transport",
-          "title": "ベグナス湖へ移動 — 帰りの足を確保してから遊ぶ",
-          "description": "旧市街からタクシー/InDriveで東へ30〜40分、ポカラ市街の東約15kmにある第2の湖ベグナス湖へ向かう。帰路の流しタクシーは少ないので、往復+待機で交渉しておくのが確実だ（レイクサイド発着の相場で片道NPR 1,000〜1,500、往復待機込みNPR 2,000〜2,500目安）。身軽ならプリトビ・チョークからローカルバス（NPR 50〜80、40分〜1時間）でも行けるが、最終便が17時前後と早い点だけ注意。雨で予定変更なら、このタイミングでマヘンドラ洞窟+チャメレ洞窟（各NPR 150、徒歩10分で隣接、コウモリの洞窟は懐中電灯無料貸出付き）に差し替えるのも面白い。",
-          "images": [],
-          "location": {
-            "name": "ベグナス湖方面",
-            "googleMapsUrl": "https://maps.google.com/?q=28.1739,84.0973",
-            "lat": 28.1739,
-            "lng": 84.0973
-          },
-          "access": {
-            "from": "オールドバザール/ナラムク",
-            "method": "タクシー（往復+待機交渉推奨）またはローカルバス",
-            "duration": "30-40分",
-            "cost": {
-              "npr": "1000-1500",
-              "jpy": "1050-1575"
-            },
-            "steps": [
-              "InDriveで見積り→タクシーと比較",
-              "「往復+2〜3時間待機」で金額を握る",
-              "バス派はプリトビ・チョークからベグナス行き（NPR 50〜80）"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "hours": "バス最終便は夕方早め（17時前後）",
-            "bestTime": "13時台に着けば湖で3時間遊べる",
-            "duration": "移動30-60分",
-            "tips": [
-              "雨天の代替はマヘンドラ洞窟+チャメレ洞窟（レイクサイドから車25〜30分、片道NPR 500〜700）。洞内は雨季は特に滑るので靴必須",
-              "チャメレ洞窟名物の「岩の隙間を這い上がる出口」は服が泥だらけになる。汚れてよい服で"
-            ]
-          }
-        },
-        {
-          "time": "13:45",
-          "period": "afternoon",
-          "type": "meal",
-          "title": "湖畔食堂で獲れたて魚フライの昼食",
-          "description": "ベグナス湖に着いたら、まず湖畔の食堂で遅めの昼食。名物は獲れたての魚のフライ（Machha Fry、NPR 300〜600）だ。揚げたての熱々に絞るライムと、湖を渡ってくる風。レイクサイドの観光客向けレストランとはまるで違う、地元の湖の昼めしがここにある。",
-          "images": [
-            {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Begnas%20Lake,%20Pokhara,%20Kaski.jpg",
-              "alt": "ベグナス湖の湖畔",
-              "credit": "Wikimedia Commons"
-            }
-          ],
-          "location": {
-            "name": "ベグナス湖畔の食堂",
-            "googleMapsUrl": "https://maps.google.com/?q=28.1739,84.0973",
-            "lat": 28.1739,
-            "lng": 84.0973
-          },
-          "access": {
-            "from": "ベグナス湖バス停/駐車場",
-            "method": "徒歩",
-            "duration": "数分",
-            "cost": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "steps": [
-              "湖畔沿いの食堂を選ぶ"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": "300-600",
-              "jpy": "315-630"
-            },
-            "hours": "日中",
-            "bestTime": "昼過ぎ",
-            "duration": "1時間",
-            "tips": [
-              "火の通った揚げ物は雨季でも安心して食べられる筆頭"
-            ]
-          }
-        },
-        {
-          "time": "14:45",
-          "period": "afternoon",
-          "type": "spot",
-          "title": "ベグナス湖 — 人が少ない、静かな別世界",
-          "description": "レイクサイドの喧騒がまるでない第2の湖。地元の漁師の小舟と棚田の風景が広がり、複数のガイドが「静かな別世界」と評する。自然とローカルの空気が好きなら、ポカラ滞在のハイライトになり得る場所だ。船頭付きカヌーはNPR 375/時、1日貸切でも約NPR 1,200と、フェワ湖より気持ち安い。入域料はなく、かかるのはボート代のみ。雨季は湖水がやや濁り気味だが、その分緑は濃い。ポカラ最後の午後を、エンジン音のない湖の上でゆっくり使い切る。",
-          "images": [
-            {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Begnas%20Lake,%20Pokhara,%20Kaski.jpg",
-              "alt": "ベグナス湖",
-              "credit": "Wikimedia Commons"
-            }
-          ],
-          "location": {
-            "name": "ベグナス湖",
-            "googleMapsUrl": "https://maps.google.com/?q=28.1739,84.0973",
-            "lat": 28.1739,
-            "lng": 84.0973
-          },
-          "access": {
-            "from": "湖畔の食堂",
-            "method": "徒歩",
-            "duration": "すぐ",
-            "cost": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "steps": [
-              "ボート乗り場で船頭付きカヌーを交渉（NPR 375/時が目安）"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "hours": "終日開放。ボートは日中のみ",
-            "bestTime": "午後の雨雲が湧く前に湖上へ",
-            "duration": "2時間",
-            "tips": [
-              "船頭付きカヌー NPR 375/時（393円）、1日貸切約NPR 1,200（1,260円）",
-              "空模様が怪しくなったらすぐ岸へ。夕立で湖は急に荒れる",
-              "16:30には湖を出る。待機のタクシーで直帰"
-            ]
-          }
-        },
-        {
-          "time": "17:30",
-          "period": "evening",
-          "type": "activity",
-          "title": "マッサージで4日分の疲れをほぐす",
-          "description": "レイクサイドに戻ったら、明日の8〜10時間バスに備えてマッサージへ。1時間フルボディの中心相場はNPR 3,500〜4,000で、大手のTranquility SpaはNPR 3,000〜、Calmness Day Spaも定評がある。国境越えから4日間動き続けた体には、トレッカー向けの脚重点パッケージがよく効く。要予約（WhatsApp可）だが、雨季は当日枠も見つかりやすい。",
-          "images": [],
-          "location": {
-            "name": "レイクサイドのスパ・マッサージ店",
+            "name": "ポカラ・レイクサイド",
             "googleMapsUrl": "https://maps.google.com/?q=28.2142,83.9472",
             "lat": 28.2142,
             "lng": 83.9472
           },
           "access": {
-            "from": "宿",
-            "method": "徒歩",
-            "duration": "5-10分",
-            "cost": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "steps": [
-              "数軒のぞいてメニューと価格を比較",
-              "希望があれば強さ（soft/medium/strong）を先に伝える"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": "1500-4000",
-              "jpy": "1575-4200"
-            },
-            "hours": "〜21時頃",
-            "bestTime": "夕方",
-            "duration": "1-1.5時間",
-            "tips": [
-              "足マッサージ等の部分施術ならNPR 1,500前後から",
-              "高級パッケージ（スクラブ+サウナ等）はNPR 5,000〜12,000"
-            ]
-          }
-        },
-        {
-          "time": "19:30",
-          "period": "night",
-          "type": "meal",
-          "title": "ポカラ最後の夜 — モモ食べ歩きと荷造り",
-          "description": "夕食はモモ（ネパール式蒸し餃子）の食べ歩きで軽やかに。地元で評判のSabina Momoを起点に、バフ（水牛）・チキン・野菜の具と蒸し・揚げの調理を食べ比べる。1皿NPR 120〜250と財布に優しく、冷えた夜ならトゥクパ（NPR 150〜300）を締めに。宿に戻ったら明朝の準備 — バスチケット・水・軽食・酔い止め・トイレットペーパーを手荷物にまとめ、精算を前夜のうちに済ませて、6時台出発に備える。",
-          "images": [],
-          "location": {
-            "name": "Sabina Momo（レイクサイド路地）",
-            "googleMapsUrl": "https://maps.google.com/?q=Sabina%20Momo%20Pokhara",
-            "lat": 28.2142,
-            "lng": 83.9472
-          },
-          "access": {
-            "from": "スパ",
-            "method": "徒歩",
-            "duration": "5-10分",
-            "cost": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "steps": [
-              "レイクサイドの路地（Rest Point近く）のSabina Momoへ"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": "120-500",
-              "jpy": "126-525"
-            },
-            "hours": "昼〜夜",
-            "bestTime": "夕食どき",
-            "duration": "1-1.5時間",
-            "tips": [
-              "明日のバスチケット（7:00発）を再確認。未購入なら今夜中に宿で必ず手配",
-              "前夜精算+タクシー手配（明朝6:15発、NPR 200〜300）をフロントに依頼"
-            ]
-          }
-        }
-      ],
-      "food": {
-        "localSpecialties": [
-          "ベグナス湖の魚フライ（Machha Fry）",
-          "モモ",
-          "ヨマリ・ネワール軽食（オールドバザール）",
-          "トゥクパ",
-          "セクワ（炭火串焼き）"
-        ],
-        "mustTry": {
-          "dish": "ベグナス湖の獲れたて魚フライ",
-          "description": "湖畔の食堂で揚げたてを。相場NPR 300〜600（315〜630円）。観光客ずれしていない湖の昼めしで、ポカラの「もうひとつの顔」を味わえる。",
-          "image": {
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Begnas%20Lake,%20Pokhara,%20Kaski.jpg",
-            "alt": "ベグナス湖"
-          }
-        },
-        "restaurants": [
-          {
-            "name": "ベグナス湖畔の食堂",
-            "type": "ローカル食堂",
-            "budget": "cheap",
-            "priceRange": {
-              "npr": "300-600",
-              "jpy": "315-630"
-            },
-            "popular": [
-              "Machha Fry（魚フライ）"
-            ],
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=%E3%83%99%E3%82%B0%E3%83%8A%E3%82%B9%E6%B9%96%E7%95%94%E3%81%AE%E9%A3%9F%E5%A0%82%20Pokhara"
-            }
-          },
-          {
-            "name": "ナラムク交差点のネワール軽食店",
-            "type": "軽食・菓子（オールドバザール終点）",
-            "budget": "cheap",
-            "priceRange": {
-              "npr": "30-300",
-              "jpy": "31-315"
-            },
-            "popular": [
-              "ヨマリ（1個NPR 30〜100）",
-              "揚げ菓子"
-            ],
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Nalamukh%20Pokhara"
-            }
-          },
-          {
-            "name": "Sabina Momo",
-            "type": "モモ専門の食堂",
-            "budget": "cheap",
-            "priceRange": {
-              "npr": "120-300",
-              "jpy": "126-315"
-            },
-            "popular": [
-              "モモ各種 NPR 120〜200"
-            ],
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Sabina%20Momo%20Pokhara"
-            }
-          },
-          {
-            "name": "Fewa Thakali",
-            "type": "タカリ料理食堂",
-            "budget": "cheap",
-            "priceRange": {
-              "npr": "250-400",
-              "jpy": "262-420"
-            },
-            "popular": [
-              "ダルバートセット"
-            ],
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Fewa%20Thakali%20Pokhara"
-            }
-          }
-        ],
-        "drinks": [
-          "チヤ（ネパールのミルクティー）",
-          "ボトル水（明日のバス用に多めに購入）"
-        ],
-        "safetyTips": [
-          "雨季は食中毒リスクが上がる。加熱調理済みを選ぶ",
-          "明日は長時間バス。夜は食べ過ぎない+酔い止めの残数確認",
-          "夕方の外出前に虫除けを"
-        ]
-      },
-      "accommodation": {
-        "area": "ポカラ・レイクサイド（4連泊の最終夜。翌朝6時台出発）",
-        "recommendations": [
-          {
-            "name": "Nanohana Lodge",
-            "budget": "cheap",
-            "pricePerNight": {
-              "npr": "1500-1800",
-              "jpy": "1575-1890"
-            },
-            "bookingTip": "連泊中の宿を継続。翌朝は6時台出発なので、前夜のうちに精算とタクシー手配を済ませておく",
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Nanohana%20Lodge%20Pokhara"
-            }
-          },
-          {
-            "name": "R&R Guest House",
-            "budget": "cheap",
-            "pricePerNight": {
-              "npr": "1400-1700",
-              "jpy": "1470-1785"
-            },
-            "bookingTip": "清潔・屋上あり。早朝出発をフロントに伝えておく",
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=R%26R%20Guest%20House%20Pokhara"
-            }
-          },
-          {
-            "name": "Hotel Middle Path & Spa",
-            "budget": "mid",
-            "pricePerNight": {
-              "npr": "4800-5600",
-              "jpy": "5040-5880"
-            },
-            "bookingTip": "翌朝のバスパーク行きタクシー手配をフロントに頼めるのが中級宿の利点",
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Hotel%20Middle%20Path%20%26%20Spa%20Pokhara"
-            }
-          }
-        ]
-      },
-      "shopping": {
-        "famous": [
-          "シンギングボウル",
-          "真鍮器",
-          "織物",
-          "ネパール紅茶（イラム茶）"
-        ],
-        "priceGuide": "シンギングボウル（小）はNPR 800〜3,000（840〜3,150円）、音を鳴らして選ぶ。イラム茶は100g NPR 200〜600（210〜630円）でスーパー（Bhat-Bhateni）なら定価で安心。オールドバザールはレイクサイドより割安で、交渉は言い値の50〜70%から",
-        "shops": [
-          {
-            "name": "オールドバザール（プラノ・バザール）",
-            "description": "ネワール様式の商家に真鍮器・織物の店が並ぶ。観光価格のレイクサイドより割安。ポカラ土産の買い納めはここで",
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=28.2378,83.9842"
-            }
-          }
-        ]
-      },
-      "transport": {
-        "to": "カトマンズ（タメル）",
-        "method": "ツーリストバス（明朝7:00発、本日中に要予約）",
-        "duration": "公称6-7時間、雨季の現実は8-10時間",
-        "cost": {
-          "npr": "1200-2600",
-          "jpy": "1260-2730"
-        },
-        "bookingInfo": "最も簡単なのは宿泊ホテルかレイクサイドの旅行代理店で本日中に依頼（手数料NPR 100〜200上乗せ程度、現金NPR払い）。スタンダード（2×2 AC）NPR 1,200〜1,700、VIPソファ（2×1シート・Wi-Fi付）NPR 1,600〜2,600。Swift HolidaysのVIPがNPR 1,600（1,680円）で代表格、プレミアムのJagadamba（革張りシート・スチュワード付き）は約NPR 2,500で7:30発",
-        "steps": [
-          "本日中にホテル/代理店でチケット購入（進行方向左側の席=トリスリ川の渓谷ビュー）",
-          "翌朝6:15頃ホテル発、タクシーでツーリストバスパークへ（NPR 200〜300）",
-          "出発30分前（6:30）までに集合、7:00一斉出発"
-        ],
-        "tips": [
-          "老舗Greenlineはコロナ後この路線を運休中（2026年時点）。古いブログ情報に注意",
-          "プリトビ・ハイウェイはFishling、Twin Khola（ムグリン〜ナラヤンガート区間）で土砂崩れ頻発。8〜10時間かかる前提で当日の予定は入れない",
-          "酔い止め・水・軽食・トイレットペーパーを携行"
-        ]
-      }
-    },
-    {
-      "day": 9,
-      "date": "2026-08-09",
-      "title": "朝7時のツーリストバスでカトマンズへ — 夕方タメル着",
-      "area": "ポカラ → カトマンズ（タメル）",
-      "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thamel_at_night_-_Kathmandu,_Nepal_-_panoramio_(1).jpg",
-        "alt": "夜のタメル地区",
-        "credit": "Wikimedia Commons"
-      },
-      "summary": "日曜日、約200kmの山越え移動日。朝7:00にポカラ・ツーリストバスパークを一斉に発つツーリストバス（前日予約済み、Swift Holidays VIP NPR 1,600等）で、プリトビ・ハイウェイをカトマンズへ。公称6〜7時間の道のりだが、雨季はムグリン〜ナラヤンガート区間の土砂崩れで8〜10時間かかる前提で構え、当日の予定は入れない。朝発を選ぶ理由はここでも同じ — 大幅に遅れても夜までには着けるからだ。進行方向左側の席を取ればトリスリ川の渓谷ビューが続く。夕方カトマンズのソラクテ/カンティパス周辺に着けば、旅行者街タメルまで徒歩10分。今夜から8/13泊まで5泊の拠点にチェックインし、SIMと両替を整えて、夜はネワール料理で首都の初日を締める。",
-      "areaInfo": {
-        "walkable": true,
-        "walkableNote": "バス到着地（ソラクテ/カンティパス周辺）からタメルまで徒歩10分圏。タメル内は徒歩で完結",
-        "transportNeeded": "郊外スポットへはPathao（固定料金制）かinDrive（運賃提示制）。バイク便=市内NPR 100〜150、車=NPR 400〜500。流しのタクシーより3〜5割安い",
-        "atm": "タメルに複数銀行のATMブースが集約された「ATMラウンジ」あり。外国カード手数料NPR 500〜700/回、1回上限はNabil・Siddhartha銀行の35,000 NPRが最大。手数料定額なので1回で大きく下ろす",
-        "wifi": "ホテル・カフェで無料が標準",
-        "sim": "NTC（Nepal Telecom）かNcell。パスポート+証明写真1枚で購入。目安: NTC 1GB/日×7日+通話60分=NPR 500（525円）。PathaoやinDriveの登録に現地番号が必要なので、未購入なら今日中に",
-        "safety": "凶悪犯罪は少ない。タメルの客引き（トレッキング勧誘・タイガーバーム売り・「学校に粉ミルクを買って」詐欺）は無視でOK。夜間の一人歩きは表通りのみ。バイクの通り抜けが多い路地では注意",
-        "convenience": "雨季は折りたたみ傘+軽量レインジャケット+速乾サンダル（道路冠水対策）。市内の道は水はけが悪く、車の水はねに注意"
-      },
-      "timeline": [
-        {
-          "time": "06:15",
-          "period": "morning",
-          "type": "transport",
-          "title": "レイクサイド発、ツーリストバスパークへ",
-          "description": "早朝のレイクサイドをタクシーで発ち、Mustang Chowk近くのツーリストバスパークへ（約2km、NPR 200〜300）。出発30分前の6:30までに集合してチェックインを済ませる。長丁場に備えて、水・軽食・酔い止め・トイレットペーパーの4点セットを手元のバッグに。前夜のうちに精算とタクシー手配を頼んであれば、朝は鍵を返して乗り込むだけだ。",
-          "images": [],
-          "location": {
-            "name": "ポカラ・ツーリストバスパーク",
-            "googleMapsUrl": "https://maps.google.com/?q=Pokhara+Tourist+Bus+Park",
-            "lat": 28.2096,
-            "lng": 83.972
-          },
-          "access": {
-            "from": "レイクサイドの宿",
-            "method": "タクシー",
-            "duration": "約10分",
-            "cost": {
-              "npr": "200-300",
-              "jpy": "210-315"
-            },
-            "steps": [
-              "前夜にフロントへタクシー手配を依頼",
-              "6:30までにバスパーク着",
-              "チケットを見せて自分のバスと座席を確認"
-            ]
-          },
-          "details": {
-            "fee": null,
-            "hours": "-",
-            "bestTime": "6:30集合厳守（30分前）",
-            "duration": "15分",
-            "tips": [
-              "大きな荷物はバスの荷室へ。貴重品は手元に",
-              "同名系のバス会社が並ぶ。チケット記載の会社名・車番と照合"
-            ]
-          }
-        },
-        {
-          "time": "07:00",
-          "period": "morning",
-          "type": "transport",
-          "title": "ツーリストバス出発 — 渓谷ビューは左側席",
-          "description": "各社のツーリストバスが7:00に一斉出発する（デラックス系Jagadambaは7:30発）。スタンダード（2×2 AC）ならNPR 1,200〜1,700、Wi-Fi付きVIPソファ（2×1）ならNPR 1,600〜2,600。Swift HolidaysがVIP NPR 1,600の代表格だ。進行方向左側の席ならトリスリ川の渓谷ビューが延々と続く。プリトビ・ハイウェイは雨季にFishling、Twin Khola（ムグリン〜ナラヤンガート区間）で土砂崩れが頻発し、通常3時間のポカラ→ムグリンが5時間超になった事例もある。8〜10時間かかる前提で、着いてからの予定は入れない。朝7:00発なら大幅遅延でも夜までには着ける — これが雨季にこの便を選ぶ最大の理由だ。",
-          "images": [],
-          "location": {
-            "name": "プリトビ・ハイウェイ（ポカラ→カトマンズ）",
-            "googleMapsUrl": "https://maps.google.com/?q=Pokhara+Tourist+Bus+Park",
-            "lat": 28.2096,
-            "lng": 83.972
-          },
-          "access": {
-            "from": "ポカラ・ツーリストバスパーク",
-            "method": "ツーリストバス（前日予約済み）",
-            "duration": "公称6-7時間、雨季の現実は8-10時間",
-            "cost": {
-              "npr": "1200-2600",
-              "jpy": "1260-2730"
-            },
-            "steps": [
-              "7:00出発",
-              "途中2回程度の食事・トイレ休憩",
-              "15〜17時目安でカトマンズ・ソラクテ/カンティパス周辺着"
-            ]
-          },
-          "details": {
-            "fee": null,
-            "hours": "朝7:00一斉発（各社共通）",
-            "bestTime": "午後発・夜行は雨季は避ける（政府の夜間運行規制の対象にもなり得る）",
-            "duration": "8-10時間",
-            "tips": [
-              "体調不良や道路完全閉鎖時のプランBは国内線（Buddha Air等が1日17便以上、所要25〜30分）。ただし外国人運賃USD 112〜202（17,696〜31,916円）とバスの10倍以上で、雨季は視界不良の遅延・欠航が日常的。午前便ほど飛びやすい",
-              "酔いやすい人は前方座席+酔い止めを",
-              "AC車は強冷。上着を1枚手元に"
-            ]
-          }
-        },
-        {
-          "time": "12:00",
-          "period": "afternoon",
-          "type": "meal",
-          "title": "ハイウェイ沿いのダルバート食堂で昼食休憩",
-          "description": "バスは途中2回ほど休憩を挟む。昼の休憩はハイウェイ沿いのダルバート食堂（NPR 400〜600）で、ドライバーも同じ釜の飯を食う。回転が速いぶん出来たてが出てくるので、雨季でも比較的安心して食べられる。時間が短いこともあるので、車内用のバックアップに軽食を持っておくと気が楽だ。",
-          "images": [],
-          "location": {
-            "name": "プリトビ・ハイウェイ沿いの食堂",
-            "googleMapsUrl": "https://maps.google.com/?q=27.8570,84.4820",
-            "lat": 27.857,
-            "lng": 84.482
-          },
-          "access": {
-            "from": "車中",
-            "method": "バスの休憩停車",
-            "duration": "30分前後",
-            "cost": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "steps": [
-              "休憩時間をドライバーに確認してから離れる"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": "400-600",
-              "jpy": "420-630"
-            },
-            "hours": "-",
-            "bestTime": "-",
-            "duration": "30分",
-            "tips": [
-              "トイレは有料のことも。小額紙幣を用意"
-            ]
-          }
-        },
-        {
-          "time": "16:00",
-          "period": "afternoon",
-          "type": "transport",
-          "title": "カトマンズ着 — タメルへ徒歩10分",
-          "description": "順調なら15〜17時、カトマンズのソラクテ（Sorhakhutte）/カンティパス周辺に到着する。ここは旅行者街タメルまで徒歩10分圏。8時間走ってきた体には、最後のひと歩きがちょうどいい準備運動になる。荷物が重ければタクシー（NPR 200〜300）を拾ってもいい。標高約1,400mの盆地の空気は、雨が塵を洗い流す雨季が年間で最も澄んでいる。",
-          "images": [],
-          "location": {
-            "name": "ソラクテ/カンティパス（バス到着地）",
-            "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123",
-            "lat": 27.7154,
-            "lng": 85.3123
-          },
-          "access": {
-            "from": "バス到着地",
-            "method": "徒歩（またはタクシー）",
-            "duration": "徒歩10分",
-            "cost": {
-              "npr": "0-300",
-              "jpy": "0-315"
-            },
-            "steps": [
-              "バスを降りたらタメル方面へ徒歩10分",
-              "客引きのタクシーは不要。使うなら乗車前に交渉"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "hours": "-",
-            "bestTime": "-",
-            "duration": "10-15分",
-            "tips": [
-              "タメルは夜も騒がしいので、宿は路地奥・中庭側の部屋を指定すると眠りやすい"
-            ]
-          }
-        },
-        {
-          "time": "16:45",
-          "period": "afternoon",
-          "type": "activity",
-          "title": "チェックイン — 今夜から5泊まとめて確保、SIM・両替も",
-          "description": "宿にチェックインしたら、今夜（8/9）から8/13泊までの5泊をまとめて確保する。雨季のタメルはオフシーズンで空室が多く、5連泊なら料金交渉も通りやすい。最終日は早朝の空港移動があるので、「24時間空港送迎」付きの宿を選んでおくと出発問題が一気に解決する。続いて生活インフラ — SIMはNTCかNcellで、パスポート+証明写真1枚で購入（NTC 1GB/日×7日+通話60分=NPR 500が目安）。配車アプリPathao・inDriveの登録には現地番号が必要なので、SIMは今日中に済ませたい。両替はタメルの公認両替商（電光レート掲示）が便利で、日本円現金もOK。レシートは再両替時に必要なので保管を。",
-          "images": [],
-          "location": {
-            "name": "タメル地区",
-            "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123",
-            "lat": 27.7154,
-            "lng": 85.3123
-          },
-          "access": {
-            "from": "タメルの宿",
-            "method": "徒歩",
-            "duration": "5-10分",
-            "cost": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "steps": [
-              "5泊分のレートを交渉してチェックイン",
-              "正規ショップでSIM購入（空港カウンターは市内の約1.5倍）",
-              "公認両替商でNPRを補充",
-              "PathaoとinDriveをインストール・登録"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": "500-700",
-              "jpy": "525-735"
-            },
-            "hours": "店は夜まで営業",
-            "bestTime": "到着後すぐ",
-            "duration": "1時間",
-            "tips": [
-              "inDriveのコツ: Pathao車価格の10〜15%下で提示→ドライバーがカウンター提示",
-              "ATMラウンジで下ろすなら手数料定額（NPR 500〜700）なので1回で大きく"
-            ]
-          }
-        },
-        {
-          "time": "17:45",
-          "period": "evening",
-          "type": "spot",
-          "title": "タメル散策 — 旅行者街の夕暮れ",
-          "description": "登山用品店・土産物屋・レストラン・両替・ATMが密集する旅行者街タメルを歩く。夜は22時頃まで賑わい、ネオンと石畳、行き交うバイクの喧騒がカトマンズらしい。トレッキングツアーの客引きや「日本語で話しかけてくる人」は、笑顔でNo, thank youを繰り返せば実害なし。歩き疲れたら、タメル南端のガーデン・オブ・ドリームス（入場NPR 200、9:00〜21:00）というネオクラシカル庭園が喧騒からの避難先になる。買い物の下見は今夜、本番は滞在後半に回すのが賢い。",
-          "images": [
-            {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thamel_at_night_-_Kathmandu,_Nepal_-_panoramio_(1).jpg",
-              "alt": "夜のタメル",
-              "credit": "Wikimedia Commons"
-            },
-            {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Garden_of_Dreams.jpg",
-              "alt": "ガーデン・オブ・ドリームス",
-              "credit": "Wikimedia Commons"
-            }
-          ],
-          "location": {
-            "name": "タメル地区",
-            "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123",
-            "lat": 27.7154,
-            "lng": 85.3123
-          },
-          "access": {
-            "from": "宿",
+            "from": "宿（レイクサイド）",
             "method": "徒歩",
             "duration": "-",
             "cost": {
@@ -4479,7 +3703,164 @@
               "jpy": 0
             },
             "steps": [
-              "メインストリートを一周して土地勘をつかむ"
+              "朝食→湖畔散歩→荷造り",
+              "フロントに空港行きタクシーを依頼",
+              "チェックアウト精算（昼までレイトチェックアウト交渉も可）"
+            ]
+          },
+          "details": {
+            "fee": {
+              "npr": "300-600",
+              "jpy": "315-630"
+            },
+            "hours": "-",
+            "bestTime": "朝のうちに空港送りの段取りを済ませる",
+            "duration": "午前いっぱい",
+            "tips": [
+              "国内線は預け荷物の重量制限が国際線より厳しめ（Buddha Airは預け25kg+手荷物5kgが目安）。土産の詰め方に注意",
+              "残ったポカラ土産の買い物があればオールドバザールではなく近場のレイクサイドで手早く"
+            ]
+          }
+        },
+        {
+          "time": "14:30",
+          "period": "afternoon",
+          "type": "transport",
+          "title": "レイクサイド → ポカラ空港へ",
+          "description": "昼食を済ませたらタクシーで空港へ。レイクサイドから約3〜5km、NPR 400〜600・15〜20分の道のりだ。国内線は出発45分〜1時間前の空港着で十分間に合う小ささだが、雨季は便の前倒し・繰り下げが普通にあるので、早めに着いてカウンターで状況を確認しておくと安心できる。",
+          "images": [],
+          "location": {
+            "name": "ポカラ国際空港（国内線ターミナル）",
+            "googleMapsUrl": "https://maps.google.com/?q=28.2010,84.0007",
+            "lat": 28.201,
+            "lng": 84.0007
+          },
+          "access": {
+            "from": "レイクサイドの宿",
+            "method": "タクシー（朝のうちに宿へ手配依頼）",
+            "duration": "15〜20分",
+            "cost": {
+              "npr": "400-600",
+              "jpy": "420-630"
+            },
+            "steps": [
+              "出発1時間前を目安に空港着",
+              "カウンターでチェックイン（パスポート提示）",
+              "手荷物検査を抜けて待合へ"
+            ]
+          },
+          "details": {
+            "fee": null,
+            "hours": "-",
+            "bestTime": "余裕を持って1時間前着",
+            "duration": "15〜20分",
+            "tips": [
+              "遅延・欠航情報はカウンターが最速。搭乗案内の放送が聞き取りにくいので電光掲示とスタッフ確認を"
+            ]
+          }
+        },
+        {
+          "time": "16:00",
+          "period": "afternoon",
+          "type": "transport",
+          "title": "国内線でカトマンズへ — 空の25分",
+          "description": "Buddha Air（1日12便以上）またはYeti Airlines（1日4〜5便）のプロペラ機で、バスなら8〜10時間の道のりをわずか25〜30分で飛ぶ。外国人運賃は片道USD 110〜130（17,380〜20,540円）。雲が切れれば右手にマナスル、左手に緑の丘陵と蛇行する川という、雨季ならではの潤んだ景色が窓いっぱいに広がる。雨季は視界不良による遅延が日常的だが、飛んでしまえばあっけないほど速い。カトマンズ・トリブバン空港の国内線ターミナル着。",
+          "images": [],
+          "location": {
+            "name": "ポカラ → トリブバン国際空港（国内線）",
+            "googleMapsUrl": "https://maps.google.com/?q=27.6966,85.3591",
+            "lat": 27.6966,
+            "lng": 85.3591
+          },
+          "access": {
+            "from": "ポカラ空港",
+            "method": "国内線（Buddha Air / Yeti Airlines）",
+            "duration": "25〜30分",
+            "cost": {
+              "usd": "110-130",
+              "jpy": "17380-20540"
+            },
+            "steps": [
+              "搭乗（座席は自由席のことも。窓側を早めに確保）",
+              "25〜30分のフライト",
+              "カトマンズ国内線ターミナルで荷物受け取り"
+            ]
+          },
+          "details": {
+            "fee": null,
+            "hours": "Buddha Airは1日12便以上、Yetiは4〜5便",
+            "bestTime": "雨季は午前便ほど定時性が高い。午後便は遅延前提で構える",
+            "duration": "25〜30分（遅延バッファ込みで半日みる）",
+            "tips": [
+              "進行方向右側の席なら晴れ間にマナスル・ガネッシュヒマールが見えるチャンス",
+              "プロペラ機は揺れやすい。酔いやすい人は搭乗前に酔い止めを",
+              "欠航時は翌便振替が通例。今日中に着けない事態に備え、宿には「遅くなるかも」と一報を"
+            ]
+          }
+        },
+        {
+          "time": "17:15",
+          "period": "evening",
+          "type": "transport",
+          "title": "空港からタクシーでタメルへ",
+          "description": "国内線ターミナルを出ると客引きが群がるが、落ち着いてプリペイドタクシーカウンターか、乗車前に金額を握った交渉タクシーで。空港からタメルまでは約6km、相場はNPR 700〜1,000（735〜1,050円）・渋滞次第で20〜40分だ。SIMが生きていればPathaoを呼ぶ手もある（車NPR 400〜500と安いが、空港敷地内はピックアップ位置の指定にコツがいる）。夕暮れのカトマンズは標高約1,400m。ポカラより一枚涼しい空気が、盆地に着いたことを教えてくれる。",
+          "images": [],
+          "location": {
+            "name": "トリブバン空港 → タメル地区",
+            "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123",
+            "lat": 27.7154,
+            "lng": 85.3123
+          },
+          "access": {
+            "from": "トリブバン空港・国内線ターミナル",
+            "method": "プリペイドタクシーまたは交渉タクシー",
+            "duration": "20〜40分（約6km）",
+            "cost": {
+              "npr": "700-1000",
+              "jpy": "735-1050"
+            },
+            "steps": [
+              "ターミナル出口のプリペイドカウンターで行き先を告げて支払い",
+              "レシートを持って指定のタクシーへ",
+              "タメルの宿の名前を見せて降車"
+            ]
+          },
+          "details": {
+            "fee": null,
+            "hours": "-",
+            "bestTime": "-",
+            "duration": "20〜40分",
+            "tips": [
+              "「メーターは壊れた」が定番の街。プリペイドか事前交渉で金額を固定してから乗る",
+              "夕方は渋滞帯。多少時間がかかっても焦らない"
+            ]
+          }
+        },
+        {
+          "time": "18:15",
+          "period": "evening",
+          "type": "activity",
+          "title": "チェックイン — 今夜から6泊をまとめて確保",
+          "description": "宿に着いたら、今夜（8/8）から8/13泊まで6泊をまとめて確保する。雨季のタメルはオフシーズンで空室が多く、6連泊なら料金交渉が通りやすい。8/14は朝3:15にホテルを出る超早朝発なので、「24時間空港送迎」付きの宿を選んでおくと最終日の問題が一気に解決する。ついでに両替（タメルの公認両替商は21時頃まで）とSIMのリチャージも今夜のうちに済ませられれば、明日から身軽に動ける。",
+          "images": [],
+          "location": {
+            "name": "タメル地区",
+            "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123",
+            "lat": 27.7154,
+            "lng": 85.3123
+          },
+          "access": {
+            "from": "タメルのタクシー降車地点",
+            "method": "徒歩",
+            "duration": "すぐ",
+            "cost": {
+              "npr": 0,
+              "jpy": 0
+            },
+            "steps": [
+              "6泊分のレートを交渉してチェックイン",
+              "公認両替商でNPRを補充（レシートは再両替用に保管）",
+              "SIM残量の確認・リチャージ"
             ]
           },
           "details": {
@@ -4487,30 +3868,31 @@
               "npr": 0,
               "jpy": 0
             },
-            "hours": "店は10時頃〜22時頃",
-            "bestTime": "買い物は夕方、散策は朝",
-            "duration": "1-1.5時間",
+            "hours": "両替・SIMショップは21〜22時頃まで",
+            "bestTime": "チェックイン直後",
+            "duration": "30分〜1時間",
             "tips": [
-              "ガーデン・オブ・ドリームスはNPR 200（210円）、9:00-21:00毎日。併設カイザー・カフェでお茶なら2時間コース",
-              "スリは混雑するアサン・バザールで注意"
+              "タメルは夜も騒がしいので、路地奥・中庭側の部屋を指定すると眠りやすい",
+              "配車アプリPathao・inDrive未登録なら今夜インストール（登録に現地番号が必要）",
+              "ATMラウンジは手数料定額（NPR 500〜700）なので1回で大きく下ろす"
             ]
           }
         },
         {
           "time": "19:30",
-          "period": "evening",
+          "period": "night",
           "type": "meal",
-          "title": "ネワール料理で首都の初夜を祝う",
-          "description": "夕食はタメルで最も評価の高いネワール料理店、Jheegu Bhwoychhenへ。ネワリカジャセット、バフ（水牛）モモ、チキンチョイラ（スパイシー炙り肉）あたりが看板だ。カトマンズ盆地の先住民ネワール族の食文化は香辛料の使い方が独特で、ポカラで食べ慣れたタカリ料理との違いが面白い。予算は1人NPR 400〜800。庭席が気持ちいいDechenling Gardenのモモ（「街一番」の評あり）を選んでもいい。雨季は屋根席がある店だと安心だ。",
+          "title": "宿の近くで軽い夕食 — 今夜は無理をしない",
+          "description": "移動日の締めは、宿から徒歩5分圏で軽く済ませる。タカリー食堂のダルバート（NPR 450〜700）か、Kachila'zのモモとラッシーあたりがちょうどいい。タメルの本格ネワール料理や買い物は、明日からの5日間にたっぷり時間がある。今夜は22時までに床について、明日朝のスワヤンブナートに備える。",
           "images": [],
           "location": {
-            "name": "Jheegu Bhwoychhen（タメル）",
-            "googleMapsUrl": "https://maps.google.com/?q=Jheegu+Bhwoychhen+Thamel+Kathmandu",
+            "name": "タメル地区の食堂",
+            "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123",
             "lat": 27.7154,
             "lng": 85.3123
           },
           "access": {
-            "from": "タメル散策から直行",
+            "from": "宿（タメル）",
             "method": "徒歩",
             "duration": "5分",
             "cost": {
@@ -4518,61 +3900,57 @@
               "jpy": 0
             },
             "steps": [
-              "タメル中心部から徒歩"
+              "宿の近くの食堂へ。夜は表通りを歩く"
             ]
           },
           "details": {
             "fee": {
-              "npr": "400-800",
-              "jpy": "420-840"
+              "npr": "300-700",
+              "jpy": "315-735"
             },
-            "hours": "11:00-21:00頃",
-            "bestTime": "19-20時",
-            "duration": "1-1.5時間",
+            "hours": "21時頃まで",
+            "bestTime": "早めの夕食",
+            "duration": "1時間",
             "tips": [
-              "ラッシー・チャン（どぶろく）は店を選ぶ。胃腸が弱ければ初日は避ける",
-              "本場のサマエバジ（ネワール族の儀式定食）はパタンの老舗ホナチャで食べるのが本物。パタン観光の日の楽しみに取っておく"
+              "雨季は加熱調理済みのものを。生野菜・氷は最後まで避ける",
+              "明日はパスポート持参（ダルバール広場のVisitor Pass手続きに必要）と覚えておく"
             ]
           }
         }
       ],
       "food": {
         "localSpecialties": [
-          "ネワリカジャセット",
-          "バフモモ",
-          "チキンチョイラ",
-          "チャタマリ（ネワール版ピザ）",
-          "ダルバート（タカリーセット）"
+          "ダルバート（タカリーセット）",
+          "モモ（ネパール餃子）",
+          "ネワール料理（明日以降のお楽しみ）"
         ],
         "mustTry": {
-          "dish": "ネワリカジャセット",
-          "description": "干し米（チウラ）にスパイシーな炙り肉や揚げ豆、アチャールを盛るネワール族の軽食セット。カトマンズ盆地でしか出会えない味で、タメルならJheegu Bhwoychhenが最高評価。1人NPR 400〜800（420〜840円）。",
+          "dish": "移動日の夜はタカリー食堂のダルバート",
+          "description": "豆スープ・青菜・アチャールおかわり自由の定食は、移動で疲れた体にいちばん優しい。ひとりNPR 450〜700（472〜735円）。本格ネワール料理は明日からの5日間に取っておく。",
           "image": {
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thamel_at_night_-_Kathmandu,_Nepal_-_panoramio_(1).jpg",
+            "url": "/travelplannerv2/img/thamel-at-night-kathmandu-nepal-panoramio-1-.jpg",
             "alt": "夜のタメル"
           }
         },
         "restaurants": [
           {
-            "name": "Jheegu Bhwoychhen",
-            "type": "ネワール料理",
-            "budget": "mid",
+            "name": "Thakali Bhanchha Ghar系（タカリー食堂）",
+            "type": "ダルバート食堂",
+            "budget": "cheap",
             "priceRange": {
-              "npr": "400-800",
-              "jpy": "420-840"
+              "npr": "450-700",
+              "jpy": "472-735"
             },
             "popular": [
-              "ネワリカジャセット",
-              "バフモモ",
-              "チキンチョイラ"
+              "ダルバート（タカリーセット）"
             ],
             "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Jheegu%20Bhwoychhen%20Thamel%20Kathmandu"
+              "googleMapsUrl": "https://maps.google.com/?q=Thakali%20Bhanchha%20Ghar%20Thamel%20Kathmandu"
             }
           },
           {
             "name": "Kachila'z",
-            "type": "ネワール小皿・軽食",
+            "type": "軽食・モモ",
             "budget": "cheap",
             "priceRange": {
               "npr": "300-600",
@@ -4587,65 +3965,34 @@
             }
           },
           {
-            "name": "Thakali Bhanchha Ghar系（タカリー食堂）",
-            "type": "タカリ料理",
-            "budget": "mid",
+            "name": "Hot Breads BakeHouse",
+            "type": "ベーカリーカフェ（朝6:00開店。明日以降の朝食に）",
+            "budget": "cheap",
             "priceRange": {
-              "npr": "450-700",
-              "jpy": "472-735"
+              "npr": "300-600",
+              "jpy": "315-630"
             },
             "popular": [
-              "ダルバート（タカリーセット、豆スープ・青菜・アチャールおかわり無料）"
+              "クロワッサン・デニッシュ",
+              "サンドイッチ+コーヒー"
             ],
             "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Thakali%20Bhanchha%20Ghar%E7%B3%BB(%E3%82%BF%E3%82%AB%E3%83%AA%E3%83%BC%E9%A3%9F%E5%A0%82)%20Thamel%20Kathmandu"
-            }
-          },
-          {
-            "name": "Dechenling Garden",
-            "type": "チベット料理",
-            "budget": "mid",
-            "priceRange": {
-              "npr": "500-900",
-              "jpy": "525-945"
-            },
-            "popular": [
-              "モモ（「街一番」評あり）"
-            ],
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Dechenling%20Garden%20Thamel%20Kathmandu"
-            }
-          },
-          {
-            "name": "Pasa Newari Kitchen",
-            "type": "ネワール料理",
-            "budget": "mid",
-            "priceRange": {
-              "npr": "400-800",
-              "jpy": "420-840"
-            },
-            "popular": [
-              "チャタマリ",
-              "ダルバート"
-            ],
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Pasa%20Newari%20Kitchen%20Thamel%20Kathmandu"
+              "googleMapsUrl": "https://maps.google.com/?q=Hot%20Breads%20BakeHouse%20Thamel%20Kathmandu"
             }
           }
         ],
         "drinks": [
-          "チャン（ネワールのどぶろく、店を選んで）",
-          "ラッシー",
-          "ネパール紅茶"
+          "ネパール紅茶",
+          "ペットボトル水（1L NPR 25〜50）"
         ],
         "safetyTips": [
-          "水道水・生水・氷は不可。ペットボトル水（1L NPR 25〜50）か浄水タブレット",
-          "雨季は生野菜サラダ・切り売りフルーツを避ける。加熱調理済みを選ぶ",
-          "手指消毒ジェル携行。スプーンをもらってOK"
+          "水道水・生水・氷は不可。ペットボトル水か浄水タブレットを",
+          "移動日の夜は食べ過ぎない。胃腸を明日からの5日間のために温存",
+          "手指消毒ジェルを食前に"
         ]
       },
       "accommodation": {
-        "area": "カトマンズ・タメル地区【今夜（8/9）から8/13泊まで5泊まとめて確保。チェックイン時に5泊分のレート交渉を】",
+        "area": "カトマンズ・タメル地区【今夜（8/8）から8/13泊まで6泊まとめて確保。チェックイン時に6泊分のレート交渉を】",
         "recommendations": [
           {
             "name": "Oasis Kathmandu Hotel",
@@ -4654,7 +4001,7 @@
               "npr": "3500-7000",
               "jpy": "3675-7350"
             },
-            "bookingTip": "朝食・空港送迎付きで評価9.4。最終日の早朝空港行きを考えると「24時間空港送迎」付きの宿が正解。Booking.com/Agodaで現地払いプランを",
+            "bookingTip": "朝食・空港送迎付きで評価9.4。最終日8/14は3:15発なので「24時間空港送迎」付きの宿が正解。Booking.com/Agodaで現地払いプランを",
             "location": {
               "googleMapsUrl": "https://maps.google.com/?q=Oasis%20Kathmandu%20Hotel%20Thamel%20Kathmandu"
             }
@@ -4690,21 +4037,13 @@
           "ネパール紅茶（イラム茶）",
           "パシュミナ",
           "シンギングボウル",
-          "フェルト製品",
-          "ダッカ織帽子"
+          "フェルト製品"
         ],
-        "priceGuide": "イラム茶100g NPR 300〜800（315〜840円）は軽くて配りやすい定番。本物のパシュミナショールはNPR 5,000〜（5,250円〜）で、タメルのNPR 1,000〜2,500品はほぼアクリル混。フェルト小物NPR 200〜1,000（210〜1,050円）はばらまき土産に最適。値切りは言い値の30〜50%着地が目安 — 20〜35%引きからスタートし、笑顔で粘り、ダメなら立ち去る（呼び戻されたら勝ち）",
+        "priceGuide": "今夜は買わない。タメルは交渉前提の街（言い値の30〜50%着地が目安）なので、滞在中に下見→最終日8/13に買い納めの流れが賢い",
         "shops": [
           {
             "name": "タメルの土産物店街",
-            "description": "交渉前提の観光商店街。今夜は相場の下見に徹し、買うのは滞在後半で",
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123"
-            }
-          },
-          {
-            "name": "Shanker's Pashmina House等の専門店",
-            "description": "本物のパシュミナ判定は「指輪に通るか・燃やすと毛髪臭」。老舗専門店なら試させてくれる",
+            "description": "登山用品店・土産物屋・両替・ATMが密集。今夜は宿までの道すがら眺めるだけで十分",
             "location": {
               "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123"
             }
@@ -4712,42 +4051,42 @@
         ]
       },
       "transport": {
-        "to": "カトマンズ市内観光（翌8/10はスワヤンブナート、ダルバール広場方面から）",
+        "to": "カトマンズ市内観光（翌8/9はスワヤンブナート、ダルバール広場方面から）",
         "method": "徒歩+Pathao/inDrive",
         "duration": "スワヤンブナートへ車15分、ダルバール広場へ徒歩20-25分",
         "cost": {
           "npr": "100-500",
           "jpy": "105-525"
         },
-        "bookingInfo": "予約不要。SIM取得済みならPathao（固定料金制）かinDrive（運賃提示制）をアプリから呼ぶ",
+        "bookingInfo": "予約不要。Pathao（固定料金制）かinDrive（運賃提示制）をアプリから呼ぶ",
         "steps": [
           "スワヤンブナート（モンキーテンプル）へはPathaoバイクNPR 100〜150/車NPR 250〜350、15分。ベストは早朝6〜8時",
           "カトマンズ・ダルバール広場へはタメルから南へ徒歩20〜25分。アサン・バザール経由が楽しい"
         ],
         "tips": [
-          "雨季の観光は午前勝負、午後は屋内かカフェへ — カトマンズも8月は雨日15日前後だが、雨は午後〜夜の1〜2時間集中型が多い",
-          "ダルバール広場のチケット（NPR 1,000）は、クマリの館横のツーリストオフィスでパスポート+証明写真1枚を出すと滞在期間有効のVisitor Passに無料延長できる。初日に手続きすると再訪自由"
+          "雨季の観光は午前勝負、午後は屋内かカフェへ — カトマンズの8月の雨は午後〜夜の1〜2時間集中型が多い",
+          "ダルバール広場のチケット（NPR 1,000）は、クマリの館横のツーリストオフィスでパスポート+証明写真1枚を出すと滞在期間有効のVisitor Passに無料延長できる。明日の最初に手続きすると再訪自由"
         ]
       }
     },
     {
-      "day": 10,
-      "date": "2026-08-10",
+      "day": 9,
+      "date": "2026-08-09",
       "title": "猿の聖山から旧王宮、そして最後の王宮へ——カトマンズ西側をめぐる",
       "area": "カトマンズ（タメル・市内西側）",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Swayambhunath_2018.jpg",
+        "url": "/travelplannerv2/img/swayambhunath-2018.jpg",
         "alt": "丘の上に立つスワヤンブナートの仏塔",
         "credit": "Wikimedia Commons"
       },
-      "summary": "カトマンズ観光の初日は市内西側から。朝のうちに丘の上のスワヤンブナート（モンキーテンプル）へ登り、盆地を一望したら旧王宮のカトマンズ・ダルバール広場へ。チケットはパスポートと写真1枚で滞在期間有効のVisitor Passに無料延長できるので、初日に必ず手続きしておく。午後は月曜開館のナラヤンヒティ王宮博物館で王制ネパールの最期に触れ、向かいのガーデン・オブ・ドリームスで雨をやり過ごす。夜はタメルでネワール料理を。",
+      "summary": "日曜日、カトマンズ観光の初日は市内西側から。朝のうちに丘の上のスワヤンブナート（モンキーテンプル）へ登り、盆地を一望したら旧王宮のカトマンズ・ダルバール広場へ。チケットはパスポートと写真1枚で滞在期間有効のVisitor Passに無料延長できるので、初日に必ず手続きしておく。午後は日曜開館のナラヤンヒティ王宮博物館で王制ネパールの最期に触れ、向かいのガーデン・オブ・ドリームスで雨をやり過ごす。夜はタメルでネワール料理を。",
       "areaInfo": {
         "walkable": true,
         "walkableNote": "タメル〜ダルバール広場は徒歩20〜25分の圏内。ナラヤンヒティ王宮博物館はタメルから徒歩10〜15分。スワヤンブナートは西へ3kmなのでPathaoかタクシーが楽",
         "transportNeeded": "配車アプリはPathao（固定料金制）とinDrive（運賃提示式）。市内はバイク便100〜150 NPR、車400〜500 NPRが相場で、流しのタクシーより3〜5割安い",
         "atm": "タメルに複数銀行が集まる「ATMラウンジ」あり。外国カード手数料は1回500〜700 NPR（525〜735円）の定額なので、Nabil・Siddhartha銀行の上限35,000 NPRを1回で下ろすのが得",
         "wifi": "ホテル・カフェでWiFi普及。雨季は瞬停が起きるのでモバイルバッテリー携行",
-        "sim": "NTCかNcell。パスポート+証明写真1枚で購入。空港カウンターは市内の約1.5倍なのでタメルの正規ショップで（目安: NTC 1GB/日×7日+通話60分=500 NPR）。PathaoやinDriveの登録に現地番号が必要",
+        "sim": "ポカラで使っていたNTC/Ncellがそのまま使える。リチャージはタメルの正規ショップで（空港カウンターは市内の約1.5倍）。PathaoやinDriveの登録に現地番号が必要",
         "safety": "凶悪犯罪は少ない。タメルの客引き（トレッキング勧誘・タイガーバーム売り）は笑顔でNo, thank youを繰り返せば実害なし。混雑するアサン・バザールではスリに注意、夜は表通りを歩く",
         "convenience": "タメルに両替商（電光レート掲示の公認店）、薬局、雑貨店が密集。ペットボトル水は1L 25〜50 NPR"
       },
@@ -4788,7 +4127,7 @@
             "tips": [
               "水道水・氷は不可。飲み物はペットボトル水（1L 25〜50 NPR）を",
               "雨季は生野菜サラダとカットフルーツを避け、加熱調理済みを選ぶ",
-              "今日は月曜。ナラヤンヒティ王宮博物館の開館日なので、パスポートを持って出る（ダルバール広場のVisitor Pass手続きにも必要）"
+              "今日は日曜。ナラヤンヒティ王宮博物館の開館日（窓口は14:30頃まで）なので、パスポートを持って出る（ダルバール広場のVisitor Pass手続きにも必要）"
             ]
           }
         },
@@ -4800,7 +4139,7 @@
           "description": "丘の上に立つ巨大仏塔からカトマンズ盆地を一望できる聖地。東側の365段の石段を登るのが正道で、朝6〜8時は巡礼者のコルラ（右回りの周回）と朝霧の街並みが重なる最良の時間帯だ。境内には野生のアカゲザルが多数いて、食べ物やビニール袋を見せると容赦なく強奪される。仏塔の周りは時計回りに歩くのが作法。雨上がりの石段はよく滑るので手すりを使いたい。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Swayambhunath_2018.jpg",
+              "url": "/travelplannerv2/img/swayambhunath-2018.jpg",
               "alt": "スワヤンブナートの仏塔と仏眼",
               "credit": "Wikimedia Commons"
             }
@@ -4845,10 +4184,10 @@
           "period": "morning",
           "type": "spot",
           "title": "カトマンズ・ダルバール広場（ハヌマンドカ）でVisitor Pass手続き",
-          "description": "旧王宮を中心に寺院が林立する広場で、生き神クマリが住む「クマリの館」や巨大なカーラ・バイラブ像が見どころ。2015年の地震で複数の寺院が倒壊したが、カスタマンダップの再建など主要建造物の修復はほぼ完了している。チケットは当日限りだが、広場内クマリの館横のツーリストオフィスでパスポートと証明写真1枚を出せば、滞在ビザ期間有効のVisitor Passに無料延長できる。タメルに5泊する今回は、初日のこの手続きで再訪自由になる。自称ガイドや絵売りの客引きが多いが、不要ならはっきり断れば問題ない。",
+          "description": "旧王宮を中心に寺院が林立する広場で、生き神クマリが住む「クマリの館」や巨大なカーラ・バイラブ像が見どころ。2015年の地震で複数の寺院が倒壊したが、カスタマンダップの再建など主要建造物の修復はほぼ完了している。チケットは当日限りだが、広場内クマリの館横のツーリストオフィスでパスポートと証明写真1枚を出せば、滞在ビザ期間有効のVisitor Passに無料延長できる。タメルに6泊する今回は、初日のこの手続きで再訪自由になる。自称ガイドや絵売りの客引きが多いが、不要ならはっきり断れば問題ない。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Basantapurpalace.JPG",
+              "url": "/travelplannerv2/img/basantapurpalace.jpg",
               "alt": "カトマンズ・ダルバール広場のバサンタプル旧王宮",
               "credit": "Wikimedia Commons"
             }
@@ -4936,10 +4275,10 @@
           "period": "afternoon",
           "type": "spot",
           "title": "ナラヤンヒティ王宮博物館——王制ネパール最期の現場",
-          "description": "2008年の王制廃止まで実際に使われていた旧王宮。天井高18mの謁見の間「ゴルカ・バイタク」、宝冠、各国元首の贈答品と続く見学路の最後に、2001年6月1日のディペンドラ皇太子による王族殺害事件の現場「トリブバン・サダン」が待っている。建物自体は取り壊され、跡地には銃痕の残る壁の一部と説明板だけが残る——ここで王と王妃を含む10人が命を落とし、7年後に240年続いた王制そのものが幕を下ろした。館内は撮影禁止で、スマホ・カメラ・バッグはすべて入口の無料ロッカーに預ける。完全屋内中心なので雨の午後の切り札でもある。月曜の今日は確実な開館日（水曜休館）。",
+          "description": "2008年の王制廃止まで実際に使われていた旧王宮。天井高18mの謁見の間「ゴルカ・バイタク」、宝冠、各国元首の贈答品と続く見学路の最後に、2001年6月1日のディペンドラ皇太子による王族殺害事件の現場「トリブバン・サダン」が待っている。建物自体は取り壊され、跡地には銃痕の残る壁の一部と説明板だけが残る——ここで王と王妃を含む10人が命を落とし、7年後に240年続いた王制そのものが幕を下ろした。館内は撮影禁止で、スマホ・カメラ・バッグはすべて入口の無料ロッカーに預ける。完全屋内中心なので雨の午後の切り札でもある。日曜の今日は確実な開館日（水曜休館、木〜月曜開館）。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Narayanhiti%20Palace%20Museum.jpg",
+              "url": "/travelplannerv2/img/narayanhiti-palace-museum.jpg",
               "alt": "ナラヤンヒティ王宮博物館",
               "credit": "Wikimedia Commons"
             }
@@ -4969,13 +4308,13 @@
               "npr": 1000,
               "jpy": 1050
             },
-            "hours": "月曜は開館（水曜休館、火曜は短縮か休館でソースが割れる）。窓口は遅くとも14:30頃まで",
+            "hours": "日曜は開館（水曜休館、火曜は短縮か休館でソースが割れる）。窓口は遅くとも14:30頃まで",
             "bestTime": "13時台までに入場が安全",
             "duration": "1.5〜2時間",
             "tips": [
               "【重要】館内は撮影禁止。スマホもロッカーに預けるので「記録より記憶」の場所",
               "パスポート等の貴重品のみ携行可",
-              "開館日時はソース差があるので窓口で要確認。今回の滞在では月曜の今日と木曜8/13が確実な開館日",
+              "開館日時はソース差があるので窓口で要確認。今回の滞在では日曜の今日と明日月曜、木曜8/13が確実な開館日",
               "見学後は向かいのガーデン・オブ・ドリームスへ徒歩1〜2分"
             ]
           }
@@ -4988,7 +4327,7 @@
           "description": "王宮博物館の斜め向かい、タメル南端に潜むネオクラシカル庭園。雨季の午後、降り出したスコールをやり過ごすのにこれ以上の場所はない。芝生では読書する地元カップルと旅行者がのんびり過ごし、タメルの喧騒が嘘のように静かだ。併設のカイザー・カフェでお茶をすれば2時間はあっという間。王宮の窓から見えた「夢の庭」で、さっきまで見ていた王家の物語を反芻するのも悪くない。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Garden_of_Dreams.jpg",
+              "url": "/travelplannerv2/img/garden-of-dreams.jpg",
               "alt": "ガーデン・オブ・ドリームスの庭園",
               "credit": "Wikimedia Commons"
             }
@@ -5021,7 +4360,7 @@
             "duration": "1〜2時間",
             "tips": [
               "旧料金400 NPRを載せる古い情報があるが、2025年時点は200 NPR（窓口で要確認）",
-              "この日のうちにタメルの正規ショップでSIM調達を済ませておくと配車アプリ登録がスムーズ"
+              "帰り道のタメルで、8/12夕方のアーユルヴェーダ（シロダーラ）の予約を入れておくと確実。Nepal Ayurveda HomeやINMはWhatsApp/メールで1〜2日前予約が推奨"
             ]
           }
         },
@@ -5076,7 +4415,7 @@
           "dish": "ネワリカジャセット",
           "description": "干し米チウラを軸に、水牛のチョイラ、豆の揚げ物、アチャール（薬味）を少しずつ盛る軽食セット。ネワール族の食文化の入口としてまず食べたい一皿で、タメルのJheegu Bhwoychhenが名店。",
           "image": {
-            "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thamel_at_night_-_Kathmandu,_Nepal_-_panoramio_(1).jpg",
+            "url": "/travelplannerv2/img/thamel-at-night-kathmandu-nepal-panoramio-1-.jpg",
             "alt": "夜のタメル地区"
           }
         },
@@ -5098,7 +4437,7 @@
               "googleMapsUrl": "https://maps.google.com/?q=Jheegu%20Bhwoychhen%20Thamel%20Kathmandu"
             },
             "image": {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thamel_at_night_-_Kathmandu,_Nepal_-_panoramio_(1).jpg",
+              "url": "/travelplannerv2/img/thamel-at-night-kathmandu-nepal-panoramio-1-.jpg",
               "alt": "タメルの街並み"
             }
           },
@@ -5166,7 +4505,7 @@
         ]
       },
       "accommodation": {
-        "area": "タメル地区（8/9から5連泊の2泊目。宿はDay 9と同じ）",
+        "area": "タメル地区（8/8から6連泊の2泊目。宿はDay 8と同じ）",
         "recommendations": [
           {
             "name": "Zostel Kathmandu / Hotel Family Home など",
@@ -5249,16 +4588,16 @@
       }
     },
     {
-      "day": 11,
-      "date": "2026-08-11",
+      "day": 10,
+      "date": "2026-08-10",
       "title": "ボダナートの朝コルラ、バグマティ川の聖地、夕暮れのアサン・バザール",
       "area": "カトマンズ（市内東側: ボダナート・パシュパティナート → アサン）",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boudhanath_stupa_,_Kathmandu,_Nepal.jpg",
+        "url": "/travelplannerv2/img/boudhanath-stupa-kathmandu-nepal.jpg",
         "alt": "ボダナートの巨大ストゥーパ",
         "credit": "Wikimedia Commons"
       },
-      "summary": "3日目は市内東側の二大聖地へ。朝のボダナートで巡礼者に混じってコルラ（右回りの周回）を歩き、ルーフトップカフェから白亜のストゥーパを見下ろす。午後は徒歩30分のパシュパティナートへ移動し、バグマティ川の対岸から公開火葬を静かに見学する。ここは観光地である前に葬送の場。撮影マナーの厳守が何より大切だ。夕方はタメルに戻り、買い物客でいちばん活気づく時間のアサン・バザール〜インドラチョークを歩いて一日を締める。",
+      "summary": "月曜日、カトマンズ2日目は市内東側の二大聖地へ。朝のボダナートで巡礼者に混じってコルラ（右回りの周回）を歩き、ルーフトップカフェから白亜のストゥーパを見下ろす。午後は徒歩30分のパシュパティナートへ移動し、バグマティ川の対岸から公開火葬を静かに見学する。ここは観光地である前に葬送の場。撮影マナーの厳守が何より大切だ。夕方はタメルに戻り、買い物客でいちばん活気づく時間のアサン・バザール〜インドラチョークを歩いて一日を締める。夜は明日の「バイクの日」に備え、レンタル店の下見か貸切タクシーの手配を。",
       "areaInfo": {
         "walkable": false,
         "walkableNote": "タメルからボダナートは東へ約7km、パシュパティナートは約5km。往路はPathao利用。ボダナート〜パシュパティナート間は徒歩30分で歩ける。夕方のアサン・バザールはタメルから徒歩10分",
@@ -5318,7 +4657,7 @@
           "description": "世界最大級のチベット仏教ストゥーパ。朝は地元のチベット系住民がマニ車を回しながらコルラを歩く時間帯で、その流れに混じって時計回りに歩けば旅の空気が一変する。周囲をぐるりと僧院とチベット料理店が囲み、ルーフトップカフェからの俯瞰が定番の絶景。2015年地震で損傷した頂部は2016年に修復完了し、現在は完全な姿だ。入場は外国人400 NPRで1日有効。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Boudhanath_stupa_,_Kathmandu,_Nepal.jpg",
+              "url": "/travelplannerv2/img/boudhanath-stupa-kathmandu-nepal.jpg",
               "alt": "ボダナートのストゥーパと仏眼",
               "credit": "Wikimedia Commons"
             }
@@ -5478,7 +4817,7 @@
           "description": "バグマティ川沿いに広がるネパール最重要のヒンドゥー聖地（UNESCO世界遺産）で、アリヤガートでは公開火葬が行われている。金色屋根の本殿はヒンドゥー教徒以外立入絶対不可。見学は川の対岸（東岸）のテラスから静かに、が唯一の正解だ。火葬や遺族への接写・望遠撮影は厳禁で、「良いアングル」を探して近づく行為は現地で最も嫌われる。外周や火葬していないガートの撮影は可だが、人、特にサドゥーを撮る前は必ず許可を取る（チップ100〜200 NPRを求められる）。敷地は4:00〜21:00開放、入場は外国人1,000 NPR。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Pashupatinath_Temple-2020.jpg",
+              "url": "/travelplannerv2/img/pashupatinath-temple-2020.jpg",
               "alt": "バグマティ川越しに見るパシュパティナート寺院",
               "credit": "Wikimedia Commons"
             }
@@ -5514,7 +4853,7 @@
               "【最重要】火葬・遺族の接写・望遠撮影は厳禁。対岸から静かに見守る",
               "本殿はヒンドゥー教徒以外立入不可。短パン・ノースリーブ不可、祠に入る際は靴を脱ぐ",
               "自称ガイド（相場1,000〜1,500 NPR）が多い。不要なら明確に断る",
-              "18時頃からのアーラティ（雨季は18:00頃開始）まで残る選択もあるが、今日は夕方のアサン散策があるので、アーラティ優先なら順序を入れ替える"
+              "18時頃からのアーラティ（雨季は18:00頃開始）まで残る選択もあるが、今日は夕方のアサン散策と明日の手配があるので、アーラティ優先なら順序を入れ替える"
             ]
           }
         },
@@ -5565,7 +4904,7 @@
           "description": "タメル南端からタヒティ・チョークを抜け、インド〜チベット隊商路だった旧交易路を歩く。アサン・トール（6叉路）では穀物の女神アンナプルナ・アジマ寺院の鈴が鳴り、夕方の買い物客が野菜・スパイス・花の露店に群がる。南西へ進めばインドラチョーク——2階にバイラブ像が鎮座するアカシュ・バイラブ寺院の前で、絞りたてジュースの屋台と真鍮器の店、パシュミナ・毛布市がひしめいている。途中、アサンとインドラチョークの間の中庭に潜むセト・マチェンドラナート寺院（ジャナ・バハ）も見逃せない。全長約1.5km、寺院はすべて無料。ダルバール広場はVisitor Passで再入場できるので、足を延ばして夕方の広場を眺めてもいい。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Asan%20Tole%20bazaar,%20Kathmandu,%20Nepal%20(25141551125).jpg",
+              "url": "/travelplannerv2/img/asan-tole-bazaar-kathmandu-nepal-25141551125-.jpg",
               "alt": "アサン・トールのバザールの賑わい",
               "credit": "Wikimedia Commons"
             }
@@ -5610,8 +4949,8 @@
           "time": "19:00",
           "period": "evening",
           "type": "meal",
-          "title": "夕食: タカリー食堂でダルバート",
-          "description": "「ダルバートは必ずタカリー系で」が旅人の定石。タメル周辺に複数あるThakali Bhanchha Ghar系のタカリー食堂で、豆スープ・青菜・アチャールがおかわり自由のタカリーセットを。店員が鍋を持って回ってきたら遠慮なくお代わりするのが流儀だ。ひとり450〜700 NPRで、火の通った定食は雨季の胃腸にも優しい。",
+          "title": "夕食: タカリー食堂でダルバート — 食後に明日の足の手配",
+          "description": "「ダルバートは必ずタカリー系で」が旅人の定石。タメル周辺に複数あるThakali Bhanchha Ghar系のタカリー食堂で、豆スープ・青菜・アチャールがおかわり自由のタカリーセットを。店員が鍋を持って回ってきたら遠慮なくお代わりするのが流儀だ。ひとり450〜700 NPRで、火の通った定食は雨季の胃腸にも優しい。食後は明日の「バイクの日」の段取りを——バイク派はJP MargのCity Motorbike（21時頃まで）で車種と料金を下見して予約、タクシー派はホテルフロントで貸切タクシー（バクタプル+チャング・ナラヤン+ナガルコットの1日ループ、相場NPR 7,000〜11,000/台）を今夜のうちに手配しておく。",
           "images": [],
           "location": {
             "name": "Thakali Bhanchha Ghar系（タメル周辺）",
@@ -5628,7 +4967,8 @@
               "jpy": 0
             },
             "steps": [
-              "インドラチョークからタメル方面へ北上。夜は表通りを歩く"
+              "インドラチョークからタメル方面へ北上。夜は表通りを歩く",
+              "食後にCity Motorbike（JP Marg）下見またはフロントで貸切タクシー手配"
             ]
           },
           "details": {
@@ -5640,7 +4980,9 @@
             "bestTime": "夕食",
             "duration": "1時間",
             "tips": [
-              "おかわり無料が鉄則。ダル（豆スープ）をご飯にかけて混ぜて食べる"
+              "おかわり無料が鉄則。ダル（豆スープ）をご飯にかけて混ぜて食べる",
+              "明日バイクに乗るならヘルメット2個の確保を今夜の下見で必ず確認",
+              "8/12夕方のアーユルヴェーダが未予約なら、今夜WhatsAppで連絡を（前日〜2日前予約が確実）"
             ]
           }
         }
@@ -5731,16 +5073,16 @@
         ]
       },
       "accommodation": {
-        "area": "タメル地区（5連泊の3泊目・移動なし）",
+        "area": "タメル地区（6連泊の3泊目・移動なし）",
         "recommendations": [
           {
-            "name": "Day 9と同宿（Oasis Kathmandu Hotel / Kumari Boutique Hotel など）",
+            "name": "Day 8と同宿（Oasis Kathmandu Hotel / Kumari Boutique Hotel など）",
             "budget": "mid",
             "pricePerNight": {
               "npr": "3500-7000",
               "jpy": "3675-7350"
             },
-            "bookingTip": "5連泊の3泊目。連泊なら荷物を置いたまま身軽に動ける。濡れた服・靴は部屋で乾かすかランドリーの乾燥サービスへ",
+            "bookingTip": "6連泊の3泊目。連泊なら荷物を置いたまま身軽に動ける。濡れた服・靴は部屋で乾かすかランドリーの乾燥サービスへ",
             "location": {
               "googleMapsUrl": "https://maps.google.com/?q=Oasis%20Kathmandu%20Hotel%20%2F%20Kumari%20Boutique%20Hotel%20Thamel%20Kathmandu"
             }
@@ -5772,54 +5114,54 @@
         ]
       },
       "transport": {
-        "to": "バクタプル（翌日・日帰り）",
-        "method": "ローカルバス（身軽なのでバス向き）またはタクシー",
-        "duration": "バス45〜60分 / タクシー30〜45分（東へ13km）",
+        "to": "バクタプル→チャング・ナラヤン→ナガルコット（翌日・バイクまたは貸切タクシーの日帰りループ約70〜80km）",
+        "method": "レンタルバイク/スクーター（タメルで借りる）または貸切タクシー1日チャーター",
+        "duration": "7:00発→17:00帰着の終日ループ",
         "cost": {
-          "npr": "50-1500",
-          "jpy": "52-1575"
+          "npr": "1000-11000",
+          "jpy": "1050-11550"
         },
-        "bookingInfo": "予約不要。ラトナパーク近くのバグバザール/Bhaktapur Bus Parkからバスが頻発（50 NPR/人）。タクシー・Pathaoなら900〜1,500 NPR",
+        "bookingInfo": "バイク派: City Motorbike（JP Marg、Nabil Bank向かい、Tel +977-9843360610）等でスクーターNPR 1,000〜1,500/日、バイクNPR 3,000〜6,000/日+ガソリンNPR 650〜900。タクシー派: ホテルフロント経由で1日チャーターNPR 7,000〜11,000/台（交渉次第で6,000〜8,000も）。どちらも今夜のうちに手配を",
         "steps": [
-          "朝8時頃タメル発が理想（朝8時発→昼食→15時帰着のモデル）",
-          "バス乗り場で「バクタプル?」と聞けば車掌が教えてくれる",
-          "運賃は車内で車掌へ支払い",
-          "バクタプル西門付近で下車"
+          "今夜: バイクならレンタル店で車種・ヘルメット2個・書類条件を確認して予約、タクシーならフロントで行程（Bhaktapur + Changu Narayan + Nagarkot, waiting included）を紙に書いて金額を確定",
+          "明朝7:00タメル発が理想（渋滞前にアラニコハイウェイへ）",
+          "雨天なら朝8時の空模様でナガルコットをカットして半日に短縮"
         ],
         "tips": [
-          "日帰りで荷物は軽いので、ローカルバス体験にちょうどいい区間",
-          "帰りの最終バスは18時台。早めの帰路を"
+          "【重要】日本の国際免許はネパールでは法的に無効（1949年ジュネーブ条約非加盟）。バイクに乗るなら無免許運転扱いのリスクを理解した上で。詳細は明日の欄で",
+          "貸切タクシーなら2人で割って1人3,700〜5,800円。免許・保険・雨の不安が全部消える対等な選択肢",
+          "ナガルコット（標高2,175m）は涼しい。上着1枚をバッグに"
         ]
       }
     },
     {
-      "day": 12,
-      "date": "2026-08-12",
-      "title": "中世が息づく古都バクタプルへ、ローカルバスの小さな旅",
-      "area": "バクタプル（日帰り）→ タメル",
+      "day": 11,
+      "date": "2026-08-11",
+      "title": "バイクの日 — アラニコハイウェイでバクタプル、最古の寺チャング・ナラヤン、雲海のナガルコットへ",
+      "area": "カトマンズ盆地東部（バクタプル → チャング・ナラヤン → ナガルコット、日帰りループ約70〜80km）",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Bhaktapur_Durbar_Square.jpg",
-        "alt": "バクタプル・ダルバール広場の眺め",
+        "url": "/travelplannerv2/img/morning-view-of-nagarkot-2017.jpg",
+        "alt": "ナガルコットの朝、雲海と丘陵の眺め",
         "credit": "Wikimedia Commons"
       },
-      "summary": "カトマンズから東へ13km、街ごと中世が保存された古都バクタプルへ日帰りする。車の乗り入れが少なく、盆地の3つの旧王都で最も静かに歩ける街だ。55窓の宮殿が立つダルバール広場、ネパール最高層の五重塔ニャタポラ寺院、職人が土をこねる陶器広場。そして名物「ズズダウ（王様のヨーグルト）」は絶対に外せない。入域料1,800 NPRはパスポート提示で1週間パスに無料延長できる。",
+      "summary": "火曜日、盆地の東へ飛び出す一日。タメルでスクーターを借り、アラニコハイウェイを走って中世都市バクタプルへ、そこから田舎道を15分登ればネパール最古級の世界遺産チャング・ナラヤン寺院、さらに九十九折を上がれば標高2,175mの避暑地ナガルコットだ。ただし先に正直に書く——ネパールは1949年ジュネーブ条約非加盟で、日本の国際免許は法的に無効。店はパスポートコピーだけで貸すし、検問もNPR 1,000〜5,000の罰金で済むことが多いが、事故を起こせば海外旅行保険の治療・賠償がほぼ確実に支払い拒否される。これが「乗れるけど無免許」の実態だ。同じループを貸切タクシー（NPR 7,000〜11,000/台、2人で割れば1人3,700〜5,800円）で回る選択肢は、バイク2台+ガソリン+罰金リスクと大差ない出費で不安が全部消える、まったく対等なプランB。そして雨季のナガルコットはヒマラヤがほぼ見えない。代わりにあるのは、谷を流れる雲のシアターと、田植え後の一年でいちばん緑濃い棚田、カトマンズより8〜10℃低い涼しさだ。朝8時の空模様で行くか半日に縮めるかを決める。",
       "areaInfo": {
-        "walkable": true,
-        "walkableNote": "バクタプル旧市街は完全に徒歩の街。石畳なので歩きやすい靴で",
-        "transportNeeded": "カトマンズからはローカルバス50 NPRかタクシー900〜1,500 NPR。市街内は徒歩のみ",
-        "atm": "現金はタメルで用意しておくのが確実（入域料1,800 NPR×2人分+食事代を現金で）",
-        "wifi": "カフェ・レストランでWiFi可",
-        "sim": "取得済みのNTC/Ncellで問題なし",
-        "safety": "車が少なく静かで、カトマンズ市内より歩きやすい。石畳は雨で滑りやすいので足元注意",
-        "convenience": "広場周辺に食堂・カフェ・商店あり"
+        "walkable": false,
+        "walkableNote": "移動はバイクまたは貸切タクシー。バクタプル旧市街とナガルコットの村内のみ徒歩",
+        "transportNeeded": "レンタルバイク: スクーターNPR 1,000〜1,500/日+ガソリン3〜4L（NPR 217/L、計650〜900）。貸切タクシー: 同ループ8〜10時間でNPR 7,000〜11,000/台（交渉次第で6,000〜8,000）。ナガルコット片道のみならタクシーNPR 3,000〜3,500",
+        "atm": "ルート上のATMはバクタプル市街のみ当てにできる。入域料NPR 1,800×2人+昼食+ガソリン代を朝タメルで用意しておく",
+        "wifi": "ナガルコットのカフェ（Berg House Café等）でWiFi可",
+        "safety": "【最重要】日本の国際免許はネパールで法的に無効（1949年ジュネーブ条約非加盟。在ネパール日本大使館も「ネパールの免許がない場合はバイクに乗らない」よう注意喚起）。検問での罰金相場NPR 1,000〜5,000、最悪車両一時押収。事故時は海外旅行保険が無効化されるリスクが最大の問題。乗るなら2人ともヘルメット着用・小雨まで・日没2時間前帰着が絶対条件。左側通行（日本と同じ）だがバスの左すり抜けは厳禁（乗降ドアが突然開く）。濡れたマンホール・白線・石畳は極端に滑る",
+        "sim": "山間部はNTC/Ncellとも圏外区間あり。オフライン地図（Maps.me等）を朝のうちにダウンロード",
+        "convenience": "ガソリンスタンドはタメル周辺（Lainchaur/Kantipath沿い）とアラニコHW沿い（Koteshwor、Sallaghari/バクタプル入口）に複数。ナガルコットの山中にはないので、バクタプル通過時点で満タンに"
       },
       "timeline": [
         {
-          "time": "07:00",
+          "time": "06:30",
           "period": "morning",
           "type": "meal",
-          "title": "タメルで朝食",
-          "description": "8時のバスに乗るため、宿か近くのカフェで手早く朝食を。バクタプルでズズダウや軽食をつまむ楽しみが待っているので、朝は軽めでいい。折りたたみ傘とレインジャケット、パスポート（入域パス延長に必要）を忘れずに。",
+          "title": "朝食と天気判定 — 今日のルートを決める",
+          "description": "6時開店のHot Breads BakeHouseあたりで朝食をとりながら、今日の作戦会議。判断基準ははっきりしている——朝8時時点でカトマンズが本降り、またはナガルコット方面の山に厚い雨雲なら、ナガルコットをカットして「バクタプル+チャング・ナラヤンのみ」の半日に短縮する（この2つは雨でも成立する）。小雨・曇りなら決行、むしろ雲海のチャンスだ。ナガルコットは標高2,175mで日中18〜22℃と涼しいので、上着1枚と雨具（上下セパレート）をバッグに。サンダルは操作ミスの元なので靴で。",
           "images": [],
           "location": {
             "name": "タメル地区",
@@ -5836,75 +5178,83 @@
               "jpy": 0
             },
             "steps": [
-              "宿または近くのカフェで"
+              "朝食をとりながら空模様と雨雲レーダーを確認",
+              "フルコースか半日短縮かを決める"
             ]
           },
           "details": {
             "fee": {
-              "npr": "300-500",
-              "jpy": "315-525"
+              "npr": "300-600",
+              "jpy": "315-630"
             },
-            "hours": "7:00頃から",
-            "bestTime": "早朝",
+            "hours": "Hot Breads 6:00〜22:00",
+            "bestTime": "6時半には食べ始めて7時出発へ",
             "duration": "30分",
             "tips": [
-              "パスポート原本を携行（バクタプルの1週間パス延長手続きに必要）"
+              "持ち物: 上着1枚、雨具上下、パスポート原本（携行する。店には預けない）、現金（入域料1,800×2+昼食+ガソリン）、オフライン地図",
+              "8月中旬のカトマンズの日没は18:45前後。帰着リミット17:00から逆算して動く"
+            ]
+          }
+        },
+        {
+          "time": "07:00",
+          "period": "morning",
+          "type": "activity",
+          "title": "スクーターを借りる — 借り方と「乗らない」選択肢",
+          "description": "昨夜下見したCity Motorbike（JP Marg、Nabil Bank向かいの老舗）でレンタル手続き。相場はHonda Dio 110ccがNPR 1,000/日、Grazia 125ccがNPR 1,500/日、Royal Enfield HimalayanならNPR 6,000/日。2人乗りで九十九折を登るなら125cc以上が現実的だ。契約時の鉄則は3つ——①パスポート原本は預けない（コピー+現金デポジット数千〜1万NPRで交渉するのが定石。外国人は常時パスポート携行が建前で、検問でも必要）、②ヘルメットは「2個」と明言して借りる（同乗者用は付かないことが多い。法律上は2人とも着用義務）、③傷の写真を借りる前に全周撮っておく。対人・対物保険は実質付いていない。ここまで読んで気が重くなったら、それが正常な判断力——ホテルフロントで貸切タクシー（同ループNPR 7,000〜11,000、待機込みを紙に書いて確認）に切り替えても、今日の行程は1分も変わらない。",
+          "images": [],
+          "location": {
+            "name": "City Motorbike（JP Marg, タメル）",
+            "googleMapsUrl": "https://maps.google.com/?q=City+Motorbike+JP+Marg+Thamel+Kathmandu",
+            "lat": 27.7148,
+            "lng": 85.311
+          },
+          "access": {
+            "from": "宿（タメル）",
+            "method": "徒歩",
+            "duration": "5〜10分",
+            "cost": {
+              "npr": "1000-1500",
+              "jpy": "1050-1575"
+            },
+            "steps": [
+              "車体の傷を全周撮影してから契約",
+              "パスポートはコピー+現金デポジットで交渉（原本は渡さない）",
+              "ヘルメット2個・ミラー・ブレーキ・ライトを確認",
+              "タメル周辺のスタンド（Lainchaur/Kantipath沿い）で給油して出発"
+            ]
+          },
+          "details": {
+            "fee": {
+              "npr": "1000-1500",
+              "jpy": "1050-1575"
+            },
+            "hours": "店は概ね8:00〜20:00（前日予約なら朝イチ受け渡し可）",
+            "bestTime": "7時台に出発できると渋滞前にアラニコHWへ乗れる",
+            "duration": "手続き20〜30分",
+            "tips": [
+              "【法的リスクを承知の上で】ネパールは1949年ジュネーブ条約非加盟で日本の国際免許は無効。検問（アラニコHWでも日常的）で罰金NPR 1,000〜5,000、事故時は海外旅行保険がほぼ確実に無効化される",
+              "ガソリンは「借りた分だけ入れて返す」文化。満タン返し前提で受け渡し時の残量を写真に",
+              "ガソリンはNPR 217/L。今日のループ70〜80kmなら3〜4L=NPR 650〜900で足りる",
+              "クラクションは「いるよ」の合図。ブラインドコーナー手前で短く鳴らすのが現地流"
             ]
           }
         },
         {
           "time": "08:00",
           "period": "morning",
-          "type": "transport",
-          "title": "ローカルバスでバクタプルへ",
-          "description": "ラトナパーク近くのバグバザール/Bhaktapur Bus Parkからバクタプル行きが頻発している。運賃はひとりわずか50 NPR、所要45〜60分。乗り場で「バクタプル?」と聞けば車掌が教えてくれ、支払いは車内で車掌に渡す。ぎゅうぎゅうのローカルバスも、身軽な日帰りならそれ自体が小さな旅になる。楽をしたければタクシー/Pathaoで900〜1,500 NPR、30〜45分。",
-          "images": [],
-          "location": {
-            "name": "バクタプル西門",
-            "googleMapsUrl": "https://maps.google.com/?q=27.6721,85.4281",
-            "lat": 27.6721,
-            "lng": 85.4281
-          },
-          "access": {
-            "from": "タメル → バグバザール（ラトナパーク近く）",
-            "method": "徒歩でバス乗り場へ → ローカルバス",
-            "duration": "バス45〜60分",
-            "cost": {
-              "npr": 50,
-              "jpy": 52
-            },
-            "steps": [
-              "タメルからラトナパーク近くのバグバザール/Bhaktapur Bus Parkへ",
-              "「バクタプル?」と聞いて乗車、運賃50 NPRは車内で車掌へ",
-              "バクタプル西門付近で下車",
-              "チケットゲートで入域料を支払う"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "hours": "バスは頻発。帰りの最終は18時台",
-            "bestTime": "朝8時発→15時帰着のモデルが最適",
-            "duration": "45〜60分",
-            "tips": [
-              "タクシー派は西門で降車と伝える",
-              "雨季は道路冠水もあるので時間に余裕を",
-              "【代替案】バクタプルの人混みを避けたいならキルティプルへ。ラトナパークからバス35 NPR・25〜30分、入域料100 NPR（徴収ブースが無人のことも）。バグ・バイラブ寺院と石畳の坂道が静かで、コミュニティ食堂Newa Lahanaのネワール料理（一皿100〜300 NPR）はタメルの半額以下"
-            ]
-          }
-        },
-        {
-          "time": "09:15",
-          "period": "morning",
           "type": "spot",
-          "title": "バクタプル・ダルバール広場と55窓の宮殿",
-          "description": "西門のチケットゲートで入域料1,800 NPR（USD 15）を払って旧市街へ。市街全体への入域料で、窓口でパスポートを提示して申告すれば1週間有効パスに無料延長できる。ダルバール広場には55窓の宮殿やゴールデンゲートが並び、2015年地震で最も大きな被害を受けた街ながら、ヴァツァラ・ドゥルガー寺院などの修復が完了して2026年時点で目立つ損傷はほぼ解消された。車の乗り入れが少なく、中世の街並みを静かに歩けるのがバクタプル最大の魅力だ。",
+          "title": "バクタプル — 中世都市を朝のうちに歩く",
+          "description": "アラニコハイウェイを東へ13〜15km、45〜60分でバクタプル西門へ。ダルバール広場西側ゲート周辺かTourist Bus Park付近の有料駐輪（NPR 20〜50）にバイクを置き、入域料NPR 1,800を払って旧市街へ入る（チケットは当日有効。窓口でパスポートを提示すれば1週間パスに無料延長もできる）。55窓の宮殿とゴールデンゲートのダルバール広場から、ネパール最高層の五重塔ニャタポラ寺院が立つタウマディ広場、轆轤を回す職人の陶器広場へ。車の乗り入れが少なく、盆地の3王都で最も静かに中世を歩ける街だ。デザートに名物ズズダウ（王様のヨーグルト、素焼き鉢入りNPR 100〜150）を忘れずに。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/View_of_Bhaktapur_Durbar_Square.jpg",
+              "url": "/travelplannerv2/img/view-of-bhaktapur-durbar-square.jpg",
               "alt": "バクタプル・ダルバール広場",
+              "credit": "Wikimedia Commons"
+            },
+            {
+              "url": "/travelplannerv2/img/nepal-bhaktapur-nyatapola-temple.jpg",
+              "alt": "ニャタポラ寺院",
               "credit": "Wikimedia Commons"
             }
           ],
@@ -5915,17 +5265,18 @@
             "lng": 85.4281
           },
           "access": {
-            "from": "バクタプル西門",
-            "method": "徒歩",
-            "duration": "5〜10分",
+            "from": "タメル",
+            "method": "バイク（アラニコハイウェイ東進）",
+            "duration": "45〜60分（約13〜15km）",
             "cost": {
-              "npr": 0,
-              "jpy": 0
+              "npr": "20-50",
+              "jpy": "21-52"
             },
             "steps": [
-              "西門ゲートで入域料支払い",
-              "パスポート提示で1週間パスへの無料延長を申告",
-              "石畳の道を広場へ"
+              "市街地を抜けKoteshworからアラニコHWへ（舗装良好だが交通量多）",
+              "Sallaghari/バクタプル入口のスタンドでここで満タンに（この先ナガルコットまでスタンドなし）",
+              "西門周辺の有料駐輪にバイクを置く（ヘルメットは持ち歩くか店に預ける）",
+              "ゲートで入域料NPR 1,800を支払う"
             ]
           },
           "details": {
@@ -5934,135 +5285,189 @@
               "jpy": 1890
             },
             "hours": "街なので終日。チケットゲートは早朝〜夜",
-            "bestTime": "午前",
-            "duration": "1.5〜2時間",
+            "bestTime": "午前の2〜2.5時間で主要部を回る",
+            "duration": "2〜2.5時間",
             "tips": [
-              "【重要】窓口でパスポート提示すれば1週間有効パスに無料延長できる",
-              "半日（4〜5時間）滞在が最適とされる街。急がず歩く",
-              "石畳は雨で滑る。滑りにくい靴で"
+              "バクタプル周辺の石畳は濡れると極端に滑る。旧市街への乗り入れはせず徒歩で",
+              "ニャタポラ寺院の基壇には力士・象・獅子・グリフィン・女神と、下から順に強さを増す守護像が対で並ぶ",
+              "2015年地震の修復はほぼ完了。ヴァツァラ・ドゥルガー寺院も再建済み",
+              "ズズダウは回転の速い店で。乳製品なので体調と相談"
             ]
           }
         },
         {
-          "time": "11:00",
+          "time": "10:45",
           "period": "morning",
           "type": "spot",
-          "title": "ニャタポラ寺院（タウマディ広場）",
-          "description": "5層の屋根を重ねた五重塔形式の寺院で、バクタプルのシンボル。基壇の階段には力士・象・獅子・グリフィン・女神と、下から順に強さを増す守護像が対で並ぶ。塔を見上げる広場のカフェでひと休みしながら、中世からほとんど変わらない広場の営みを眺めるのが気持ちいい。",
+          "title": "チャング・ナラヤン寺院 — ネパール最古級の世界遺産",
+          "description": "バクタプルから北へ5〜6km、舗装済みの狭い田舎道を15〜20分（雨後は泥と水たまりに注意）。丘の上に立つチャング・ナラヤン寺院は、西暦464年の石碑——ネパール最古の碑文——が残る、この国で最も古い寺のひとつだ。ヴィシュヌ神を祀る二層屋根の本殿を、ガルーダ像や歴代の彫刻が囲み、境内全体が屋外博物館のような濃度で世界遺産に登録されている。参道下に駐輪スペースがあり、バイクでのアクセスは容易。入場は外国人NPR 300〜400（ソースにより幅があり窓口で確認、SAARC 150）。観光客はまばらで、バクタプルの喧騒のあとの静けさが心地いい。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Nepal%20-%20Bhaktapur%20Nyatapola%20temple.jpg",
-              "alt": "バクタプルのニャタポラ寺院",
+              "url": "/travelplannerv2/img/oldest-temple-of-nepal-changu-narayan-temple.jpg",
+              "alt": "ネパール最古級のチャング・ナラヤン寺院",
               "credit": "Wikimedia Commons"
             }
           ],
           "location": {
-            "name": "ニャタポラ寺院",
-            "googleMapsUrl": "https://maps.google.com/?q=Nyatapola+Temple+Bhaktapur",
-            "lat": 27.6721,
-            "lng": 85.4281
+            "name": "チャング・ナラヤン寺院",
+            "googleMapsUrl": "https://maps.google.com/?q=27.7164,85.4278",
+            "lat": 27.7164,
+            "lng": 85.4278
           },
           "access": {
-            "from": "ダルバール広場",
-            "method": "徒歩",
-            "duration": "5分",
+            "from": "バクタプル",
+            "method": "バイク（北へ田舎道）",
+            "duration": "15〜20分（約5〜6km）",
             "cost": {
               "npr": 0,
               "jpy": 0
             },
             "steps": [
-              "ダルバール広場から南東のタウマディ広場へ"
+              "バクタプル北縁からChangu Narayan Roadを北上",
+              "村の入口・参道下の駐輪スペースにバイクを置く",
+              "窓口で入場料を払い参道を登る"
             ]
           },
           "details": {
             "fee": {
-              "npr": 0,
-              "jpy": 0
+              "npr": "300-400",
+              "jpy": "315-420"
             },
-            "hours": "終日（入域パスで見学）",
-            "bestTime": "午前〜昼",
-            "duration": "30分〜1時間",
+            "hours": "6:00〜19:00",
+            "bestTime": "昼前。バクタプルとナガルコットの中継にちょうどいい",
+            "duration": "45分〜1時間",
             "tips": [
-              "広場を見下ろすカフェが休憩にちょうどいい"
+              "本殿内部はヒンドゥー教徒以外入場不可（外から見学）。肩・膝を隠す服装で",
+              "西暦464年のマナデヴァ王の石碑とガルーダ像を見逃さない",
+              "雨後の田舎道は泥はね注意。スピードは平時の7割に"
             ]
           }
         },
         {
           "time": "12:00",
           "period": "afternoon",
-          "type": "meal",
-          "title": "昼食+名物ズズダウ（王様のヨーグルト）",
-          "description": "広場周辺の食堂で昼を済ませたら、デザートは必食のズズダウ。素焼きの鉢に入った濃厚なヨーグルトで、「王様のヨーグルト」の名の通りねっとりと甘く、素焼き鉢が余分な水分を吸うことで生まれる濃密さは他では味わえない。ひとつ100〜150 NPRで、旧市街のあちこちの店先に並んでいる。",
+          "type": "transport",
+          "title": "テルコット経由でナガルコットへ登る",
+          "description": "チャング・ナラヤンから東へ14〜16km、テルコットで幹線に合流して九十九折を登ること40〜50分。標高が上がるにつれて気温が下がり、田植え後の棚田が幾重にも重なる——この区間の車窓は一年でいちばん美しい季節だ。舗装主体だが穴・砂利区間・雨季の小崩落があり、125ccスクーターの2人乗りだと登坂はやや苦しい。無理をせずゆっくり登る。霧が出ると視界50m以下になることもあるので、ライト点灯を忘れずに。",
           "images": [],
           "location": {
-            "name": "バクタプル旧市街の食堂・ズズダウの店",
-            "googleMapsUrl": "https://maps.google.com/?q=27.6721,85.4281",
-            "lat": 27.6721,
-            "lng": 85.4281
+            "name": "ナガルコット（標高2,175m）",
+            "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.5203",
+            "lat": 27.7154,
+            "lng": 85.5203
           },
           "access": {
-            "from": "タウマディ広場",
-            "method": "徒歩",
-            "duration": "すぐ",
+            "from": "チャング・ナラヤン寺院",
+            "method": "バイク（テルコット経由の登り）",
+            "duration": "40〜50分（約14〜16km）",
             "cost": {
               "npr": 0,
               "jpy": 0
             },
             "steps": [
-              "広場周辺の食堂へ。ズズダウは店先の素焼き鉢が目印"
+              "テルコットで幹線（Nagarkot Road）に合流",
+              "九十九折をゆっくり登る（穴・砂利・小崩落に注意）",
+              "ナガルコット村中心へ"
             ]
           },
           "details": {
             "fee": {
-              "npr": "100-150",
-              "jpy": "105-157"
+              "npr": 0,
+              "jpy": 0
             },
-            "hours": "日中",
-            "bestTime": "昼食後のデザートに",
-            "duration": "1時間",
+            "hours": "-",
+            "bestTime": "昼までに登り切る",
+            "duration": "40〜50分",
             "tips": [
-              "ズズダウは乳製品だが名物店の回転は速い。体調と相談しつつぜひ",
-              "食事は加熱調理済みのものを選ぶ"
+              "登坂で燃料が減る。バクタプルで満タンにしていれば往復問題なし（山中にスタンドはない）",
+              "霧・小雨ならペースを落とす。ここで無理をしないのが今日一番の安全対策",
+              "村への入域料はなし（ホテル・レストラン利用のみ）"
             ]
           }
         },
         {
-          "time": "13:30",
+          "time": "13:00",
           "period": "afternoon",
-          "type": "spot",
-          "title": "陶器広場とダットラヤ広場",
-          "description": "轆轤を回す職人と、地面いっぱいに天日干しされる素焼きの器。陶器広場はバクタプルの生業が今も続く場所だ（雨季は屋内作業や器の取り込みも多い）。そこから路地を東へ歩けばダットラヤ広場に至り、木彫りの窓「孔雀の窓」で知られる旧市街の東エリアへと続く。観光客が減る午後の路地歩きは、この街の本領といえる時間になる。",
+          "type": "meal",
+          "title": "ナガルコットで昼食 — 森のホテルか眺めのカフェ",
+          "description": "昼食は2択。雰囲気重視なら村外れの森の中に立つHotel at the End of the Universe——パノラマビューのテラスでオーガニック食材のネワール/ネパール料理（NPR 500〜900/人）。気取らない方が好みなら、メイン道路脇のBerg House Caféで家庭的なダルバート（NPR 400〜700/人）。眺望とWiFiの良さで旅人の定番になっている店だ。標高2,175mの空気はカトマンズより8〜10℃低く、8月でも日中18〜22℃。温かい食事と熱いチヤが素直にうまい。",
           "images": [],
           "location": {
-            "name": "陶器広場（ポッタリースクエア）",
-            "googleMapsUrl": "https://maps.google.com/?q=Pottery+Square+Bhaktapur",
-            "lat": 27.6721,
-            "lng": 85.4281
+            "name": "Hotel at the End of the Universe / Berg House Café（ナガルコット）",
+            "googleMapsUrl": "https://maps.google.com/?q=Hotel+at+the+End+of+the+Universe+Nagarkot",
+            "lat": 27.7154,
+            "lng": 85.5203
           },
           "access": {
-            "from": "タウマディ広場",
-            "method": "徒歩",
+            "from": "ナガルコット村中心",
+            "method": "バイクまたは徒歩",
             "duration": "5〜10分",
             "cost": {
               "npr": 0,
               "jpy": 0
             },
             "steps": [
-              "タウマディ広場から南へ路地を抜ける",
-              "その後東へ歩いてダットラヤ広場へ"
+              "どちらの店もメイン道路から案内板あり"
             ]
           },
           "details": {
             "fee": {
+              "npr": "400-900",
+              "jpy": "420-945"
+            },
+            "hours": "日中〜夜",
+            "bestTime": "13時台",
+            "duration": "1時間",
+            "tips": [
+              "オフシーズンで観光客はほぼいない。静かなテラスを独占できる",
+              "冷えた体にトゥクパ（チベット麺、NPR 300前後）もよく効く"
+            ]
+          }
+        },
+        {
+          "time": "14:00",
+          "period": "afternoon",
+          "type": "spot",
+          "title": "展望タワーと雲のシアター — 雨季のナガルコットの正直な楽しみ方",
+          "description": "村中心から約3km南の展望タワー（View Tower、標高約2,195m）へ。バイクならタワー直下まで行ける（最後は未舗装あり）。入場は無料〜小額（NPR 100以下）と報告が割れているので現金少額を用意。さて、正直な話——8月のここからヒマラヤが見える確率は低い。6〜8月は雲と靄で何日も連続して峰が隠れるのが常態で、晴れ間の30分が出ればボーナスだ。代わりに広がるのは、谷を雲が流れては湧く「雲のシアター」と、眼下に幾重にも重なる緑の棚田。エベレスト目当ての展望台は乾季の再訪に取っておいて、今日は雲と棚田と涼しさを楽しむ日と割り切ると、この丘は満点をくれる。",
+          "images": [
+            {
+              "url": "/travelplannerv2/img/morning-view-of-nagarkot-2017.jpg",
+              "alt": "ナガルコットの雲海と丘陵",
+              "credit": "Wikimedia Commons"
+            }
+          ],
+          "location": {
+            "name": "ナガルコット展望タワー",
+            "googleMapsUrl": "https://maps.google.com/?q=Nagarkot+View+Tower",
+            "lat": 27.6976,
+            "lng": 85.5108
+          },
+          "access": {
+            "from": "ナガルコット村中心",
+            "method": "バイク（南へ約3km、最後は未舗装区間あり）",
+            "duration": "10〜15分",
+            "cost": {
               "npr": 0,
               "jpy": 0
             },
-            "hours": "終日（入域パスで見学）",
-            "bestTime": "午後",
-            "duration": "1〜1.5時間",
+            "steps": [
+              "村中心から南のタワー方面へ",
+              "タワー直下に駐輪して階段を上る"
+            ]
+          },
+          "details": {
+            "fee": {
+              "npr": "0-100",
+              "jpy": "0-105"
+            },
+            "hours": "日中",
+            "bestTime": "雲の切れ間を待つより、流れる雲そのものを楽しむ",
+            "duration": "45分〜1時間",
             "tips": [
-              "職人の写真を撮る前は一言許可を",
-              "素焼きの器は土産にもなるが、割れ物なので持ち帰りは慎重に"
+              "ヒマラヤ展望が本命なら10〜4月に再訪を。乾季ならエベレストからランタン連峰まで見える丘",
+              "風が抜けて肌寒い。上着をここで着る",
+              "15:00にはタワーを出る——帰路2時間+日没18:45から逆算した鉄のリミット"
             ]
           }
         },
@@ -6070,84 +5475,39 @@
           "time": "15:00",
           "period": "afternoon",
           "type": "transport",
-          "title": "バクタプル → カトマンズへ帰路",
-          "description": "帰りのバスはカマルビナヤク/幹線道路沿いから頻発している。最終は18時台だが、午後の雨と渋滞を考えれば15時台に乗るのが賢い。ラトナパーク方面行きに乗り、タメルへは下車後徒歩かタクシーで戻る。疲れていればタクシー/Pathaoで一直線でもいい（900〜1,500 NPR）。",
+          "title": "下山 — 日没2時間前のタメル帰還を厳守",
+          "description": "帰路はバクタプル経由で28〜32km、1.5〜2時間の下り。濡れた路面での下りブレーキが今日いちばん神経を使う区間だ。前後ブレーキを併用し、マンホール・白線の上では絶対に握り込まない。夜間走行は無灯火車両・穴・野犬で危険度が跳ね上がるため、15:00発→17:00タメル着のスケジュールは絶対に守る。タメルに戻ったらスタンドで使った分を給油し、明るいうちにバイクを返却。傷の有無を店と一緒に確認し、デポジットを受け取って今日のミッション完了だ。",
           "images": [],
           "location": {
-            "name": "タメル地区",
+            "name": "ナガルコット → タメル",
             "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123",
             "lat": 27.7154,
             "lng": 85.3123
           },
           "access": {
-            "from": "バクタプル（カマルビナヤク/道路沿い）",
-            "method": "ローカルバス（またはタクシー）",
-            "duration": "45〜60分+タメルまで徒歩orタクシー",
+            "from": "ナガルコット",
+            "method": "バイク（バクタプル経由で直帰）",
+            "duration": "1.5〜2時間（約28〜32km）",
             "cost": {
-              "npr": 50,
-              "jpy": 52
+              "npr": "650-900",
+              "jpy": "682-945"
             },
             "steps": [
-              "カマルビナヤクか幹線道路沿いのバス乗り場へ",
-              "カトマンズ行きに乗車、車掌に50 NPR",
-              "ラトナパーク付近で下車しタメルへ"
+              "九十九折を下る（下りブレーキ注意、霧なら視界50m以下も）",
+              "アラニコHWで西へ、夕方の渋滞は焦らず流れに乗る",
+              "タメル周辺のスタンドで給油（NPR 217/L×3〜4L）",
+              "明るいうちに返却、傷確認とデポジット回収"
             ]
           },
           "details": {
-            "fee": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "hours": "最終バスは18時台",
-            "bestTime": "15時台に乗ると渋滞前に戻れる",
-            "duration": "1〜1.5時間",
+            "fee": null,
+            "hours": "日没は18:45前後",
+            "bestTime": "15:00発→17:00着",
+            "duration": "1.5〜2時間",
             "tips": [
-              "夕方は雨と渋滞が重なりやすい。早めの撤収が正解"
-            ]
-          }
-        },
-        {
-          "time": "17:00",
-          "period": "evening",
-          "type": "activity",
-          "title": "タメルで土産の下見",
-          "description": "明日が買い納めなので、今日は下見に徹する。紅茶専門店で試飲し、パシュミナの手触りを確かめ、シンギングボウルを鳴らしてみて、相場と欲しいものの目星をつけておく。タメルの店は夕方がいちばん活気づく。値切り交渉は明日が本番だ。",
-          "images": [
-            {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thamel_at_night_-_Kathmandu,_Nepal_-_panoramio_(1).jpg",
-              "alt": "夜のタメルの通り",
-              "credit": "Wikimedia Commons"
-            }
-          ],
-          "location": {
-            "name": "タメル地区",
-            "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123",
-            "lat": 27.7154,
-            "lng": 85.3123
-          },
-          "access": {
-            "from": "宿（タメル）",
-            "method": "徒歩",
-            "duration": "すぐ",
-            "cost": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "steps": [
-              "宿に荷物を置いて身軽に歩く"
-            ]
-          },
-          "details": {
-            "fee": {
-              "npr": 0,
-              "jpy": 0
-            },
-            "hours": "店は22時頃まで",
-            "bestTime": "夕方",
-            "duration": "1〜2時間",
-            "tips": [
-              "同じ品を2〜3軒で見比べると言い値の幅がわかる",
-              "客引きは笑顔でNo, thank youを繰り返せば実害なし"
+              "検問に当たったら落ち着いて。paperを求められたらパスポートとレンタル契約書を提示（罰金相場NPR 1,000〜5,000、その場で払って解放が通例）",
+              "夕立が来たら無理せず雨宿り。1〜2時間で抜けることが多い",
+              "貸切タクシー組は同じ時間に出れば車内で昼寝して帰るだけ。これもまた正解"
             ]
           }
         },
@@ -6155,8 +5515,8 @@
           "time": "19:00",
           "period": "evening",
           "type": "meal",
-          "title": "夕食: Dechenling Garden（チベット料理）",
-          "description": "タメル東の静かな路地にある庭席が気持ちいい店で、モモは「街一番」の評もある実力派。雨季は屋根席があるので夕立でも安心だ。バクタプルを歩き回った脚を伸ばして、蒸したてのモモとチベット料理でゆっくり一日を締める。予算はひとり500〜900 NPR。",
+          "title": "夕食: Dechenling Garden — 走り切った夜のモモ",
+          "description": "70〜80kmを走り切った（あるいは後部座席で走り切った）夜は、タメル東の静かな路地にあるDechenling Gardenへ。庭席が名物で、モモは「街一番」の評もある実力派だ。雨が来ても屋根席があるので安心。蒸したてのモモとトゥクパで、風と緑の一日を締めくくる。予算はひとり500〜900 NPR。明日はパタンとブンガマティ、そして夕方はアーユルヴェーダ——予約の確認連絡を寝る前に一本入れておく。",
           "images": [],
           "location": {
             "name": "Dechenling Garden（タメル東）",
@@ -6185,24 +5545,57 @@
             "bestTime": "夕食",
             "duration": "1〜1.5時間",
             "tips": [
-              "庭席が名物だが、雨が来たら屋根席へ"
+              "明日17時のアーユルヴェーダ予約をWhatsAppで最終確認（female therapist希望ならここで伝える）",
+              "走った日のビール1本は格別だが、ほどほどに"
             ]
           }
         }
       ],
       "food": {
         "localSpecialties": [
-          "ズズダウ（王様のヨーグルト）",
-          "モモ",
-          "ネワール料理"
+          "ズズダウ（王様のヨーグルト、バクタプル名物）",
+          "ナガルコットの山カフェごはん（ダルバート・トゥクパ）",
+          "モモ"
         ],
         "mustTry": {
           "dish": "ズズダウ（王様のヨーグルト）",
-          "description": "バクタプル名物、素焼き鉢入りの濃厚ヨーグルト。素焼きの鉢が水分を吸ってねっとり濃密に仕上がる。ひとつ100〜150 NPR。旧市街の店先に並ぶ鉢が目印で、バクタプルまで来て食べない選択肢はない。"
+          "description": "バクタプル名物、素焼き鉢入りの濃厚ヨーグルト。素焼きの鉢が余分な水分を吸ってねっとり濃密に仕上がる。ひとつNPR 100〜150（105〜157円）。旧市街の店先に並ぶ鉢が目印で、バクタプルまで来て食べない選択肢はない。"
         },
         "restaurants": [
           {
-            "name": "タウマディ広場周辺の食堂・カフェ",
+            "name": "Hotel at the End of the Universe",
+            "type": "山のホテルレストラン（ナガルコット）",
+            "budget": "mid",
+            "priceRange": {
+              "npr": "500-900",
+              "jpy": "525-945"
+            },
+            "popular": [
+              "オーガニック食材のネワール/ネパール料理",
+              "パノラマテラス席"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=Hotel+at+the+End+of+the+Universe+Nagarkot"
+            }
+          },
+          {
+            "name": "Berg House Café",
+            "type": "眺めのカフェ食堂（ナガルコット）",
+            "budget": "cheap",
+            "priceRange": {
+              "npr": "400-700",
+              "jpy": "420-735"
+            },
+            "popular": [
+              "ダルバート",
+              "トゥクパ"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=Berg+House+Cafe+Nagarkot"
+            }
+          },
+          {
+            "name": "タウマディ広場周辺の食堂・カフェ（バクタプル）",
             "type": "食堂・カフェ",
             "budget": "cheap",
             "priceRange": {
@@ -6210,7 +5603,7 @@
               "jpy": "315-630"
             },
             "popular": [
-              "ニャタポラ寺院を見上げる席でのランチ",
+              "ニャタポラ寺院を見上げる席でのお茶",
               "ズズダウ"
             ],
             "location": {
@@ -6226,51 +5619,34 @@
               "jpy": "525-945"
             },
             "popular": [
-              "モモ（「街一番」評あり）",
-              "チベット料理各種"
+              "モモ（「街一番」評あり）"
             ],
             "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Dechenling%20Garden%20Bhaktapur"
-            }
-          },
-          {
-            "name": "Jheegu Bhwoychhen",
-            "type": "ネワール料理（タメル）",
-            "budget": "mid",
-            "priceRange": {
-              "npr": "400-800",
-              "jpy": "420-840"
-            },
-            "popular": [
-              "ネワリカジャセット",
-              "バフモモ"
-            ],
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Jheegu%20Bhwoychhen%20Bhaktapur"
+              "googleMapsUrl": "https://maps.google.com/?q=Dechenling%20Garden%20Thamel%20Kathmandu"
             }
           }
         ],
         "drinks": [
-          "ズズダウと合わせるネパール紅茶",
-          "ペットボトル水（1L 25〜50 NPR）"
+          "チヤ（山の上の熱いミルクティーが一番うまい）",
+          "ペットボトル水（走行中の水分補給用に2本携行）"
         ],
         "safetyTips": [
-          "生水・氷は不可。バス移動の日は特に水分補給をペットボトルで",
-          "雨季は揚げたて・炊きたて以外の屋台ものを避ける",
-          "乳製品のズズダウは回転の速い店で"
+          "運転する日の飲酒は帰着後まで一滴も不可（検問でも事故でも致命的）",
+          "山のカフェでも加熱調理済みを選ぶ原則は同じ",
+          "ズズダウは乳製品。運転前に食べるなら体調と相談"
         ]
       },
       "accommodation": {
-        "area": "タメル地区（5連泊の4泊目・移動なし）",
+        "area": "タメル地区（6連泊の4泊目・移動なし）",
         "recommendations": [
           {
-            "name": "Day 9と同宿（Oasis Kathmandu Hotel / Kumari Boutique Hotel など）",
+            "name": "Day 8と同宿（Oasis Kathmandu Hotel / Kumari Boutique Hotel など）",
             "budget": "mid",
             "pricePerNight": {
               "npr": "3500-7000",
               "jpy": "3675-7350"
             },
-            "bookingTip": "5連泊の4泊目。日帰り旅の日は貴重品以外を宿に置いて身軽に。出発は8/14未明なので、洗濯や荷物の整理は今夜から少しずつ始めると楽",
+            "bookingTip": "6連泊の4泊目。走って濡れた服・靴は今夜のうちに宿の乾燥サービスへ出しておくと明日が快適",
             "location": {
               "googleMapsUrl": "https://maps.google.com/?q=Oasis%20Kathmandu%20Hotel%20%2F%20Kumari%20Boutique%20Hotel%20Thamel%20Kathmandu"
             }
@@ -6282,11 +5658,11 @@
           "バクタプルの素焼き陶器",
           "木彫り工芸"
         ],
-        "priceGuide": "陶器広場では職人の器がそのまま並ぶ。割れ物なので持ち帰りは手荷物で慎重に。本格的な買い物は明日のタメル買い納めで",
+        "priceGuide": "今日は走る日なので買い物は最小限に。陶器広場の小さな素焼きの器（数十〜数百NPR）くらいなら荷物にならない。本格的な買い物は8/13のタメル買い納めで",
         "shops": [
           {
-            "name": "陶器広場（ポッタリースクエア）",
-            "description": "轆轤を回す職人の作業風景ごと楽しめる。小さな素焼きの器は旅の記念にちょうどいい",
+            "name": "陶器広場（ポッタリースクエア、バクタプル）",
+            "description": "轆轤を回す職人の作業風景ごと楽しめる。雨季は屋内作業や器の取り込みも多い。職人の写真は一言許可を",
             "location": {
               "googleMapsUrl": "https://maps.google.com/?q=Pottery+Square+Bhaktapur"
             }
@@ -6294,54 +5670,54 @@
         ]
       },
       "transport": {
-        "to": "パタン（ラリトプル）→ ブンガマティ・コカナ村（翌日）",
+        "to": "パタン（ラリトプル）→ ブンガマティ・コカナ村 → 夕方アーユルヴェーダ（翌日）",
         "method": "Pathao（車）またはタクシー",
-        "duration": "25〜40分（南へ約6km、渋滞次第）",
+        "duration": "タメル→パタンは25〜40分（南へ約6km、渋滞次第）",
         "cost": {
           "npr": "350-450",
           "jpy": "367-472"
         },
-        "bookingInfo": "Pathaoアプリで当日手配。バイクなら150 NPR前後",
+        "bookingInfo": "Pathaoアプリで当日手配。バイクなら150 NPR前後。夕方17時のアーユルヴェーダ（シロダーラ+アビヤンガ）は前日までの予約が確実——Nepal Ayurveda Home（+977-9849521819）かINM（WhatsApp +977-9843369200）へ",
         "steps": [
           "朝8時半頃タメル発",
           "Pathaoで目的地をPatan Durbar Squareに設定",
           "広場付近で降車しチケット窓口へ"
         ],
         "tips": [
-          "ナガルコット（ヒマラヤ展望の丘）は雨季はヒマラヤがほぼ見えないため今回は外した。展望目的なら乾季の再訪に取っておきたい",
           "パタン博物館は10:30開館なので、先に広場と路地を歩く段取りが効率的",
-          "明日の午後はパタンと同方面のブンガマティ・コカナ村へ足を延ばす。パタンのラガンケル・バススタンドからバス約30分"
+          "午後はパタンのラガンケル・バススタンドからブンガマティ・コカナ村へバス約30分",
+          "アーユルヴェーダ後は髪がオイルまみれになる。明日はヘアゴム・帽子・前開きの服を用意しておく"
         ]
       }
     },
     {
-      "day": 13,
-      "date": "2026-08-13",
-      "title": "古都パタンから雨季の緑の村へ、タメルで買い納めて旅支度",
-      "area": "パタン（ラリトプル）→ ブンガマティ・コカナ → タメル",
+      "day": 12,
+      "date": "2026-08-12",
+      "title": "古都パタンから雨季の緑の村へ、夜は温かいオイルの滝で全身をほどく",
+      "area": "パタン（ラリトプル）→ ブンガマティ・コカナ → タメル（アーユルヴェーダ）",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patan_durbar_square.jpg",
+        "url": "/travelplannerv2/img/patan-durbar-square.jpg",
         "alt": "パタン・ダルバール広場",
         "credit": "Wikimedia Commons"
       },
-      "summary": "ネパール滞在の実質最終日。午前は3つの旧王都で最も彫刻が美しいと言われるパタンへ。ネパール随一の質を誇るパタン博物館と、創業100年超の老舗ホナチャでのサマエバジが二本柱だ。午後はパタンと同方面のブンガマティ・コカナ村へバスで30分——田植え後の緑の水田に囲まれたネワール農村は、雨季ならではの美景で入場無料。夕方タメルに戻って土産の買い納めを済ませたら、夜は明朝3:15出発に向けた最終準備。タクシーの前夜手配とNPRの使い切り、オンラインチェックインを忘れずに。",
+      "summary": "水曜日。午前は3つの旧王都で最も彫刻が美しいと言われるパタンへ。ネパール随一の質を誇るパタン博物館と、創業100年超の老舗ホナチャでのサマエバジが二本柱だ。午後はパタンと同方面のブンガマティ・コカナ村へバスで30分——田植え後の緑の水田に囲まれたネワール農村は、雨季ならではの美景で入場無料。そして夕方17時からが今日の本命、アーユルヴェーダだ。額に温かいオイルを細く垂らし続けるシロダーラと全身オイルマッサージのアビヤンガ、2時間コースでNPR 7,000〜9,000——日本の1/3〜1/5の価格で本格施術が受けられる。髪は確実にオイルまみれになるので、終わったら宿へ直帰して翌朝シャンプー、が正しい段取り。歩いて、緑を見て、最後に全身をほどく。滞在5日目にちょうどいい一日になる。",
       "areaInfo": {
         "walkable": true,
         "walkableNote": "パタンの旧市街と裏路地は徒歩で回れる。ブンガマティ〜コカナ両村間も徒歩20〜30分。タメルへの往復はPathao/バス利用",
         "transportNeeded": "タメル〜パタンはPathao車350〜450 NPR、25〜40分（渋滞次第）。パタン（ラガンケル）〜ブンガマティはローカルバス25〜35 NPR・約30分。ブンガマティ→タメル直帰はPathao車600〜800 NPR・40分前後",
-        "atm": "買い納め用の現金はタメルのATMラウンジで。手数料定額（500〜700 NPR）なので必要額を1回で",
+        "atm": "アーユルヴェーダは現金払いの店が多い。朝タメルのATMラウンジでNPR 20,000ほど確保しておくと一日安心",
         "wifi": "パタン博物館周辺・タメルともカフェでWiFi可",
         "sim": "取得済みのNTC/Ncellで問題なし",
-        "safety": "パタンの裏路地の仏教僧院（バヒ）巡りは人が少なく静かで安全。ブンガマティの村歩きは石畳中心だがぬかるみ箇所あり。タメルの買い物は混雑時のスリにだけ注意",
-        "convenience": "空港での再両替はレートが悪いので、今日中にNPRの使い道を計画しておく"
+        "safety": "パタンの裏路地の仏教僧院（バヒ）巡りは人が少なく静かで安全。ブンガマティの村歩きは石畳中心だがぬかるみ箇所あり。夕方はスコールが多いので施術後の帰りはタクシー前提で",
+        "convenience": "今日は「オイルの日」。ヘアゴム、帽子かフード付きパーカー、かぶらずに着られる前開きの服、汚れてもいいタオルを朝から持って出ると帰りが楽"
       },
       "timeline": [
         {
           "time": "07:30",
           "period": "morning",
           "type": "meal",
-          "title": "タメルで朝食",
-          "description": "最終日も午前勝負。宿の朝食を済ませ、8時半にはパタンへ出発したい。今日はパスポート（博物館・検問対策）と、買い納め用の現金を多めに持って出る。帰りにATMへ寄る手間を省ける。村歩きがあるので靴は滑りにくいものを。",
+          "title": "タメルで朝食 — オイルの日の支度をして出る",
+          "description": "今日も午前勝負。宿の朝食を済ませ、8時半にはパタンへ出発したい。持ち物にひと工夫——夕方のアーユルヴェーダで髪も体もオイルまみれになるので、ヘアゴム・帽子・前開きの服・汚れてもいいタオルをバッグに入れておく。村歩きがあるので靴は滑りにくいものを。パスポートと現金（博物館・施術代）も忘れずに。",
           "images": [],
           "location": {
             "name": "タメル地区",
@@ -6358,7 +5734,8 @@
               "jpy": 0
             },
             "steps": [
-              "宿の朝食または近くのカフェ"
+              "宿の朝食または近くのカフェ",
+              "アーユルヴェーダ用の持ち物（ヘアゴム・帽子・前開きの服・タオル）を確認"
             ]
           },
           "details": {
@@ -6370,8 +5747,8 @@
             "bestTime": "早朝",
             "duration": "30〜45分",
             "tips": [
-              "ATMは朝のうちに。外国カード手数料500〜700 NPR/回の定額なので1回でまとめて",
-              "午後の村歩きに備えて雨具と滑りにくい靴を"
+              "施術直前に満腹は禁物なので、今日の昼は軽め〜普通盛りを意識",
+              "17時の予約を店にWhatsAppでリコンファームしておくと確実"
             ]
           }
         },
@@ -6423,7 +5800,7 @@
           "description": "3つの旧王宮広場で最も彫刻が美しいと言われるネワール文化の最高峰。入場料1,000 NPRにはパタン博物館の入館も含まれる。博物館の開館は10:30なので、先に広場の石造寺院群と裏路地を歩くのが効率的だ。路地に潜む仏教僧院（バヒ）は人が少なく静かで、中庭に足を踏み入れると街の音が遠のく。黄金寺（Hiranya Varna Mahavihar、入場50 NPR）では靴と革製品を外して入る。地震被害の修復はほぼ完了している。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patan_durbar_square.jpg",
+              "url": "/travelplannerv2/img/patan-durbar-square.jpg",
               "alt": "パタン・ダルバール広場の寺院群",
               "credit": "Wikimedia Commons"
             }
@@ -6469,7 +5846,7 @@
           "description": "旧王宮の一角を使った、ネパール随一の質と評される博物館。ヒンドゥーと仏教の神像・工芸が丁寧な英語解説とともに並び、ここを見てから街の寺院を見ると彫刻の見え方が変わる。開館は10:30〜17:30で、入館料は広場のチケットに含まれている。中庭の静けさも含めて、駆け足にせず1時間半はかけたい。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Patan%20museum-Patan%20Durbar%20Square-2054.jpg",
+              "url": "/travelplannerv2/img/patan-museum-patan-durbar-square-2054.jpg",
               "alt": "パタン博物館の中庭",
               "credit": "Wikimedia Commons"
             }
@@ -6506,11 +5883,11 @@
           }
         },
         {
-          "time": "12:15",
+          "time": "12:00",
           "period": "afternoon",
           "type": "meal",
           "title": "昼食: Honacha（ホナチャ）でサマエバジ",
-          "description": "クリシュナ寺院の真裏にある創業100年超の超老舗で、ネワール料理の代名詞サマエバジを。干し米チウラに水牛のチョイラ、揚げ豆、バラ（豆のパンケーキ）、アチャールが盛られる儀式定食で、パタンの老舗で食べるのが本物とされる。英語メニューはないが指差しで通じるし、それがまた楽しい。激辛のハクチョエラは辛さ耐性と要相談。予算はひとり300〜500 NPRと驚くほど安い。チャン（どぶろく）は明朝3:15発なので今日は一杯まで。",
+          "description": "クリシュナ寺院の真裏にある創業100年超の超老舗で、ネワール料理の代名詞サマエバジを。干し米チウラに水牛のチョイラ、揚げ豆、バラ（豆のパンケーキ）、アチャールが盛られる儀式定食で、パタンの老舗で食べるのが本物とされる。英語メニューはないが指差しで通じるし、それがまた楽しい。激辛のハクチョエラは辛さ耐性と要相談。予算はひとり300〜500 NPRと驚くほど安い。夕方に施術が控えているので、チャン（どぶろく）は一杯まで、食事も腹八分がちょうどいい。",
           "images": [],
           "location": {
             "name": "Honacha（パタン・ダルバール広場裏）",
@@ -6540,24 +5917,24 @@
             "duration": "1時間",
             "tips": [
               "英語メニューなし。ローカル度満点なので指差しでOK",
-              "チャンは酒に弱い人・胃腸に不安がある人は控えめに"
+              "施術前なので満腹にしない。バラ1〜2枚+サマエバジの軽め構成が正解"
             ]
           }
         },
         {
-          "time": "13:30",
+          "time": "13:15",
           "period": "afternoon",
           "type": "spot",
           "title": "ブンガマティ・コカナ村——雨季の緑に沈むネワール農村",
-          "description": "パタンの南わずか10km、16世紀からのネワール農村2つをバスでめぐる。パタンのラガンケル・バススタンドから約30分、運賃25〜35 NPR。ブンガマティは木彫細工の村でラト・マチェンドラナート神の「故郷」——2015年地震で倒壊した寺院は再建がほぼ完了した。木彫工房を覗きながら石畳を歩き、丘のカリヤ・ビナヤク（ガネーシャ）寺院を経て、徒歩20〜30分で菜種油搾りの村コカナへ。田植え後の緑の水田が村を囲む景色は雨季ならではの美景で、入場はどちらも無料（寄進歓迎）。アクセス道路は舗装済みの近距離で、雨季でも土砂崩れリスク帯を通らないのが安心材料だ。",
+          "description": "パタンの南わずか10km、16世紀からのネワール農村2つをバスでめぐる。パタンのラガンケル・バススタンドから約30分、運賃25〜35 NPR。ブンガマティは木彫細工の村でラト・マチェンドラナート神の「故郷」——2015年地震で倒壊した寺院は再建がほぼ完了した。木彫工房を覗きながら石畳を歩き、丘のカリヤ・ビナヤク（ガネーシャ）寺院を経て、徒歩20〜30分で菜種油搾りの村コカナへ。田植え後の緑の水田が村を囲む景色は雨季ならではの美景で、入場はどちらも無料（寄進歓迎）。17時のアーユルヴェーダから逆算して、15:30にはコカナ側の道路からタメルへ発つ——ここだけ時間厳守だ。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bungamati-72-Hauptplatz-kleine%20Pagode-2014-gje.jpg",
+              "url": "/travelplannerv2/img/bungamati-72-hauptplatz-kleine-pagode-2014-gje.jpg",
               "alt": "ブンガマティの広場と小パゴダ",
               "credit": "Wikimedia Commons"
             },
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Rudrayani%20Temple%20Khokana%20Lalitpur%20Nepal%20Rajesh%20Dhungana%20(9).jpg",
+              "url": "/travelplannerv2/img/rudrayani-temple-khokana-lalitpur-nepal-rajesh-dhungana-9-.jpg",
               "alt": "コカナのルドラヤニ寺院",
               "credit": "Wikimedia Commons"
             }
@@ -6579,7 +5956,8 @@
             "steps": [
               "広場から南へ徒歩15分ほどでラガンケル・バススタンドへ",
               "「ブンガマティ?」と聞いて乗車、運賃は車内で車掌へ",
-              "ブンガマティ下車→村歩き→丘のカリヤ・ビナヤク寺院→徒歩でコカナへ（1km強）"
+              "ブンガマティ下車→村歩き→丘のカリヤ・ビナヤク寺院→徒歩でコカナへ（1km強）",
+              "15:30までにコカナ側の道路でPathaoを呼んでタメルへ"
             ]
           },
           "details": {
@@ -6589,12 +5967,12 @@
             },
             "hours": "村なので終日。工房は日中",
             "bestTime": "午後（雨が来たら軒先と工房が雨宿りになる）",
-            "duration": "3時間前後（両村+移動）",
+            "duration": "2時間強（両村+移動、17時の予約から逆算）",
             "tips": [
               "入場無料。ブンガマティ博物館などは小額の寄付制",
               "石畳はぬかるみ箇所あり。サンダルより滑りにくい靴で",
               "木彫の小物は工房価格で買える。職人の写真は一言許可を",
-              "帰りはコカナ側の道路からバスかPathao。タメル直帰ならPathao車600〜800 NPR・40分前後が楽"
+              "タメル直帰はPathao車600〜800 NPR・40分前後。夕方の渋滞を見込んで15:30発を厳守"
             ]
           }
         },
@@ -6602,11 +5980,459 @@
           "time": "17:00",
           "period": "evening",
           "type": "activity",
-          "title": "タメルで土産の買い納め（値切り交渉本番）",
-          "description": "これまでの下見を踏まえて本番の買い物へ。タメルは交渉前提の街で、言い値の30〜50%着地が目安。提示額の20〜35%引きからスタートし、笑顔で粘って、ダメなら立ち去る。呼び戻されたら勝ちだ。ネパール語で「マハンゴ・バヨ!（高いよ!）」と言えば場が和む。紅茶は専門店で試飲してから、パシュミナは指輪に通るかで本物を見極め、シンギングボウルは30秒以上音が続くものを選ぶ。値切りが煩わしければ固定価格のフェアトレード店Mahaguthiへ。残NPRの使い切りを意識して買うのが今夜の鉄則。",
+          "title": "アーユルヴェーダ — シロダーラ+アビヤンガの2時間で全身をほどく",
+          "description": "今日の締めくくりは、額に温かい薬用オイルを銅のポットから細く垂らし続けるシロダーラと、全身オイルマッサージのアビヤンガ。本命はタメル徒歩圏の専門院Nepal Ayurveda Home——医師レベルの問診で体質（ドーシャ）を判定し、オイルを選んでくれる本格派で、Tripadvisorはほぼ満点評価だ（施術のみ約2時間、ヨガ+アーユルヴェーダ昼食付きの1日パッケージはUSD 102/人）。タメルから徒歩5分のInstitute of Natural Medicine（シロダーラ45〜60分USD 35〜40、WhatsApp +977-9843369200）、夜22時まで営業のThamel Spa（Google 4.6★）も良い選択肢。相場はシロダーラ45分NPR 3,800〜60分NPR 5,400、アビヤンガとのセット2時間でNPR 7,000〜9,000——日本の1/3〜1/5だ。流れは問診→オイル選定→アビヤンガ60分→シロダーラ30〜45分。多くの人が途中で眠りに落ちる。「良いオイルが浸透しなくなる」とすぐのシャワーを勧めない施設もあり、髪はギトギトのまま帰るのが前提。ヘアゴムで髪をまとめ、帽子をかぶって、タクシーで宿へ直帰する。",
+          "images": [],
+          "location": {
+            "name": "Nepal Ayurveda Home（Kwabahal, タメル）",
+            "googleMapsUrl": "https://maps.google.com/?q=Nepal+Ayurveda+Home+Thamel+Kathmandu",
+            "lat": 27.7154,
+            "lng": 85.3123
+          },
+          "access": {
+            "from": "宿（タメル）",
+            "method": "徒歩（タメル地区内）",
+            "duration": "5〜10分",
+            "cost": {
+              "npr": 0,
+              "jpy": 0
+            },
+            "steps": [
+              "予約時刻の10分前に到着",
+              "問診票に既往歴・気になる箇所を記入（女性は「female therapist please」と伝えれば同性施術が確実）",
+              "アビヤンガ60分→シロダーラ30〜45分",
+              "オイルを軽く拭き取り、水分をよく摂って退店"
+            ]
+          },
+          "details": {
+            "fee": {
+              "npr": "7000-9000",
+              "jpy": "7350-9450"
+            },
+            "hours": "Nepal Ayurveda Homeは日中〜夕方（要予約） / Thamel Spaは毎日8:00〜22:00",
+            "bestTime": "夕方17時開始→宿直帰が正解。施術後に観光や買い物を入れない",
+            "duration": "問診込み2〜2.5時間",
+            "tips": [
+              "予約はWhatsApp/電話/メールで1〜2日前が確実。Nepal Ayurveda Home: +977-9849521819 / INM: WhatsApp +977-9843369200 / Thamel Spa: +977-9851087474",
+              "髪は洗っても1〜2回では油が落ちないレベルになる。翌朝シャンプー前提で今夜はそのまま寝てよし（枕にタオル）",
+              "持ち物: ヘアゴム、帽子かフード、前開きの服、汚れてもいいタオル",
+              "本物の目安は問診（体質カウンセリング）があるか。オイルを客ごとに新しくしているかも口コミでチェック",
+              "チップは満足したらNPR 200〜500/人を施術者に直接",
+              "発熱時・皮膚炎があるときは避ける。施術後は湯冷めと冷房の当たりすぎに注意"
+            ]
+          }
+        },
+        {
+          "time": "19:45",
+          "period": "night",
+          "type": "meal",
+          "title": "宿の近くで軽い夕食 — オイルまみれのまま、静かに締める",
+          "description": "施術後の体は思った以上にゆるんでいる。夕食は宿から徒歩数分のタカリー食堂かKachila'zで、温かいダルバートかスープモモを軽く。アルコールは施術効果を流すので今夜は控えめが賢い。帽子の下はオイルでしっとりしたままだが、それがアーユルヴェーダの正しい姿だ。水を多めに飲んで、今夜は早めに床につく。明日はキルティプルと買い納め、そして夜は出発準備が待っている。",
+          "images": [],
+          "location": {
+            "name": "タメル地区の食堂",
+            "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123",
+            "lat": 27.7154,
+            "lng": 85.3123
+          },
+          "access": {
+            "from": "アーユルヴェーダの店",
+            "method": "徒歩（雨ならタクシー）",
+            "duration": "5分",
+            "cost": {
+              "npr": 0,
+              "jpy": 0
+            },
+            "steps": [
+              "宿の近くで温かいものを軽く",
+              "水分を多めに摂る"
+            ]
+          },
+          "details": {
+            "fee": {
+              "npr": "300-700",
+              "jpy": "315-735"
+            },
+            "hours": "21時頃まで",
+            "bestTime": "施術後すぐ",
+            "duration": "45分〜1時間",
+            "tips": [
+              "今夜の飲酒は控えめに（施術の温め効果を保つ）",
+              "枕にタオルを敷いて就寝。シャンプーは明朝2度洗いで"
+            ]
+          }
+        }
+      ],
+      "food": {
+        "localSpecialties": [
+          "サマエバジ（ネワールの儀式定食）",
+          "バラ（豆のパンケーキ）",
+          "チャン（どぶろく）"
+        ],
+        "mustTry": {
+          "dish": "サマエバジ（Samay Baji）",
+          "description": "干し米チウラに水牛のチョイラ（スパイシー炙り肉）、揚げ豆、バラ（豆のパンケーキ）、アチャールを盛るネワール族の儀式定食。パタンの創業100年超の老舗ホナチャで食べるのが本物。この旅の「これを食べろ」一品。"
+        },
+        "restaurants": [
+          {
+            "name": "Honacha（ホナチャ）",
+            "type": "ネワール料理の超老舗（パタン）",
+            "budget": "cheap",
+            "priceRange": {
+              "npr": "300-500",
+              "jpy": "315-525"
+            },
+            "popular": [
+              "サマエバジ",
+              "ハクチョエラ（激辛）",
+              "バラ",
+              "チャン"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=Honacha%EF%BC%88%E3%83%9B%E3%83%8A%E3%83%81%E3%83%A3%EF%BC%89%20Patan%20Lalitpur"
+            }
+          },
+          {
+            "name": "Thakali Bhanchha Ghar系（タカリー食堂）",
+            "type": "ダルバート食堂（タメル・夕食）",
+            "budget": "cheap",
+            "priceRange": {
+              "npr": "450-700",
+              "jpy": "472-735"
+            },
+            "popular": [
+              "ダルバート（タカリーセット）"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=Thakali%20Bhanchha%20Ghar%E7%B3%BB%EF%BC%88%E3%82%BF%E3%82%AB%E3%83%AA%E3%83%BC%E9%A3%9F%E5%A0%82%EF%BC%89%20Thamel%20Kathmandu"
+            }
+          },
+          {
+            "name": "Kachila'z",
+            "type": "軽食・モモ（タメル）",
+            "budget": "cheap",
+            "priceRange": {
+              "npr": "300-600",
+              "jpy": "315-630"
+            },
+            "popular": [
+              "スープモモ",
+              "ラッシー"
+            ],
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=Kachila'z%20Thamel%20Kathmandu"
+            }
+          }
+        ],
+        "drinks": [
+          "チャン（ホナチャで一杯まで。施術前なので深追いしない）",
+          "施術後は白湯か常温の水を多めに",
+          "ペットボトル水（1L 25〜50 NPR）"
+        ],
+        "safetyTips": [
+          "施術直前の満腹・直後の冷たい飲み物は避ける",
+          "生水・氷・生野菜は最後まで避ける",
+          "村歩きの後は手指消毒を"
+        ]
+      },
+      "accommodation": {
+        "area": "タメル地区（6連泊の5泊目・移動なし）",
+        "recommendations": [
+          {
+            "name": "Day 8と同宿（Oasis Kathmandu Hotel / Kumari Boutique Hotel など）",
+            "budget": "mid",
+            "pricePerNight": {
+              "npr": "3500-7000",
+              "jpy": "3675-7350"
+            },
+            "bookingTip": "6連泊の5泊目。オイルで枕を汚さないようタオルを1枚借りておく。出発は8/14未明なので、洗濯や荷物の整理は今夜から少しずつ始めると楽",
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=Oasis%20Kathmandu%20Hotel%20%2F%20Kumari%20Boutique%20Hotel%20Thamel%20Kathmandu"
+            }
+          }
+        ]
+      },
+      "shopping": {
+        "famous": [
+          "ブンガマティの木彫小物",
+          "パタンのフェアトレード雑貨"
+        ],
+        "priceGuide": "ブンガマティの木彫は工房価格で、窓枠彫刻のミニチュアや小物が数百NPR〜。パタンの固定価格フェアトレード店Dhukutiは値切り不要で品質保証つき。本格的な買い納めは明日のタメルで",
+        "shops": [
+          {
+            "name": "ブンガマティの木彫工房",
+            "description": "木彫細工の村の工房価格。職人の作業を見ながら選べる。荷物になる大物は避けて小物を",
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=27.6244,85.3011"
+            }
+          },
+          {
+            "name": "Dhukuti（パタン・フェアトレード）",
+            "description": "パタン観光とセットで寄れる固定価格のフェアトレード店。ブンガマティへ発つ前に覗く手もある",
+            "location": {
+              "googleMapsUrl": "https://maps.google.com/?q=Dhukuti+Patan"
+            }
+          }
+        ]
+      },
+      "transport": {
+        "to": "キルティプル（翌日・半日）→ 午後タメルで買い納め→出発準備",
+        "method": "ローカルバス（ラトナパークから）",
+        "duration": "バス25〜30分（南西へ5km）",
+        "cost": {
+          "npr": 35,
+          "jpy": 37
+        },
+        "bookingInfo": "予約不要。ラトナパーク（旧バスパーク周辺）からキルティプル行きが30分毎、35 NPR。タクシー/Pathaoならタメルから450 NPR前後・15〜20分",
+        "steps": [
+          "朝8時半頃タメル発、ラトナパークのバス乗り場へ",
+          "車掌に「Kirtipur, Naya Bazaar」と伝えて乗車",
+          "降車後は坂を上って旧市街へ（標識あり）"
+        ],
+        "tips": [
+          "市内路線なので雨季も土砂崩れリスクなし・通常運行",
+          "昼はキルティプルのコミュニティ食堂Newa Lahanaで。タメルの半額以下で本物のネワール料理が食べられる",
+          "明日の夜は3:15発の最終準備。タクシー前夜手配・NPR使い切り・オンラインチェックインを忘れずに"
+        ]
+      }
+    },
+    {
+      "day": 13,
+      "date": "2026-08-13",
+      "title": "最後まで抵抗した丘の街キルティプルへ、タメルで買い納めて旅支度",
+      "area": "キルティプル（半日）→ タメル（買い納め・出発準備）",
+      "heroImage": {
+        "url": "/travelplannerv2/img/baghbhairab-kirtipur.jpg",
+        "alt": "キルティプルのバグ・バイラブ寺院",
+        "credit": "Wikimedia Commons"
+      },
+      "summary": "木曜日、ネパール滞在の実質最終日。午前はカトマンズ南西5kmの丘上に残るネワール古都キルティプルへ——1768年のゴルカ軍侵攻に最後まで抵抗した街で、石畳の坂道と伝統家屋に観光客はまばら。ラトナパークからバスで25分・35 NPRという近さも、最終日の半日行き先としてちょうどいい。虎のバイラブを祀るバグ・バイラブ寺院を見て、コミュニティ食堂Newa Lahanaでタメルの半額以下の本物ネワール料理を昼に。午後はタメルに戻って土産の買い納め本番、夜は明朝3:15出発に向けた最終準備だ。タクシーの前夜手配とNPRの使い切り、オンラインチェックイン——4つの宿題を済ませて、6泊したタメルの最終夜を締めくくる。",
+      "areaInfo": {
+        "walkable": true,
+        "walkableNote": "キルティプル旧市街は徒歩周回1.5〜2時間（坂と石段が多い）。タメル内も徒歩で完結",
+        "transportNeeded": "ラトナパークからキルティプル行きローカルバスが30分毎・35 NPR・25〜30分。タクシー/Pathaoならタメルから450 NPR前後・15〜20分。市内路線なので雨季も通常運行",
+        "atm": "買い納め用の現金はタメルのATMラウンジで。手数料定額（500〜700 NPR）なので必要額を1回で。ただし今日は「使い切る」日——下ろしすぎない",
+        "wifi": "タメルのカフェでWiFi可。オンラインチェックインは宿のWiFiで",
+        "sim": "取得済みのNTC/Ncellで問題なし（残データは今日で使い切ってよい）",
+        "safety": "キルティプルは人が少なく静かで安全だが、チランチョ・ストゥーパ周辺は夕方野犬が多いので日中に。タメルの買い物は混雑時のスリにだけ注意",
+        "convenience": "空港での再両替はレートが悪いので、今日中にNPRの使い道を計画しておく"
+      },
+      "timeline": [
+        {
+          "time": "07:30",
+          "period": "morning",
+          "type": "meal",
+          "title": "タメルで朝食 — 昨夜のオイルを2度洗いしてから",
+          "description": "まずはシャンプー2度洗いで昨夜のシロダーラのオイルを落とすところから一日が始まる。朝食は宿かHot Breads BakeHouseで軽く。今日は半日観光+買い納め+出発準備の三本立てなので、朝のうちに頭の中で段取りを整理しておく。持ち物はパスポート（検問・入域料対策）と現金。買い納め用の大金は午後に宿へ寄ってから持ち出せばいい。",
+          "images": [],
+          "location": {
+            "name": "タメル地区",
+            "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123",
+            "lat": 27.7154,
+            "lng": 85.3123
+          },
+          "access": {
+            "from": "宿（タメル）",
+            "method": "徒歩",
+            "duration": "すぐ",
+            "cost": {
+              "npr": 0,
+              "jpy": 0
+            },
+            "steps": [
+              "宿の朝食または近くのカフェ"
+            ]
+          },
+          "details": {
+            "fee": {
+              "npr": "300-500",
+              "jpy": "315-525"
+            },
+            "hours": "7:00頃から",
+            "bestTime": "早朝",
+            "duration": "30〜45分",
+            "tips": [
+              "坂の街を歩くので靴は滑りにくいものを",
+              "帰国便用に、機内持込と預けの荷物配分を朝のうちにイメージしておくと夜のパッキングが速い"
+            ]
+          }
+        },
+        {
+          "time": "08:30",
+          "period": "morning",
+          "type": "transport",
+          "title": "ラトナパークからバスでキルティプルへ",
+          "description": "タメルから徒歩15分ほどのラトナパーク（旧バスパーク周辺）から、キルティプル行きのローカルバスが30分毎に出ている。運賃はわずか35 NPR、所要25〜30分。車掌に「Kirtipur, Naya Bazaar」と伝えれば降り場を教えてくれる。降車後は坂を上って旧市街へ（標識あり）。市内路線なので雨季も土砂崩れの心配なく通常運行——最終日の遠出として、この気楽さがありがたい。楽をしたければタクシー/Pathaoで450 NPR前後・15〜20分。",
+          "images": [],
+          "location": {
+            "name": "キルティプル（Naya Bazaar）",
+            "googleMapsUrl": "https://maps.google.com/?q=27.6781,85.2769",
+            "lat": 27.6781,
+            "lng": 85.2769
+          },
+          "access": {
+            "from": "タメル → ラトナパーク",
+            "method": "徒歩でバス乗り場へ → ローカルバス",
+            "duration": "バス25〜30分",
+            "cost": {
+              "npr": 35,
+              "jpy": 37
+            },
+            "steps": [
+              "タメルからラトナパークへ徒歩15分",
+              "「Kirtipur?」と聞いて乗車、運賃35 NPRは車内で車掌へ",
+              "Naya Bazaarで下車、坂を上って旧市街へ"
+            ]
+          },
+          "details": {
+            "fee": {
+              "npr": 100,
+              "jpy": 105
+            },
+            "hours": "バスは30分毎",
+            "bestTime": "朝発→14時タメル帰着のモデルが最適",
+            "duration": "25〜30分",
+            "tips": [
+              "入域料100 NPR（外国人）は徴収ブースが無人のことも多い。小額紙幣を用意",
+              "帰りも同じ場所からバス・タクシーが拾える"
+            ]
+          }
+        },
+        {
+          "time": "09:15",
+          "period": "morning",
+          "type": "spot",
+          "title": "キルティプル旧市街 — バグ・バイラブ寺院と石畳の坂道",
+          "description": "丘の上の旧市街を徒歩で周回する（1.5〜2時間）。中心はキルティプル随一の境内を持つバグ・バイラブ寺院——虎の姿のバイラブ神を祀り、外壁には1768年のゴルカ戦争で奪った武器が打ち付けられたまま残る。最後まで抵抗した街の記憶が、そのまま壁に掛かっているわけだ。丘の頂上のウマ・マヘシュワル寺院（1663年建立、金属の鋲鞍を着けた象の石像が守る）まで登れば、晴れればカトマンズ盆地が一望できる。1515年のチランチョ・ストゥーパ、ルンビニ以外でネパール唯一のタイ様式寺院シュリ・キルティ・ビハーラと、見どころは徒歩圏に凝縮。観光客がまばらな石畳の路地で、絞りたての生活音だけが聞こえる——バクタプルとも パタンとも違う、素顔のネワール古都だ。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thamel_at_night_-_Kathmandu,_Nepal_-_panoramio_(1).jpg",
+              "url": "/travelplannerv2/img/baghbhairab-kirtipur.jpg",
+              "alt": "バグ・バイラブ寺院の境内",
+              "credit": "Wikimedia Commons"
+            }
+          ],
+          "location": {
+            "name": "バグ・バイラブ寺院",
+            "googleMapsUrl": "https://maps.google.com/?q=27.6794,85.2765",
+            "lat": 27.6794,
+            "lng": 85.2765
+          },
+          "access": {
+            "from": "Naya Bazaarバス降車地点",
+            "method": "徒歩（坂を上る）",
+            "duration": "10〜15分",
+            "cost": {
+              "npr": 0,
+              "jpy": 0
+            },
+            "steps": [
+              "坂道の標識に従って旧市街へ",
+              "バグ・バイラブ寺院→ウマ・マヘシュワル寺院（頂上）→チランチョ・ストゥーパの順に周回"
+            ]
+          },
+          "details": {
+            "fee": {
+              "npr": 0,
+              "jpy": 0
+            },
+            "hours": "終日（寺院境内は日中）",
+            "bestTime": "午前。夕方はチランチョ周辺に野犬が増える",
+            "duration": "1.5〜2時間",
+            "tips": [
+              "石段と坂が多い。雨上がりは滑りやすいので手すりのある側を",
+              "境内では革製品を外す祠がある。参拝者の邪魔にならない位置から見学",
+              "眺望が良いのは頂上のウマ・マヘシュワル寺院。雲が切れるのを5分待つ価値はある"
+            ]
+          }
+        },
+        {
+          "time": "11:30",
+          "period": "morning",
+          "type": "meal",
+          "title": "昼食: Newa Lahana — ハクパタシの女性たちが給仕するコミュニティ食堂",
+          "description": "キルティプルまで来た理由の半分はこの店にある。コミュニティ運営のネワール料理食堂Newa Lahanaでは、ハクパタシ（黒地に赤縁の伝統衣装）の女性たちが給仕し、ヨマリ、チャタマリ、バラ、チョイラ、自家醸造のトウ（米酒）が一皿100〜300 NPRで並ぶ——タメルの半額以下で、本物が食べられる。素焼きの皿で出てくる料理を、地元の家族連れに混じってつまむ昼は、この旅のネワール料理の締めくくりにふさわしい。オフシーズンは閉まる食堂もあるがNewa Lahanaは通年営業、昼時に行くのが確実だ。",
+          "images": [],
+          "location": {
+            "name": "Newa Lahana（キルティプル）",
+            "googleMapsUrl": "https://maps.google.com/?q=Newa+Lahana+Kirtipur",
+            "lat": 27.6781,
+            "lng": 85.2769
+          },
+          "access": {
+            "from": "バグ・バイラブ寺院",
+            "method": "徒歩",
+            "duration": "5〜10分",
+            "cost": {
+              "npr": 0,
+              "jpy": 0
+            },
+            "steps": [
+              "旧市街の路地を標識と地図アプリで。迷ったら「ネワ・ラハナ?」と聞けば通じる"
+            ]
+          },
+          "details": {
+            "fee": {
+              "npr": "200-600",
+              "jpy": "210-630"
+            },
+            "hours": "昼〜夜（昼時が確実）",
+            "bestTime": "11:30〜13:00",
+            "duration": "1〜1.5時間",
+            "tips": [
+              "一皿100〜300 NPR、主菜USD 4.5〜。2人で頼みすぎても財布は痛まない",
+              "トウ（米酒）は今夜が3:15起きなことを思い出して一杯まで",
+              "眺望重視ならウマ・マヘシュワル寺院近くのKirtipur Viewpoint Restaurantも可"
+            ]
+          }
+        },
+        {
+          "time": "13:15",
+          "period": "afternoon",
+          "type": "transport",
+          "title": "キルティプル → タメルへ戻る",
+          "description": "帰りはNaya Bazaarから来た道を戻る。バスなら35 NPR・25〜30分、荷物と相談してタクシー（450 NPR前後）でもいい。14時前にタメルへ戻れば、宿に寄って現金を補充し、午後の買い納めにたっぷり時間が使える。",
+          "images": [],
+          "location": {
+            "name": "タメル地区",
+            "googleMapsUrl": "https://maps.google.com/?q=27.7154,85.3123",
+            "lat": 27.7154,
+            "lng": 85.3123
+          },
+          "access": {
+            "from": "キルティプル（Naya Bazaar）",
+            "method": "ローカルバスまたはタクシー",
+            "duration": "25〜30分",
+            "cost": {
+              "npr": "35-450",
+              "jpy": "37-472"
+            },
+            "steps": [
+              "Naya Bazaarのバス乗り場からラトナパーク方面行きに乗車",
+              "ラトナパーク下車、タメルへ徒歩15分"
+            ]
+          },
+          "details": {
+            "fee": {
+              "npr": 0,
+              "jpy": 0
+            },
+            "hours": "-",
+            "bestTime": "14時前にタメル帰着",
+            "duration": "40〜50分（徒歩込み）",
+            "tips": [
+              "宿で残NPRを数えて、今日使い切る額を決めてから買い物へ"
+            ]
+          }
+        },
+        {
+          "time": "14:30",
+          "period": "afternoon",
+          "type": "activity",
+          "title": "タメルで土産の買い納め（値切り交渉本番）",
+          "description": "これまでの下見を踏まえて本番の買い物へ。タメルは交渉前提の街で、言い値の30〜50%着地が目安。提示額の20〜35%引きからスタートし、笑顔で粘って、ダメなら立ち去る。呼び戻されたら勝ちだ。ネパール語で「マハンゴ・バヨ!（高いよ!）」と言えば場が和む。紅茶は専門店で試飲してから、パシュミナは指輪に通るかで本物を見極め、シンギングボウルは30秒以上音が続くものを選ぶ。値切りが煩わしければ固定価格のフェアトレード店Mahaguthiへ。残NPRの使い切りを意識して買うのが今日の鉄則。夕方の店がいちばん活気づく時間まで、じっくり回る。",
+          "images": [
+            {
+              "url": "/travelplannerv2/img/thamel-at-night-kathmandu-nepal-panoramio-1-.jpg",
               "alt": "土産物店が並ぶタメルの通り",
               "credit": "Wikimedia Commons"
             }
@@ -6618,15 +6444,14 @@
             "lng": 85.3123
           },
           "access": {
-            "from": "ブンガマティ・コカナ",
-            "method": "Pathao（車）でタメルへ直帰",
-            "duration": "40分前後",
+            "from": "宿（タメル）",
+            "method": "徒歩",
+            "duration": "すぐ",
             "cost": {
-              "npr": "600-800",
-              "jpy": "630-840"
+              "npr": 0,
+              "jpy": 0
             },
             "steps": [
-              "コカナ側の道路でPathaoを呼ぶ（つかまらなければバスでラガンケル→乗り継ぎ）",
               "宿に荷物を置いて身軽に買い物へ",
               "大物（シンギングボウル等）は最後に買うと持ち歩きが楽"
             ]
@@ -6637,8 +6462,8 @@
               "jpy": 0
             },
             "hours": "店は22時頃まで（買い物のベストは夕方）",
-            "bestTime": "夕方",
-            "duration": "1.5〜2時間",
+            "bestTime": "午後〜夕方",
+            "duration": "2.5〜3時間",
             "tips": [
               "紅茶（イラム茶）100gで300〜800 NPRが交渉後の相場",
               "タメルの1,000〜2,500 NPRの「パシュミナ」はほぼアクリル混。本物は5,000 NPR〜で専門店（Shanker's Pashmina House等）へ",
@@ -6648,7 +6473,7 @@
           }
         },
         {
-          "time": "18:45",
+          "time": "17:30",
           "period": "evening",
           "type": "activity",
           "title": "明朝3:15出発の最終準備",
@@ -6686,7 +6511,7 @@
             "duration": "45分",
             "tips": [
               "空港はターミナル入口でeチケット提示が必要（ないと建物に入れない）。画面表示でも可だがすぐ出せるように",
-              "宿に無料/有料の空港送迎があればそれが最良。チェックイン時に確認を",
+              "宿に無料/有料の空港送迎があればそれが最良。フロントで最終確認を",
               "【重要】8/15のGatimaan Express未予約なら今夜ホテルのWiFiで12Go.asiaから確保。独立記念日+土曜で満席が近い。予約済みならPNRステータスを確認"
             ]
           }
@@ -6696,7 +6521,7 @@
           "period": "evening",
           "type": "meal",
           "title": "最後の晩餐: Pasa Newari Kitchen（21時までに切り上げ）",
-          "description": "ネパール最後の夜は、伝統スパイス使いに定評のあるPasa Newari Kitchenで。ネワール版ピザと呼ばれる米粉のチャタマリは、旅の締めにふさわしい一枚だ。観光客にも入りやすいネワール料理入門の店で、予算はひとり400〜800 NPR。明朝が3:15発なので、21時までに夕食を済ませて宿に戻るのが鉄則。祭りのような5日間を振り返りながら、早めに床につこう。",
+          "description": "ネパール最後の夜は、伝統スパイス使いに定評のあるPasa Newari Kitchenで。ネワール版ピザと呼ばれる米粉のチャタマリは、旅の締めにふさわしい一枚だ。観光客にも入りやすいネワール料理入門の店で、予算はひとり400〜800 NPR。明朝が3:15発なので、21時までに夕食を済ませて宿に戻るのが鉄則。ポカラの湖から国内線で飛んで手に入れた、みっちり濃い5日間のカトマンズを振り返りながら、早めに床につこう。",
           "images": [],
           "location": {
             "name": "Pasa Newari Kitchen（タメル）",
@@ -6733,31 +6558,32 @@
       ],
       "food": {
         "localSpecialties": [
-          "サマエバジ（ネワールの儀式定食）",
+          "キルティプルのネワール料理（Newa Lahana）",
           "チャタマリ（ネワール版ピザ）",
-          "チャン（どぶろく）"
+          "トウ（自家醸造の米酒）"
         ],
         "mustTry": {
-          "dish": "サマエバジ（Samay Baji）",
-          "description": "干し米チウラに水牛のチョイラ（スパイシー炙り肉）、揚げ豆、バラ（豆のパンケーキ）、アチャールを盛るネワール族の儀式定食。パタンの創業100年超の老舗ホナチャで食べるのが本物。この旅の「これを食べろ」一品。"
+          "dish": "Newa Lahanaのネワール料理盛り合わせ",
+          "description": "コミュニティ運営食堂で、ハクパタシ姿の女性たちが給仕するヨマリ・チャタマリ・バラ・チョイラ。一皿100〜300 NPR（105〜315円）とタメルの半額以下で、味は本物以上。キルティプルまで足を延ばす価値の半分はここにある。"
         },
         "restaurants": [
           {
-            "name": "Honacha（ホナチャ）",
-            "type": "ネワール料理の超老舗（パタン）",
+            "name": "Newa Lahana（ネワ・ラハナ）",
+            "type": "コミュニティ運営のネワール料理食堂（キルティプル）",
             "budget": "cheap",
             "priceRange": {
-              "npr": "300-500",
-              "jpy": "315-525"
+              "npr": "100-300",
+              "jpy": "105-315"
             },
             "popular": [
-              "サマエバジ",
-              "ハクチョエラ（激辛）",
+              "ヨマリ",
+              "チャタマリ",
               "バラ",
-              "チャン"
+              "チョイラ",
+              "トウ（米酒）"
             ],
             "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Honacha%EF%BC%88%E3%83%9B%E3%83%8A%E3%83%81%E3%83%A3%EF%BC%89%20Patan%20Lalitpur"
+              "googleMapsUrl": "https://maps.google.com/?q=Newa+Lahana+Kirtipur"
             }
           },
           {
@@ -6777,23 +6603,23 @@
             }
           },
           {
-            "name": "Thakali Bhanchha Ghar系（タカリー食堂）",
-            "type": "ダルバート食堂",
+            "name": "Kirtipur Viewpoint Restaurant",
+            "type": "眺望レストラン（キルティプル・ウマ・マヘシュワル寺院近く）",
             "budget": "cheap",
             "priceRange": {
-              "npr": "450-700",
-              "jpy": "472-735"
+              "npr": "300-600",
+              "jpy": "315-630"
             },
             "popular": [
-              "ダルバート（タカリーセット）"
+              "盆地を見下ろす席でのダルバート"
             ],
             "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Thakali%20Bhanchha%20Ghar%E7%B3%BB%EF%BC%88%E3%82%BF%E3%82%AB%E3%83%AA%E3%83%BC%E9%A3%9F%E5%A0%82%EF%BC%89%20Thamel%20Kathmandu"
+              "googleMapsUrl": "https://maps.google.com/?q=Kirtipur+Viewpoint+Restaurant"
             }
           }
         ],
         "drinks": [
-          "チャン（ホナチャ名物のどぶろく。翌朝が早いのでほどほどに）",
+          "トウ（Newa Lahanaの自家醸造米酒。今夜が早いので一杯まで）",
           "ネパール紅茶（イラム茶）",
           "ペットボトル水（1L 25〜50 NPR）"
         ],
@@ -6804,10 +6630,10 @@
         ]
       },
       "accommodation": {
-        "area": "タメル地区（5連泊の5泊目・最終夜）",
+        "area": "タメル地区（6連泊の6泊目・最終夜）",
         "recommendations": [
           {
-            "name": "Day 9と同宿（Oasis Kathmandu Hotel / Kumari Boutique Hotel など）",
+            "name": "Day 8と同宿（Oasis Kathmandu Hotel / Kumari Boutique Hotel など）",
             "budget": "mid",
             "pricePerNight": {
               "npr": "3500-7000",
@@ -6827,7 +6653,6 @@
           "シンギングボウル",
           "フェルト製品",
           "ダッカ織帽子",
-          "ブンガマティの木彫小物",
           "ティムールペッパー"
         ],
         "priceGuide": "タメルは交渉前提で言い値の30〜50%着地が目安。提示額の20〜35%引きからスタートし、笑顔で粘り、ダメなら立ち去る（呼び戻されたら勝ち）。相場: 紅茶100g 300〜800 NPR（315〜840円）/ 本物のパシュミナショール5,000 NPR〜（5,250円〜。タメルの1,000〜2,500 NPR品はほぼアクリル混。本物判定は指輪に通るか）/ シンギングボウル手打ち本格品5,500〜27,000 NPR・機械製土産グレード1,400〜4,000 NPR（30秒以上音が持続するものが良品）/ フェルト小物200〜1,000 NPR（軽い・潰れない・ばらまき土産に最適）",
@@ -6851,20 +6676,6 @@
             "description": "値切り交渉が苦手ならここ。値札通りだが品質保証がある",
             "location": {
               "googleMapsUrl": "https://maps.google.com/?q=Mahaguthi+Kathmandu"
-            }
-          },
-          {
-            "name": "Dhukuti（パタン・フェアトレード）",
-            "description": "パタン観光とセットで寄れる固定価格のフェアトレード店。ブンガマティへ発つ前に覗く手もある",
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=Dhukuti+Patan"
-            }
-          },
-          {
-            "name": "ブンガマティの木彫工房",
-            "description": "木彫細工の村の工房価格。窓枠彫刻のミニチュアや小物が旅の記念になる",
-            "location": {
-              "googleMapsUrl": "https://maps.google.com/?q=27.6244,85.3011"
             }
           }
         ]
@@ -6902,7 +6713,7 @@
       "title": "夜明け前のカトマンズを発ち、午後のデリーでタージマハルの原型へ",
       "area": "カトマンズ → デリー",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Humayun's%20tomb%20by%20Shagil%20Kannur%204.jpg",
+        "url": "/travelplannerv2/img/humayun-s-tomb-by-shagil-kannur-4.jpg",
         "alt": "フマユーン廟。タージマハルの原型となった赤砂岩と白大理石の霊廟",
         "credit": "Wikimedia Commons"
       },
@@ -6926,7 +6737,7 @@
           "description": "深夜のタメルは静まり返り、空港までの6kmは渋滞ゼロの20分。前夜までにホテルフロントへ「3:15にタクシー」と頼んでおくのが鉄則で、相場はNPR 800-1,000。Pathaoは3時台は台数が少なく賭けになるため、前夜予約のホテル手配が正解だ。オンラインチェックインと残りNPRの整理は前夜21時までに済ませてある。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Thamel_at_night_-_Kathmandu,_Nepal_-_panoramio_(1).jpg",
+              "url": "/travelplannerv2/img/thamel-at-night-kathmandu-nepal-panoramio-1-.jpg",
               "alt": "夜のタメル地区",
               "credit": "Wikimedia Commons"
             }
@@ -7137,7 +6948,7 @@
           "description": "赤砂岩と白大理石のムガル廟建築。チャールバーグ(四分庭園)の幾何学の先に浮かぶドームは、80年後のタージマハルの直接の原型で、明日本物を見る前の予習として完璧な順番だ。外国人₹600(オンライン₹550)、日の出から日没まで、金曜も通常営業。そしてもう一つの実益——Gatimaanが発着するニザームッディーン(NZM)駅の至近なので、帰りに駅の入口位置を下見しておくと明朝8:10発の乗車が格段に楽になる。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Humayun's%20tomb%20by%20Shagil%20Kannur%204.jpg",
+              "url": "/travelplannerv2/img/humayun-s-tomb-by-shagil-kannur-4.jpg",
               "alt": "フマユーン廟",
               "credit": "Wikimedia Commons"
             }
@@ -7185,7 +6996,7 @@
           "description": "フマユーン廟から車で10分、90ヘクタールの緑地に15〜16世紀のロディ朝・サイイド朝の廟が点在する市民公園。バラ・グンバドやシカンダル・ロディ廟の周りを、犬の散歩やヨガのデリー市民が行き交う。入場無料・年中無休で、4〜9月は5:00〜20:00開園。雨が来たら東屋か園内のLodi-The Garden Restaurantに逃げ込めばいい。ムガル前夜の建築をタダで眺められる、デリーの午後の穴場だ。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Bara%20Gumbad%20tomb,%20in%20Lodi%20Gardens%2020.jpg",
+              "url": "/travelplannerv2/img/bara-gumbad-tomb-in-lodi-gardens-20.jpg",
               "alt": "ロディ・ガーデンのバラ・グンバド廟",
               "credit": "Wikimedia Commons"
             }
@@ -7231,7 +7042,7 @@
           "description": "第一次大戦の戦没者慰霊門。無料・24時間で、夕方の芝生は夕涼みのデリー市民で賑わい、屋台のクルフィ(インド式アイス)が名物だ。ただし明日は独立記念日——今夕はC-Hexagon周辺の警備が強化され、立入規制がかかる可能性がある。規制があれば無理せず車窓観賞に切り替えるのが正解で、ラージパット(Kartavya Path)越しに大統領官邸の外観も遠望できる。明朝以降この一帯は封鎖されるので、見るなら今夕しかない。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/India%20Gate%20in%20New%20Delhi%2003-2016.jpg",
+              "url": "/travelplannerv2/img/india-gate-in-new-delhi-03-2016.jpg",
               "alt": "インド門",
               "credit": "Wikimedia Commons"
             }
@@ -7502,7 +7313,7 @@
       "title": "独立記念日のタージマハルへ——アグラ日帰り決行",
       "area": "デリー → アグラ → デリー(深夜に空港へ)",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%20(Edited).jpeg",
+        "url": "/travelplannerv2/img/taj-mahal-edited-.jpeg",
         "alt": "タージマハル",
         "credit": "Wikimedia Commons"
       },
@@ -7567,7 +7378,7 @@
           "description": "NZM 8:10発、アグラカント9:50着。デリー〜アグラ最速の看板列車で、CC₹860/EC₹1,695には車内食も含まれる。金曜運休の列車だが今日は土曜なので運行——タージマハルの金曜休館と運休日が重なる合理的なダイヤだ。車窓に朝のヤムナー平原が流れ、1時間40分で到着する。独立記念日の今日は国内客で満席のはず。切符は事前確保が大前提——遅くともカトマンズ最終夜(8/13)にオンラインで押さえてある。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Gatimaan%20express.jpg",
+              "url": "/travelplannerv2/img/gatimaan-express.jpg",
               "alt": "Gatimaan Express",
               "credit": "Wikimedia Commons"
             }
@@ -7653,7 +7464,7 @@
           "description": "定休は金曜のみで、独立記念日の今日も開いている(公式サイト明記+2024年8/15の受け入れ実績あり)。ただし警備は全国最高レベル、手荷物検査は通常より厳格で、国内観光客の波が押し寄せる。外国人₹1,100+本館(主廟)₹200の計₹1,300、オンライン購入(asiagracircle.in / tajmahal.gov.in)で₹50引き、1日4万人の入場上限があるため事前オンライン購入が必須だ。東門からセキュリティを抜け、大楼門をくぐった瞬間に視界が開ける——霞むヤムナー川を背に、白大理石のドームが浮かぶ。混雑日の鉄則は「先に本館、写真は後」。本館では外国人券付属の靴カバーを装着する。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Taj%20Mahal%20(Edited).jpeg",
+              "url": "/travelplannerv2/img/taj-mahal-edited-.jpeg",
               "alt": "タージマハル",
               "credit": "Wikimedia Commons"
             }
@@ -7740,7 +7551,7 @@
           "description": "赤砂岩の城壁が2.5kmにわたって続くムガル帝国の本城。外国人₹650(タージ当日券の提示で₹50割引の制度あり)、毎日6:00-18:00で金曜も休まない。見どころの核心はムサンマン・ブルジュ——晩年、息子に幽閉されたシャー・ジャハーンが、ヤムナー川越しに自らが建てたタージマハルを眺め続けた八角の塔だ。今日はここも警備強化と混雑の中だが、1.5-2時間あれば主要部は回れる。タージからは約2.5km、オートで₹100-150。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Agra%2003-2016%2010%20Agra%20Fort.jpg",
+              "url": "/travelplannerv2/img/agra-03-2016-10-agra-fort.jpg",
               "alt": "アグラ城",
               "credit": "Wikimedia Commons"
             }
@@ -7827,7 +7638,7 @@
           "description": "19:30にNZM着。改札を出てすぐ、プラットフォーム1・駐車場側にある24時間営業のマルチキュイジーヌ食堂Comesum(コメサム)で夕食を済ませてしまうのが独立記念日の夜の最適解だ。北インド・南インド・中華が揃うRKグループ運営の店で、₹300-600で腹が満ちる。荷物を持ったまま入れて、食後そのままUberを呼べる動線が何より強い。今日はドライデーなので打ち上げの一杯はお預け——機内までとっておく。余力と身軽さがあれば駅から1.5kmのニザームッディーン廟界隈の下町ムグライ(Ghalib Kabab Corner等、₹200-400)も選択肢だが、独立記念日夜の路地は人出と警備が読めないので、スーツケース持ちなら構内のComesum一択だ。",
           "images": [
             {
-              "url": "https://commons.wikimedia.org/wiki/Special:FilePath/Hazrat%20Nizamuddin%20railway%20station%20in%20Delhi%2003.jpg",
+              "url": "/travelplannerv2/img/hazrat-nizamuddin-railway-station-in-delhi-03.jpg",
               "alt": "ハズラト・ニザームッディーン駅",
               "credit": "Wikimedia Commons"
             }
@@ -8075,7 +7886,7 @@
       "title": "未明のデリーを発ち、同日夜の東京へ",
       "area": "デリー → 東京",
       "heroImage": {
-        "url": "https://commons.wikimedia.org/wiki/Special:FilePath/India%20Gate%20in%20New%20Delhi%2003-2016.jpg",
+        "url": "/travelplannerv2/img/india-gate-in-new-delhi-03-2016.jpg",
         "alt": "デリーに別れを——インド門",
         "credit": "Wikimedia Commons"
       },
@@ -9208,6 +9019,7 @@
         "bookingTips": "Booking.com/Agodaで。雨季はオフシーズンなので直前でも空きあり・レート安め。タメルは夜も騒がしいので路地奥・中庭側の部屋を指定し、自家発電機(generator)の有無を確認。「24時間空港送迎」付きを選ぶと早朝出発問題が解決"
       },
       "relatedDays": [
+        8,
         9,
         10,
         11,
